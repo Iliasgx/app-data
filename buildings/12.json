@@ -1,0 +1,2438 @@
+{
+    "id": 12,
+    "name": "Dilithium Warehouse",
+    "description": "Stores all collected Dilithium. Upgrade the Warehouse to increase the Dilithium Capacity.",
+    "group": 8,
+    "start_level": 0,
+    "bonuses": {
+        "1": {
+            "name": "Dilithium Capacity",
+            "is_percentage": false,
+            "type": null
+        }
+    },
+    "levels": [
+        {
+            "level": 1,
+            "increased_power": 20,
+            "build_time": 120,
+            "bonuses": {
+                "1": 500.0
+            },
+            "required_ops_level": 10,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 10
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 1
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 800
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 2,
+            "increased_power": 20,
+            "build_time": 150,
+            "bonuses": {
+                "1": 675.0
+            },
+            "required_ops_level": 10,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 10
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 2
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 3,
+            "increased_power": 25,
+            "build_time": 330,
+            "bonuses": {
+                "1": 975.0
+            },
+            "required_ops_level": 10,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 10
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 2
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1200
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 4,
+            "increased_power": 25,
+            "build_time": 480,
+            "bonuses": {
+                "1": 1350.0
+            },
+            "required_ops_level": 10,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 10
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 4
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1500
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 5,
+            "increased_power": 30,
+            "build_time": 780,
+            "bonuses": {
+                "1": 2100.0
+            },
+            "required_ops_level": 10,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 10
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 4
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1800
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 6,
+            "increased_power": 40,
+            "build_time": 1320,
+            "bonuses": {
+                "1": 2600.0
+            },
+            "required_ops_level": 10,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 10
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 6
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2200
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 7,
+            "increased_power": 50,
+            "build_time": 2520,
+            "bonuses": {
+                "1": 3300.0
+            },
+            "required_ops_level": 10,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 10
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 6
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 3000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 8,
+            "increased_power": 60,
+            "build_time": 3480,
+            "bonuses": {
+                "1": 3600.0
+            },
+            "required_ops_level": 10,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 10
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 6
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 4000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 9,
+            "increased_power": 70,
+            "build_time": 5400,
+            "bonuses": {
+                "1": 3800.0
+            },
+            "required_ops_level": 10,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 10
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 9
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 5500
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 10,
+            "increased_power": 80,
+            "build_time": 6000,
+            "bonuses": {
+                "1": 4000.0
+            },
+            "required_ops_level": 10,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 10
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 10
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 7000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 11,
+            "increased_power": 105,
+            "build_time": 6300,
+            "bonuses": {
+                "1": 4200.0
+            },
+            "required_ops_level": 11,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 11
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 11
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 8160
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 80
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 12,
+            "increased_power": 125,
+            "build_time": 11100,
+            "bonuses": {
+                "1": 4400.0
+            },
+            "required_ops_level": 12,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 12
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 12
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 11220
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 220
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 13,
+            "increased_power": 150,
+            "build_time": 16500,
+            "bonuses": {
+                "1": 4600.0
+            },
+            "required_ops_level": 13,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 13
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 13
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 16320
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 480
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 14,
+            "increased_power": 175,
+            "build_time": 23040,
+            "bonuses": {
+                "1": 4800.0
+            },
+            "required_ops_level": 14,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 14
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 14
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 22440
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 880
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 15,
+            "increased_power": 200,
+            "build_time": 29520,
+            "bonuses": {
+                "1": 5000.0
+            },
+            "required_ops_level": 15,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 15
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 15
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 30600
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 1500
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 16,
+            "increased_power": 225,
+            "build_time": 34560,
+            "bonuses": {
+                "1": 5250.0
+            },
+            "required_ops_level": 16,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 16
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 16
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 40800
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 2000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 17,
+            "increased_power": 300,
+            "build_time": 37440,
+            "bonuses": {
+                "1": 5500.0
+            },
+            "required_ops_level": 17,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 17
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 17
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 57120
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 2800
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "2\u2605 Common Ore",
+                        "grade": 2,
+                        "rarity": 1,
+                        "value": 25
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 18,
+            "increased_power": 300,
+            "build_time": 57600,
+            "bonuses": {
+                "1": 6250.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 18
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 18
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 81600
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 4000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "2\u2605 Common Ore",
+                        "grade": 2,
+                        "rarity": 1,
+                        "value": 100
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 19,
+            "increased_power": 300,
+            "build_time": 83520,
+            "bonuses": {
+                "1": 8250.0
+            },
+            "required_ops_level": 19,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 19
+                },
+                {
+                    "name": "Dilithium Generator B",
+                    "value": 19
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 122400
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 6000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "2\u2605 Common Ore",
+                        "grade": 2,
+                        "rarity": 1,
+                        "value": 200
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 20,
+            "increased_power": 400,
+            "build_time": 125280,
+            "bonuses": {
+                "1": 10250.0
+            },
+            "required_ops_level": 20,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 20
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 20
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 173400
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 8500
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 21,
+            "increased_power": 400,
+            "build_time": 114480,
+            "bonuses": {
+                "1": 15750.0
+            },
+            "required_ops_level": 21,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 21
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 21
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 291924
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 14310
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 22,
+            "increased_power": 500,
+            "build_time": 177840,
+            "bonuses": {
+                "1": 23500.0
+            },
+            "required_ops_level": 22,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 22
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 22
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 454104
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 22260
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 23,
+            "increased_power": 500,
+            "build_time": 210240,
+            "bonuses": {
+                "1": 35500.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 747252
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 36630
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 24,
+            "increased_power": 600,
+            "build_time": 257760,
+            "bonuses": {
+                "1": 54000.0
+            },
+            "required_ops_level": 24,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 24
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 24
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1177488
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 57720
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 150
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 25,
+            "increased_power": 550,
+            "build_time": 237600,
+            "bonuses": {
+                "1": 80000.0
+            },
+            "required_ops_level": 25,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 25
+                },
+                {
+                    "name": "Tritanium Warehouse",
+                    "value": 25
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 25
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1909440
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 93600
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 2
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 26,
+            "increased_power": 750,
+            "build_time": 322560,
+            "bonuses": {
+                "1": 120000.0
+            },
+            "required_ops_level": 26,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 26
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 26
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2983500
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 146250
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 5
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 27,
+            "increased_power": 750,
+            "build_time": 368640,
+            "bonuses": {
+                "1": 166000.0
+            },
+            "required_ops_level": 27,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 27
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 27
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 4553280
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 223200
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 290
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 10
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 28,
+            "increased_power": 750,
+            "build_time": 427680,
+            "bonuses": {
+                "1": 240000.0
+            },
+            "required_ops_level": 28,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 28
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 28
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 6829920
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 334800
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 17
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 29,
+            "increased_power": 1000,
+            "build_time": 470880,
+            "bonuses": {
+                "1": 345000.0
+            },
+            "required_ops_level": 29,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 29
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 29
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 10873200
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 533000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 26
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 30,
+            "increased_power": 1000,
+            "build_time": 511200,
+            "bonuses": {
+                "1": 480000.0
+            },
+            "required_ops_level": 30,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 30
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 30
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 15912000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 780000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 550
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 37
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 31,
+            "increased_power": 1000,
+            "build_time": 669600,
+            "bonuses": {
+                "1": 650000.0
+            },
+            "required_ops_level": 31,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 31
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 31
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 25153200
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 1233000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 50
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 32,
+            "increased_power": 1250,
+            "build_time": 655200,
+            "bonuses": {
+                "1": 850000.0
+            },
+            "required_ops_level": 32,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 32
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 32
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 36332400
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 1781000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 800
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 65
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 33,
+            "increased_power": 1250,
+            "build_time": 951840,
+            "bonuses": {
+                "1": 1100000.0
+            },
+            "required_ops_level": 33,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 33
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 33
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 56202000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 2755000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 80
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 34,
+            "increased_power": 1250,
+            "build_time": 1260000,
+            "bonuses": {
+                "1": 1550000.0
+            },
+            "required_ops_level": 34,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 34
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 34
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 88740000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 4350000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 100
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 35,
+            "increased_power": 1250,
+            "build_time": 1660320,
+            "bonuses": {
+                "1": 1950000.0
+            },
+            "required_ops_level": 35,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 35
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 35
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 137332800
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 6732000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1300
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 120
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 36,
+            "increased_power": 1500,
+            "build_time": 2121120,
+            "bonuses": {
+                "1": 2250000.0
+            },
+            "required_ops_level": 36,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 36
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 36
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 193514400
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 9486000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 150
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 37,
+            "increased_power": 1750,
+            "build_time": 2193120,
+            "bonuses": {
+                "1": 2650000.0
+            },
+            "required_ops_level": 37,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 37
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 37
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 297432000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 14580000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 170
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 38,
+            "increased_power": 1750,
+            "build_time": 3556800,
+            "bonuses": {
+                "1": 3100000.0
+            },
+            "required_ops_level": 38,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 38
+                },
+                {
+                    "name": "Tritanium Warehouse",
+                    "value": 38
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 38
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 462672000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 22680000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 2100
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 200
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 39,
+            "increased_power": 1500,
+            "build_time": 4720320,
+            "bonuses": {
+                "1": 3300000.0
+            },
+            "required_ops_level": 39,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 39
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 39
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 789480000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 38700000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 40,
+            "increased_power": 2000,
+            "build_time": 8377920,
+            "bonuses": {
+                "1": 3500000.0
+            },
+            "required_ops_level": 40,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 40
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 40
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 3438624000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 60200000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Ore",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 6000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 41,
+            "increased_power": 2000,
+            "build_time": 7850880,
+            "bonuses": {
+                "1": 3650000.0
+            },
+            "required_ops_level": 41,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 41
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 41
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 3508800000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 86000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Ore",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 9000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 42,
+            "increased_power": 2000,
+            "build_time": 12068640,
+            "bonuses": {
+                "1": 4750000.0
+            },
+            "required_ops_level": 42,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 42
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 42
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 5226480000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 128100000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Ore",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 10000
+                    },
+                    {
+                        "type": "4\u2605 Rare Ore",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 400
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 43,
+            "increased_power": 2500,
+            "build_time": 15945120,
+            "bonuses": {
+                "1": 6450000.0
+            },
+            "required_ops_level": 43,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 43
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 43
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 7466400000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 183000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Ore",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 1000
+                    },
+                    {
+                        "type": "4\u2605 Rare Ore",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 600
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 44,
+            "increased_power": 2500,
+            "build_time": 20812320,
+            "bonuses": {
+                "1": 9150000.0
+            },
+            "required_ops_level": 44,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 44
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 44
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 11199600000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 274500000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Ore",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 2000
+                    },
+                    {
+                        "type": "4\u2605 Rare Ore",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 1200
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 45,
+            "increased_power": 2500,
+            "build_time": 26867520,
+            "bonuses": {
+                "1": 11500000.0
+            },
+            "required_ops_level": 45,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 45
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 45
+                },
+                {
+                    "name": "Tritanium Vault",
+                    "value": 45
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 15912000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 390000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Ore",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 8000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 46,
+            "increased_power": 2500,
+            "build_time": 34344000,
+            "bonuses": {
+                "1": 15000000.0
+            },
+            "required_ops_level": 46,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 46
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 46
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 21879000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 536250000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Ore",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 1500
+                    },
+                    {
+                        "type": "4\u2605 Rare Ore",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 250
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 47,
+            "increased_power": 3000,
+            "build_time": 43506720,
+            "bonuses": {
+                "1": 20000000.0
+            },
+            "required_ops_level": 47,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 47
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 47
+                },
+                {
+                    "name": "Tritanium Vault",
+                    "value": 47
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 31824000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 780000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Ore",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 3000
+                    },
+                    {
+                        "type": "4\u2605 Rare Ore",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 500
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 48,
+            "increased_power": 3000,
+            "build_time": 54660960,
+            "bonuses": {
+                "1": 28000000.0
+            },
+            "required_ops_level": 48,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 48
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 48
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 51408000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 1260000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Ore",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 50000
+                    },
+                    {
+                        "type": "4\u2605 Rare Ore",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 1200
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 49,
+            "increased_power": 3000,
+            "build_time": 68152320,
+            "bonuses": {
+                "1": 43500000.0
+            },
+            "required_ops_level": 49,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 49
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 49
+                },
+                {
+                    "name": "Tritanium Vault",
+                    "value": 49
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 85680000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 2100000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Ore",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 70000
+                    },
+                    {
+                        "type": "4\u2605 Rare Ore",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 4500
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 50,
+            "increased_power": 3000,
+            "build_time": 84376800,
+            "bonuses": {
+                "1": 70000000.0
+            },
+            "required_ops_level": 50,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 50
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 50
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 149940000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 3675000000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 51,
+            "increased_power": 3500,
+            "build_time": 89439840,
+            "bonuses": {
+                "1": 105000000.0
+            },
+            "required_ops_level": 51,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 51
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 51
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 747864000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 7800000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Ore",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 8500
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 52,
+            "increased_power": 3500,
+            "build_time": 94805280,
+            "bonuses": {
+                "1": 155000000.0
+            },
+            "required_ops_level": 52,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 52
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 52
+                },
+                {
+                    "name": "Tritanium Vault",
+                    "value": 52
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1352520000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 13260000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Ore",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 18800
+                    },
+                    {
+                        "type": "5\u2605 Uncommon Ore",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 4300
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 53,
+            "increased_power": 4000,
+            "build_time": 100494720,
+            "bonuses": {
+                "1": 230000000.0
+            },
+            "required_ops_level": 53,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 53
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 53
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2271744000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 23200000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Ore",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 37500
+                    },
+                    {
+                        "type": "5\u2605 Uncommon Ore",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 3100
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 54,
+            "increased_power": 4000,
+            "build_time": 106524000,
+            "bonuses": {
+                "1": 350000000.0
+            },
+            "required_ops_level": 54,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 54
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 54
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 3407616000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 34800000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Ore",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 10400
+                    },
+                    {
+                        "type": "5\u2605 Rare Ore",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 800
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 55,
+            "increased_power": 4000,
+            "build_time": 112914720,
+            "bonuses": {
+                "1": 520000000.0
+            },
+            "required_ops_level": 55,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 55
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 55
+                },
+                {
+                    "name": "Tritanium Vault",
+                    "value": 55
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 5791968000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 54600000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Rare Ore",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 4800
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 56,
+            "increased_power": 4000,
+            "build_time": 119689920,
+            "bonuses": {
+                "1": 780000000.0
+            },
+            "required_ops_level": 56,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 56
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 56
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 9101664000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 85800000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Ore",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 56400
+                    },
+                    {
+                        "type": "5\u2605 Rare Ore",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 2100
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 57,
+            "increased_power": 4000,
+            "build_time": 126871200,
+            "bonuses": {
+                "1": 1150000000.0
+            },
+            "required_ops_level": 57,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 57
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 57
+                },
+                {
+                    "name": "Tritanium Vault",
+                    "value": 57
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 14248665600000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 134320000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Ore",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 60700
+                    },
+                    {
+                        "type": "5\u2605 Rare Ore",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 4300
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 58,
+            "increased_power": 5000,
+            "build_time": 134484480,
+            "bonuses": {
+                "1": 1750000000.0
+            },
+            "required_ops_level": 58,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 58
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 58
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 20586700800000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 210240000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Ore",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 70900
+                    },
+                    {
+                        "type": "5\u2605 Rare Ore",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 5200
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 59,
+            "increased_power": 5000,
+            "build_time": 142552800,
+            "bonuses": {
+                "1": 2650000000.0
+            },
+            "required_ops_level": 59,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 59
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 59
+                },
+                {
+                    "name": "Tritanium Vault",
+                    "value": 59
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 30880051200000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 315360000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Ore",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 129800
+                    },
+                    {
+                        "type": "5\u2605 Rare Ore",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 12900
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 60,
+            "increased_power": 5000,
+            "build_time": 151106400,
+            "bonuses": {
+                "1": 3950000000.0
+            },
+            "required_ops_level": 60,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 60
+                },
+                {
+                    "name": "Dilithium Generator A",
+                    "value": 60
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 48225600000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 492500000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Ore",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 115100
+                    },
+                    {
+                        "type": "5\u2605 Rare Ore",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 7600
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        }
+    ]
+}

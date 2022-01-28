@@ -1,0 +1,3251 @@
+{
+    "id": 31,
+    "name": "Refinery",
+    "description": "Processes Raw Materials. Refine raw Ore, Crystal or Gas to upgrade your ships.",
+    "group": 0,
+    "start_level": 0,
+    "bonuses": null,
+    "levels": [
+        {
+            "level": 1,
+            "increased_power": 30,
+            "build_time": 35,
+            "bonuses": null,
+            "required_ops_level": 10,
+            "requirements": [
+                {
+                    "name": "Unlock Refinery",
+                    "value": 1
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 400
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "2\u2605 Raw Crystal",
+                        "value": 25
+                    }
+                ]
+            }
+        },
+        {
+            "level": 2,
+            "increased_power": 30,
+            "build_time": 150,
+            "bonuses": null,
+            "required_ops_level": 10,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 2
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 2
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 500
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "2\u2605 Raw Crystal",
+                        "value": 75
+                    }
+                ]
+            }
+        },
+        {
+            "level": 3,
+            "increased_power": 35,
+            "build_time": 330,
+            "bonuses": null,
+            "required_ops_level": 10,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 3
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 3
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 700
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "2\u2605 Raw Crystal",
+                        "value": 150
+                    }
+                ]
+            }
+        },
+        {
+            "level": 4,
+            "increased_power": 45,
+            "build_time": 480,
+            "bonuses": null,
+            "required_ops_level": 10,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 4
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 4
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 900
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "2\u2605 Raw Crystal",
+                        "value": 250
+                    }
+                ]
+            }
+        },
+        {
+            "level": 5,
+            "increased_power": 40,
+            "build_time": 780,
+            "bonuses": null,
+            "required_ops_level": 10,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 5
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 5
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1100
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "2\u2605 Raw Gas",
+                        "value": 400
+                    },
+                    {
+                        "type": "2\u2605 Raw Crystal",
+                        "value": 400
+                    }
+                ]
+            }
+        },
+        {
+            "level": 6,
+            "increased_power": 60,
+            "build_time": 1320,
+            "bonuses": null,
+            "required_ops_level": 10,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 6
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 6
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1400
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "2\u2605 Raw Gas",
+                        "value": 600
+                    },
+                    {
+                        "type": "2\u2605 Raw Crystal",
+                        "value": 600
+                    }
+                ]
+            }
+        },
+        {
+            "level": 7,
+            "increased_power": 70,
+            "build_time": 2520,
+            "bonuses": null,
+            "required_ops_level": 10,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 7
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 7
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1800
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "2\u2605 Raw Gas",
+                        "value": 850
+                    },
+                    {
+                        "type": "2\u2605 Raw Crystal",
+                        "value": 850
+                    }
+                ]
+            }
+        },
+        {
+            "level": 8,
+            "increased_power": 90,
+            "build_time": 3480,
+            "bonuses": null,
+            "required_ops_level": 10,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 8
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 8
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2600
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "2\u2605 Raw Gas",
+                        "value": 1250
+                    },
+                    {
+                        "type": "2\u2605 Raw Crystal",
+                        "value": 1250
+                    }
+                ]
+            }
+        },
+        {
+            "level": 9,
+            "increased_power": 100,
+            "build_time": 5400,
+            "bonuses": null,
+            "required_ops_level": 10,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 9
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 9
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 3500
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "2\u2605 Raw Gas",
+                        "value": 2000
+                    },
+                    {
+                        "type": "2\u2605 Raw Crystal",
+                        "value": 2000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 10,
+            "increased_power": 125,
+            "build_time": 6000,
+            "bonuses": null,
+            "required_ops_level": 10,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 10
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 10
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 4500
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "2\u2605 Raw Ore",
+                        "value": 4000
+                    },
+                    {
+                        "type": "2\u2605 Raw Gas",
+                        "value": 4000
+                    },
+                    {
+                        "type": "2\u2605 Raw Crystal",
+                        "value": 4000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 11,
+            "increased_power": 175,
+            "build_time": 6300,
+            "bonuses": null,
+            "required_ops_level": 11,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 11
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 11
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 6800
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 24
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "2\u2605 Raw Ore",
+                        "value": 6000
+                    },
+                    {
+                        "type": "2\u2605 Raw Gas",
+                        "value": 6000
+                    },
+                    {
+                        "type": "2\u2605 Raw Crystal",
+                        "value": 6000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 12,
+            "increased_power": 175,
+            "build_time": 11100,
+            "bonuses": null,
+            "required_ops_level": 12,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 12
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 12
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 9350
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 66
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "2\u2605 Raw Ore",
+                        "value": 9000
+                    },
+                    {
+                        "type": "2\u2605 Raw Gas",
+                        "value": 9000
+                    },
+                    {
+                        "type": "2\u2605 Raw Crystal",
+                        "value": 9000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 13,
+            "increased_power": 225,
+            "build_time": 16500,
+            "bonuses": null,
+            "required_ops_level": 13,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 13
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 13
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 13600
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 144
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "2\u2605 Raw Ore",
+                        "value": 12000
+                    },
+                    {
+                        "type": "2\u2605 Raw Gas",
+                        "value": 12000
+                    },
+                    {
+                        "type": "2\u2605 Raw Crystal",
+                        "value": 12000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 14,
+            "increased_power": 300,
+            "build_time": 23040,
+            "bonuses": null,
+            "required_ops_level": 14,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 14
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 14
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 18700
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 264
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "2\u2605 Raw Ore",
+                        "value": 16000
+                    },
+                    {
+                        "type": "2\u2605 Raw Gas",
+                        "value": 16000
+                    },
+                    {
+                        "type": "2\u2605 Raw Crystal",
+                        "value": 16000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 15,
+            "increased_power": 300,
+            "build_time": 29520,
+            "bonuses": null,
+            "required_ops_level": 15,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 15
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 15
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 25500
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 450
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "2\u2605 Raw Ore",
+                        "value": 20000
+                    },
+                    {
+                        "type": "2\u2605 Raw Gas",
+                        "value": 20000
+                    },
+                    {
+                        "type": "2\u2605 Raw Crystal",
+                        "value": 20000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 16,
+            "increased_power": 300,
+            "build_time": 34560,
+            "bonuses": null,
+            "required_ops_level": 16,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 16
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 16
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 34000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 600
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "2\u2605 Raw Ore",
+                        "value": 25000
+                    },
+                    {
+                        "type": "2\u2605 Raw Gas",
+                        "value": 25000
+                    },
+                    {
+                        "type": "2\u2605 Raw Crystal",
+                        "value": 25000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 17,
+            "increased_power": 400,
+            "build_time": 37440,
+            "bonuses": null,
+            "required_ops_level": 17,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 17
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 17
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 47600
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 840
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "2\u2605 Raw Ore",
+                        "value": 30000
+                    },
+                    {
+                        "type": "2\u2605 Raw Gas",
+                        "value": 30000
+                    },
+                    {
+                        "type": "2\u2605 Raw Crystal",
+                        "value": 30000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 18,
+            "increased_power": 400,
+            "build_time": 57600,
+            "bonuses": null,
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 18
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 18
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 68000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 1200
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "2\u2605 Raw Ore",
+                        "value": 35000
+                    },
+                    {
+                        "type": "2\u2605 Raw Gas",
+                        "value": 35000
+                    },
+                    {
+                        "type": "2\u2605 Raw Crystal",
+                        "value": 35000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 19,
+            "increased_power": 600,
+            "build_time": 83520,
+            "bonuses": null,
+            "required_ops_level": 19,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 19
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 19
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 102000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 1800
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "2\u2605 Raw Ore",
+                        "value": 40000
+                    },
+                    {
+                        "type": "2\u2605 Raw Gas",
+                        "value": 40000
+                    },
+                    {
+                        "type": "2\u2605 Raw Crystal",
+                        "value": 40000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 20,
+            "increased_power": 500,
+            "build_time": 125280,
+            "bonuses": null,
+            "required_ops_level": 19,
+            "requirements": [
+                {
+                    "name": "Parsteel Warehouse",
+                    "value": 19
+                },
+                {
+                    "name": "Dilithium Warehouse",
+                    "value": 19
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 19
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 144500
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 2550
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "2\u2605 Raw Ore",
+                        "value": 45000
+                    },
+                    {
+                        "type": "2\u2605 Raw Gas",
+                        "value": 45000
+                    },
+                    {
+                        "type": "3\u2605 Raw Crystal",
+                        "value": 8000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 21,
+            "increased_power": 700,
+            "build_time": 114480,
+            "bonuses": null,
+            "required_ops_level": 21,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 21
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 21
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 243270
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 4293
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "2\u2605 Raw Ore",
+                        "value": 50000
+                    },
+                    {
+                        "type": "2\u2605 Raw Gas",
+                        "value": 50000
+                    },
+                    {
+                        "type": "3\u2605 Raw Crystal",
+                        "value": 9000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 22,
+            "increased_power": 550,
+            "build_time": 177840,
+            "bonuses": null,
+            "required_ops_level": 22,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 22
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 22
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 378420
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 6678
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "2\u2605 Raw Ore",
+                        "value": 55000
+                    },
+                    {
+                        "type": "2\u2605 Raw Gas",
+                        "value": 55000
+                    },
+                    {
+                        "type": "3\u2605 Raw Crystal",
+                        "value": 10500
+                    }
+                ]
+            }
+        },
+        {
+            "level": 23,
+            "increased_power": 1000,
+            "build_time": 210240,
+            "bonuses": null,
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                },
+                {
+                    "name": "Tritanium Warehouse",
+                    "value": 22
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 622710
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 10989
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "2\u2605 Raw Ore",
+                        "value": 60000
+                    },
+                    {
+                        "type": "3\u2605 Raw Gas",
+                        "value": 12000
+                    },
+                    {
+                        "type": "3\u2605 Raw Crystal",
+                        "value": 12000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 24,
+            "increased_power": 750,
+            "build_time": 257760,
+            "bonuses": null,
+            "required_ops_level": 24,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 24
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 24
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 981240
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 17316
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "2\u2605 Raw Ore",
+                        "value": 65000
+                    },
+                    {
+                        "type": "3\u2605 Raw Gas",
+                        "value": 14000
+                    },
+                    {
+                        "type": "3\u2605 Raw Crystal",
+                        "value": 14000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 25,
+            "increased_power": 1000,
+            "build_time": 237600,
+            "bonuses": null,
+            "required_ops_level": 25,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 25
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 25
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1591200
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 28080
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 2
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "2\u2605 Raw Ore",
+                        "value": 70000
+                    },
+                    {
+                        "type": "3\u2605 Raw Gas",
+                        "value": 16000
+                    },
+                    {
+                        "type": "3\u2605 Raw Crystal",
+                        "value": 16000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 26,
+            "increased_power": 1000,
+            "build_time": 322560,
+            "bonuses": null,
+            "required_ops_level": 26,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 26
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 26
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2486250
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 43875
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 230
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 5
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "3\u2605 Raw Ore",
+                        "value": 18000
+                    },
+                    {
+                        "type": "3\u2605 Raw Gas",
+                        "value": 18000
+                    },
+                    {
+                        "type": "3\u2605 Raw Crystal",
+                        "value": 18000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 27,
+            "increased_power": 1250,
+            "build_time": 368640,
+            "bonuses": null,
+            "required_ops_level": 27,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 27
+                },
+                {
+                    "name": "Dilithium Vault",
+                    "value": 25
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 3794400
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 66960
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 10
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "3\u2605 Raw Ore",
+                        "value": 20000
+                    },
+                    {
+                        "type": "3\u2605 Raw Gas",
+                        "value": 20000
+                    },
+                    {
+                        "type": "3\u2605 Raw Crystal",
+                        "value": 20000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 28,
+            "increased_power": 1250,
+            "build_time": 427680,
+            "bonuses": null,
+            "required_ops_level": 28,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 28
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 28
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 5691600
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 100440
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 360
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 17
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "3\u2605 Raw Ore",
+                        "value": 22000
+                    },
+                    {
+                        "type": "3\u2605 Raw Gas",
+                        "value": 22000
+                    },
+                    {
+                        "type": "3\u2605 Raw Crystal",
+                        "value": 22000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 29,
+            "increased_power": 1250,
+            "build_time": 470880,
+            "bonuses": null,
+            "required_ops_level": 29,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 29
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 29
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 9061000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 159900
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 450
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 26
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "3\u2605 Raw Ore",
+                        "value": 24500
+                    },
+                    {
+                        "type": "3\u2605 Raw Gas",
+                        "value": 24500
+                    },
+                    {
+                        "type": "3\u2605 Raw Crystal",
+                        "value": 24500
+                    }
+                ]
+            }
+        },
+        {
+            "level": 30,
+            "increased_power": 1500,
+            "build_time": 511200,
+            "bonuses": null,
+            "required_ops_level": 30,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 30
+                },
+                {
+                    "name": "Tritanium Vault",
+                    "value": 27
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 13260000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 234000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 550
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 37
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "3\u2605 Raw Ore",
+                        "value": 27500
+                    },
+                    {
+                        "type": "3\u2605 Raw Gas",
+                        "value": 27500
+                    },
+                    {
+                        "type": "3\u2605 Raw Crystal",
+                        "value": 27500
+                    }
+                ]
+            }
+        },
+        {
+            "level": 31,
+            "increased_power": 1500,
+            "build_time": 669600,
+            "bonuses": null,
+            "required_ops_level": 31,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 31
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 31
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 20961000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 369900
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 50
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "3\u2605 Raw Ore",
+                        "value": 30000
+                    },
+                    {
+                        "type": "3\u2605 Raw Gas",
+                        "value": 30000
+                    },
+                    {
+                        "type": "3\u2605 Raw Crystal",
+                        "value": 30000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 32,
+            "increased_power": 1750,
+            "build_time": 655200,
+            "bonuses": null,
+            "required_ops_level": 32,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 32
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 32
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 30277000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 534300
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 800
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 65
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "3\u2605 Raw Ore",
+                        "value": 32500
+                    },
+                    {
+                        "type": "3\u2605 Raw Gas",
+                        "value": 32500
+                    },
+                    {
+                        "type": "3\u2605 Raw Crystal",
+                        "value": 32500
+                    }
+                ]
+            }
+        },
+        {
+            "level": 33,
+            "increased_power": 1750,
+            "build_time": 951840,
+            "bonuses": null,
+            "required_ops_level": 33,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 33
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 33
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 46835000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 826500
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1000
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 80
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "3\u2605 Raw Ore",
+                        "value": 35000
+                    },
+                    {
+                        "type": "3\u2605 Raw Gas",
+                        "value": 35000
+                    },
+                    {
+                        "type": "3\u2605 Raw Crystal",
+                        "value": 35000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 34,
+            "increased_power": 2250,
+            "build_time": 1260000,
+            "bonuses": null,
+            "required_ops_level": 34,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 34
+                },
+                {
+                    "name": "Dilithium Vault",
+                    "value": 33
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 73950000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 1305000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1100
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 100
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "3\u2605 Raw Ore",
+                        "value": 37500
+                    },
+                    {
+                        "type": "3\u2605 Raw Gas",
+                        "value": 37500
+                    },
+                    {
+                        "type": "3\u2605 Raw Crystal",
+                        "value": 37500
+                    }
+                ]
+            }
+        },
+        {
+            "level": 35,
+            "increased_power": 2000,
+            "build_time": 1660320,
+            "bonuses": null,
+            "required_ops_level": 35,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 35
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 35
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 114444000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 2019600
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 120
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "3\u2605 Raw Ore",
+                        "value": 40000
+                    },
+                    {
+                        "type": "3\u2605 Raw Gas",
+                        "value": 40000
+                    },
+                    {
+                        "type": "3\u2605 Raw Crystal",
+                        "value": 40000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 36,
+            "increased_power": 2000,
+            "build_time": 2121120,
+            "bonuses": null,
+            "required_ops_level": 36,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 36
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 36
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 161262000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 2845800
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1600
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 150
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "3\u2605 Raw Ore",
+                        "value": 42500
+                    },
+                    {
+                        "type": "3\u2605 Raw Gas",
+                        "value": 42500
+                    },
+                    {
+                        "type": "3\u2605 Raw Crystal",
+                        "value": 42500
+                    }
+                ]
+            }
+        },
+        {
+            "level": 37,
+            "increased_power": 2500,
+            "build_time": 2193120,
+            "bonuses": null,
+            "required_ops_level": 37,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 37
+                },
+                {
+                    "name": "Tritanium Warehouse",
+                    "value": 36
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 247860000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 4374000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1800
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 170
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "3\u2605 Raw Ore",
+                        "value": 45000
+                    },
+                    {
+                        "type": "3\u2605 Raw Gas",
+                        "value": 45000
+                    },
+                    {
+                        "type": "3\u2605 Raw Crystal",
+                        "value": 45000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 38,
+            "increased_power": 2500,
+            "build_time": 3556800,
+            "bonuses": null,
+            "required_ops_level": 38,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 38
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 38
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 385560000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 6804000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 2100
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 200
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "3\u2605 Raw Ore",
+                        "value": 47500
+                    },
+                    {
+                        "type": "3\u2605 Raw Gas",
+                        "value": 47500
+                    },
+                    {
+                        "type": "3\u2605 Raw Crystal",
+                        "value": 47500
+                    }
+                ]
+            }
+        },
+        {
+            "level": 39,
+            "increased_power": 2500,
+            "build_time": 4720320,
+            "bonuses": null,
+            "required_ops_level": 39,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 39
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 39
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 657900000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 11610000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 2500
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 230
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "3\u2605 Raw Ore",
+                        "value": 50000
+                    },
+                    {
+                        "type": "3\u2605 Raw Gas",
+                        "value": 50000
+                    },
+                    {
+                        "type": "3\u2605 Raw Crystal",
+                        "value": 50000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 40,
+            "increased_power": 3000,
+            "build_time": 8377920,
+            "bonuses": null,
+            "required_ops_level": 40,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 40
+                },
+                {
+                    "name": "Dilithium Warehouse",
+                    "value": 40
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2865520000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 18060000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Ore",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 3000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "4\u2605 Raw Ore",
+                        "value": 100000
+                    },
+                    {
+                        "type": "4\u2605 Raw Gas",
+                        "value": 100000
+                    },
+                    {
+                        "type": "4\u2605 Raw Crystal",
+                        "value": 100000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 41,
+            "increased_power": 3000,
+            "build_time": 7850880,
+            "bonuses": null,
+            "required_ops_level": 41,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 41
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 41
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2924000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 25800000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Ore",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 4000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "4\u2605 Raw Ore",
+                        "value": 120000
+                    },
+                    {
+                        "type": "4\u2605 Raw Gas",
+                        "value": 120000
+                    },
+                    {
+                        "type": "4\u2605 Raw Crystal",
+                        "value": 120000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 42,
+            "increased_power": 3500,
+            "build_time": 12068640,
+            "bonuses": null,
+            "required_ops_level": 42,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 42
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 42
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 4355400000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 38430000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Ore",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 5000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "4\u2605 Raw Ore",
+                        "value": 150000
+                    },
+                    {
+                        "type": "4\u2605 Raw Gas",
+                        "value": 150000
+                    },
+                    {
+                        "type": "4\u2605 Raw Crystal",
+                        "value": 150000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 43,
+            "increased_power": 3500,
+            "build_time": 15945120,
+            "bonuses": null,
+            "required_ops_level": 43,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 43
+                },
+                {
+                    "name": "Tritanium Vault",
+                    "value": 41
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 6222000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 54900000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Ore",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 6000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "4\u2605 Raw Ore",
+                        "value": 175000
+                    },
+                    {
+                        "type": "4\u2605 Raw Gas",
+                        "value": 175000
+                    },
+                    {
+                        "type": "4\u2605 Raw Crystal",
+                        "value": 175000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 44,
+            "increased_power": 3500,
+            "build_time": 20812320,
+            "bonuses": null,
+            "required_ops_level": 44,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 44
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 44
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 9333000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 82350000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Ore",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 7000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "4\u2605 Raw Ore",
+                        "value": 200000
+                    },
+                    {
+                        "type": "4\u2605 Raw Gas",
+                        "value": 200000
+                    },
+                    {
+                        "type": "4\u2605 Raw Crystal",
+                        "value": 200000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 45,
+            "increased_power": 3500,
+            "build_time": 26867520,
+            "bonuses": null,
+            "required_ops_level": 45,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 45
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 45
+                },
+                {
+                    "name": "Dilithium Vault",
+                    "value": 45
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 13260000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 117000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Ore",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 8000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "4\u2605 Raw Ore",
+                        "value": 230000
+                    },
+                    {
+                        "type": "4\u2605 Raw Gas",
+                        "value": 230000
+                    },
+                    {
+                        "type": "4\u2605 Raw Crystal",
+                        "value": 230000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 46,
+            "increased_power": 4000,
+            "build_time": 34344000,
+            "bonuses": null,
+            "required_ops_level": 46,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 46
+                },
+                {
+                    "name": "Dilithium Vault",
+                    "value": 45
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 18232500000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 160875000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Ore",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 15000
+                    },
+                    {
+                        "type": "4\u2605 Uncommon Ore",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 2000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "4\u2605 Raw Ore",
+                        "value": 260000
+                    },
+                    {
+                        "type": "4\u2605 Raw Gas",
+                        "value": 260000
+                    },
+                    {
+                        "type": "4\u2605 Raw Crystal",
+                        "value": 260000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 47,
+            "increased_power": 4000,
+            "build_time": 43506720,
+            "bonuses": null,
+            "required_ops_level": 47,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 47
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 47
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 26520000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 234000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Ore",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 20000
+                    },
+                    {
+                        "type": "4\u2605 Uncommon Ore",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 2500
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "4\u2605 Raw Ore",
+                        "value": 300000
+                    },
+                    {
+                        "type": "4\u2605 Raw Gas",
+                        "value": 300000
+                    },
+                    {
+                        "type": "4\u2605 Raw Crystal",
+                        "value": 300000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 48,
+            "increased_power": 5000,
+            "build_time": 54660960,
+            "bonuses": null,
+            "required_ops_level": 48,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 48
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 48
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 42840000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 378000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Ore",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 12000
+                    },
+                    {
+                        "type": "4\u2605 Rare Ore",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 800
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "4\u2605 Raw Ore",
+                        "value": 360000
+                    },
+                    {
+                        "type": "4\u2605 Raw Gas",
+                        "value": 360000
+                    },
+                    {
+                        "type": "4\u2605 Raw Crystal",
+                        "value": 360000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 49,
+            "increased_power": 4000,
+            "build_time": 68152320,
+            "bonuses": null,
+            "required_ops_level": 49,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 49
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 49
+                },
+                {
+                    "name": "Dilithium Vault",
+                    "value": 49
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 71400000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 630000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Ore",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 15000
+                    },
+                    {
+                        "type": "4\u2605 Rare Ore",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 1000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "4\u2605 Raw Ore",
+                        "value": 420000
+                    },
+                    {
+                        "type": "4\u2605 Raw Gas",
+                        "value": 420000
+                    },
+                    {
+                        "type": "4\u2605 Raw Crystal",
+                        "value": 420000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 50,
+            "increased_power": 5000,
+            "build_time": 84376800,
+            "bonuses": null,
+            "required_ops_level": 50,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 50
+                },
+                {
+                    "name": "Dilithium Warehouse",
+                    "value": 50
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 124950000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 1102500000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "4\u2605 Raw Ore",
+                        "value": 500000
+                    },
+                    {
+                        "type": "4\u2605 Raw Gas",
+                        "value": 500000
+                    },
+                    {
+                        "type": "4\u2605 Raw Crystal",
+                        "value": 500000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 51,
+            "increased_power": 5000,
+            "build_time": 89439840,
+            "bonuses": null,
+            "required_ops_level": 51,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 51
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 51
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 623220000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 2340000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Ore",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 5600
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "5\u2605 Raw Ore",
+                        "value": 125000
+                    },
+                    {
+                        "type": "5\u2605 Raw Gas",
+                        "value": 125000
+                    },
+                    {
+                        "type": "5\u2605 Raw Crystal",
+                        "value": 125000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 52,
+            "increased_power": 6000,
+            "build_time": 94805280,
+            "bonuses": null,
+            "required_ops_level": 52,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 52
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 52
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1127100000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 3978000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Ore",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 9800
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "5\u2605 Raw Ore",
+                        "value": 150000
+                    },
+                    {
+                        "type": "5\u2605 Raw Gas",
+                        "value": 150000
+                    },
+                    {
+                        "type": "5\u2605 Raw Crystal",
+                        "value": 150000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 53,
+            "increased_power": 5000,
+            "build_time": 100494720,
+            "bonuses": null,
+            "required_ops_level": 53,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 53
+                },
+                {
+                    "name": "Tritanium Vault",
+                    "value": 53
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1893120000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 6960000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Ore",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 18800
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "5\u2605 Raw Ore",
+                        "value": 160000
+                    },
+                    {
+                        "type": "5\u2605 Raw Gas",
+                        "value": 160000
+                    },
+                    {
+                        "type": "5\u2605 Raw Crystal",
+                        "value": 160000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 54,
+            "increased_power": 6000,
+            "build_time": 106524000,
+            "bonuses": null,
+            "required_ops_level": 54,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 54
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 54
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2839680000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 10440000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Ore",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 19100
+                    },
+                    {
+                        "type": "5\u2605 Uncommon Ore",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 12000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "5\u2605 Raw Ore",
+                        "value": 180000
+                    },
+                    {
+                        "type": "5\u2605 Raw Gas",
+                        "value": 180000
+                    },
+                    {
+                        "type": "5\u2605 Raw Crystal",
+                        "value": 180000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 55,
+            "increased_power": 6000,
+            "build_time": 112914720,
+            "bonuses": null,
+            "required_ops_level": 55,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 55
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 55
+                },
+                {
+                    "name": "Dilithium Vault",
+                    "value": 55
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 4826640000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 16380000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Ore",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 33300
+                    },
+                    {
+                        "type": "5\u2605 Uncommon Ore",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 16100
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "5\u2605 Raw Ore",
+                        "value": 200000
+                    },
+                    {
+                        "type": "5\u2605 Raw Gas",
+                        "value": 200000
+                    },
+                    {
+                        "type": "5\u2605 Raw Crystal",
+                        "value": 200000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 56,
+            "increased_power": 6000,
+            "build_time": 119689920,
+            "bonuses": null,
+            "required_ops_level": 56,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 56
+                },
+                {
+                    "name": "Dilithium Vault",
+                    "value": 56
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 7584720000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 25740000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Ore",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 29000
+                    },
+                    {
+                        "type": "5\u2605 Rare Ore",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 3000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "5\u2605 Raw Ore",
+                        "value": 230000
+                    },
+                    {
+                        "type": "5\u2605 Raw Gas",
+                        "value": 230000
+                    },
+                    {
+                        "type": "5\u2605 Raw Crystal",
+                        "value": 230000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 57,
+            "increased_power": 7000,
+            "build_time": 126871200,
+            "bonuses": null,
+            "required_ops_level": 57,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 57
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 57
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 11873888000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 40296000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Ore",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 31100
+                    },
+                    {
+                        "type": "5\u2605 Rare Ore",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 3800
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "5\u2605 Raw Ore",
+                        "value": 300000
+                    },
+                    {
+                        "type": "5\u2605 Raw Gas",
+                        "value": 300000
+                    },
+                    {
+                        "type": "5\u2605 Raw Crystal",
+                        "value": 300000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 58,
+            "increased_power": 7000,
+            "build_time": 134484480,
+            "bonuses": null,
+            "required_ops_level": 58,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 58
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 58
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 17155584000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 63072000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Ore",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 26400
+                    },
+                    {
+                        "type": "5\u2605 Uncommon Ore",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 24100
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "5\u2605 Raw Ore",
+                        "value": 420000
+                    },
+                    {
+                        "type": "5\u2605 Raw Gas",
+                        "value": 420000
+                    },
+                    {
+                        "type": "5\u2605 Raw Crystal",
+                        "value": 420000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 59,
+            "increased_power": 7000,
+            "build_time": 142552800,
+            "bonuses": null,
+            "required_ops_level": 59,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 59
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 59
+                },
+                {
+                    "name": "Dilithium Vault",
+                    "value": 59
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 25733376000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 94608000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Ore",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 75500
+                    },
+                    {
+                        "type": "5\u2605 Rare Ore",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 6200
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "5\u2605 Raw Ore",
+                        "value": 600000
+                    },
+                    {
+                        "type": "5\u2605 Raw Gas",
+                        "value": 600000
+                    },
+                    {
+                        "type": "5\u2605 Raw Crystal",
+                        "value": 600000
+                    }
+                ]
+            }
+        },
+        {
+            "level": 60,
+            "increased_power": 8000,
+            "build_time": 151106400,
+            "bonuses": null,
+            "required_ops_level": 60,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 60
+                },
+                {
+                    "name": "Dilithium Warehouse",
+                    "value": 60
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 40188000000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 147750000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Ore",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 90100
+                    },
+                    {
+                        "type": "5\u2605 Rare Ore",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 6100
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "5\u2605 Raw Ore",
+                        "value": 850000
+                    },
+                    {
+                        "type": "5\u2605 Raw Gas",
+                        "value": 850000
+                    },
+                    {
+                        "type": "5\u2605 Raw Crystal",
+                        "value": 850000
+                    }
+                ]
+            }
+        }
+    ]
+}

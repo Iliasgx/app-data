@@ -1,0 +1,2411 @@
+{
+    "id": 33,
+    "name": "Shuttle Bay",
+    "description": "The Shuttle Bay allows officers to be sent on Away Team Assignments.",
+    "group": 3,
+    "start_level": 0,
+    "bonuses": {
+        "1": {
+            "name": "Weapon Damage Bonus",
+            "is_percentage": true,
+            "type": null
+        },
+        "2": {
+            "name": "Service Award Cost Efficiency",
+            "is_percentage": true,
+            "type": null
+        }
+    },
+    "levels": [
+        {
+            "level": 1,
+            "increased_power": 20,
+            "build_time": 180,
+            "bonuses": {
+                "1": 0.01,
+                "2": 0.01
+            },
+            "required_ops_level": 8,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 8
+                },
+                {
+                    "name": "Unlock Shuttle Bay",
+                    "value": 1
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 650
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 2,
+            "increased_power": 20,
+            "build_time": 240,
+            "bonuses": {
+                "1": 0.02,
+                "2": 0.02
+            },
+            "required_ops_level": 8,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 8
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 3,
+            "increased_power": 25,
+            "build_time": 360,
+            "bonuses": {
+                "1": 0.03,
+                "2": 0.03
+            },
+            "required_ops_level": 8,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 8
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1350
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 4,
+            "increased_power": 25,
+            "build_time": 780,
+            "bonuses": {
+                "1": 0.04,
+                "2": 0.04
+            },
+            "required_ops_level": 8,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 8
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1700
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 5,
+            "increased_power": 30,
+            "build_time": 1320,
+            "bonuses": {
+                "1": 0.05,
+                "2": 0.05
+            },
+            "required_ops_level": 8,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 8
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2300
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 6,
+            "increased_power": 40,
+            "build_time": 2160,
+            "bonuses": {
+                "1": 0.06,
+                "2": 0.06
+            },
+            "required_ops_level": 8,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 8
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 4000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 7,
+            "increased_power": 50,
+            "build_time": 4200,
+            "bonuses": {
+                "1": 0.07,
+                "2": 0.07
+            },
+            "required_ops_level": 8,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 8
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 5950
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 50
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 8,
+            "increased_power": 60,
+            "build_time": 6000,
+            "bonuses": {
+                "1": 0.08,
+                "2": 0.08
+            },
+            "required_ops_level": 8,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 8
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 7950
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 100
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 9,
+            "increased_power": 70,
+            "build_time": 9000,
+            "bonuses": {
+                "1": 0.09,
+                "2": 0.09
+            },
+            "required_ops_level": 9,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 9
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 9900
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 300
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 10,
+            "increased_power": 80,
+            "build_time": 9900,
+            "bonuses": {
+                "1": 0.1,
+                "2": 0.1
+            },
+            "required_ops_level": 10,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 10
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 13200
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 200
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 11,
+            "increased_power": 105,
+            "build_time": 10200,
+            "bonuses": {
+                "1": 0.11,
+                "2": 0.11
+            },
+            "required_ops_level": 11,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 11
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 16200
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 300
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 12,
+            "increased_power": 125,
+            "build_time": 18300,
+            "bonuses": {
+                "1": 0.12,
+                "2": 0.12
+            },
+            "required_ops_level": 12,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 12
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 22250
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 350
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 13,
+            "increased_power": 150,
+            "build_time": 27360,
+            "bonuses": {
+                "1": 0.13,
+                "2": 0.13
+            },
+            "required_ops_level": 13,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 13
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 32350
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 500
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 14,
+            "increased_power": 175,
+            "build_time": 38160,
+            "bonuses": {
+                "1": 0.14,
+                "2": 0.14
+            },
+            "required_ops_level": 14,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 14
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 44450
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 750
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 15,
+            "increased_power": 200,
+            "build_time": 48960,
+            "bonuses": {
+                "1": 0.15,
+                "2": 0.15
+            },
+            "required_ops_level": 15,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 15
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 60650
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 1000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "2\u2605 Common Ore",
+                        "grade": 2,
+                        "rarity": 1,
+                        "value": 65
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 16,
+            "increased_power": 225,
+            "build_time": 58320,
+            "bonuses": {
+                "1": 0.16,
+                "2": 0.16
+            },
+            "required_ops_level": 16,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 16
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 80850
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 1350
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "2\u2605 Common Ore",
+                        "grade": 2,
+                        "rarity": 1,
+                        "value": 135
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 17,
+            "increased_power": 300,
+            "build_time": 62640,
+            "bonuses": {
+                "1": 0.17,
+                "2": 0.17
+            },
+            "required_ops_level": 17,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 17
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 113250
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 1850
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "2\u2605 Common Ore",
+                        "grade": 2,
+                        "rarity": 1,
+                        "value": 265
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 18,
+            "increased_power": 300,
+            "build_time": 95760,
+            "bonuses": {
+                "1": 0.18,
+                "2": 0.18
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 18
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 161800
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 2650
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "2\u2605 Common Ore",
+                        "grade": 2,
+                        "rarity": 1,
+                        "value": 450
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 19,
+            "increased_power": 300,
+            "build_time": 138960,
+            "bonuses": {
+                "1": 0.19,
+                "2": 0.19
+            },
+            "required_ops_level": 19,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 19
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 242650
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 4000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "2\u2605 Common Ore",
+                        "grade": 2,
+                        "rarity": 1,
+                        "value": 840
+                    },
+                    {
+                        "type": "2\u2605 Uncommon Ore",
+                        "grade": 2,
+                        "rarity": 2,
+                        "value": 20
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 20,
+            "increased_power": 400,
+            "build_time": 208800,
+            "bonuses": {
+                "1": 0.2,
+                "2": 0.2
+            },
+            "required_ops_level": 20,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 20
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 343750
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 5600
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "2\u2605 Common Ore",
+                        "grade": 2,
+                        "rarity": 1,
+                        "value": 1010
+                    },
+                    {
+                        "type": "2\u2605 Uncommon Ore",
+                        "grade": 2,
+                        "rarity": 2,
+                        "value": 35
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 21,
+            "increased_power": 400,
+            "build_time": 190800,
+            "bonuses": {
+                "1": 0.23,
+                "2": 0.21
+            },
+            "required_ops_level": 21,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 21
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 578700
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 9450
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "2\u2605 Common Ore",
+                        "grade": 2,
+                        "rarity": 1,
+                        "value": 1230
+                    },
+                    {
+                        "type": "2\u2605 Uncommon Ore",
+                        "grade": 2,
+                        "rarity": 2,
+                        "value": 45
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 22,
+            "increased_power": 500,
+            "build_time": 296640,
+            "bonuses": {
+                "1": 0.26,
+                "2": 0.22
+            },
+            "required_ops_level": 22,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 22
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 900200
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 14750
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "2\u2605 Common Ore",
+                        "grade": 2,
+                        "rarity": 1,
+                        "value": 1455
+                    },
+                    {
+                        "type": "2\u2605 Uncommon Ore",
+                        "grade": 2,
+                        "rarity": 2,
+                        "value": 55
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 23,
+            "increased_power": 500,
+            "build_time": 349920,
+            "bonuses": {
+                "1": 0.29,
+                "2": 0.23
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1481350
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 24200
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 265
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 24,
+            "increased_power": 600,
+            "build_time": 429120,
+            "bonuses": {
+                "1": 0.32,
+                "2": 0.24
+            },
+            "required_ops_level": 24,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 24
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2334250
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 38150
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 560
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 25,
+            "increased_power": 550,
+            "build_time": 397440,
+            "bonuses": {
+                "1": 0.35,
+                "2": 0.25
+            },
+            "required_ops_level": 25,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 25
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 3785250
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 61800
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 925
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 120
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 26,
+            "increased_power": 750,
+            "build_time": 538560,
+            "bonuses": {
+                "1": 0.38,
+                "2": 0.26
+            },
+            "required_ops_level": 26,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 26
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 5914500
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 96650
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1010
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 155
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 27,
+            "increased_power": 750,
+            "build_time": 613440,
+            "bonuses": {
+                "1": 0.41,
+                "2": 0.27
+            },
+            "required_ops_level": 27,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 27
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 9026400
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 147500
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1345
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 225
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 28,
+            "increased_power": 750,
+            "build_time": 712800,
+            "bonuses": {
+                "1": 0.44,
+                "2": 0.28
+            },
+            "required_ops_level": 28,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 28
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 13539600
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 221250
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1570
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 280
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 29,
+            "increased_power": 1000,
+            "build_time": 784800,
+            "bonuses": {
+                "1": 0.47,
+                "2": 0.29
+            },
+            "required_ops_level": 29,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 29
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 21555000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 352200
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 2000
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 400
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 30,
+            "increased_power": 1000,
+            "build_time": 851040,
+            "bonuses": {
+                "1": 0.5,
+                "2": 0.34
+            },
+            "required_ops_level": 30,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 30
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 31543950
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 515400
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 2500
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 450
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 31,
+            "increased_power": 1000,
+            "build_time": 1117440,
+            "bonuses": {
+                "1": 0.55,
+                "2": 0.38
+            },
+            "required_ops_level": 31,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 31
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 49863700
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 814750
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 3250
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 560
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 32,
+            "increased_power": 1250,
+            "build_time": 1091520,
+            "bonuses": {
+                "1": 0.6,
+                "2": 0.42
+            },
+            "required_ops_level": 32,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 32
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 72025350
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 1176900
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 4480
+                    },
+                    {
+                        "type": "3\u2605 Rare Ore",
+                        "grade": 3,
+                        "rarity": 3,
+                        "value": 30
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 33,
+            "increased_power": 1250,
+            "build_time": 1585440,
+            "bonuses": {
+                "1": 0.65,
+                "2": 0.46
+            },
+            "required_ops_level": 33,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 33
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 111414850
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 1820500
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 3750
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 670
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 34,
+            "increased_power": 1250,
+            "build_time": 2099520,
+            "bonuses": {
+                "1": 0.7,
+                "2": 0.5
+            },
+            "required_ops_level": 34,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 34
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 175918200
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 2874500
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 4750
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 785
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 35,
+            "increased_power": 1250,
+            "build_time": 2767680,
+            "bonuses": {
+                "1": 0.75,
+                "2": 0.54
+            },
+            "required_ops_level": 35,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 35
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 272248550
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 4448550
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 5600
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 950
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 36,
+            "increased_power": 1500,
+            "build_time": 3536640,
+            "bonuses": {
+                "1": 0.8,
+                "2": 0.58
+            },
+            "required_ops_level": 36,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 36
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 383622950
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 6268350
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 6000
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 1350
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 37,
+            "increased_power": 1750,
+            "build_time": 3654720,
+            "bonuses": {
+                "1": 0.85,
+                "2": 0.62
+            },
+            "required_ops_level": 37,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 37
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 589629200
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 9634450
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 6250
+                    },
+                    {
+                        "type": "3\u2605 Rare Ore",
+                        "grade": 3,
+                        "rarity": 3,
+                        "value": 280
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 38,
+            "increased_power": 1750,
+            "build_time": 5927040,
+            "bonuses": {
+                "1": 0.9,
+                "2": 0.66
+            },
+            "required_ops_level": 38,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 38
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 917201000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 14986950
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 7250
+                    },
+                    {
+                        "type": "3\u2605 Rare Ore",
+                        "grade": 3,
+                        "rarity": 3,
+                        "value": 310
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 39,
+            "increased_power": 1500,
+            "build_time": 7866720,
+            "bonuses": {
+                "1": 0.95,
+                "2": 0.7
+            },
+            "required_ops_level": 39,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 39
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1565065150
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 25572950
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 9000
+                    },
+                    {
+                        "type": "3\u2605 Rare Ore",
+                        "grade": 3,
+                        "rarity": 3,
+                        "value": 450
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 40,
+            "increased_power": 2000,
+            "build_time": 13962240,
+            "bonuses": {
+                "1": 1.0,
+                "2": 0.77
+            },
+            "required_ops_level": 40,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 40
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 3902846600
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 22775700
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Ore",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 32390
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 41,
+            "increased_power": 2000,
+            "build_time": 13085280,
+            "bonuses": {
+                "1": 1.05,
+                "2": 0.84
+            },
+            "required_ops_level": 41,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 41
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 3982496500
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 32536750
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Ore",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 35425
+                    },
+                    {
+                        "type": "4\u2605 Uncommon Ore",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 8605
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 42,
+            "increased_power": 2000,
+            "build_time": 20113920,
+            "bonuses": {
+                "1": 1.1,
+                "2": 0.91
+            },
+            "required_ops_level": 42,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 42
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 5932067500
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 48464600
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Ore",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 11135
+                    },
+                    {
+                        "type": "4\u2605 Rare Ore",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 2530
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 43,
+            "increased_power": 2500,
+            "build_time": 26575200,
+            "bonuses": {
+                "1": 1.15,
+                "2": 0.98
+            },
+            "required_ops_level": 43,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 43
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 8474382150
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 69235150
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Ore",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 12145
+                    },
+                    {
+                        "type": "4\u2605 Rare Ore",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 2785
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 44,
+            "increased_power": 2500,
+            "build_time": 34686720,
+            "bonuses": {
+                "1": 1.2,
+                "2": 1.05
+            },
+            "required_ops_level": 44,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 44
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 12711573250
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 103852700
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Ore",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 13160
+                    },
+                    {
+                        "type": "4\u2605 Rare Ore",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 3035
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 45,
+            "increased_power": 2500,
+            "build_time": 44779680,
+            "bonuses": {
+                "1": 1.25,
+                "2": 1.12
+            },
+            "required_ops_level": 45,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 45
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 18060158700
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 147550300
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Ore",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 14170
+                    },
+                    {
+                        "type": "4\u2605 Rare Ore",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 3290
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 46,
+            "increased_power": 2500,
+            "build_time": 57241440,
+            "bonuses": {
+                "1": 1.3,
+                "2": 1.19
+            },
+            "required_ops_level": 46,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 46
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 24832718200
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 202881700
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Ore",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 15180
+                    },
+                    {
+                        "type": "4\u2605 Rare Ore",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 3795
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 47,
+            "increased_power": 3000,
+            "build_time": 72511200,
+            "bonuses": {
+                "1": 1.35,
+                "2": 1.26
+            },
+            "required_ops_level": 47,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 47
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 36120317350
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 295100650
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Ore",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 16195
+                    },
+                    {
+                        "type": "4\u2605 Rare Ore",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 4300
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 48,
+            "increased_power": 3000,
+            "build_time": 91101600,
+            "bonuses": {
+                "1": 1.4,
+                "2": 1.33
+            },
+            "required_ops_level": 48,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 48
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 58348204950
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 476701000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Ore",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 17205
+                    },
+                    {
+                        "type": "4\u2605 Rare Ore",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 4810
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 49,
+            "increased_power": 3000,
+            "build_time": 113587200,
+            "bonuses": {
+                "1": 1.45,
+                "2": 1.4
+            },
+            "required_ops_level": 49,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 49
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 97247008250
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 794501700
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Ore",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 19230
+                    },
+                    {
+                        "type": "4\u2605 Rare Ore",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 5565
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 50,
+            "increased_power": 3000,
+            "build_time": 140627520,
+            "bonuses": {
+                "1": 1.5,
+                "2": 1.5
+            },
+            "required_ops_level": 50,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 50
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 170182264450
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 1390378000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Ore",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 22265
+                    },
+                    {
+                        "type": "4\u2605 Rare Ore",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 6075
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 51,
+            "increased_power": 3500,
+            "build_time": 149065920,
+            "bonuses": {
+                "1": 1.55,
+                "2": 1.58
+            },
+            "required_ops_level": 51,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 51
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 747864000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 3900000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Ore",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 11400
+                    },
+                    {
+                        "type": "5\u2605 Uncommon Ore",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 5400
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 52,
+            "increased_power": 3500,
+            "build_time": 158009760,
+            "bonuses": {
+                "1": 1.6,
+                "2": 1.66
+            },
+            "required_ops_level": 52,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 52
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1352520000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 6630000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Ore",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 19800
+                    },
+                    {
+                        "type": "5\u2605 Uncommon Ore",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 12000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 53,
+            "increased_power": 4000,
+            "build_time": 167490720,
+            "bonuses": {
+                "1": 1.65,
+                "2": 1.74
+            },
+            "required_ops_level": 53,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 53
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2271744000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 11600000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Ore",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 38000
+                    },
+                    {
+                        "type": "5\u2605 Uncommon Ore",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 33900
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 54,
+            "increased_power": 4000,
+            "build_time": 177540480,
+            "bonuses": {
+                "1": 1.7,
+                "2": 1.82
+            },
+            "required_ops_level": 54,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 54
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 3407616000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 17400000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Ore",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 67500
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 55,
+            "increased_power": 4000,
+            "build_time": 188192160,
+            "bonuses": {
+                "1": 1.75,
+                "2": 1.9
+            },
+            "required_ops_level": 55,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 55
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 5791968000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 27300000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Ore",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 67600
+                    },
+                    {
+                        "type": "5\u2605 Rare Ore",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 8500
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 56,
+            "increased_power": 4000,
+            "build_time": 199483200,
+            "bonuses": {
+                "1": 1.8,
+                "2": 1.98
+            },
+            "required_ops_level": 56,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 56
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 9101664000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 42900000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Ore",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 55100
+                    },
+                    {
+                        "type": "5\u2605 Rare Ore",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 11500
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 57,
+            "increased_power": 4000,
+            "build_time": 211452480,
+            "bonuses": {
+                "1": 1.85,
+                "2": 2.06
+            },
+            "required_ops_level": 57,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 57
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 14248665600000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 67160000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Ore",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 51900
+                    },
+                    {
+                        "type": "5\u2605 Rare Ore",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 12900
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 58,
+            "increased_power": 5000,
+            "build_time": 224140320,
+            "bonuses": {
+                "1": 1.9,
+                "2": 2.14
+            },
+            "required_ops_level": 58,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 58
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 20586700800000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 105120000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Ore",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 50600
+                    },
+                    {
+                        "type": "5\u2605 Rare Ore",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 17200
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 59,
+            "increased_power": 5000,
+            "build_time": 237588480,
+            "bonuses": {
+                "1": 1.95,
+                "2": 2.22
+            },
+            "required_ops_level": 59,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 59
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 30880051200000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 157680000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Ore",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 112700
+                    },
+                    {
+                        "type": "5\u2605 Rare Ore",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 24900
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 60,
+            "increased_power": 5000,
+            "build_time": 251843040,
+            "bonuses": {
+                "1": 2.0,
+                "2": 2.3
+            },
+            "required_ops_level": 60,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 60
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 48225600000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 246250000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Ore",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 104400
+                    },
+                    {
+                        "type": "5\u2605 Rare Ore",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 24400
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        }
+    ]
+}

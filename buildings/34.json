@@ -1,0 +1,2514 @@
+{
+    "id": 34,
+    "name": "Defense Platform A",
+    "description": "Defense Platforms are the last line of Defense for the Station. Behind defending ships they provide additional fire support. Upgrade to increase the Platform's combat performance.",
+    "group": 5,
+    "start_level": 1,
+    "bonuses": {
+        "1": {
+            "name": "Power Level",
+            "is_percentage": false,
+            "type": null
+        }
+    },
+    "levels": [
+        {
+            "level": 1,
+            "increased_power": 945,
+            "build_time": 0,
+            "bonuses": {
+                "1": 1.0
+            },
+            "required_ops_level": 0,
+            "requirements": [],
+            "build_costs": {
+                "resources": [],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 2,
+            "increased_power": 44,
+            "build_time": 180,
+            "bonuses": {
+                "1": 2.0
+            },
+            "required_ops_level": 13,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 3
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 13
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 5500
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 200
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 3,
+            "increased_power": 179,
+            "build_time": 390,
+            "bonuses": {
+                "1": 3.0
+            },
+            "required_ops_level": 13,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 3
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 13
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 6250
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 240
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 4,
+            "increased_power": 232,
+            "build_time": 540,
+            "bonuses": {
+                "1": 4.0
+            },
+            "required_ops_level": 13,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 3
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 13
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 7000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 300
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 5,
+            "increased_power": 401,
+            "build_time": 900,
+            "bonuses": {
+                "1": 5.0
+            },
+            "required_ops_level": 13,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 3
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 13
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 7750
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 350
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 6,
+            "increased_power": 573,
+            "build_time": 1560,
+            "bonuses": {
+                "1": 6.0
+            },
+            "required_ops_level": 13,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 5
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 13
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 8500
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 400
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 7,
+            "increased_power": 871,
+            "build_time": 2880,
+            "bonuses": {
+                "1": 7.0
+            },
+            "required_ops_level": 13,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 5
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 13
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 9250
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 450
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 8,
+            "increased_power": 1522,
+            "build_time": 4080,
+            "bonuses": {
+                "1": 8.0
+            },
+            "required_ops_level": 13,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 8
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 10000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 500
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 9,
+            "increased_power": 2081,
+            "build_time": 6300,
+            "bonuses": {
+                "1": 9.0
+            },
+            "required_ops_level": 13,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 9
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 11000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 550
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 10,
+            "increased_power": 2242,
+            "build_time": 6900,
+            "bonuses": {
+                "1": 10.0
+            },
+            "required_ops_level": 13,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 10
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 12500
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 300
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 11,
+            "increased_power": 1897,
+            "build_time": 7200,
+            "bonuses": {
+                "1": 11.0
+            },
+            "required_ops_level": 13,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 11
+                },
+                {
+                    "name": "Drydock B",
+                    "value": 10
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 13600
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 400
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 8
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 12,
+            "increased_power": 1760,
+            "build_time": 12900,
+            "bonuses": {
+                "1": 12.0
+            },
+            "required_ops_level": 13,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 12
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 18700
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 550
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 22
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 13,
+            "increased_power": 2256,
+            "build_time": 19200,
+            "bonuses": {
+                "1": 13.0
+            },
+            "required_ops_level": 13,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 13
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 27200
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 800
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 48
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 14,
+            "increased_power": 1795,
+            "build_time": 26640,
+            "bonuses": {
+                "1": 14.0
+            },
+            "required_ops_level": 14,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 14
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 37400
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 1100
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 88
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 15,
+            "increased_power": 933,
+            "build_time": 34560,
+            "bonuses": {
+                "1": 15.0
+            },
+            "required_ops_level": 15,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 15
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 51000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 1500
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 150
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 16,
+            "increased_power": 4182,
+            "build_time": 40320,
+            "bonuses": {
+                "1": 16.0
+            },
+            "required_ops_level": 16,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 16
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 68000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 2000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 200
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 17,
+            "increased_power": 3431,
+            "build_time": 43920,
+            "bonuses": {
+                "1": 17.0
+            },
+            "required_ops_level": 17,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 17
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 95200
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 2800
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 280
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "2\u2605 Common Gas",
+                        "grade": 2,
+                        "rarity": 1,
+                        "value": 25
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 18,
+            "increased_power": 2465,
+            "build_time": 66960,
+            "bonuses": {
+                "1": 18.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 18
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 136000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 4000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 400
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "2\u2605 Common Gas",
+                        "grade": 2,
+                        "rarity": 1,
+                        "value": 100
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 19,
+            "increased_power": 8727,
+            "build_time": 97200,
+            "bonuses": {
+                "1": 19.0
+            },
+            "required_ops_level": 19,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 19
+                },
+                {
+                    "name": "Defense Platform B",
+                    "value": 19
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 204000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 6000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 600
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "2\u2605 Common Gas",
+                        "grade": 2,
+                        "rarity": 1,
+                        "value": 400
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 20,
+            "increased_power": 9717,
+            "build_time": 146160,
+            "bonuses": {
+                "1": 20.0
+            },
+            "required_ops_level": 20,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 20
+                },
+                {
+                    "name": "Defense Technologies",
+                    "value": 20
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 289000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 8500
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 850
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 21,
+            "increased_power": 6711,
+            "build_time": 133200,
+            "bonuses": {
+                "1": 21.0
+            },
+            "required_ops_level": 21,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 21
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 486540
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 14310
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 1431
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 22,
+            "increased_power": 216122,
+            "build_time": 207360,
+            "bonuses": {
+                "1": 22.0
+            },
+            "required_ops_level": 22,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 22
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 756840
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 22260
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 2226
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 23,
+            "increased_power": 32063,
+            "build_time": 244800,
+            "bonuses": {
+                "1": 23.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1245420
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 36630
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 3663
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 24,
+            "increased_power": 36073,
+            "build_time": 299520,
+            "bonuses": {
+                "1": 24.0
+            },
+            "required_ops_level": 24,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 24
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1962480
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 57720
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 5772
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Gas",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 150
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 25,
+            "increased_power": 28900,
+            "build_time": 277920,
+            "bonuses": {
+                "1": 25.0
+            },
+            "required_ops_level": 25,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 25
+                },
+                {
+                    "name": "Defense Technologies",
+                    "value": 25
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 3182400
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 93600
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 9360
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Gas",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 190
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 1
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 26,
+            "increased_power": 33383,
+            "build_time": 377280,
+            "bonuses": {
+                "1": 26.0
+            },
+            "required_ops_level": 26,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 26
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 4972500
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 146250
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 14625
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Gas",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 230
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 4
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 27,
+            "increased_power": 70616,
+            "build_time": 429120,
+            "bonuses": {
+                "1": 27.0
+            },
+            "required_ops_level": 27,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 27
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 7588800
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 223200
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 22320
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 10
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 28,
+            "increased_power": 103505,
+            "build_time": 498240,
+            "bonuses": {
+                "1": 28.0
+            },
+            "required_ops_level": 28,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 28
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 11383200
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 334800
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 33480
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Gas",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 360
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 18
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 29,
+            "increased_power": 56160,
+            "build_time": 550080,
+            "bonuses": {
+                "1": 29.0
+            },
+            "required_ops_level": 29,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 29
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 18122000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 533000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 53300
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 30
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 30,
+            "increased_power": 69001,
+            "build_time": 596160,
+            "bonuses": {
+                "1": 30.0
+            },
+            "required_ops_level": 30,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 30
+                },
+                {
+                    "name": "Defense Technologies",
+                    "value": 30
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 26520000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 780000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 78000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 45
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 31,
+            "increased_power": 102800,
+            "build_time": 781920,
+            "bonuses": {
+                "1": 31.0
+            },
+            "required_ops_level": 31,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 31
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 41922000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 1233000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 123300
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Gas",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 700
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 65
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 32,
+            "increased_power": 170970,
+            "build_time": 763200,
+            "bonuses": {
+                "1": 32.0
+            },
+            "required_ops_level": 32,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 32
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 60554000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 1781000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 178100
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 87
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 33,
+            "increased_power": 100954,
+            "build_time": 1110240,
+            "bonuses": {
+                "1": 33.0
+            },
+            "required_ops_level": 33,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 33
+                },
+                {
+                    "name": "Defense Technologies",
+                    "value": 33
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 93670000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 2755000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 275500
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 110
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 34,
+            "increased_power": 108576,
+            "build_time": 1470240,
+            "bonuses": {
+                "1": 34.0
+            },
+            "required_ops_level": 34,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 34
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 147900000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 4350000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 435000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Gas",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1100
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 140
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 35,
+            "increased_power": 205049,
+            "build_time": 1936800,
+            "bonuses": {
+                "1": 35.0
+            },
+            "required_ops_level": 35,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 35
+                },
+                {
+                    "name": "Defense Technologies",
+                    "value": 35
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 228888000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 6732000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 673200
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 180
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 36,
+            "increased_power": 188295,
+            "build_time": 2475360,
+            "bonuses": {
+                "1": 36.0
+            },
+            "required_ops_level": 36,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 36
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 322524000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 9486000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 948600
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Gas",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1600
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 220
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 37,
+            "increased_power": 135959,
+            "build_time": 2558880,
+            "bonuses": {
+                "1": 37.0
+            },
+            "required_ops_level": 37,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 37
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 495720000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 14580000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 1458000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Gas",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1800
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 260
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 38,
+            "increased_power": 228653,
+            "build_time": 4148640,
+            "bonuses": {
+                "1": 38.0
+            },
+            "required_ops_level": 38,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 38
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 771120000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 22680000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 2268000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Gas",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 2100
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 310
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 39,
+            "increased_power": 282851,
+            "build_time": 5506560,
+            "bonuses": {
+                "1": 39.0
+            },
+            "required_ops_level": 39,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 39
+                },
+                {
+                    "name": "Defense Technologies",
+                    "value": 39
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1315800000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 38700000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 3870000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 40,
+            "increased_power": 1145609,
+            "build_time": 9773280,
+            "bonuses": {
+                "1": 40.0
+            },
+            "required_ops_level": 40,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 40
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 5731040000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 60200000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 6020000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Gas",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 12000
+                    },
+                    {
+                        "type": "4\u2605 Uncommon Gas",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 1400
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 41,
+            "increased_power": 287514,
+            "build_time": 9159840,
+            "bonuses": {
+                "1": 41.0
+            },
+            "required_ops_level": 41,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 41
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 5848000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 86000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 8600000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Gas",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 20000
+                    },
+                    {
+                        "type": "4\u2605 Uncommon Gas",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 4000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 42,
+            "increased_power": 312176,
+            "build_time": 14080320,
+            "bonuses": {
+                "1": 42.0
+            },
+            "required_ops_level": 42,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 42
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 8710800000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 128100000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 12810000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Gas",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 25000
+                    },
+                    {
+                        "type": "4\u2605 Uncommon Gas",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 6000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 43,
+            "increased_power": 338944,
+            "build_time": 18601920,
+            "bonuses": {
+                "1": 43.0
+            },
+            "required_ops_level": 43,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 43
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 12444000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 183000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 18300000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Gas",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 6000
+                    },
+                    {
+                        "type": "4\u2605 Rare Gas",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 750
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 44,
+            "increased_power": 368048,
+            "build_time": 24279840,
+            "bonuses": {
+                "1": 44.0
+            },
+            "required_ops_level": 44,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 44
+                },
+                {
+                    "name": "Defense Technologies",
+                    "value": 44
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 18666000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 274500000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 27450000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Rare Gas",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 500
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 45,
+            "increased_power": 399658,
+            "build_time": 31345920,
+            "bonuses": {
+                "1": 45.0
+            },
+            "required_ops_level": 45,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 45
+                },
+                {
+                    "name": "Defense Technologies",
+                    "value": 45
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 26520000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 390000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 39000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Gas",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 15000
+                    },
+                    {
+                        "type": "4\u2605 Rare Gas",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 1000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 46,
+            "increased_power": 434003,
+            "build_time": 40068000,
+            "bonuses": {
+                "1": 46.0
+            },
+            "required_ops_level": 46,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 46
+                },
+                {
+                    "name": "Drydock E",
+                    "value": 46
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 36465000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 536250000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 53625000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Gas",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 30000
+                    },
+                    {
+                        "type": "4\u2605 Rare Gas",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 1800
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 47,
+            "increased_power": 471309,
+            "build_time": 50758560,
+            "bonuses": {
+                "1": 47.0
+            },
+            "required_ops_level": 47,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 47
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 53040000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 780000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 78000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Gas",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 45000
+                    },
+                    {
+                        "type": "4\u2605 Uncommon Gas",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 2500
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 48,
+            "increased_power": 511850,
+            "build_time": 63770400,
+            "bonuses": {
+                "1": 48.0
+            },
+            "required_ops_level": 48,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 48
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 85680000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 1260000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 126000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Gas",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 75000
+                    },
+                    {
+                        "type": "4\u2605 Uncommon Gas",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 4000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 49,
+            "increased_power": 555899,
+            "build_time": 79511040,
+            "bonuses": {
+                "1": 49.0
+            },
+            "required_ops_level": 49,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 49
+                },
+                {
+                    "name": "Drydock E",
+                    "value": 49
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 142800000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 2100000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 210000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Gas",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 12000
+                    },
+                    {
+                        "type": "4\u2605 Rare Gas",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 4000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 50,
+            "increased_power": 603739,
+            "build_time": 98439840,
+            "bonuses": {
+                "1": 50.0
+            },
+            "required_ops_level": 50,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 50
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 249900000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 3675000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 367500000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 51,
+            "increased_power": 1216045,
+            "build_time": 104346720,
+            "bonuses": {
+                "1": 51.0
+            },
+            "required_ops_level": 51,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 51
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1246440000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 7800000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 780000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Gas",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 21700
+                    },
+                    {
+                        "type": "5\u2605 Uncommon Gas",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 1900
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 52,
+            "increased_power": 2571112,
+            "build_time": 110606400,
+            "bonuses": {
+                "1": 52.0
+            },
+            "required_ops_level": 52,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 52
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2254200000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 13260000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 1326000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Gas",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 37500
+                    },
+                    {
+                        "type": "5\u2605 Uncommon Gas",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 4300
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 53,
+            "increased_power": 9914492,
+            "build_time": 117243360,
+            "bonuses": {
+                "1": 53.0
+            },
+            "required_ops_level": 53,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 53
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 3786240000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 23200000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 2320000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Gas",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 88900
+                    },
+                    {
+                        "type": "5\u2605 Uncommon Gas",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 15500
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 54,
+            "increased_power": 2449504,
+            "build_time": 124277760,
+            "bonuses": {
+                "1": 54.0
+            },
+            "required_ops_level": 54,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 54
+                },
+                {
+                    "name": "Defense Technologies",
+                    "value": 54
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 5679360000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 34800000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 3480000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Gas",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 76500
+                    },
+                    {
+                        "type": "5\u2605 Rare Gas",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 7000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 55,
+            "increased_power": 4869860,
+            "build_time": 131734080,
+            "bonuses": {
+                "1": 55.0
+            },
+            "required_ops_level": 55,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 55
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 9653280000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 54600000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 5460000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Gas",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 22300
+                    },
+                    {
+                        "type": "5\u2605 Rare Gas",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 8100
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 56,
+            "increased_power": 1723800,
+            "build_time": 139638240,
+            "bonuses": {
+                "1": 56.0
+            },
+            "required_ops_level": 56,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 56
+                },
+                {
+                    "name": "Drydock E",
+                    "value": 56
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 15169440000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 85800000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 8580000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Gas",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 27600
+                    },
+                    {
+                        "type": "5\u2605 Rare Gas",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 6600
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 57,
+            "increased_power": 6574402,
+            "build_time": 148017600,
+            "bonuses": {
+                "1": 57.0
+            },
+            "required_ops_level": 57,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 57
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 23747776000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 134320000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 13432000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Gas",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 32200
+                    },
+                    {
+                        "type": "5\u2605 Rare Gas",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 9500
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 58,
+            "increased_power": 5037576,
+            "build_time": 156898080,
+            "bonuses": {
+                "1": 58.0
+            },
+            "required_ops_level": 58,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 58
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 34311168000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 210240000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 21024000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Gas",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 27300
+                    },
+                    {
+                        "type": "5\u2605 Rare Gas",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 8600
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 59,
+            "increased_power": 6729688,
+            "build_time": 166311360,
+            "bonuses": {
+                "1": 59.0
+            },
+            "required_ops_level": 59,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 59
+                },
+                {
+                    "name": "Drydock E",
+                    "value": 59
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 51466752000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 315360000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 31536000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Gas",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 46900
+                    },
+                    {
+                        "type": "5\u2605 Rare Gas",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 4700
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 60,
+            "increased_power": 8454439,
+            "build_time": 176290560,
+            "bonuses": {
+                "1": 60.0
+            },
+            "required_ops_level": 60,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 60
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 80376000000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 492500000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 49250000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Gas",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 39100
+                    },
+                    {
+                        "type": "5\u2605 Rare Gas",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 15300
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        }
+    ]
+}

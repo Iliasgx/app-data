@@ -1,0 +1,2556 @@
+{
+    "id": 16,
+    "name": "Ship Hangar",
+    "description": "The Ship Hangar is where extra ships are stored when they are not currently used in the active fleet. Upgrade the Hangar to increase the amount of Ships that can be owned.",
+    "group": 2,
+    "start_level": 0,
+    "bonuses": {
+        "1": {
+            "name": "Hull Health Bonus",
+            "is_percentage": true,
+            "type": null
+        },
+        "2": {
+            "name": "Ship Inventory Slots",
+            "is_percentage": false,
+            "type": null
+        }
+    },
+    "levels": [
+        {
+            "level": 1,
+            "increased_power": 0,
+            "build_time": 0,
+            "bonuses": {
+                "1": 0.03,
+                "2": 20.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Unlock Ship Hangar",
+                    "value": 1
+                }
+            ],
+            "build_costs": {
+                "resources": [],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 2,
+            "increased_power": 20,
+            "build_time": 360,
+            "bonuses": {
+                "1": 0.06,
+                "2": 21.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 2
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 11
+                },
+                {
+                    "name": "Unlock Ship Hangar",
+                    "value": 1
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 15500
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 3,
+            "increased_power": 12,
+            "build_time": 840,
+            "bonuses": {
+                "1": 0.09,
+                "2": 22.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 3
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 11
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 16000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 4,
+            "increased_power": 13,
+            "build_time": 1200,
+            "bonuses": {
+                "1": 0.12,
+                "2": 23.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 4
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 11
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 16500
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 5,
+            "increased_power": 15,
+            "build_time": 1920,
+            "bonuses": {
+                "1": 0.15,
+                "2": 24.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 5
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 11
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 17000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 6,
+            "increased_power": 20,
+            "build_time": 3240,
+            "bonuses": {
+                "1": 0.18,
+                "2": 25.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 6
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 11
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 17500
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 7,
+            "increased_power": 20,
+            "build_time": 6300,
+            "bonuses": {
+                "1": 0.21,
+                "2": 26.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 7
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 11
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 18000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 19
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 8,
+            "increased_power": 30,
+            "build_time": 8700,
+            "bonuses": {
+                "1": 0.24,
+                "2": 27.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 8
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 11
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 18500
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 60
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 9,
+            "increased_power": 40,
+            "build_time": 13200,
+            "bonuses": {
+                "1": 0.27,
+                "2": 28.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 9
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 11
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 19000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 150
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 10,
+            "increased_power": 40,
+            "build_time": 14700,
+            "bonuses": {
+                "1": 0.3,
+                "2": 29.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 10
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 11
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 19500
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 300
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 11,
+            "increased_power": 50,
+            "build_time": 15300,
+            "bonuses": {
+                "1": 0.33,
+                "2": 30.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 11
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 11
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 20400
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 400
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 12,
+            "increased_power": 70,
+            "build_time": 27360,
+            "bonuses": {
+                "1": 0.36,
+                "2": 31.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 12
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 12
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 28050
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 550
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 13,
+            "increased_power": 70,
+            "build_time": 41040,
+            "bonuses": {
+                "1": 0.39,
+                "2": 32.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 13
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 13
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 40800
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 800
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 14,
+            "increased_power": 90,
+            "build_time": 57600,
+            "bonuses": {
+                "1": 0.42,
+                "2": 33.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 14
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 14
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 56100
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 1100
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 15,
+            "increased_power": 85,
+            "build_time": 73440,
+            "bonuses": {
+                "1": 0.45,
+                "2": 34.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 15
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 15
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 76500
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 1500
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 16,
+            "increased_power": 125,
+            "build_time": 87120,
+            "bonuses": {
+                "1": 0.48,
+                "2": 35.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 16
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 16
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 102000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 2000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 17,
+            "increased_power": 125,
+            "build_time": 93600,
+            "bonuses": {
+                "1": 0.51,
+                "2": 36.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 17
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 17
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 142800
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 2800
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 18,
+            "increased_power": 150,
+            "build_time": 143280,
+            "bonuses": {
+                "1": 0.54,
+                "2": 37.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 18
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 18
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 204000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 4000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 19,
+            "increased_power": 175,
+            "build_time": 207360,
+            "bonuses": {
+                "1": 0.57,
+                "2": 38.0
+            },
+            "required_ops_level": 19,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 19
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 19
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 306000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 6000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 20,
+            "increased_power": 200,
+            "build_time": 312480,
+            "bonuses": {
+                "1": 0.6,
+                "2": 39.0
+            },
+            "required_ops_level": 20,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 20
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 20
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 433500
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 8500
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 21,
+            "increased_power": 250,
+            "build_time": 285120,
+            "bonuses": {
+                "1": 0.63,
+                "2": 40.0
+            },
+            "required_ops_level": 21,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 21
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 21
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 729810
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 14310
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 22,
+            "increased_power": 200,
+            "build_time": 444960,
+            "bonuses": {
+                "1": 0.66,
+                "2": 41.0
+            },
+            "required_ops_level": 22,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 22
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 22
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1135260
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 22260
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 23,
+            "increased_power": 300,
+            "build_time": 524160,
+            "bonuses": {
+                "1": 0.69,
+                "2": 42.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1868130
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 36630
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 24,
+            "increased_power": 200,
+            "build_time": 643680,
+            "bonuses": {
+                "1": 0.72,
+                "2": 43.0
+            },
+            "required_ops_level": 24,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 24
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 24
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2943720
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 57720
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 150
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 25,
+            "increased_power": 400,
+            "build_time": 594720,
+            "bonuses": {
+                "1": 0.75,
+                "2": 44.0
+            },
+            "required_ops_level": 25,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 25
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 25
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 4773600
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 93600
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 190
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 1
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 26,
+            "increased_power": 300,
+            "build_time": 807840,
+            "bonuses": {
+                "1": 0.78,
+                "2": 45.0
+            },
+            "required_ops_level": 26,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 26
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 26
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 7458750
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 146250
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 230
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 4
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 27,
+            "increased_power": 400,
+            "build_time": 920160,
+            "bonuses": {
+                "1": 0.81,
+                "2": 46.0
+            },
+            "required_ops_level": 27,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 27
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 27
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 11383200
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 223200
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 290
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 10
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 28,
+            "increased_power": 400,
+            "build_time": 1068480,
+            "bonuses": {
+                "1": 0.84,
+                "2": 48.0
+            },
+            "required_ops_level": 28,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 28
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 28
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 17074800
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 334800
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 360
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 18
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 29,
+            "increased_power": 500,
+            "build_time": 1177920,
+            "bonuses": {
+                "1": 0.87,
+                "2": 49.0
+            },
+            "required_ops_level": 29,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 29
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 29
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 27183000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 533000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 450
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 30
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 30,
+            "increased_power": 400,
+            "build_time": 1277280,
+            "bonuses": {
+                "1": 0.9,
+                "2": 50.0
+            },
+            "required_ops_level": 30,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 30
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 30
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 39780000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 780000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 500
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 45
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 31,
+            "increased_power": 550,
+            "build_time": 1676160,
+            "bonuses": {
+                "1": 0.93,
+                "2": 51.0
+            },
+            "required_ops_level": 31,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 31
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 31
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 62883000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 1233000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 65
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 32,
+            "increased_power": 500,
+            "build_time": 1637280,
+            "bonuses": {
+                "1": 0.96,
+                "2": 52.0
+            },
+            "required_ops_level": 32,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 32
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 32
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 90831000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 1781000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 800
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 87
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 33,
+            "increased_power": 750,
+            "build_time": 2378880,
+            "bonuses": {
+                "1": 0.99,
+                "2": 53.0
+            },
+            "required_ops_level": 33,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 33
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 33
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 140505000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 2755000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1000
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 110
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 34,
+            "increased_power": 500,
+            "build_time": 3149280,
+            "bonuses": {
+                "1": 1.02,
+                "2": 54.0
+            },
+            "required_ops_level": 34,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 34
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 34
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 221850000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 4350000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 140
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 35,
+            "increased_power": 750,
+            "build_time": 4151520,
+            "bonuses": {
+                "1": 1.05,
+                "2": 55.0
+            },
+            "required_ops_level": 35,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 35
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 35
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 343332000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 6732000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1300
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 180
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 36,
+            "increased_power": 750,
+            "build_time": 5304960,
+            "bonuses": {
+                "1": 1.08,
+                "2": 56.0
+            },
+            "required_ops_level": 36,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 36
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 36
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 483786000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 9486000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 220
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 37,
+            "increased_power": 750,
+            "build_time": 5482080,
+            "bonuses": {
+                "1": 1.11,
+                "2": 57.0
+            },
+            "required_ops_level": 37,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 37
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 37
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 743580000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 14580000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1800
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 260
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 38,
+            "increased_power": 1000,
+            "build_time": 8890560,
+            "bonuses": {
+                "1": 1.14,
+                "2": 58.0
+            },
+            "required_ops_level": 38,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 38
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 38
+                },
+                {
+                    "name": "Defense Platform D",
+                    "value": 38
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1156680000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 22680000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 2100
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 310
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 39,
+            "increased_power": 750,
+            "build_time": 11800800,
+            "bonuses": {
+                "1": 1.17,
+                "2": 59.0
+            },
+            "required_ops_level": 39,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 39
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 39
+                },
+                {
+                    "name": "Defense Platform D",
+                    "value": 39
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1973700000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 38700000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 2500
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 360
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 40,
+            "increased_power": 1000,
+            "build_time": 20943360,
+            "bonuses": {
+                "1": 1.2,
+                "2": 60.0
+            },
+            "required_ops_level": 40,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 40
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 40
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 8596560000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 60200000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Crystal",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 10000
+                    },
+                    {
+                        "type": "4\u2605 Uncommon Crystal",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 2500
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 41,
+            "increased_power": 1000,
+            "build_time": 19628640,
+            "bonuses": {
+                "1": 1.23,
+                "2": 61.0
+            },
+            "required_ops_level": 41,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 41
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 41
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 8772000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 86000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Crystal",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 15000
+                    },
+                    {
+                        "type": "4\u2605 Uncommon Crystal",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 4000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 42,
+            "increased_power": 1000,
+            "build_time": 30170880,
+            "bonuses": {
+                "1": 1.26,
+                "2": 62.0
+            },
+            "required_ops_level": 42,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 42
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 42
+                },
+                {
+                    "name": "Armada Control Center",
+                    "value": 30
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 13066200000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 128100000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Crystal",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 26000
+                    },
+                    {
+                        "type": "4\u2605 Rare Crystal",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 1500
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 43,
+            "increased_power": 1250,
+            "build_time": 39862080,
+            "bonuses": {
+                "1": 1.29,
+                "2": 63.0
+            },
+            "required_ops_level": 43,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 43
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 43
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 18666000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 183000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Crystal",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 20000
+                    },
+                    {
+                        "type": "4\u2605 Uncommon Crystal",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 6000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 44,
+            "increased_power": 1250,
+            "build_time": 52030080,
+            "bonuses": {
+                "1": 1.32,
+                "2": 64.0
+            },
+            "required_ops_level": 44,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 44
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 44
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 27999000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 274500000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Crystal",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 35000
+                    },
+                    {
+                        "type": "4\u2605 Uncommon Crystal",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 8000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 45,
+            "increased_power": 1250,
+            "build_time": 67170240,
+            "bonuses": {
+                "1": 1.35,
+                "2": 65.0
+            },
+            "required_ops_level": 45,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 45
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 45
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 39780000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 390000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Crystal",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 50000
+                    },
+                    {
+                        "type": "4\u2605 Uncommon Crystal",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 12000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 46,
+            "increased_power": 1250,
+            "build_time": 85861440,
+            "bonuses": {
+                "1": 1.38,
+                "2": 66.0
+            },
+            "required_ops_level": 46,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 46
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 46
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 54697500000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 536250000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Crystal",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 90000
+                    },
+                    {
+                        "type": "4\u2605 Rare Crystal",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 4000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 47,
+            "increased_power": 1500,
+            "build_time": 108767520,
+            "bonuses": {
+                "1": 1.41,
+                "2": 67.0
+            },
+            "required_ops_level": 47,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 47
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 47
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 79560000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 780000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Crystal",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 16500
+                    },
+                    {
+                        "type": "4\u2605 Rare Crystal",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 7500
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 48,
+            "increased_power": 1500,
+            "build_time": 136651680,
+            "bonuses": {
+                "1": 1.44,
+                "2": 68.0
+            },
+            "required_ops_level": 48,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 48
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 48
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 128520000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 1260000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Crystal",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 5000
+                    },
+                    {
+                        "type": "4\u2605 Rare Crystal",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 6000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 49,
+            "increased_power": 1500,
+            "build_time": 170380800,
+            "bonuses": {
+                "1": 1.47,
+                "2": 69.0
+            },
+            "required_ops_level": 49,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 49
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 49
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 214200000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 2100000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Crystal",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 8000
+                    },
+                    {
+                        "type": "4\u2605 Rare Crystal",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 10000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 50,
+            "increased_power": 1500,
+            "build_time": 210942720,
+            "bonuses": {
+                "1": 1.5,
+                "2": 70.0
+            },
+            "required_ops_level": 50,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 50
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 50
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 374850000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 3675000000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 51,
+            "increased_power": 2000,
+            "build_time": 223598880,
+            "bonuses": {
+                "1": 1.53,
+                "2": 71.0
+            },
+            "required_ops_level": 51,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 51
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 51
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1869660000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 7800000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Crystal",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 10800
+                    },
+                    {
+                        "type": "5\u2605 Uncommon Crystal",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 3800
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 52,
+            "increased_power": 1500,
+            "build_time": 237015360,
+            "bonuses": {
+                "1": 1.56,
+                "2": 72.0
+            },
+            "required_ops_level": 52,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 52
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 52
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 3381300000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 13260000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Crystal",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 18800
+                    },
+                    {
+                        "type": "5\u2605 Uncommon Crystal",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 8500
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 53,
+            "increased_power": 2000,
+            "build_time": 251235360,
+            "bonuses": {
+                "1": 1.59,
+                "2": 73.0
+            },
+            "required_ops_level": 53,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 53
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 53
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 5679360000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 23200000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Crystal",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 38000
+                    },
+                    {
+                        "type": "5\u2605 Uncommon Crystal",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 31800
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 54,
+            "increased_power": 2000,
+            "build_time": 266309280,
+            "bonuses": {
+                "1": 1.62,
+                "2": 74.0
+            },
+            "required_ops_level": 54,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 54
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 54
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 8519040000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 34800000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Crystal",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 46500
+                    },
+                    {
+                        "type": "5\u2605 Rare Crystal",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 8100
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 55,
+            "increased_power": 2000,
+            "build_time": 282288960,
+            "bonuses": {
+                "1": 1.65,
+                "2": 75.0
+            },
+            "required_ops_level": 55,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 55
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 55
+                },
+                {
+                    "name": "Armada Control Center",
+                    "value": 50
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 14479920000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 54600000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Crystal",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 62200
+                    },
+                    {
+                        "type": "5\u2605 Rare Crystal",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 11900
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 56,
+            "increased_power": 2000,
+            "build_time": 299226240,
+            "bonuses": {
+                "1": 1.68,
+                "2": 76.0
+            },
+            "required_ops_level": 56,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 56
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 56
+                },
+                {
+                    "name": "Defense Technologies",
+                    "value": 55
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 22754160000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 85800000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Crystal",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 66800
+                    },
+                    {
+                        "type": "5\u2605 Rare Crystal",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 19900
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 57,
+            "increased_power": 2000,
+            "build_time": 317178720,
+            "bonuses": {
+                "1": 1.71,
+                "2": 77.0
+            },
+            "required_ops_level": 57,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 57
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 57
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 35621664000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 134320000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Crystal",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 51700
+                    },
+                    {
+                        "type": "5\u2605 Rare Crystal",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 22700
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 58,
+            "increased_power": 2500,
+            "build_time": 336209760,
+            "bonuses": {
+                "1": 1.74,
+                "2": 78.0
+            },
+            "required_ops_level": 58,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 58
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 58
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 51466752000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 210240000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Crystal",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 52600
+                    },
+                    {
+                        "type": "5\u2605 Rare Crystal",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 18500
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 59,
+            "increased_power": 2500,
+            "build_time": 356382720,
+            "bonuses": {
+                "1": 1.77,
+                "2": 79.0
+            },
+            "required_ops_level": 59,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 59
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 59
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 77200128000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 315360000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Crystal",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 141900
+                    },
+                    {
+                        "type": "5\u2605 Rare Crystal",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 26700
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 60,
+            "increased_power": 2500,
+            "build_time": 377765280,
+            "bonuses": {
+                "1": 1.8,
+                "2": 80.0
+            },
+            "required_ops_level": 60,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 60
+                },
+                {
+                    "name": "Shipyard",
+                    "value": 60
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 120564000000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 492500000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Crystal",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 93900
+                    },
+                    {
+                        "type": "5\u2605 Rare Crystal",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 30500
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        }
+    ]
+}

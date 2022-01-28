@@ -1,0 +1,2270 @@
+{
+    "id": 40,
+    "name": "Exocomp Factory",
+    "description": "The Exocomp Factory grants the ability to activate and improve Consumables, unlock additional Exocomps, and earn Axionic Chips.",
+    "group": 0,
+    "start_level": 0,
+    "bonuses": {
+        "1": {
+            "name": "Axionic Chips Daily Bundle Amount",
+            "is_percentage": false,
+            "type": null
+        },
+        "2": {
+            "name": "Exocomp Consumable Grade",
+            "is_percentage": false,
+            "type": null
+        },
+        "3": {
+            "name": "Exocomps Unlocked",
+            "is_percentage": false,
+            "type": null
+        }
+    },
+    "levels": [
+        {
+            "level": 1,
+            "increased_power": 0,
+            "build_time": 180,
+            "bonuses": {
+                "1": 5.0,
+                "2": 2.0,
+                "3": 1.0
+            },
+            "required_ops_level": 16,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 16
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 800
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Exocomp Factory Key",
+                        "value": 1
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Chip",
+                        "value": 120
+                    },
+                    {
+                        "type": "Galaxy Exocomp",
+                        "value": 1
+                    }
+                ]
+            }
+        },
+        {
+            "level": 2,
+            "increased_power": 20,
+            "build_time": 240,
+            "bonuses": {
+                "1": 7.0,
+                "2": 2.0,
+                "3": 1.0
+            },
+            "required_ops_level": 16,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 16
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 2
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 3,
+            "increased_power": 20,
+            "build_time": 360,
+            "bonuses": {
+                "1": 7.0,
+                "2": 2.0,
+                "3": 1.0
+            },
+            "required_ops_level": 16,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 16
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1200
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 3
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 4,
+            "increased_power": 25,
+            "build_time": 780,
+            "bonuses": {
+                "1": 9.0,
+                "2": 2.0,
+                "3": 1.0
+            },
+            "required_ops_level": 16,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 16
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1500
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 5
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 5,
+            "increased_power": 25,
+            "build_time": 1320,
+            "bonuses": {
+                "1": 9.0,
+                "2": 2.0,
+                "3": 2.0
+            },
+            "required_ops_level": 16,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 16
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1800
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 6
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Station Exocomp",
+                        "value": 1
+                    }
+                ]
+            }
+        },
+        {
+            "level": 6,
+            "increased_power": 30,
+            "build_time": 2160,
+            "bonuses": {
+                "1": 11.0,
+                "2": 2.0,
+                "3": 2.0
+            },
+            "required_ops_level": 16,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 16
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2200
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 8
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 7,
+            "increased_power": 40,
+            "build_time": 4200,
+            "bonuses": {
+                "1": 11.0,
+                "2": 2.0,
+                "3": 2.0
+            },
+            "required_ops_level": 16,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 16
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 3000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 9
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 10
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 8,
+            "increased_power": 50,
+            "build_time": 6000,
+            "bonuses": {
+                "1": 13.0,
+                "2": 2.0,
+                "3": 2.0
+            },
+            "required_ops_level": 16,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 16
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 4000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 30
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 12
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 9,
+            "increased_power": 60,
+            "build_time": 9000,
+            "bonuses": {
+                "1": 13.0,
+                "2": 2.0,
+                "3": 2.0
+            },
+            "required_ops_level": 16,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 16
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 5500
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 75
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 14
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 10,
+            "increased_power": 70,
+            "build_time": 9900,
+            "bonuses": {
+                "1": 16.0,
+                "2": 2.0,
+                "3": 2.0
+            },
+            "required_ops_level": 16,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 16
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 7000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 150
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 34
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 11,
+            "increased_power": 80,
+            "build_time": 10200,
+            "bonuses": {
+                "1": 16.0,
+                "2": 2.0,
+                "3": 2.0
+            },
+            "required_ops_level": 16,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 16
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 6800
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 200
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 15
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 12,
+            "increased_power": 105,
+            "build_time": 18300,
+            "bonuses": {
+                "1": 19.0,
+                "2": 2.0,
+                "3": 2.0
+            },
+            "required_ops_level": 16,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 16
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 9350
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 275
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 17
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 13,
+            "increased_power": 125,
+            "build_time": 27360,
+            "bonuses": {
+                "1": 19.0,
+                "2": 2.0,
+                "3": 2.0
+            },
+            "required_ops_level": 16,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 16
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 13600
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 400
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 19
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 14,
+            "increased_power": 150,
+            "build_time": 38160,
+            "bonuses": {
+                "1": 22.0,
+                "2": 2.0,
+                "3": 2.0
+            },
+            "required_ops_level": 16,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 16
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 18700
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 550
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 22
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 15,
+            "increased_power": 175,
+            "build_time": 48960,
+            "bonuses": {
+                "1": 22.0,
+                "2": 2.0,
+                "3": 3.0
+            },
+            "required_ops_level": 16,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 16
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 25500
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 750
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 43
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Combat Exocomp",
+                        "value": 1
+                    }
+                ]
+            }
+        },
+        {
+            "level": 16,
+            "increased_power": 200,
+            "build_time": 58320,
+            "bonuses": {
+                "1": 25.0,
+                "2": 2.0,
+                "3": 3.0
+            },
+            "required_ops_level": 16,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 16
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 34000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 1000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 26
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 17,
+            "increased_power": 225,
+            "build_time": 62640,
+            "bonuses": {
+                "1": 25.0,
+                "2": 2.0,
+                "3": 3.0
+            },
+            "required_ops_level": 17,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 17
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 47600
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 1400
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 31
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 18,
+            "increased_power": 300,
+            "build_time": 95760,
+            "bonuses": {
+                "1": 28.0,
+                "2": 2.0,
+                "3": 3.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 18
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 68000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 2000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 37
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 19,
+            "increased_power": 300,
+            "build_time": 138960,
+            "bonuses": {
+                "1": 28.0,
+                "2": 2.0,
+                "3": 3.0
+            },
+            "required_ops_level": 19,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 19
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 102000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 3000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 42
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 20,
+            "increased_power": 300,
+            "build_time": 208800,
+            "bonuses": {
+                "1": 31.0,
+                "2": 2.0,
+                "3": 3.0
+            },
+            "required_ops_level": 20,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 20
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 144500
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 4250
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 47
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 21,
+            "increased_power": 400,
+            "build_time": 190800,
+            "bonuses": {
+                "1": 31.0,
+                "2": 2.0,
+                "3": 3.0
+            },
+            "required_ops_level": 21,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 21
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 243270
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 7155
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 51
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 22,
+            "increased_power": 400,
+            "build_time": 296640,
+            "bonuses": {
+                "1": 35.0,
+                "2": 2.0,
+                "3": 3.0
+            },
+            "required_ops_level": 22,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 22
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 378420
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 11130
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 59
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 23,
+            "increased_power": 500,
+            "build_time": 349920,
+            "bonuses": {
+                "1": 35.0,
+                "2": 2.0,
+                "3": 3.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 622710
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 18315
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 64
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 24,
+            "increased_power": 500,
+            "build_time": 429120,
+            "bonuses": {
+                "1": 39.0,
+                "2": 2.0,
+                "3": 3.0
+            },
+            "required_ops_level": 24,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 24
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 981240
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 28860
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 69
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 25,
+            "increased_power": 600,
+            "build_time": 397440,
+            "bonuses": {
+                "1": 39.0,
+                "2": 3.0,
+                "3": 3.0
+            },
+            "required_ops_level": 25,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 25
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1591200
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 46800
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 150
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 26,
+            "increased_power": 550,
+            "build_time": 538560,
+            "bonuses": {
+                "1": 43.0,
+                "2": 3.0,
+                "3": 3.0
+            },
+            "required_ops_level": 26,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 26
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2486250
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 73125
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 120
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 27,
+            "increased_power": 750,
+            "build_time": 613440,
+            "bonuses": {
+                "1": 43.0,
+                "2": 3.0,
+                "3": 3.0
+            },
+            "required_ops_level": 27,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 27
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 3794400
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 111600
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 140
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 28,
+            "increased_power": 750,
+            "build_time": 712800,
+            "bonuses": {
+                "1": 48.0,
+                "2": 3.0,
+                "3": 3.0
+            },
+            "required_ops_level": 28,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 28
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 5691600
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 167400
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 160
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 29,
+            "increased_power": 750,
+            "build_time": 784800,
+            "bonuses": {
+                "1": 48.0,
+                "2": 3.0,
+                "3": 3.0
+            },
+            "required_ops_level": 29,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 29
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 9061000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 266500
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 170
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 30,
+            "increased_power": 1000,
+            "build_time": 851040,
+            "bonuses": {
+                "1": 53.0,
+                "2": 3.0,
+                "3": 3.0
+            },
+            "required_ops_level": 30,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 30
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 13260000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 390000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 200
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 31,
+            "increased_power": 1000,
+            "build_time": 1117440,
+            "bonuses": {
+                "1": 53.0,
+                "2": 3.0,
+                "3": 3.0
+            },
+            "required_ops_level": 31,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 31
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 20961000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 616500
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 210
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 32,
+            "increased_power": 1000,
+            "build_time": 1091520,
+            "bonuses": {
+                "1": 59.0,
+                "2": 3.0,
+                "3": 3.0
+            },
+            "required_ops_level": 32,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 32
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 30277000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 890500
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 240
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 33,
+            "increased_power": 1250,
+            "build_time": 1585440,
+            "bonuses": {
+                "1": 59.0,
+                "2": 3.0,
+                "3": 3.0
+            },
+            "required_ops_level": 33,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 33
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 46835000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 1377500
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 270
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 34,
+            "increased_power": 1250,
+            "build_time": 2099520,
+            "bonuses": {
+                "1": 66.0,
+                "2": 3.0,
+                "3": 3.0
+            },
+            "required_ops_level": 34,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 34
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 73950000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 2175000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 300
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 35,
+            "increased_power": 1250,
+            "build_time": 2767680,
+            "bonuses": {
+                "1": 66.0,
+                "2": 3.0,
+                "3": 4.0
+            },
+            "required_ops_level": 35,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 35
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 114444000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 3366000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 840
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Multi-Purpose Exocomp",
+                        "value": 1
+                    }
+                ]
+            }
+        },
+        {
+            "level": 36,
+            "increased_power": 1250,
+            "build_time": 3536640,
+            "bonuses": {
+                "1": 74.0,
+                "2": 3.0,
+                "3": 4.0
+            },
+            "required_ops_level": 36,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 36
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 161262000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 4743000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 350
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 37,
+            "increased_power": 1500,
+            "build_time": 3654720,
+            "bonuses": {
+                "1": 74.0,
+                "2": 3.0,
+                "3": 4.0
+            },
+            "required_ops_level": 37,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 37
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 247860000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 7290000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 380
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 38,
+            "increased_power": 1750,
+            "build_time": 5927040,
+            "bonuses": {
+                "1": 82.0,
+                "2": 3.0,
+                "3": 4.0
+            },
+            "required_ops_level": 38,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 38
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 385560000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 11340000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 430
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 39,
+            "increased_power": 1750,
+            "build_time": 7866720,
+            "bonuses": {
+                "1": 82.0,
+                "2": 3.0,
+                "3": 4.0
+            },
+            "required_ops_level": 39,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 39
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 657900000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 19350000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 460
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 40,
+            "increased_power": 1500,
+            "build_time": 13962240,
+            "bonuses": {
+                "1": 91.0,
+                "2": 4.0,
+                "3": 4.0
+            },
+            "required_ops_level": 40,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 40
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2865520000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 30100000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 1400
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 41,
+            "increased_power": 2000,
+            "build_time": 13085280,
+            "bonuses": {
+                "1": 91.0,
+                "2": 4.0,
+                "3": 4.0
+            },
+            "required_ops_level": 41,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 41
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2924000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 32536750
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 820
+                    },
+                    {
+                        "type": "Advanced Exocomp Factory Key",
+                        "value": 1
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 42,
+            "increased_power": 2000,
+            "build_time": 20113920,
+            "bonuses": {
+                "1": 101.0,
+                "2": 4.0,
+                "3": 4.0
+            },
+            "required_ops_level": 42,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 42
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 4355400000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 48464600
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 930
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 43,
+            "increased_power": 2000,
+            "build_time": 26575200,
+            "bonuses": {
+                "1": 101.0,
+                "2": 4.0,
+                "3": 4.0
+            },
+            "required_ops_level": 43,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 43
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 6222000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 69235150
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 1000
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 44,
+            "increased_power": 2500,
+            "build_time": 34686720,
+            "bonuses": {
+                "1": 113.0,
+                "2": 4.0,
+                "3": 4.0
+            },
+            "required_ops_level": 44,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 44
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 9333000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 103852700
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 1150
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 45,
+            "increased_power": 2500,
+            "build_time": 44779680,
+            "bonuses": {
+                "1": 113.0,
+                "2": 4.0,
+                "3": 4.0
+            },
+            "required_ops_level": 45,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 45
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 13260000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 147550300
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 1200
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 46,
+            "increased_power": 2500,
+            "build_time": 57241440,
+            "bonuses": {
+                "1": 126.0,
+                "2": 4.0,
+                "3": 4.0
+            },
+            "required_ops_level": 46,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 46
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 18232500000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 202881700
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 1350
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 47,
+            "increased_power": 2500,
+            "build_time": 72511200,
+            "bonuses": {
+                "1": 126.0,
+                "2": 4.0,
+                "3": 4.0
+            },
+            "required_ops_level": 47,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 47
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 26520000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 295100650
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 1450
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 48,
+            "increased_power": 3000,
+            "build_time": 91101600,
+            "bonuses": {
+                "1": 140.0,
+                "2": 4.0,
+                "3": 4.0
+            },
+            "required_ops_level": 48,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 48
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 42840000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 476701000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 1650
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 49,
+            "increased_power": 3000,
+            "build_time": 113587200,
+            "bonuses": {
+                "1": 140.0,
+                "2": 4.0,
+                "3": 4.0
+            },
+            "required_ops_level": 49,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 49
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 71400000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 794501700
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 1750
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 50,
+            "increased_power": 3000,
+            "build_time": 140627520,
+            "bonuses": {
+                "1": 156.0,
+                "2": 4.0,
+                "3": 4.0
+            },
+            "required_ops_level": 50,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 50
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 124950000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 1390378000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 2100
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 51,
+            "increased_power": 6500,
+            "build_time": 149065920,
+            "bonuses": {
+                "1": 156.0,
+                "2": 5.0,
+                "3": 4.0
+            },
+            "required_ops_level": 51,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 51
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 623220000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 3900000000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 2200
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 52,
+            "increased_power": 3500,
+            "build_time": 158009760,
+            "bonuses": {
+                "1": 174.0,
+                "2": 5.0,
+                "3": 4.0
+            },
+            "required_ops_level": 52,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 52
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1127100000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 6630000000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 3600
+                    },
+                    {
+                        "type": "Advanced Exocomp Factory Key II",
+                        "value": 1
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 53,
+            "increased_power": 4000,
+            "build_time": 167490720,
+            "bonuses": {
+                "1": 174.0,
+                "2": 5.0,
+                "3": 4.0
+            },
+            "required_ops_level": 53,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 53
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1893120000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 11600000000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 3800
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 54,
+            "increased_power": 4000,
+            "build_time": 177540480,
+            "bonuses": {
+                "1": 194.0,
+                "2": 5.0,
+                "3": 4.0
+            },
+            "required_ops_level": 54,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 54
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2839680000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 17400000000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 4250
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 55,
+            "increased_power": 4000,
+            "build_time": 188192160,
+            "bonuses": {
+                "1": 194.0,
+                "2": 5.0,
+                "3": 4.0
+            },
+            "required_ops_level": 55,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 55
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 4826640000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 27300000000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 4450
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 56,
+            "increased_power": 4000,
+            "build_time": 199483200,
+            "bonuses": {
+                "1": 216.0,
+                "2": 5.0,
+                "3": 4.0
+            },
+            "required_ops_level": 56,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 56
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 7584720000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 42900000000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 5000
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 57,
+            "increased_power": 4000,
+            "build_time": 211452480,
+            "bonuses": {
+                "1": 216.0,
+                "2": 5.0,
+                "3": 4.0
+            },
+            "required_ops_level": 57,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 57
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 11873888000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 67160000000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 5250
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 58,
+            "increased_power": 5000,
+            "build_time": 224140320,
+            "bonuses": {
+                "1": 241.0,
+                "2": 5.0,
+                "3": 4.0
+            },
+            "required_ops_level": 58,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 58
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 17155584000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 105120000000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 5850
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 59,
+            "increased_power": 5000,
+            "build_time": 237588480,
+            "bonuses": {
+                "1": 241.0,
+                "2": 5.0,
+                "3": 4.0
+            },
+            "required_ops_level": 59,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 59
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 25733376000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 157680000000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 6100
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 60,
+            "increased_power": 5000,
+            "build_time": 251843040,
+            "bonuses": {
+                "1": 282.0,
+                "2": 5.0,
+                "3": 4.0
+            },
+            "required_ops_level": 60,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 60
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 40188000000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 246250000000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Axionic Servo",
+                        "value": 7100
+                    }
+                ]
+            },
+            "rewards": null
+        }
+    ]
+}

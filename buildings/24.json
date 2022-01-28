@@ -1,0 +1,2632 @@
+{
+    "id": 24,
+    "name": "Academy",
+    "description": "Here is where your Officers stay when they are not assigned. Promote and Level your Officers via the Officer Screen.",
+    "group": 3,
+    "start_level": 1,
+    "bonuses": {
+        "1": {
+            "name": "Officer Stats Bonus",
+            "is_percentage": true,
+            "type": null
+        }
+    },
+    "levels": [
+        {
+            "level": 1,
+            "increased_power": 0,
+            "build_time": 0,
+            "bonuses": {
+                "1": 0.01
+            },
+            "required_ops_level": 0,
+            "requirements": [],
+            "build_costs": {
+                "resources": [],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 2,
+            "increased_power": 60,
+            "build_time": 180,
+            "bonuses": {
+                "1": 0.02
+            },
+            "required_ops_level": 3,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 3
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 200
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Recruit Token",
+                        "value": 10
+                    }
+                ]
+            }
+        },
+        {
+            "level": 3,
+            "increased_power": 35,
+            "build_time": 420,
+            "bonuses": {
+                "1": 0.03
+            },
+            "required_ops_level": 3,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 3
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 350
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Recruit Token",
+                        "value": 15
+                    }
+                ]
+            }
+        },
+        {
+            "level": 4,
+            "increased_power": 45,
+            "build_time": 600,
+            "bonuses": {
+                "1": 0.04
+            },
+            "required_ops_level": 4,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 4
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 800
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Recruit Token",
+                        "value": 20
+                    }
+                ]
+            }
+        },
+        {
+            "level": 5,
+            "increased_power": 40,
+            "build_time": 1020,
+            "bonuses": {
+                "1": 0.05
+            },
+            "required_ops_level": 5,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 5
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1200
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Recruit Token",
+                        "value": 25
+                    }
+                ]
+            }
+        },
+        {
+            "level": 6,
+            "increased_power": 60,
+            "build_time": 1800,
+            "bonuses": {
+                "1": 0.06
+            },
+            "required_ops_level": 6,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 6
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2500
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Recruit Token",
+                        "value": 30
+                    }
+                ]
+            }
+        },
+        {
+            "level": 7,
+            "increased_power": 70,
+            "build_time": 3360,
+            "bonuses": {
+                "1": 0.07
+            },
+            "required_ops_level": 7,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 7
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 5000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Recruit Token",
+                        "value": 35
+                    }
+                ]
+            }
+        },
+        {
+            "level": 8,
+            "increased_power": 90,
+            "build_time": 4680,
+            "bonuses": {
+                "1": 0.08
+            },
+            "required_ops_level": 8,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 8
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 7000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Recruit Token",
+                        "value": 40
+                    }
+                ]
+            }
+        },
+        {
+            "level": 9,
+            "increased_power": 100,
+            "build_time": 7200,
+            "bonuses": {
+                "1": 0.09
+            },
+            "required_ops_level": 9,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 9
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 10000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Premium Recruit Token",
+                        "value": 75
+                    }
+                ]
+            }
+        },
+        {
+            "level": 10,
+            "increased_power": 125,
+            "build_time": 7800,
+            "bonuses": {
+                "1": 0.1
+            },
+            "required_ops_level": 10,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 10
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 15000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Premium Recruit Token",
+                        "value": 75
+                    }
+                ]
+            }
+        },
+        {
+            "level": 11,
+            "increased_power": 175,
+            "build_time": 8100,
+            "bonuses": {
+                "1": 0.11
+            },
+            "required_ops_level": 11,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 11
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 20400
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Recruit Token",
+                        "value": 60
+                    }
+                ]
+            }
+        },
+        {
+            "level": 12,
+            "increased_power": 175,
+            "build_time": 14700,
+            "bonuses": {
+                "1": 0.12
+            },
+            "required_ops_level": 12,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 12
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 28050
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Recruit Token",
+                        "value": 60
+                    }
+                ]
+            }
+        },
+        {
+            "level": 13,
+            "increased_power": 225,
+            "build_time": 22320,
+            "bonuses": {
+                "1": 0.13
+            },
+            "required_ops_level": 13,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 13
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 40800
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Recruit Token",
+                        "value": 60
+                    }
+                ]
+            }
+        },
+        {
+            "level": 14,
+            "increased_power": 300,
+            "build_time": 30960,
+            "bonuses": {
+                "1": 0.14
+            },
+            "required_ops_level": 14,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 14
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 56100
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Recruit Token",
+                        "value": 60
+                    }
+                ]
+            }
+        },
+        {
+            "level": 15,
+            "increased_power": 300,
+            "build_time": 39600,
+            "bonuses": {
+                "1": 0.15
+            },
+            "required_ops_level": 15,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 15
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 76500
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Premium Recruit Token",
+                        "value": 200
+                    }
+                ]
+            }
+        },
+        {
+            "level": 16,
+            "increased_power": 300,
+            "build_time": 46080,
+            "bonuses": {
+                "1": 0.16
+            },
+            "required_ops_level": 16,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 16
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 102000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Ultra Recruit Token",
+                        "value": 200
+                    }
+                ]
+            }
+        },
+        {
+            "level": 17,
+            "increased_power": 400,
+            "build_time": 49680,
+            "bonuses": {
+                "1": 0.17
+            },
+            "required_ops_level": 17,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 17
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 142800
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "2\u2605 Common Ore",
+                        "grade": 2,
+                        "rarity": 1,
+                        "value": 25
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Premium Recruit Token",
+                        "value": 200
+                    }
+                ]
+            }
+        },
+        {
+            "level": 18,
+            "increased_power": 400,
+            "build_time": 76320,
+            "bonuses": {
+                "1": 0.18
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 18
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 204000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "2\u2605 Common Ore",
+                        "grade": 2,
+                        "rarity": 1,
+                        "value": 100
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Ultra Recruit Token",
+                        "value": 200
+                    }
+                ]
+            }
+        },
+        {
+            "level": 19,
+            "increased_power": 600,
+            "build_time": 110880,
+            "bonuses": {
+                "1": 0.19
+            },
+            "required_ops_level": 19,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 19
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 306000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "2\u2605 Common Ore",
+                        "grade": 2,
+                        "rarity": 1,
+                        "value": 200
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Premium Recruit Token",
+                        "value": 200
+                    }
+                ]
+            }
+        },
+        {
+            "level": 20,
+            "increased_power": 500,
+            "build_time": 167040,
+            "bonuses": {
+                "1": 0.2
+            },
+            "required_ops_level": 20,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 20
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 433500
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Ultra Recruit Token",
+                        "value": 400
+                    }
+                ]
+            }
+        },
+        {
+            "level": 21,
+            "increased_power": 700,
+            "build_time": 152640,
+            "bonuses": {
+                "1": 0.21
+            },
+            "required_ops_level": 21,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 21
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 729810
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Premium Recruit Token",
+                        "value": 200
+                    }
+                ]
+            }
+        },
+        {
+            "level": 22,
+            "increased_power": 550,
+            "build_time": 237600,
+            "bonuses": {
+                "1": 0.22
+            },
+            "required_ops_level": 22,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 22
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1135260
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Premium Recruit Token",
+                        "value": 200
+                    }
+                ]
+            }
+        },
+        {
+            "level": 23,
+            "increased_power": 1000,
+            "build_time": 279360,
+            "bonuses": {
+                "1": 0.23
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                },
+                {
+                    "name": "Scrapyard",
+                    "value": 1
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1868130
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Ultra Recruit Token",
+                        "value": 400
+                    }
+                ]
+            }
+        },
+        {
+            "level": 24,
+            "increased_power": 750,
+            "build_time": 342720,
+            "bonuses": {
+                "1": 0.24
+            },
+            "required_ops_level": 24,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 24
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2943720
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 150
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Premium Recruit Token",
+                        "value": 200
+                    }
+                ]
+            }
+        },
+        {
+            "level": 25,
+            "increased_power": 1000,
+            "build_time": 316800,
+            "bonuses": {
+                "1": 0.25
+            },
+            "required_ops_level": 25,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 25
+                },
+                {
+                    "name": "Scrapyard",
+                    "value": 2
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 4773600
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 190
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 2
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Ultra Recruit Token",
+                        "value": 400
+                    }
+                ]
+            }
+        },
+        {
+            "level": 26,
+            "increased_power": 1000,
+            "build_time": 430560,
+            "bonuses": {
+                "1": 0.26
+            },
+            "required_ops_level": 26,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 26
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 7458750
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 230
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 5
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Premium Recruit Token",
+                        "value": 200
+                    }
+                ]
+            }
+        },
+        {
+            "level": 27,
+            "increased_power": 1250,
+            "build_time": 491040,
+            "bonuses": {
+                "1": 0.27
+            },
+            "required_ops_level": 27,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 27
+                },
+                {
+                    "name": "Scrapyard",
+                    "value": 3
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 11383200
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 10
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Ultra Recruit Token",
+                        "value": 400
+                    }
+                ]
+            }
+        },
+        {
+            "level": 28,
+            "increased_power": 1250,
+            "build_time": 570240,
+            "bonuses": {
+                "1": 0.28
+            },
+            "required_ops_level": 28,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 28
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 17074800
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 360
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 17
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Premium Recruit Token",
+                        "value": 200
+                    }
+                ]
+            }
+        },
+        {
+            "level": 29,
+            "increased_power": 1250,
+            "build_time": 627840,
+            "bonuses": {
+                "1": 0.29
+            },
+            "required_ops_level": 29,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 29
+                },
+                {
+                    "name": "Scrapyard",
+                    "value": 4
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 27183000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 450
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 26
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Ultra Recruit Token",
+                        "value": 400
+                    }
+                ]
+            }
+        },
+        {
+            "level": 30,
+            "increased_power": 1500,
+            "build_time": 681120,
+            "bonuses": {
+                "1": 0.3
+            },
+            "required_ops_level": 30,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 30
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 39780000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 37
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Premium Recruit Token",
+                        "value": 200
+                    }
+                ]
+            }
+        },
+        {
+            "level": 31,
+            "increased_power": 1500,
+            "build_time": 894240,
+            "bonuses": {
+                "1": 0.31
+            },
+            "required_ops_level": 31,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 31
+                },
+                {
+                    "name": "Scrapyard",
+                    "value": 5
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 62883000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 700
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 50
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Ultra Recruit Token",
+                        "value": 400
+                    }
+                ]
+            }
+        },
+        {
+            "level": 32,
+            "increased_power": 1750,
+            "build_time": 872640,
+            "bonuses": {
+                "1": 0.32
+            },
+            "required_ops_level": 32,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 32
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 90831000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 800
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 65
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Premium Recruit Token",
+                        "value": 200
+                    }
+                ]
+            }
+        },
+        {
+            "level": 33,
+            "increased_power": 1750,
+            "build_time": 1268640,
+            "bonuses": {
+                "1": 0.33
+            },
+            "required_ops_level": 33,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 33
+                },
+                {
+                    "name": "Scrapyard",
+                    "value": 6
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 140505000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1000
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 80
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Ultra Recruit Token",
+                        "value": 400
+                    }
+                ]
+            }
+        },
+        {
+            "level": 34,
+            "increased_power": 2250,
+            "build_time": 1680480,
+            "bonuses": {
+                "1": 0.34
+            },
+            "required_ops_level": 34,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 34
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 221850000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 100
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Premium Recruit Token",
+                        "value": 200
+                    }
+                ]
+            }
+        },
+        {
+            "level": 35,
+            "increased_power": 2000,
+            "build_time": 2213280,
+            "bonuses": {
+                "1": 0.35
+            },
+            "required_ops_level": 35,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 35
+                },
+                {
+                    "name": "Scrapyard",
+                    "value": 7
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 343332000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1300
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 120
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Ultra Recruit Token",
+                        "value": 400
+                    }
+                ]
+            }
+        },
+        {
+            "level": 36,
+            "increased_power": 2000,
+            "build_time": 2829600,
+            "bonuses": {
+                "1": 0.36
+            },
+            "required_ops_level": 36,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 36
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 483786000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1600
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 150
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Premium Recruit Token",
+                        "value": 200
+                    }
+                ]
+            }
+        },
+        {
+            "level": 37,
+            "increased_power": 2500,
+            "build_time": 2923200,
+            "bonuses": {
+                "1": 0.37
+            },
+            "required_ops_level": 37,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 37
+                },
+                {
+                    "name": "Scrapyard",
+                    "value": 8
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 743580000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1800
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 170
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Ultra Recruit Token",
+                        "value": 400
+                    }
+                ]
+            }
+        },
+        {
+            "level": 38,
+            "increased_power": 2500,
+            "build_time": 4741920,
+            "bonuses": {
+                "1": 0.38
+            },
+            "required_ops_level": 38,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 38
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1156680000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 2100
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 200
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Premium Recruit Token",
+                        "value": 200
+                    }
+                ]
+            }
+        },
+        {
+            "level": 39,
+            "increased_power": 2500,
+            "build_time": 6294240,
+            "bonuses": {
+                "1": 0.39
+            },
+            "required_ops_level": 39,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 39
+                },
+                {
+                    "name": "Scrapyard",
+                    "value": 9
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1973700000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Ore",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 2500
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Ore",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 230
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Ultra Recruit Token",
+                        "value": 400
+                    }
+                ]
+            }
+        },
+        {
+            "level": 40,
+            "increased_power": 3000,
+            "build_time": 11170080,
+            "bonuses": {
+                "1": 0.4
+            },
+            "required_ops_level": 40,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 40
+                },
+                {
+                    "name": "Scrapyard",
+                    "value": 10
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 8596560000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Ore",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 15000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Premium Recruit Token",
+                        "value": 300
+                    }
+                ]
+            }
+        },
+        {
+            "level": 41,
+            "increased_power": 3000,
+            "build_time": 10468800,
+            "bonuses": {
+                "1": 0.43
+            },
+            "required_ops_level": 41,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 41
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 8772000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Ore",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 22000
+                    },
+                    {
+                        "type": "4\u2605 Uncommon Ore",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 2000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Ultra Recruit Token",
+                        "value": 500
+                    }
+                ]
+            }
+        },
+        {
+            "level": 42,
+            "increased_power": 3500,
+            "build_time": 16090560,
+            "bonuses": {
+                "1": 0.46
+            },
+            "required_ops_level": 42,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 42
+                },
+                {
+                    "name": "Scrapyard",
+                    "value": 15
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 13066200000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Ore",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 6000
+                    },
+                    {
+                        "type": "4\u2605 Rare Ore",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 1500
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Premium Recruit Token",
+                        "value": 300
+                    }
+                ]
+            }
+        },
+        {
+            "level": 43,
+            "increased_power": 3500,
+            "build_time": 21260160,
+            "bonuses": {
+                "1": 0.49
+            },
+            "required_ops_level": 43,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 43
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 18666000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Ore",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 78500
+                    },
+                    {
+                        "type": "4\u2605 Uncommon Ore",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 8000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Ultra Recruit Token",
+                        "value": 500
+                    }
+                ]
+            }
+        },
+        {
+            "level": 44,
+            "increased_power": 3500,
+            "build_time": 27748800,
+            "bonuses": {
+                "1": 0.52
+            },
+            "required_ops_level": 44,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 44
+                },
+                {
+                    "name": "Scrapyard",
+                    "value": 20
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 27999000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Ore",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 30000
+                    },
+                    {
+                        "type": "4\u2605 Rare Ore",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 3000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Premium Recruit Token",
+                        "value": 300
+                    }
+                ]
+            }
+        },
+        {
+            "level": 45,
+            "increased_power": 3500,
+            "build_time": 35824320,
+            "bonuses": {
+                "1": 0.55
+            },
+            "required_ops_level": 45,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 45
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 39780000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Ore",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 5000
+                    },
+                    {
+                        "type": "4\u2605 Rare Ore",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 3200
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Ultra Recruit Token",
+                        "value": 500
+                    }
+                ]
+            }
+        },
+        {
+            "level": 46,
+            "increased_power": 4000,
+            "build_time": 45792000,
+            "bonuses": {
+                "1": 0.58
+            },
+            "required_ops_level": 46,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 46
+                },
+                {
+                    "name": "Scrapyard",
+                    "value": 25
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 54697500000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Ore",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 6000
+                    },
+                    {
+                        "type": "4\u2605 Rare Ore",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 3500
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Premium Recruit Token",
+                        "value": 300
+                    }
+                ]
+            }
+        },
+        {
+            "level": 47,
+            "increased_power": 4000,
+            "build_time": 58008960,
+            "bonuses": {
+                "1": 0.62
+            },
+            "required_ops_level": 47,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 47
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 79560000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Ore",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 25000
+                    },
+                    {
+                        "type": "4\u2605 Uncommon Ore",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 8000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Ultra Recruit Token",
+                        "value": 500
+                    }
+                ]
+            }
+        },
+        {
+            "level": 48,
+            "increased_power": 5000,
+            "build_time": 72881280,
+            "bonuses": {
+                "1": 0.66
+            },
+            "required_ops_level": 48,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 48
+                },
+                {
+                    "name": "Scrapyard",
+                    "value": 30
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 128520000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Ore",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 3000
+                    },
+                    {
+                        "type": "4\u2605 Rare Ore",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 1000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Premium Recruit Token",
+                        "value": 300
+                    }
+                ]
+            }
+        },
+        {
+            "level": 49,
+            "increased_power": 4000,
+            "build_time": 90869760,
+            "bonuses": {
+                "1": 0.7
+            },
+            "required_ops_level": 49,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 49
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 214200000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Ore",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 9000
+                    },
+                    {
+                        "type": "4\u2605 Rare Ore",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 2000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Ultra Recruit Token",
+                        "value": 500
+                    }
+                ]
+            }
+        },
+        {
+            "level": 50,
+            "increased_power": 5000,
+            "build_time": 112502880,
+            "bonuses": {
+                "1": 0.75
+            },
+            "required_ops_level": 50,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 50
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 374850000000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Premium Recruit Token",
+                        "value": 300
+                    }
+                ]
+            }
+        },
+        {
+            "level": 51,
+            "increased_power": 5000,
+            "build_time": 119252160,
+            "bonuses": {
+                "1": 0.8
+            },
+            "required_ops_level": 51,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 51
+                },
+                {
+                    "name": "Shuttle Bay",
+                    "value": 10
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1869660000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Ore",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 15500
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Ultra Recruit Token",
+                        "value": 600
+                    }
+                ]
+            }
+        },
+        {
+            "level": 52,
+            "increased_power": 6000,
+            "build_time": 126407520,
+            "bonuses": {
+                "1": 0.85
+            },
+            "required_ops_level": 52,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 52
+                },
+                {
+                    "name": "Shuttle Bay",
+                    "value": 20
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 3381300000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Ore",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 28200
+                    },
+                    {
+                        "type": "5\u2605 Uncommon Ore",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 10000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Premium Recruit Token",
+                        "value": 450
+                    }
+                ]
+            }
+        },
+        {
+            "level": 53,
+            "increased_power": 5000,
+            "build_time": 133992000,
+            "bonuses": {
+                "1": 0.9
+            },
+            "required_ops_level": 53,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 53
+                },
+                {
+                    "name": "Shuttle Bay",
+                    "value": 30
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 5679360000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Ore",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 23200
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Ultra Recruit Token",
+                        "value": 600
+                    }
+                ]
+            }
+        },
+        {
+            "level": 54,
+            "increased_power": 6000,
+            "build_time": 142031520,
+            "bonuses": {
+                "1": 0.95
+            },
+            "required_ops_level": 54,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 54
+                },
+                {
+                    "name": "Shuttle Bay",
+                    "value": 40
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 8519040000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Ore",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 36000
+                    },
+                    {
+                        "type": "5\u2605 Rare Ore",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 6500
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Premium Recruit Token",
+                        "value": 450
+                    }
+                ]
+            }
+        },
+        {
+            "level": 55,
+            "increased_power": 6000,
+            "build_time": 150553440,
+            "bonuses": {
+                "1": 1.0
+            },
+            "required_ops_level": 55,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 55
+                },
+                {
+                    "name": "Shuttle Bay",
+                    "value": 50
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 14479920000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Ore",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 57600
+                    },
+                    {
+                        "type": "5\u2605 Rare Ore",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 7300
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Ultra Recruit Token",
+                        "value": 600
+                    }
+                ]
+            }
+        },
+        {
+            "level": 56,
+            "increased_power": 6000,
+            "build_time": 159586560,
+            "bonuses": {
+                "1": 1.05
+            },
+            "required_ops_level": 56,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 56
+                },
+                {
+                    "name": "Shuttle Bay",
+                    "value": 56
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 22754160000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Ore",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 48200
+                    },
+                    {
+                        "type": "5\u2605 Rare Ore",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 10100
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Premium Recruit Token",
+                        "value": 450
+                    }
+                ]
+            }
+        },
+        {
+            "level": 57,
+            "increased_power": 7000,
+            "build_time": 169162560,
+            "bonuses": {
+                "1": 1.1
+            },
+            "required_ops_level": 57,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 57
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 35621664000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Ore",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 48100
+                    },
+                    {
+                        "type": "5\u2605 Rare Ore",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 11900
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Ultra Recruit Token",
+                        "value": 600
+                    }
+                ]
+            }
+        },
+        {
+            "level": 58,
+            "increased_power": 7000,
+            "build_time": 179311680,
+            "bonuses": {
+                "1": 1.15
+            },
+            "required_ops_level": 58,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 58
+                },
+                {
+                    "name": "Shuttle Bay",
+                    "value": 58
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 51466752000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Ore",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 55500
+                    },
+                    {
+                        "type": "5\u2605 Rare Ore",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 10300
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Premium Recruit Token",
+                        "value": 450
+                    }
+                ]
+            }
+        },
+        {
+            "level": 59,
+            "increased_power": 7000,
+            "build_time": 190071360,
+            "bonuses": {
+                "1": 1.2
+            },
+            "required_ops_level": 59,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 59
+                },
+                {
+                    "name": "Shuttle Bay",
+                    "value": 59
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 77200128000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Ore",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 141600
+                    },
+                    {
+                        "type": "5\u2605 Rare Ore",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 21800
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Ultra Recruit Token",
+                        "value": 600
+                    }
+                ]
+            }
+        },
+        {
+            "level": 60,
+            "increased_power": 8000,
+            "build_time": 201474720,
+            "bonuses": {
+                "1": 1.25
+            },
+            "required_ops_level": 60,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 60
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 120564000000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Ore",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 91300
+                    },
+                    {
+                        "type": "5\u2605 Rare Ore",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 21400
+                    }
+                ],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Premium Recruit Token",
+                        "value": 450
+                    }
+                ]
+            }
+        }
+    ]
+}

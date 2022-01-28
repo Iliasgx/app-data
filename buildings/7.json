@@ -1,0 +1,2121 @@
+{
+    "id": 7,
+    "name": "Tritanium Generator C",
+    "description": "Produces Tritanium, an alloy many times harder than diamond, used to costruct mighty ships. Upgrading Tritanium Generators increases the amount of Tritanium that is produced.",
+    "group": 7,
+    "start_level": 0,
+    "bonuses": {
+        "1": {
+            "name": "Tritanium Production",
+            "is_percentage": false,
+            "type": null
+        },
+        "2": {
+            "name": "Tritanium Storage",
+            "is_percentage": false,
+            "type": null
+        }
+    },
+    "levels": [
+        {
+            "level": 1,
+            "increased_power": 10,
+            "build_time": 30,
+            "bonuses": {
+                "1": 15.0,
+                "2": 8.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 18
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 1
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 300
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 400
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 2,
+            "increased_power": 10,
+            "build_time": 60,
+            "bonuses": {
+                "1": 30.0,
+                "2": 30.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 2
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 2
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 400
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 360
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 3,
+            "increased_power": 12,
+            "build_time": 120,
+            "bonuses": {
+                "1": 45.0,
+                "2": 68.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 3
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 3
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 600
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 320
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 4,
+            "increased_power": 13,
+            "build_time": 150,
+            "bonuses": {
+                "1": 60.0,
+                "2": 150.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 4
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 4
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 280
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 5,
+            "increased_power": 15,
+            "build_time": 270,
+            "bonuses": {
+                "1": 75.0,
+                "2": 225.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 5
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 5
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1600
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 240
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 6,
+            "increased_power": 20,
+            "build_time": 450,
+            "bonuses": {
+                "1": 91.0,
+                "2": 320.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 6
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 6
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2500
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 200
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 7,
+            "increased_power": 20,
+            "build_time": 840,
+            "bonuses": {
+                "1": 105.0,
+                "2": 420.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 7
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 7
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 3500
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 160
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 8,
+            "increased_power": 30,
+            "build_time": 1200,
+            "bonuses": {
+                "1": 120.0,
+                "2": 600.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 8
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 8
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 4250
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 120
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 9,
+            "increased_power": 40,
+            "build_time": 1800,
+            "bonuses": {
+                "1": 135.0,
+                "2": 740.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 9
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 9
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 5000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 80
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 10,
+            "increased_power": 40,
+            "build_time": 1920,
+            "bonuses": {
+                "1": 180.0,
+                "2": 1080.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 10
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 10
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 6000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 40
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 11,
+            "increased_power": 50,
+            "build_time": 2040,
+            "bonuses": {
+                "1": 200.0,
+                "2": 1400.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 11
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 11
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 6800
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 8
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 12,
+            "increased_power": 70,
+            "build_time": 3720,
+            "bonuses": {
+                "1": 220.0,
+                "2": 1650.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 12
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 12
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 9350
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 22
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 13,
+            "increased_power": 70,
+            "build_time": 5400,
+            "bonuses": {
+                "1": 235.0,
+                "2": 2000.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 13
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 13
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 13600
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 48
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 14,
+            "increased_power": 90,
+            "build_time": 7800,
+            "bonuses": {
+                "1": 255.0,
+                "2": 2300.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 14
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 14
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 18700
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 88
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 15,
+            "increased_power": 85,
+            "build_time": 9900,
+            "bonuses": {
+                "1": 275.0,
+                "2": 2750.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 15
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 15
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 25500
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 150
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 16,
+            "increased_power": 125,
+            "build_time": 11700,
+            "bonuses": {
+                "1": 290.0,
+                "2": 3200.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 16
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 16
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 34000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 200
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 17,
+            "increased_power": 125,
+            "build_time": 12600,
+            "bonuses": {
+                "1": 310.0,
+                "2": 3575.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 17
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 17
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 47600
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 280
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 18,
+            "increased_power": 150,
+            "build_time": 19200,
+            "bonuses": {
+                "1": 330.0,
+                "2": 4125.0
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 18
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 18
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 68000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 400
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 19,
+            "increased_power": 175,
+            "build_time": 28080,
+            "bonuses": {
+                "1": 345.0,
+                "2": 4475.0
+            },
+            "required_ops_level": 19,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 19
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 19
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 102000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 600
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 20,
+            "increased_power": 200,
+            "build_time": 41760,
+            "bonuses": {
+                "1": 425.0,
+                "2": 6000.0
+            },
+            "required_ops_level": 20,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 20
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 20
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 144500
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 850
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 21,
+            "increased_power": 250,
+            "build_time": 38160,
+            "bonuses": {
+                "1": 450.0,
+                "2": 6300.0
+            },
+            "required_ops_level": 21,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 21
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 21
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 243270
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 1431
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 22,
+            "increased_power": 200,
+            "build_time": 59040,
+            "bonuses": {
+                "1": 470.0,
+                "2": 6600.0
+            },
+            "required_ops_level": 22,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 22
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 22
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 378420
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 2226
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 23,
+            "increased_power": 300,
+            "build_time": 69840,
+            "bonuses": {
+                "1": 490.0,
+                "2": 6900.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 622710
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 3663
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 24,
+            "increased_power": 200,
+            "build_time": 85680,
+            "bonuses": {
+                "1": 510.0,
+                "2": 7100.0
+            },
+            "required_ops_level": 24,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 24
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 24
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 981240
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 5772
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 25,
+            "increased_power": 400,
+            "build_time": 79200,
+            "bonuses": {
+                "1": 610.0,
+                "2": 8500.0
+            },
+            "required_ops_level": 25,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 25
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 25
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1591200
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 9360
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 26,
+            "increased_power": 300,
+            "build_time": 108000,
+            "bonuses": {
+                "1": 640.0,
+                "2": 9000.0
+            },
+            "required_ops_level": 26,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 26
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 26
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2486250
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 14625
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 27,
+            "increased_power": 400,
+            "build_time": 122400,
+            "bonuses": {
+                "1": 660.0,
+                "2": 9200.0
+            },
+            "required_ops_level": 27,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 27
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 27
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 3794400
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 22320
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 28,
+            "increased_power": 400,
+            "build_time": 142560,
+            "bonuses": {
+                "1": 680.0,
+                "2": 9500.0
+            },
+            "required_ops_level": 28,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 28
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 28
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 5691600
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 33480
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 29,
+            "increased_power": 500,
+            "build_time": 156960,
+            "bonuses": {
+                "1": 710.0,
+                "2": 9900.0
+            },
+            "required_ops_level": 29,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 29
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 29
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 9061000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 53300
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 30,
+            "increased_power": 400,
+            "build_time": 169920,
+            "bonuses": {
+                "1": 820.0,
+                "2": 11500.0
+            },
+            "required_ops_level": 30,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 30
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 30
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 13260000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 78000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 31,
+            "increased_power": 550,
+            "build_time": 223200,
+            "bonuses": {
+                "1": 850.0,
+                "2": 11900.0
+            },
+            "required_ops_level": 31,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 31
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 31
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 20961000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 123300
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 32,
+            "increased_power": 500,
+            "build_time": 218880,
+            "bonuses": {
+                "1": 880.0,
+                "2": 13284.0
+            },
+            "required_ops_level": 32,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 32
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 32
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 30277000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 178100
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 33,
+            "increased_power": 750,
+            "build_time": 316800,
+            "bonuses": {
+                "1": 910.0,
+                "2": 14732.0
+            },
+            "required_ops_level": 33,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 33
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 33
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 46835000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 275500
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 34,
+            "increased_power": 500,
+            "build_time": 420480,
+            "bonuses": {
+                "1": 940.0,
+                "2": 15312.0
+            },
+            "required_ops_level": 34,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 34
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 34
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 73950000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 435000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 35,
+            "increased_power": 750,
+            "build_time": 552960,
+            "bonuses": {
+                "1": 1070.0,
+                "2": 18600.0
+            },
+            "required_ops_level": 35,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 35
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 35
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 114444000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 673200
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 36,
+            "increased_power": 750,
+            "build_time": 707040,
+            "bonuses": {
+                "1": 1100.0,
+                "2": 20482.0
+            },
+            "required_ops_level": 36,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 36
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 36
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 161262000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 948600
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 37,
+            "increased_power": 750,
+            "build_time": 731520,
+            "bonuses": {
+                "1": 1130.0,
+                "2": 21014.0
+            },
+            "required_ops_level": 37,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 37
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 37
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 247860000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 1458000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 38,
+            "increased_power": 1000,
+            "build_time": 1185120,
+            "bonuses": {
+                "1": 1160.0,
+                "2": 23004.0
+            },
+            "required_ops_level": 38,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 38
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 38
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 385560000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 2268000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 39,
+            "increased_power": 750,
+            "build_time": 1573920,
+            "bonuses": {
+                "1": 1190.0,
+                "2": 25551.0
+            },
+            "required_ops_level": 39,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 39
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 39
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 657900000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 3870000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 40,
+            "increased_power": 1000,
+            "build_time": 2792160,
+            "bonuses": {
+                "1": 1350.0,
+                "2": 28917.0
+            },
+            "required_ops_level": 40,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 40
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 40
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2865520000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 6020000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 41,
+            "increased_power": 1000,
+            "build_time": 2616480,
+            "bonuses": {
+                "1": 1380.0,
+                "2": 31845.0
+            },
+            "required_ops_level": 41,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 41
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 41
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2924000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 8600000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 42,
+            "increased_power": 1000,
+            "build_time": 4023360,
+            "bonuses": {
+                "1": 1425.0,
+                "2": 36200.0
+            },
+            "required_ops_level": 42,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 42
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 42
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 4355400000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 12810000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 43,
+            "increased_power": 1250,
+            "build_time": 5315040,
+            "bonuses": {
+                "1": 1450.0,
+                "2": 36653.0
+            },
+            "required_ops_level": 43,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 43
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 43
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 6222000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 18300000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 44,
+            "increased_power": 1250,
+            "build_time": 6937920,
+            "bonuses": {
+                "1": 1475.0,
+                "2": 41500.0
+            },
+            "required_ops_level": 44,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 44
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 44
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 9333000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 27450000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 45,
+            "increased_power": 1250,
+            "build_time": 8955360,
+            "bonuses": {
+                "1": 1725.0,
+                "2": 54563.0
+            },
+            "required_ops_level": 45,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 45
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 45
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 13260000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 39000000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 46,
+            "increased_power": 1250,
+            "build_time": 11448000,
+            "bonuses": {
+                "1": 1750.0,
+                "2": 55125.0
+            },
+            "required_ops_level": 46,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 46
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 46
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 18232500000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 53625000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 47,
+            "increased_power": 1500,
+            "build_time": 14502240,
+            "bonuses": {
+                "1": 1800.0,
+                "2": 56813.0
+            },
+            "required_ops_level": 47,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 47
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 47
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 26520000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 78000000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 48,
+            "increased_power": 1500,
+            "build_time": 18220320,
+            "bonuses": {
+                "1": 1850.0,
+                "2": 58500.0
+            },
+            "required_ops_level": 48,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 48
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 48
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 42840000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 126000000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 49,
+            "increased_power": 1500,
+            "build_time": 22717440,
+            "bonuses": {
+                "1": 1875.0,
+                "2": 59063.0
+            },
+            "required_ops_level": 49,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 49
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 49
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 71400000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 210000000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 50,
+            "increased_power": 1500,
+            "build_time": 28126080,
+            "bonuses": {
+                "1": 2300.0,
+                "2": 72563.0
+            },
+            "required_ops_level": 50,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 50
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 50
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 124950000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 367500000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 51,
+            "increased_power": 2000,
+            "build_time": 29813760,
+            "bonuses": {
+                "1": 2350.0,
+                "2": 74250.0
+            },
+            "required_ops_level": 51,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 51
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 51
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 623220000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 780000000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 52,
+            "increased_power": 1500,
+            "build_time": 31602240,
+            "bonuses": {
+                "1": 2400.0,
+                "2": 75375.0
+            },
+            "required_ops_level": 52,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 52
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 52
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1127100000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 1326000000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 53,
+            "increased_power": 2000,
+            "build_time": 33498720,
+            "bonuses": {
+                "1": 2425.0,
+                "2": 76500.0
+            },
+            "required_ops_level": 53,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 53
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 53
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1893120000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 2320000000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 54,
+            "increased_power": 2000,
+            "build_time": 35507520,
+            "bonuses": {
+                "1": 2475.0,
+                "2": 78188.0
+            },
+            "required_ops_level": 54,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 54
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 54
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2839680000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 3480000000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 55,
+            "increased_power": 2000,
+            "build_time": 37638720,
+            "bonuses": {
+                "1": 2950.0,
+                "2": 92813.0
+            },
+            "required_ops_level": 55,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 55
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 55
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 4826640000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 5460000000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 56,
+            "increased_power": 2000,
+            "build_time": 39896640,
+            "bonuses": {
+                "1": 3000.0,
+                "2": 94500.0
+            },
+            "required_ops_level": 56,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 56
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 56
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 7584720000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 8580000000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 57,
+            "increased_power": 2000,
+            "build_time": 42289920,
+            "bonuses": {
+                "1": 3050.0,
+                "2": 96188.0
+            },
+            "required_ops_level": 57,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 57
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 57
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 11873888000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 13432000000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 58,
+            "increased_power": 2500,
+            "build_time": 44828640,
+            "bonuses": {
+                "1": 3100.0,
+                "2": 97875.0
+            },
+            "required_ops_level": 58,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 58
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 58
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 17155584000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 21024000000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 59,
+            "increased_power": 2500,
+            "build_time": 47517120,
+            "bonuses": {
+                "1": 3175.0,
+                "2": 100125.0
+            },
+            "required_ops_level": 59,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 59
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 59
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 25733376000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 31536000000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 60,
+            "increased_power": 2500,
+            "build_time": 50368320,
+            "bonuses": {
+                "1": 3675.0,
+                "2": 115875.0
+            },
+            "required_ops_level": 60,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 60
+                },
+                {
+                    "name": "Tritanium Generator A",
+                    "value": 60
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 40188000000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 49250000000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        }
+    ]
+}

@@ -1,0 +1,2771 @@
+{
+    "id": 15,
+    "name": "Shipyard",
+    "description": "The Shipyard is instrumental in ship construction. Upgrade this building to get access to more ships and increase the speed of ship construction.",
+    "group": 2,
+    "start_level": 0,
+    "bonuses": {
+        "1": {
+            "name": "Ship Construction Speed",
+            "is_percentage": true,
+            "type": null
+        },
+        "2": {
+            "name": "Tier Up Speed",
+            "is_percentage": true,
+            "type": null
+        }
+    },
+    "levels": [
+        {
+            "level": 1,
+            "increased_power": 20,
+            "build_time": 180,
+            "bonuses": {
+                "1": 0.0,
+                "2": 0.0
+            },
+            "required_ops_level": 5,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 5
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 4
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 500
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 2,
+            "increased_power": 20,
+            "build_time": 300,
+            "bonuses": {
+                "1": 0.03,
+                "2": 0.03
+            },
+            "required_ops_level": 5,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 5
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 4
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 750
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 3,
+            "increased_power": 25,
+            "build_time": 480,
+            "bonuses": {
+                "1": 0.04,
+                "2": 0.04
+            },
+            "required_ops_level": 5,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 5
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 4
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 4,
+            "increased_power": 25,
+            "build_time": 960,
+            "bonuses": {
+                "1": 0.05,
+                "2": 0.05
+            },
+            "required_ops_level": 6,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 6
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 4
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1250
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 5,
+            "increased_power": 30,
+            "build_time": 1560,
+            "bonuses": {
+                "1": 0.06,
+                "2": 0.06
+            },
+            "required_ops_level": 6,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 6
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 5
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1750
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 6,
+            "increased_power": 40,
+            "build_time": 2640,
+            "bonuses": {
+                "1": 0.08,
+                "2": 0.08
+            },
+            "required_ops_level": 6,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 6
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 6
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 3000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 7,
+            "increased_power": 50,
+            "build_time": 4920,
+            "bonuses": {
+                "1": 0.09,
+                "2": 0.09
+            },
+            "required_ops_level": 7,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 7
+                },
+                {
+                    "name": "Drydock A",
+                    "value": 4
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 7
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 4500
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 50
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 8,
+            "increased_power": 60,
+            "build_time": 6900,
+            "bonuses": {
+                "1": 0.11,
+                "2": 0.11
+            },
+            "required_ops_level": 8,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 8
+                },
+                {
+                    "name": "Drydock A",
+                    "value": 6
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 8
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 6000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 100
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 9,
+            "increased_power": 70,
+            "build_time": 10500,
+            "bonuses": {
+                "1": 0.12,
+                "2": 0.12
+            },
+            "required_ops_level": 9,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 9
+                },
+                {
+                    "name": "Parsteel Warehouse",
+                    "value": 9
+                },
+                {
+                    "name": "Drydock A",
+                    "value": 9
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 7500
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 200
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 10,
+            "increased_power": 80,
+            "build_time": 12000,
+            "bonuses": {
+                "1": 0.14,
+                "2": 0.14
+            },
+            "required_ops_level": 10,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 10
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 10
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 10000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 150
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 11,
+            "increased_power": 105,
+            "build_time": 12300,
+            "bonuses": {
+                "1": 0.16,
+                "2": 0.16
+            },
+            "required_ops_level": 11,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 11
+                },
+                {
+                    "name": "Tritanium Generator B",
+                    "value": 10
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 11
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 12240
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 200
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 12,
+            "increased_power": 125,
+            "build_time": 22320,
+            "bonuses": {
+                "1": 0.18,
+                "2": 0.18
+            },
+            "required_ops_level": 12,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 12
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 12
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 16830
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 275
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 13,
+            "increased_power": 150,
+            "build_time": 33120,
+            "bonuses": {
+                "1": 0.2,
+                "2": 0.2
+            },
+            "required_ops_level": 13,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 13
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 13
+                },
+                {
+                    "name": "Astronautics Studio",
+                    "value": 13
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 24480
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 400
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 14,
+            "increased_power": 175,
+            "build_time": 46080,
+            "bonuses": {
+                "1": 0.22,
+                "2": 0.22
+            },
+            "required_ops_level": 14,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 14
+                },
+                {
+                    "name": "Tritanium Generator B",
+                    "value": 14
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 14
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 33660
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 550
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 15,
+            "increased_power": 200,
+            "build_time": 59040,
+            "bonuses": {
+                "1": 0.24,
+                "2": 0.24
+            },
+            "required_ops_level": 15,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 15
+                },
+                {
+                    "name": "Dilithium Warehouse",
+                    "value": 12
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 15
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 45900
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 750
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "2\u2605 Common Crystal",
+                        "grade": 2,
+                        "rarity": 1,
+                        "value": 50
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 16,
+            "increased_power": 225,
+            "build_time": 69840,
+            "bonuses": {
+                "1": 0.26,
+                "2": 0.26
+            },
+            "required_ops_level": 16,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 16
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 16
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 61200
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 1000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "2\u2605 Common Crystal",
+                        "grade": 2,
+                        "rarity": 1,
+                        "value": 100
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 17,
+            "increased_power": 300,
+            "build_time": 74880,
+            "bonuses": {
+                "1": 0.29,
+                "2": 0.29
+            },
+            "required_ops_level": 17,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 17
+                },
+                {
+                    "name": "Tritanium Warehouse",
+                    "value": 17
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 17
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 85680
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 1400
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "2\u2605 Common Crystal",
+                        "grade": 2,
+                        "rarity": 1,
+                        "value": 200
+                    },
+                    {
+                        "type": "2\u2605 Uncommon Crystal",
+                        "grade": 2,
+                        "rarity": 2,
+                        "value": 15
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 18,
+            "increased_power": 300,
+            "build_time": 114480,
+            "bonuses": {
+                "1": 0.31,
+                "2": 0.31
+            },
+            "required_ops_level": 18,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 18
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 18
+                },
+                {
+                    "name": "Defense Technologies",
+                    "value": 12
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 122400
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 2000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "2\u2605 Common Crystal",
+                        "grade": 2,
+                        "rarity": 1,
+                        "value": 1000
+                    },
+                    {
+                        "type": "2\u2605 Uncommon Crystal",
+                        "grade": 2,
+                        "rarity": 2,
+                        "value": 85
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 19,
+            "increased_power": 300,
+            "build_time": 166320,
+            "bonuses": {
+                "1": 0.34,
+                "2": 0.34
+            },
+            "required_ops_level": 19,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 19
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 19
+                },
+                {
+                    "name": "Dilithium Vault",
+                    "value": 10
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 183600
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 3000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "2\u2605 Common Crystal",
+                        "grade": 2,
+                        "rarity": 1,
+                        "value": 5000
+                    },
+                    {
+                        "type": "2\u2605 Uncommon Crystal",
+                        "grade": 2,
+                        "rarity": 2,
+                        "value": 300
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 20,
+            "increased_power": 400,
+            "build_time": 250560,
+            "bonuses": {
+                "1": 0.36,
+                "2": 0.36
+            },
+            "required_ops_level": 20,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 20
+                },
+                {
+                    "name": "Ship Hangar",
+                    "value": 15
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 20
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 260100
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 4250
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 21,
+            "increased_power": 400,
+            "build_time": 228960,
+            "bonuses": {
+                "1": 0.39,
+                "2": 0.39
+            },
+            "required_ops_level": 21,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 21
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 21
+                },
+                {
+                    "name": "Astronautics Studio",
+                    "value": 21
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 437886
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 7155
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 22,
+            "increased_power": 500,
+            "build_time": 355680,
+            "bonuses": {
+                "1": 0.42,
+                "2": 0.42
+            },
+            "required_ops_level": 22,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 22
+                },
+                {
+                    "name": "Dilithium Warehouse",
+                    "value": 21
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 22
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 681156
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 11130
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 23,
+            "increased_power": 500,
+            "build_time": 419040,
+            "bonuses": {
+                "1": 0.45,
+                "2": 0.45
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 23
+                },
+                {
+                    "name": "Refinery",
+                    "value": 22
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1120878
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 18315
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 200
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 24,
+            "increased_power": 600,
+            "build_time": 514080,
+            "bonuses": {
+                "1": 0.48,
+                "2": 0.48
+            },
+            "required_ops_level": 24,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 24
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 24
+                },
+                {
+                    "name": "Dilithium Vault",
+                    "value": 24
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1766232
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 28860
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 600
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 25,
+            "increased_power": 550,
+            "build_time": 476640,
+            "bonuses": {
+                "1": 0.51,
+                "2": 0.51
+            },
+            "required_ops_level": 25,
+            "requirements": [
+                {
+                    "name": "Drydock A",
+                    "value": 25
+                },
+                {
+                    "name": "Drydock B",
+                    "value": 25
+                },
+                {
+                    "name": "Drydock C",
+                    "value": 25
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2864160
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 46800
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 700
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 80
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 26,
+            "increased_power": 750,
+            "build_time": 646560,
+            "bonuses": {
+                "1": 0.55,
+                "2": 0.55
+            },
+            "required_ops_level": 26,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 26
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 26
+                },
+                {
+                    "name": "Astronautics Studio",
+                    "value": 26
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 4475250
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 73125
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 900
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 120
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 27,
+            "increased_power": 750,
+            "build_time": 735840,
+            "bonuses": {
+                "1": 0.58,
+                "2": 0.58
+            },
+            "required_ops_level": 27,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 27
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 27
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 6829920
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 111600
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1000
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 170
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 28,
+            "increased_power": 750,
+            "build_time": 853920,
+            "bonuses": {
+                "1": 0.62,
+                "2": 0.62
+            },
+            "required_ops_level": 28,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 28
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 28
+                },
+                {
+                    "name": "Defense Platform A",
+                    "value": 28
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 10244880
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 167400
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1200
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 230
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 29,
+            "increased_power": 1000,
+            "build_time": 941760,
+            "bonuses": {
+                "1": 0.65,
+                "2": 0.65
+            },
+            "required_ops_level": 29,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 29
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 29
+                },
+                {
+                    "name": "Dilithium Vault",
+                    "value": 29
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 16309800
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 266500
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1400
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 300
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 30,
+            "increased_power": 1000,
+            "build_time": 1020960,
+            "bonuses": {
+                "1": 0.69,
+                "2": 0.69
+            },
+            "required_ops_level": 30,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 30
+                },
+                {
+                    "name": "Dilithium Warehouse",
+                    "value": 28
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 30
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 23868000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 390000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1600
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 390
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 31,
+            "increased_power": 1000,
+            "build_time": 1340640,
+            "bonuses": {
+                "1": 0.73,
+                "2": 0.73
+            },
+            "required_ops_level": 31,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 31
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 31
+                },
+                {
+                    "name": "Foundry",
+                    "value": 31
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 37729800
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 616500
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1900
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 500
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 32,
+            "increased_power": 1250,
+            "build_time": 1308960,
+            "bonuses": {
+                "1": 0.77,
+                "2": 0.77
+            },
+            "required_ops_level": 32,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 32
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 32
+                },
+                {
+                    "name": "Refinery",
+                    "value": 31
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 54498600
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 890500
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 2100
+                    },
+                    {
+                        "type": "3\u2605 Rare Crystal",
+                        "grade": 3,
+                        "rarity": 3,
+                        "value": 25
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 33,
+            "increased_power": 1250,
+            "build_time": 1902240,
+            "bonuses": {
+                "1": 0.81,
+                "2": 0.81
+            },
+            "required_ops_level": 33,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 33
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 33
+                },
+                {
+                    "name": "Tritanium Vault",
+                    "value": 28
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 84303000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 1377500
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 2400
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 780
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 34,
+            "increased_power": 1250,
+            "build_time": 2520000,
+            "bonuses": {
+                "1": 0.85,
+                "2": 0.85
+            },
+            "required_ops_level": 34,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 34
+                },
+                {
+                    "name": "Engine Technology Lab",
+                    "value": 34
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 34
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 133110000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 2175000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 2800
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 950
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 35,
+            "increased_power": 1250,
+            "build_time": 3320640,
+            "bonuses": {
+                "1": 0.89,
+                "2": 0.89
+            },
+            "required_ops_level": 35,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 35
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 35
+                },
+                {
+                    "name": "Science Lab",
+                    "value": 35
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 205999200
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 3366000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 3100
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 1140
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 36,
+            "increased_power": 1500,
+            "build_time": 4243680,
+            "bonuses": {
+                "1": 0.93,
+                "2": 0.93
+            },
+            "required_ops_level": 36,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 36
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 36
+                },
+                {
+                    "name": "Refinery",
+                    "value": 35
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 290271600
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 4743000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 3500
+                    },
+                    {
+                        "type": "3\u2605 Rare Crystal",
+                        "grade": 3,
+                        "rarity": 3,
+                        "value": 75
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 37,
+            "increased_power": 1750,
+            "build_time": 4386240,
+            "bonuses": {
+                "1": 0.98,
+                "2": 0.98
+            },
+            "required_ops_level": 37,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 37
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 37
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 446148000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 7290000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 3900
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 1620
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 38,
+            "increased_power": 1750,
+            "build_time": 7112160,
+            "bonuses": {
+                "1": 1.02,
+                "2": 1.02
+            },
+            "required_ops_level": 38,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 38
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 38
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 694008000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 11340000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 4300
+                    },
+                    {
+                        "type": "3\u2605 Rare Crystal",
+                        "grade": 3,
+                        "rarity": 3,
+                        "value": 200
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 39,
+            "increased_power": 1500,
+            "build_time": 9440640,
+            "bonuses": {
+                "1": 1.07,
+                "2": 1.07
+            },
+            "required_ops_level": 39,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 39
+                },
+                {
+                    "name": "Armada Control Center",
+                    "value": 10
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 39
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1184220000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 19350000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 4800
+                    },
+                    {
+                        "type": "3\u2605 Rare Crystal",
+                        "grade": 3,
+                        "rarity": 3,
+                        "value": 200
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 40,
+            "increased_power": 2000,
+            "build_time": 16754400,
+            "bonuses": {
+                "1": 1.11,
+                "2": 1.11
+            },
+            "required_ops_level": 40,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 40
+                },
+                {
+                    "name": "Armada Control Center",
+                    "value": 20
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 40
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 5157936000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 30100000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Crystal",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 50000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 41,
+            "increased_power": 2000,
+            "build_time": 15703200,
+            "bonuses": {
+                "1": 1.16,
+                "2": 1.16
+            },
+            "required_ops_level": 41,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 41
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 41
+                },
+                {
+                    "name": "Refinery",
+                    "value": 40
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 5263200000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 43000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Crystal",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 85000
+                    },
+                    {
+                        "type": "4\u2605 Uncommon Crystal",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 20000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 42,
+            "increased_power": 2000,
+            "build_time": 24137280,
+            "bonuses": {
+                "1": 1.21,
+                "2": 1.21
+            },
+            "required_ops_level": 42,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 42
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 42
+                },
+                {
+                    "name": "4\u2605 Shield Modulation",
+                    "value": 1
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 7839720000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 64050000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Crystal",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 8000
+                    },
+                    {
+                        "type": "4\u2605 Rare Crystal",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 2500
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 43,
+            "increased_power": 2500,
+            "build_time": 31890240,
+            "bonuses": {
+                "1": 1.26,
+                "2": 1.26
+            },
+            "required_ops_level": 43,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 43
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 43
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 11199600000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 91500000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Crystal",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 2000
+                    },
+                    {
+                        "type": "4\u2605 Rare Crystal",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 2000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 44,
+            "increased_power": 2500,
+            "build_time": 41623200,
+            "bonuses": {
+                "1": 1.31,
+                "2": 1.31
+            },
+            "required_ops_level": 44,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 44
+                },
+                {
+                    "name": "Armada Control Center",
+                    "value": 39
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 44
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 16799400000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 137250000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Crystal",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 10000
+                    },
+                    {
+                        "type": "4\u2605 Rare Crystal",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 4000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 45,
+            "increased_power": 2500,
+            "build_time": 53736480,
+            "bonuses": {
+                "1": 1.37,
+                "2": 1.37
+            },
+            "required_ops_level": 45,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 45
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 45
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 23868000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 195000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Crystal",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 10000
+                    },
+                    {
+                        "type": "4\u2605 Rare Crystal",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 5000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 46,
+            "increased_power": 2500,
+            "build_time": 68689440,
+            "bonuses": {
+                "1": 1.43,
+                "2": 1.43
+            },
+            "required_ops_level": 46,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 46
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 46
+                },
+                {
+                    "name": "Station Sabotage",
+                    "value": 1
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 32818500000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 268125000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Crystal",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 11500
+                    },
+                    {
+                        "type": "4\u2605 Rare Crystal",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 2500
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 47,
+            "increased_power": 3000,
+            "build_time": 87014880,
+            "bonuses": {
+                "1": 1.49,
+                "2": 1.49
+            },
+            "required_ops_level": 47,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 47
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 47
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 47736000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 390000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Crystal",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 12000
+                    },
+                    {
+                        "type": "4\u2605 Rare Crystal",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 8000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 48,
+            "increased_power": 3000,
+            "build_time": 109321920,
+            "bonuses": {
+                "1": 1.55,
+                "2": 1.55
+            },
+            "required_ops_level": 48,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 48
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 48
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 77112000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 630000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Crystal",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 15000
+                    },
+                    {
+                        "type": "4\u2605 Rare Crystal",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 4000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 49,
+            "increased_power": 3000,
+            "build_time": 136304640,
+            "bonuses": {
+                "1": 1.61,
+                "2": 1.61
+            },
+            "required_ops_level": 49,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 49
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 49
+                },
+                {
+                    "name": "Defense Technologies",
+                    "value": 49
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 128520000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 1050000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Crystal",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 25000
+                    },
+                    {
+                        "type": "4\u2605 Rare Crystal",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 20000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 50,
+            "increased_power": 3000,
+            "build_time": 168753600,
+            "bonuses": {
+                "1": 1.7,
+                "2": 1.7
+            },
+            "required_ops_level": 50,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 50
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 50
+                },
+                {
+                    "name": "4\u2605 Shield Efficiency",
+                    "value": 1
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 224910000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 1837500000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 51,
+            "increased_power": 3500,
+            "build_time": 178879680,
+            "bonuses": {
+                "1": 1.77,
+                "2": 1.77
+            },
+            "required_ops_level": 51,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 51
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 51
+                },
+                {
+                    "name": "Refinery",
+                    "value": 50
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1121796000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 3900000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Crystal",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 20600
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 52,
+            "increased_power": 3500,
+            "build_time": 189612000,
+            "bonuses": {
+                "1": 1.84,
+                "2": 1.84
+            },
+            "required_ops_level": 52,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 52
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 52
+                },
+                {
+                    "name": "Defense Technologies",
+                    "value": 50
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2028780000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 6630000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Crystal",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 37500
+                    },
+                    {
+                        "type": "5\u2605 Uncommon Crystal",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 11400
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 53,
+            "increased_power": 4000,
+            "build_time": 200988000,
+            "bonuses": {
+                "1": 1.91,
+                "2": 1.91
+            },
+            "required_ops_level": 53,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 53
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 53
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 3407616000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 11600000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Crystal",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 73100
+                    },
+                    {
+                        "type": "5\u2605 Uncommon Crystal",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 40800
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 54,
+            "increased_power": 4000,
+            "build_time": 213048000,
+            "bonuses": {
+                "1": 1.98,
+                "2": 1.98
+            },
+            "required_ops_level": 54,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 54
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 54
+                },
+                {
+                    "name": "Defense Platform E",
+                    "value": 53
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 5111424000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 17400000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Crystal",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 36000
+                    },
+                    {
+                        "type": "5\u2605 Rare Crystal",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 11100
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 55,
+            "increased_power": 4000,
+            "build_time": 225830880,
+            "bonuses": {
+                "1": 2.05,
+                "2": 2.05
+            },
+            "required_ops_level": 55,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 55
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 55
+                },
+                {
+                    "name": "Defense Platform E",
+                    "value": 54
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 8687952000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 27300000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Crystal",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 73600
+                    },
+                    {
+                        "type": "5\u2605 Rare Crystal",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 12600
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 56,
+            "increased_power": 4000,
+            "build_time": 239379840,
+            "bonuses": {
+                "1": 2.13,
+                "2": 2.13
+            },
+            "required_ops_level": 56,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 56
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 56
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 13652496000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 42900000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Crystal",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 71700
+                    },
+                    {
+                        "type": "5\u2605 Rare Crystal",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 18300
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 57,
+            "increased_power": 4000,
+            "build_time": 253743840,
+            "bonuses": {
+                "1": 2.21,
+                "2": 2.21
+            },
+            "required_ops_level": 57,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 57
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 57
+                },
+                {
+                    "name": "Defense Platform F",
+                    "value": 50
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 21372998400000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 67160000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Crystal",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 67700
+                    },
+                    {
+                        "type": "5\u2605 Rare Crystal",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 22200
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 58,
+            "increased_power": 5000,
+            "build_time": 268967520,
+            "bonuses": {
+                "1": 2.29,
+                "2": 2.29
+            },
+            "required_ops_level": 58,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 58
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 58
+                },
+                {
+                    "name": "Scrapyard",
+                    "value": 57
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 30880051200000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 105120000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Crystal",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 75900
+                    },
+                    {
+                        "type": "5\u2605 Rare Crystal",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 24200
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 59,
+            "increased_power": 5000,
+            "build_time": 285105600,
+            "bonuses": {
+                "1": 2.37,
+                "2": 2.37
+            },
+            "required_ops_level": 59,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 59
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 59
+                },
+                {
+                    "name": "Defense Technologies",
+                    "value": 59
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 46320076800000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 157680000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Crystal",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 283900
+                    },
+                    {
+                        "type": "5\u2605 Rare Crystal",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 26700
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 60,
+            "increased_power": 5000,
+            "build_time": 302212800,
+            "bonuses": {
+                "1": 2.45,
+                "2": 2.45
+            },
+            "required_ops_level": 60,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 60
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 60
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 72338400000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 246250000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Crystal",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 125300
+                    },
+                    {
+                        "type": "5\u2605 Rare Crystal",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 30500
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        }
+    ]
+}

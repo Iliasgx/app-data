@@ -1,0 +1,2503 @@
+{
+    "id": 14,
+    "name": "Engine Technology Lab",
+    "description": "Engine Tech Research facility.",
+    "group": 1,
+    "start_level": 0,
+    "bonuses": {
+        "1": {
+            "name": "Dodge Bonus",
+            "is_percentage": true,
+            "type": null
+        },
+        "2": {
+            "name": "Interceptor Shield Health Bonus",
+            "is_percentage": true,
+            "type": null
+        }
+    },
+    "levels": [
+        {
+            "level": 1,
+            "increased_power": 30,
+            "build_time": 18,
+            "bonuses": {
+                "1": 0.01,
+                "2": 0.03
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Unlock Technology Lab",
+                    "value": 1
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 194670
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "2\u2605 Uncommon Gas",
+                        "grade": 2,
+                        "rarity": 2,
+                        "value": 3
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 2,
+            "increased_power": 30,
+            "build_time": 70,
+            "bonuses": {
+                "1": 0.02,
+                "2": 0.06
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 2
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 2
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 194698
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 3,
+            "increased_power": 35,
+            "build_time": 150,
+            "bonuses": {
+                "1": 0.03,
+                "2": 0.09
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 3
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 3
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 194752
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 4,
+            "increased_power": 45,
+            "build_time": 240,
+            "bonuses": {
+                "1": 0.04,
+                "2": 0.12
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 4
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 4
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 194834
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 5,
+            "increased_power": 40,
+            "build_time": 390,
+            "bonuses": {
+                "1": 0.05,
+                "2": 0.15
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 5
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 5
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 195024
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 6,
+            "increased_power": 60,
+            "build_time": 660,
+            "bonuses": {
+                "1": 0.06,
+                "2": 0.18
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 6
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 6
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 195228
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 7,
+            "increased_power": 70,
+            "build_time": 1260,
+            "bonuses": {
+                "1": 0.07,
+                "2": 0.21
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 7
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 7
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 195636
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 8,
+            "increased_power": 90,
+            "build_time": 1800,
+            "bonuses": {
+                "1": 0.08,
+                "2": 0.24
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 8
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 8
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 196248
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 9,
+            "increased_power": 100,
+            "build_time": 2640,
+            "bonuses": {
+                "1": 0.09,
+                "2": 0.27
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 9
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 9
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 197336
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 10,
+            "increased_power": 125,
+            "build_time": 3000,
+            "bonuses": {
+                "1": 0.1,
+                "2": 0.3
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 10
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 10
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 198696
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 11,
+            "increased_power": 175,
+            "build_time": 3120,
+            "bonuses": {
+                "1": 0.11,
+                "2": 0.33
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 11
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 11
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 200056
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 20
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 12,
+            "increased_power": 175,
+            "build_time": 5400,
+            "bonuses": {
+                "1": 0.12,
+                "2": 0.36
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 12
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 12
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 202096
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 55
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 13,
+            "increased_power": 225,
+            "build_time": 8400,
+            "bonuses": {
+                "1": 0.13,
+                "2": 0.39
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 13
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 13
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 205496
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 120
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 14,
+            "increased_power": 300,
+            "build_time": 11400,
+            "bonuses": {
+                "1": 0.14,
+                "2": 0.42
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 14
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 14
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 209576
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 220
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 15,
+            "increased_power": 300,
+            "build_time": 14700,
+            "bonuses": {
+                "1": 0.15,
+                "2": 0.45
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 15
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 15
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 215016
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 375
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 16,
+            "increased_power": 300,
+            "build_time": 17400,
+            "bonuses": {
+                "1": 0.16,
+                "2": 0.48
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 16
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 16
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 221816
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 500
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 17,
+            "increased_power": 400,
+            "build_time": 18600,
+            "bonuses": {
+                "1": 0.17,
+                "2": 0.51
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 17
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 17
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 232696
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 700
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 18,
+            "increased_power": 400,
+            "build_time": 28800,
+            "bonuses": {
+                "1": 0.18,
+                "2": 0.54
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 18
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 18
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 249016
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 1000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 19,
+            "increased_power": 600,
+            "build_time": 41760,
+            "bonuses": {
+                "1": 0.19,
+                "2": 0.57
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 19
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 19
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 276216
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 1500
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 20,
+            "increased_power": 500,
+            "build_time": 62640,
+            "bonuses": {
+                "1": 0.2,
+                "2": 0.6
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 20
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 20
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 310216
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 2125
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 21,
+            "increased_power": 700,
+            "build_time": 56880,
+            "bonuses": {
+                "1": 0.21,
+                "2": 0.63
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 21
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 21
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 389232
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 3578
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 22,
+            "increased_power": 550,
+            "build_time": 89280,
+            "bonuses": {
+                "1": 0.22,
+                "2": 0.66
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 22
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 22
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 497352
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 5565
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 23,
+            "increased_power": 1000,
+            "build_time": 105120,
+            "bonuses": {
+                "1": 0.23,
+                "2": 0.69
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 498168
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 9158
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 24,
+            "increased_power": 750,
+            "build_time": 128880,
+            "bonuses": {
+                "1": 0.24,
+                "2": 0.72
+            },
+            "required_ops_level": 24,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 24
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 24
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 784992
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 14430
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 25,
+            "increased_power": 1000,
+            "build_time": 118800,
+            "bonuses": {
+                "1": 0.25,
+                "2": 0.75
+            },
+            "required_ops_level": 25,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 25
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 25
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1272960
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 23400
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 1
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 26,
+            "increased_power": 1000,
+            "build_time": 161280,
+            "bonuses": {
+                "1": 0.26,
+                "2": 0.78
+            },
+            "required_ops_level": 26,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 26
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 26
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1989000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 36563
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 4
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 27,
+            "increased_power": 1250,
+            "build_time": 184320,
+            "bonuses": {
+                "1": 0.27,
+                "2": 0.81
+            },
+            "required_ops_level": 27,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 27
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 27
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 3035520
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 55800
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Gas",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 290
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 10
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 28,
+            "increased_power": 1250,
+            "build_time": 213120,
+            "bonuses": {
+                "1": 0.28,
+                "2": 0.84
+            },
+            "required_ops_level": 28,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 28
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 28
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 4553280
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 83700
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Gas",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 360
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 18
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 29,
+            "increased_power": 1250,
+            "build_time": 236160,
+            "bonuses": {
+                "1": 0.29,
+                "2": 0.87
+            },
+            "required_ops_level": 29,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 29
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 29
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 7248800
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 133250
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 30
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 30,
+            "increased_power": 1500,
+            "build_time": 254880,
+            "bonuses": {
+                "1": 0.37,
+                "2": 0.9
+            },
+            "required_ops_level": 30,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 30
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 30
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 10608000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 195000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 45
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 31,
+            "increased_power": 1500,
+            "build_time": 335520,
+            "bonuses": {
+                "1": 0.38,
+                "2": 0.93
+            },
+            "required_ops_level": 31,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 31
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 31
+                },
+                {
+                    "name": "Science Lab",
+                    "value": 31
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 16768800
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 308250
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Gas",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 700
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 65
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 32,
+            "increased_power": 1750,
+            "build_time": 326880,
+            "bonuses": {
+                "1": 0.39,
+                "2": 0.96
+            },
+            "required_ops_level": 32,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 32
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 32
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 24221600
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 445250
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Gas",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 800
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 87
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 33,
+            "increased_power": 1750,
+            "build_time": 475200,
+            "bonuses": {
+                "1": 0.4,
+                "2": 0.99
+            },
+            "required_ops_level": 33,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 33
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 33
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 37468000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 688750
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Gas",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1000
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 110
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 34,
+            "increased_power": 2250,
+            "build_time": 629280,
+            "bonuses": {
+                "1": 0.42,
+                "2": 1.02
+            },
+            "required_ops_level": 34,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 34
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 34
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 59160000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 1087500
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 140
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 35,
+            "increased_power": 2000,
+            "build_time": 830880,
+            "bonuses": {
+                "1": 0.44,
+                "2": 1.05
+            },
+            "required_ops_level": 35,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 35
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 35
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 91555200
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 1683000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 180
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 36,
+            "increased_power": 2000,
+            "build_time": 1061280,
+            "bonuses": {
+                "1": 0.46,
+                "2": 1.08
+            },
+            "required_ops_level": 36,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 36
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 36
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 129009600
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 2371500
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Gas",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1600
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 220
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 37,
+            "increased_power": 2500,
+            "build_time": 1095840,
+            "bonuses": {
+                "1": 0.48,
+                "2": 1.11
+            },
+            "required_ops_level": 37,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 37
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 37
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 198288000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 3645000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 260
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 38,
+            "increased_power": 2500,
+            "build_time": 1778400,
+            "bonuses": {
+                "1": 0.5,
+                "2": 1.14
+            },
+            "required_ops_level": 38,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 38
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 38
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 308448000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 5670000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Gas",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 2100
+                    },
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 310
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 39,
+            "increased_power": 2500,
+            "build_time": 2360160,
+            "bonuses": {
+                "1": 0.52,
+                "2": 1.17
+            },
+            "required_ops_level": 39,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 39
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 39
+                },
+                {
+                    "name": "Science Lab",
+                    "value": 39
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 526320000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 9675000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Common Gas",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 2500
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 40,
+            "increased_power": 3000,
+            "build_time": 4188960,
+            "bonuses": {
+                "1": 0.54,
+                "2": 1.2
+            },
+            "required_ops_level": 40,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 40
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 40
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2292416000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 15050000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Gas",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 10000
+                    },
+                    {
+                        "type": "4\u2605 Uncommon Gas",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 3000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 41,
+            "increased_power": 3000,
+            "build_time": 3925440,
+            "bonuses": {
+                "1": 0.56,
+                "2": 1.23
+            },
+            "required_ops_level": 41,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 41
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 41
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2339200000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 21500000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Gas",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 10000
+                    },
+                    {
+                        "type": "4\u2605 Uncommon Gas",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 3000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 42,
+            "increased_power": 3500,
+            "build_time": 6033600,
+            "bonuses": {
+                "1": 0.58,
+                "2": 1.26
+            },
+            "required_ops_level": 42,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 42
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 42
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 3484320000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 32025000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Gas",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 10000
+                    },
+                    {
+                        "type": "4\u2605 Uncommon Gas",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 3000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 43,
+            "increased_power": 3500,
+            "build_time": 7971840,
+            "bonuses": {
+                "1": 0.74,
+                "2": 1.29
+            },
+            "required_ops_level": 43,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 43
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 43
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 4977600000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 45750000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Gas",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 10000
+                    },
+                    {
+                        "type": "4\u2605 Uncommon Gas",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 3000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 44,
+            "increased_power": 3500,
+            "build_time": 10405440,
+            "bonuses": {
+                "1": 0.76,
+                "2": 1.32
+            },
+            "required_ops_level": 44,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 44
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 44
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 7466400000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 68625000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Gas",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 10000
+                    },
+                    {
+                        "type": "4\u2605 Uncommon Gas",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 3000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 45,
+            "increased_power": 3500,
+            "build_time": 13433760,
+            "bonuses": {
+                "1": 0.8,
+                "2": 1.35
+            },
+            "required_ops_level": 45,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 45
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 45
+                },
+                {
+                    "name": "4\u2605 Interceptor Armor Piercing",
+                    "value": 1
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 10608000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 97500000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Gas",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 10000
+                    },
+                    {
+                        "type": "4\u2605 Uncommon Gas",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 3000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 46,
+            "increased_power": 4000,
+            "build_time": 17172000,
+            "bonuses": {
+                "1": 0.84,
+                "2": 1.38
+            },
+            "required_ops_level": 46,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 46
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 46
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 14586000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 134062500
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Gas",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 15000
+                    },
+                    {
+                        "type": "4\u2605 Uncommon Gas",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 1000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 47,
+            "increased_power": 4000,
+            "build_time": 21754080,
+            "bonuses": {
+                "1": 0.88,
+                "2": 1.41
+            },
+            "required_ops_level": 47,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 47
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 47
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 21216000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 195000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Common Gas",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 45000
+                    },
+                    {
+                        "type": "4\u2605 Uncommon Gas",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 2500
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 48,
+            "increased_power": 5000,
+            "build_time": 27329760,
+            "bonuses": {
+                "1": 0.92,
+                "2": 1.44
+            },
+            "required_ops_level": 48,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 48
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 48
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 34272000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 315000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Gas",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 10000
+                    },
+                    {
+                        "type": "4\u2605 Rare Gas",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 2000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 49,
+            "increased_power": 4000,
+            "build_time": 34076160,
+            "bonuses": {
+                "1": 0.96,
+                "2": 1.47
+            },
+            "required_ops_level": 49,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 49
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 49
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 57120000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 525000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "4\u2605 Uncommon Gas",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 15000
+                    },
+                    {
+                        "type": "4\u2605 Rare Gas",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 4000
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 50,
+            "increased_power": 5000,
+            "build_time": 42189120,
+            "bonuses": {
+                "1": 1.0,
+                "2": 1.5
+            },
+            "required_ops_level": 50,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 50
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 50
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 99960000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 918750000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 51,
+            "increased_power": 5000,
+            "build_time": 44719200,
+            "bonuses": {
+                "1": 1.04,
+                "2": 1.53
+            },
+            "required_ops_level": 51,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 51
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 51
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 498576000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 1950000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Gas",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 24700
+                    },
+                    {
+                        "type": "5\u2605 Uncommon Gas",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 3900
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 52,
+            "increased_power": 6000,
+            "build_time": 47403360,
+            "bonuses": {
+                "1": 1.08,
+                "2": 1.56
+            },
+            "required_ops_level": 52,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 52
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 52
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 901680000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 3315000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Gas",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 42800
+                    },
+                    {
+                        "type": "5\u2605 Uncommon Gas",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 8600
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 53,
+            "increased_power": 5000,
+            "build_time": 50247360,
+            "bonuses": {
+                "1": 1.12,
+                "2": 1.59
+            },
+            "required_ops_level": 53,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 53
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 53
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1514496000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 5800000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Gas",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 102600
+                    },
+                    {
+                        "type": "5\u2605 Uncommon Gas",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 14900
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 54,
+            "increased_power": 6000,
+            "build_time": 53261280,
+            "bonuses": {
+                "1": 1.16,
+                "2": 1.62
+            },
+            "required_ops_level": 54,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 54
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 54
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2271744000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 8700000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Gas",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 87200
+                    },
+                    {
+                        "type": "5\u2605 Uncommon Gas",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 18200
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 55,
+            "increased_power": 6000,
+            "build_time": 56458080,
+            "bonuses": {
+                "1": 1.2,
+                "2": 1.65
+            },
+            "required_ops_level": 55,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 55
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 55
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 3861312000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 13650000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Gas",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 140000
+                    },
+                    {
+                        "type": "5\u2605 Rare Gas",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 4300
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 56,
+            "increased_power": 6000,
+            "build_time": 59844960,
+            "bonuses": {
+                "1": 1.24,
+                "2": 1.68
+            },
+            "required_ops_level": 56,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 56
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 56
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 6067776000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 21450000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Gas",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 156300
+                    },
+                    {
+                        "type": "5\u2605 Rare Gas",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 6800
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 57,
+            "increased_power": 7000,
+            "build_time": 63436320,
+            "bonuses": {
+                "1": 1.28,
+                "2": 1.71
+            },
+            "required_ops_level": 57,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 57
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 57
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 9499110400000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 33580000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Gas",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 179900
+                    },
+                    {
+                        "type": "5\u2605 Rare Gas",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 8400
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 58,
+            "increased_power": 7000,
+            "build_time": 67242240,
+            "bonuses": {
+                "1": 1.32,
+                "2": 1.74
+            },
+            "required_ops_level": 58,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 58
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 58
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 13724467200000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 52560000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Gas",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 201800
+                    },
+                    {
+                        "type": "5\u2605 Rare Gas",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 5700
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 59,
+            "increased_power": 7000,
+            "build_time": 71277120,
+            "bonuses": {
+                "1": 1.36,
+                "2": 1.77
+            },
+            "required_ops_level": 59,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 59
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 59
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 20586700800000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 78840000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Common Gas",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 266100
+                    },
+                    {
+                        "type": "5\u2605 Uncommon Gas",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 25600
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 60,
+            "increased_power": 8000,
+            "build_time": 75552480,
+            "bonuses": {
+                "1": 1.4,
+                "2": 1.8
+            },
+            "required_ops_level": 60,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 60
+                },
+                {
+                    "name": "R&D Department",
+                    "value": 60
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 32150400000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 123125000000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "5\u2605 Uncommon Gas",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 78300
+                    },
+                    {
+                        "type": "5\u2605 Rare Gas",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 15300
+                    }
+                ],
+                "others": []
+            },
+            "rewards": null
+        }
+    ]
+}

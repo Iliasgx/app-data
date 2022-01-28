@@ -1,0 +1,2572 @@
+{
+    "id": 23,
+    "name": "Armada Control Center",
+    "description": "The Armada Control Center allows you to initiate Armada attacks on hostile targets. Upgrade the Center to increase the number of allied ships that can join your Armada attacks.",
+    "group": 0,
+    "start_level": 0,
+    "bonuses": {
+        "1": {
+            "name": "Armada Damage Bonus",
+            "is_percentage": true,
+            "type": null
+        },
+        "2": {
+            "name": "Armada Size",
+            "is_percentage": false,
+            "type": null
+        }
+    },
+    "levels": [
+        {
+            "level": 1,
+            "increased_power": 30,
+            "build_time": 18,
+            "bonuses": {
+                "1": 0.02,
+                "2": 2.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                },
+                {
+                    "name": "Unlock Armada Control Center",
+                    "value": 1
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 75471
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 56603
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 7547
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 5
+                    }
+                ]
+            }
+        },
+        {
+            "level": 2,
+            "increased_power": 30,
+            "build_time": 70,
+            "bonuses": {
+                "1": 0.04,
+                "2": 2.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 79443
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 59582
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 7944
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 5
+                    }
+                ]
+            }
+        },
+        {
+            "level": 3,
+            "increased_power": 35,
+            "build_time": 150,
+            "bonuses": {
+                "1": 0.06,
+                "2": 2.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 83624
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 62718
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 8362
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 10
+                    }
+                ]
+            }
+        },
+        {
+            "level": 4,
+            "increased_power": 45,
+            "build_time": 240,
+            "bonuses": {
+                "1": 0.08,
+                "2": 2.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 88025
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 66019
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 8803
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 10
+                    }
+                ]
+            }
+        },
+        {
+            "level": 5,
+            "increased_power": 40,
+            "build_time": 390,
+            "bonuses": {
+                "1": 0.1,
+                "2": 2.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 92658
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 69494
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 9266
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 15
+                    }
+                ]
+            }
+        },
+        {
+            "level": 6,
+            "increased_power": 60,
+            "build_time": 660,
+            "bonuses": {
+                "1": 0.12,
+                "2": 2.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 97535
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 73151
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 9753
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 15
+                    }
+                ]
+            }
+        },
+        {
+            "level": 7,
+            "increased_power": 70,
+            "build_time": 1260,
+            "bonuses": {
+                "1": 0.14,
+                "2": 2.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 102668
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 77001
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 10267
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 20
+                    }
+                ]
+            }
+        },
+        {
+            "level": 8,
+            "increased_power": 90,
+            "build_time": 1800,
+            "bonuses": {
+                "1": 0.16,
+                "2": 2.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 108072
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 81054
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 10807
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 20
+                    }
+                ]
+            }
+        },
+        {
+            "level": 9,
+            "increased_power": 100,
+            "build_time": 2640,
+            "bonuses": {
+                "1": 0.18,
+                "2": 2.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 113760
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 85320
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 11376
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 25
+                    }
+                ]
+            }
+        },
+        {
+            "level": 10,
+            "increased_power": 125,
+            "build_time": 3000,
+            "bonuses": {
+                "1": 0.2,
+                "2": 3.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 119747
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 89811
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 11975
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 200
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 25
+                    }
+                ]
+            }
+        },
+        {
+            "level": 11,
+            "increased_power": 175,
+            "build_time": 3120,
+            "bonuses": {
+                "1": 0.22,
+                "2": 3.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 126050
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 94537
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 12605
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 251
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 30
+                    }
+                ]
+            }
+        },
+        {
+            "level": 12,
+            "increased_power": 175,
+            "build_time": 5400,
+            "bonuses": {
+                "1": 0.24,
+                "2": 3.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 132684
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 99513
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 13268
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 312
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 35
+                    }
+                ]
+            }
+        },
+        {
+            "level": 13,
+            "increased_power": 225,
+            "build_time": 8400,
+            "bonuses": {
+                "1": 0.26,
+                "2": 3.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 139667
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 104751
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 13967
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 388
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 40
+                    }
+                ]
+            }
+        },
+        {
+            "level": 14,
+            "increased_power": 300,
+            "build_time": 11400,
+            "bonuses": {
+                "1": 0.28,
+                "2": 3.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 147018
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 110264
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 14702
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 482
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 45
+                    }
+                ]
+            }
+        },
+        {
+            "level": 15,
+            "increased_power": 300,
+            "build_time": 14700,
+            "bonuses": {
+                "1": 0.3,
+                "2": 3.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 154756
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 116067
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 15476
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 599
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 50
+                    }
+                ]
+            }
+        },
+        {
+            "level": 16,
+            "increased_power": 300,
+            "build_time": 17400,
+            "bonuses": {
+                "1": 0.32,
+                "2": 3.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 162901
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 122176
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 16290
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 744
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 55
+                    }
+                ]
+            }
+        },
+        {
+            "level": 17,
+            "increased_power": 400,
+            "build_time": 18600,
+            "bonuses": {
+                "1": 0.34,
+                "2": 3.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 171475
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 128606
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 17148
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 942
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 60
+                    }
+                ]
+            }
+        },
+        {
+            "level": 18,
+            "increased_power": 400,
+            "build_time": 28800,
+            "bonuses": {
+                "1": 0.36,
+                "2": 3.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 180500
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 135375
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 18050
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 1228
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 70
+                    }
+                ]
+            }
+        },
+        {
+            "level": 19,
+            "increased_power": 600,
+            "build_time": 41760,
+            "bonuses": {
+                "1": 0.38,
+                "2": 3.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 190000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 142500
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 19000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 1643
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 85
+                    }
+                ]
+            }
+        },
+        {
+            "level": 20,
+            "increased_power": 500,
+            "build_time": 62640,
+            "bonuses": {
+                "1": 0.4,
+                "2": 4.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 200000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 150000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 20000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 2454
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 100
+                    }
+                ]
+            }
+        },
+        {
+            "level": 21,
+            "increased_power": 700,
+            "build_time": 56880,
+            "bonuses": {
+                "1": 0.42,
+                "2": 4.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 260000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 170000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 22000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 2581
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 110
+                    }
+                ]
+            }
+        },
+        {
+            "level": 22,
+            "increased_power": 550,
+            "build_time": 89280,
+            "bonuses": {
+                "1": 0.44,
+                "2": 4.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 360000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 200000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 26000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 2837
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 120
+                    }
+                ]
+            }
+        },
+        {
+            "level": 23,
+            "increased_power": 1000,
+            "build_time": 105120,
+            "bonuses": {
+                "1": 0.46,
+                "2": 4.0
+            },
+            "required_ops_level": 23,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 23
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 490000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 250000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 32000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 3187
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 130
+                    }
+                ]
+            }
+        },
+        {
+            "level": 24,
+            "increased_power": 750,
+            "build_time": 128880,
+            "bonuses": {
+                "1": 0.48,
+                "2": 4.0
+            },
+            "required_ops_level": 24,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 24
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 680000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 320000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 40000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 3657
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 140
+                    }
+                ]
+            }
+        },
+        {
+            "level": 25,
+            "increased_power": 1000,
+            "build_time": 118800,
+            "bonuses": {
+                "1": 0.5,
+                "2": 4.0
+            },
+            "required_ops_level": 25,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 25
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 795600
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 468000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 50000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 1
+                    }
+                ],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 4282
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 150
+                    }
+                ]
+            }
+        },
+        {
+            "level": 26,
+            "increased_power": 1000,
+            "build_time": 161280,
+            "bonuses": {
+                "1": 0.52,
+                "2": 4.0
+            },
+            "required_ops_level": 26,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 26
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1243125
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 731250
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 73125
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 4
+                    }
+                ],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 5117
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 160
+                    }
+                ]
+            }
+        },
+        {
+            "level": 27,
+            "increased_power": 1250,
+            "build_time": 184320,
+            "bonuses": {
+                "1": 0.54,
+                "2": 4.0
+            },
+            "required_ops_level": 27,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 27
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1897200
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 1116000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 111600
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 10
+                    }
+                ],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 6421
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 170
+                    }
+                ]
+            }
+        },
+        {
+            "level": 28,
+            "increased_power": 1250,
+            "build_time": 213120,
+            "bonuses": {
+                "1": 0.56,
+                "2": 4.0
+            },
+            "required_ops_level": 28,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 28
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2845800
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 1674000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 167400
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 18
+                    }
+                ],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 8440
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 180
+                    }
+                ]
+            }
+        },
+        {
+            "level": 29,
+            "increased_power": 1250,
+            "build_time": 236160,
+            "bonuses": {
+                "1": 0.58,
+                "2": 4.0
+            },
+            "required_ops_level": 29,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 29
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 4530500
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 2665000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 266500
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 30
+                    }
+                ],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 12103
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 190
+                    }
+                ]
+            }
+        },
+        {
+            "level": 30,
+            "increased_power": 1500,
+            "build_time": 254880,
+            "bonuses": {
+                "1": 0.6,
+                "2": 5.0
+            },
+            "required_ops_level": 30,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 30
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 6630000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 3900000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 390000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 45
+                    }
+                ],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 18802
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 200
+                    }
+                ]
+            }
+        },
+        {
+            "level": 31,
+            "increased_power": 1500,
+            "build_time": 335520,
+            "bonuses": {
+                "1": 0.62,
+                "2": 5.0
+            },
+            "required_ops_level": 31,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 31
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 10480500
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 6165000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 616500
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 65
+                    }
+                ],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 20222
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 210
+                    }
+                ]
+            }
+        },
+        {
+            "level": 32,
+            "increased_power": 1750,
+            "build_time": 326880,
+            "bonuses": {
+                "1": 0.64,
+                "2": 5.0
+            },
+            "required_ops_level": 32,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 32
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 15138500
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 8905000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 890500
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 87
+                    }
+                ],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 22473
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 220
+                    }
+                ]
+            }
+        },
+        {
+            "level": 33,
+            "increased_power": 1750,
+            "build_time": 475200,
+            "bonuses": {
+                "1": 0.66,
+                "2": 5.0
+            },
+            "required_ops_level": 33,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 33
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 23417500
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 13775000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 1377500
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 110
+                    }
+                ],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 26050
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 230
+                    }
+                ]
+            }
+        },
+        {
+            "level": 34,
+            "increased_power": 2250,
+            "build_time": 629280,
+            "bonuses": {
+                "1": 0.68,
+                "2": 5.0
+            },
+            "required_ops_level": 34,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 34
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 36975000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 21750000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 2175000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 140
+                    }
+                ],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 31130
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 240
+                    }
+                ]
+            }
+        },
+        {
+            "level": 35,
+            "increased_power": 2000,
+            "build_time": 830880,
+            "bonuses": {
+                "1": 0.7,
+                "2": 5.0
+            },
+            "required_ops_level": 35,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 35
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 57222000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 33660000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 3366000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 180
+                    }
+                ],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 38316
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 250
+                    }
+                ]
+            }
+        },
+        {
+            "level": 36,
+            "increased_power": 2000,
+            "build_time": 1061280,
+            "bonuses": {
+                "1": 0.72,
+                "2": 5.0
+            },
+            "required_ops_level": 36,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 36
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 80631000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 47430000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 4743000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 220
+                    }
+                ],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 48993
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 260
+                    }
+                ]
+            }
+        },
+        {
+            "level": 37,
+            "increased_power": 2500,
+            "build_time": 1095840,
+            "bonuses": {
+                "1": 0.74,
+                "2": 5.0
+            },
+            "required_ops_level": 37,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 37
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 123930000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 72900000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 7290000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 260
+                    }
+                ],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 65572
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 270
+                    }
+                ]
+            }
+        },
+        {
+            "level": 38,
+            "increased_power": 2500,
+            "build_time": 1778400,
+            "bonuses": {
+                "1": 0.76,
+                "2": 5.0
+            },
+            "required_ops_level": 38,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 38
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 192780000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 113400000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 11340000
+                    }
+                ],
+                "materials": [
+                    {
+                        "type": "3\u2605 Uncommon Gas",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 310
+                    }
+                ],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 92463
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 280
+                    }
+                ]
+            }
+        },
+        {
+            "level": 39,
+            "increased_power": 2500,
+            "build_time": 2360160,
+            "bonuses": {
+                "1": 0.78,
+                "2": 6.0
+            },
+            "required_ops_level": 39,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 39
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 328950000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 193500000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 19350000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 143641
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 290
+                    }
+                ]
+            }
+        },
+        {
+            "level": 40,
+            "increased_power": 3000,
+            "build_time": 4188960,
+            "bonuses": {
+                "1": 0.8,
+                "2": 6.0
+            },
+            "required_ops_level": 40,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 40
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1432760000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 301000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 30100000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 248895
+                    },
+                    {
+                        "type": "Rare Armada Tactical Core",
+                        "value": 400
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 300
+                    }
+                ]
+            }
+        },
+        {
+            "level": 41,
+            "increased_power": 3000,
+            "build_time": 3925440,
+            "bonuses": {
+                "1": 0.82,
+                "2": 6.0
+            },
+            "required_ops_level": 41,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 41
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 560000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 24200000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 10875000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 300000
+                    },
+                    {
+                        "type": "Rare Armada Tactical Core",
+                        "value": 650
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 310
+                    }
+                ]
+            }
+        },
+        {
+            "level": 42,
+            "increased_power": 3500,
+            "build_time": 6033600,
+            "bonuses": {
+                "1": 0.84,
+                "2": 6.0
+            },
+            "required_ops_level": 42,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 42
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 840000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 36300000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 12687500
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 350000
+                    },
+                    {
+                        "type": "Rare Armada Tactical Core",
+                        "value": 1300
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 320
+                    }
+                ]
+            }
+        },
+        {
+            "level": 43,
+            "increased_power": 3500,
+            "build_time": 7971840,
+            "bonuses": {
+                "1": 0.86,
+                "2": 6.0
+            },
+            "required_ops_level": 43,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 43
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1190000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 51425000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 14500000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 400000
+                    },
+                    {
+                        "type": "Rare Armada Tactical Core",
+                        "value": 1950
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 330
+                    }
+                ]
+            }
+        },
+        {
+            "level": 44,
+            "increased_power": 3500,
+            "build_time": 10405440,
+            "bonuses": {
+                "1": 0.88,
+                "2": 6.0
+            },
+            "required_ops_level": 44,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 44
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 1750000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 75625000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 16312500
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 450000
+                    },
+                    {
+                        "type": "Rare Armada Tactical Core",
+                        "value": 2600
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 340
+                    }
+                ]
+            }
+        },
+        {
+            "level": 45,
+            "increased_power": 3500,
+            "build_time": 13433760,
+            "bonuses": {
+                "1": 0.9,
+                "2": 6.0
+            },
+            "required_ops_level": 45,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 45
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 2660000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 114950000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 18125000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 500000
+                    },
+                    {
+                        "type": "Rare Armada Tactical Core",
+                        "value": 6500
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 350
+                    }
+                ]
+            }
+        },
+        {
+            "level": 46,
+            "increased_power": 4000,
+            "build_time": 17172000,
+            "bonuses": {
+                "1": 0.92,
+                "2": 6.0
+            },
+            "required_ops_level": 46,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 46
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 8000000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 185600000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 32880000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 690000
+                    },
+                    {
+                        "type": "Rare Armada Tactical Core",
+                        "value": 9000
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 360
+                    }
+                ]
+            }
+        },
+        {
+            "level": 47,
+            "increased_power": 4000,
+            "build_time": 21754080,
+            "bonuses": {
+                "1": 0.94,
+                "2": 6.0
+            },
+            "required_ops_level": 47,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 47
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 12000000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 278400000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 49320000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 805000
+                    },
+                    {
+                        "type": "Rare Armada Tactical Core",
+                        "value": 18000
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 370
+                    }
+                ]
+            }
+        },
+        {
+            "level": 48,
+            "increased_power": 5000,
+            "build_time": 27329760,
+            "bonuses": {
+                "1": 0.96,
+                "2": 6.0
+            },
+            "required_ops_level": 48,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 48
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 17000000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 394400000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 69870000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 920000
+                    },
+                    {
+                        "type": "Rare Armada Tactical Core",
+                        "value": 27000
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 380
+                    }
+                ]
+            }
+        },
+        {
+            "level": 49,
+            "increased_power": 4000,
+            "build_time": 34076160,
+            "bonuses": {
+                "1": 0.98,
+                "2": 6.0
+            },
+            "required_ops_level": 49,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 49
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 25000000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 580000000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 102750000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 1035000
+                    },
+                    {
+                        "type": "Rare Armada Tactical Core",
+                        "value": 36000
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 390
+                    }
+                ]
+            }
+        },
+        {
+            "level": 50,
+            "increased_power": 5000,
+            "build_time": 42189120,
+            "bonuses": {
+                "1": 1.0,
+                "2": 7.0
+            },
+            "required_ops_level": 50,
+            "requirements": [
+                {
+                    "name": "Operations",
+                    "value": 50
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "type": "Parsteel",
+                        "value": 38000000000
+                    },
+                    {
+                        "type": "Tritanium",
+                        "value": 881600000
+                    },
+                    {
+                        "type": "Dilithium",
+                        "value": 156180000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Tactical Core",
+                        "value": 1150000
+                    },
+                    {
+                        "type": "Rare Armada Tactical Core",
+                        "value": 90000
+                    }
+                ]
+            },
+            "rewards": {
+                "resources": [],
+                "materials": [],
+                "others": [
+                    {
+                        "type": "Armada Directives",
+                        "value": 400
+                    }
+                ]
+            }
+        }
+    ]
+}
