@@ -4,24 +4,30 @@
     "description": "New ship hulls are researched and unlocked here before becoming available in the Shipyard.",
     "group": 1,
     "start_level": 0,
-    "bonuses": {
-        "1": {
+    "bonuses": [
+        {
+            "id": 1,
             "name": "Research Cost Efficiency",
-            "is_percentage": true,
-            "type": null
+            "is_percentage": true
         }
-    },
+    ],
     "levels": [
         {
             "level": 1,
+            "power": 30,
             "increased_power": 30,
             "build_time": 24,
-            "bonuses": {
-                "1": 0.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.0
+                }
+            ],
             "required_ops_level": 9,
             "requirements": [
                 {
+                    "id": 1815653612,
+                    "type": "research",
                     "name": "Unlock Astronautics",
                     "value": 1
                 }
@@ -29,6 +35,7 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 5000
                     }
@@ -40,18 +47,26 @@
         },
         {
             "level": 2,
+            "power": 60,
             "increased_power": 30,
             "build_time": 95,
-            "bonuses": {
-                "1": 0.03
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.03
+                }
+            ],
             "required_ops_level": 9,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 2
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 2
                 }
@@ -59,6 +74,7 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 5200
                     }
@@ -70,18 +86,26 @@
         },
         {
             "level": 3,
+            "power": 95,
             "increased_power": 35,
             "build_time": 210,
-            "bonuses": {
-                "1": 0.04
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.04
+                }
+            ],
             "required_ops_level": 9,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 3
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 3
                 }
@@ -89,6 +113,7 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 5400
                     }
@@ -100,18 +125,26 @@
         },
         {
             "level": 4,
+            "power": 140,
             "increased_power": 45,
             "build_time": 300,
-            "bonuses": {
-                "1": 0.05
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.05
+                }
+            ],
             "required_ops_level": 9,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 4
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 4
                 }
@@ -119,6 +152,7 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 5600
                     }
@@ -130,18 +164,26 @@
         },
         {
             "level": 5,
+            "power": 180,
             "increased_power": 40,
             "build_time": 540,
-            "bonuses": {
-                "1": 0.06
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.06
+                }
+            ],
             "required_ops_level": 9,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 5
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 5
                 }
@@ -149,6 +191,7 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 5800
                     }
@@ -160,18 +203,26 @@
         },
         {
             "level": 6,
+            "power": 240,
             "increased_power": 60,
             "build_time": 900,
-            "bonuses": {
-                "1": 0.08
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.08
+                }
+            ],
             "required_ops_level": 9,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 6
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 6
                 }
@@ -179,6 +230,7 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 6000
                     }
@@ -190,18 +242,26 @@
         },
         {
             "level": 7,
+            "power": 310,
             "increased_power": 70,
             "build_time": 1680,
-            "bonuses": {
-                "1": 0.09
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.09
+                }
+            ],
             "required_ops_level": 9,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 7
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 7
                 }
@@ -209,10 +269,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 6200
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 19
                     }
@@ -224,18 +286,26 @@
         },
         {
             "level": 8,
+            "power": 400,
             "increased_power": 90,
             "build_time": 2400,
-            "bonuses": {
-                "1": 0.11
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.11
+                }
+            ],
             "required_ops_level": 9,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 8
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 8
                 }
@@ -243,10 +313,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 6500
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 60
                     }
@@ -258,18 +330,26 @@
         },
         {
             "level": 9,
+            "power": 500,
             "increased_power": 100,
             "build_time": 3600,
-            "bonuses": {
-                "1": 0.12
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.12
+                }
+            ],
             "required_ops_level": 9,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 9
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 9
                 }
@@ -277,10 +357,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 7000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 150
                     }
@@ -292,18 +374,26 @@
         },
         {
             "level": 10,
+            "power": 625,
             "increased_power": 125,
             "build_time": 3960,
-            "bonuses": {
-                "1": 0.14
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.14
+                }
+            ],
             "required_ops_level": 10,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 10
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 10
                 }
@@ -311,10 +401,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 7500
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 300
                     }
@@ -326,18 +418,26 @@
         },
         {
             "level": 11,
+            "power": 800,
             "increased_power": 175,
             "build_time": 4080,
-            "bonuses": {
-                "1": 0.16
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.16
+                }
+            ],
             "required_ops_level": 11,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 11
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 11
                 }
@@ -345,10 +445,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 9520
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 400
                     }
@@ -360,18 +462,26 @@
         },
         {
             "level": 12,
+            "power": 975,
             "increased_power": 175,
             "build_time": 7500,
-            "bonuses": {
-                "1": 0.18
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.18
+                }
+            ],
             "required_ops_level": 12,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 12
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 12
                 }
@@ -379,10 +489,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 13090
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 550
                     }
@@ -394,18 +506,26 @@
         },
         {
             "level": 13,
+            "power": 1200,
             "increased_power": 225,
             "build_time": 11100,
-            "bonuses": {
-                "1": 0.2
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.2
+                }
+            ],
             "required_ops_level": 13,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 13
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 13
                 }
@@ -413,10 +533,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 19040
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 800
                     }
@@ -428,18 +550,26 @@
         },
         {
             "level": 14,
+            "power": 1500,
             "increased_power": 300,
             "build_time": 15300,
-            "bonuses": {
-                "1": 0.22
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.22
+                }
+            ],
             "required_ops_level": 14,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 14
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 14
                 }
@@ -447,10 +577,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 26180
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 1100
                     }
@@ -462,18 +594,26 @@
         },
         {
             "level": 15,
+            "power": 1800,
             "increased_power": 300,
             "build_time": 19800,
-            "bonuses": {
-                "1": 0.24
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.24
+                }
+            ],
             "required_ops_level": 15,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 15
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 15
                 }
@@ -481,10 +621,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 35700
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 1500
                     }
@@ -496,18 +638,26 @@
         },
         {
             "level": 16,
+            "power": 2100,
             "increased_power": 300,
             "build_time": 23040,
-            "bonuses": {
-                "1": 0.26
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.26
+                }
+            ],
             "required_ops_level": 16,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 16
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 16
                 }
@@ -515,10 +665,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 47600
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 2000
                     }
@@ -530,18 +682,26 @@
         },
         {
             "level": 17,
+            "power": 2500,
             "increased_power": 400,
             "build_time": 25200,
-            "bonuses": {
-                "1": 0.29
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.29
+                }
+            ],
             "required_ops_level": 17,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 17
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 17
                 }
@@ -549,16 +709,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 66640
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 2800
                     }
                 ],
                 "materials": [
                     {
+                        "id": 551546104,
                         "type": "2\u2605 Common Crystal",
                         "grade": 2,
                         "rarity": 1,
@@ -571,18 +734,26 @@
         },
         {
             "level": 18,
+            "power": 2900,
             "increased_power": 400,
             "build_time": 38160,
-            "bonuses": {
-                "1": 0.31
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.31
+                }
+            ],
             "required_ops_level": 18,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 18
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 18
                 }
@@ -590,16 +761,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 95200
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 4000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 551546104,
                         "type": "2\u2605 Common Crystal",
                         "grade": 2,
                         "rarity": 1,
@@ -612,18 +786,26 @@
         },
         {
             "level": 19,
+            "power": 3500,
             "increased_power": 600,
             "build_time": 55440,
-            "bonuses": {
-                "1": 0.34
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.34
+                }
+            ],
             "required_ops_level": 19,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 19
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 19
                 }
@@ -631,16 +813,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 142800
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 6000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 551546104,
                         "type": "2\u2605 Common Crystal",
                         "grade": 2,
                         "rarity": 1,
@@ -653,18 +838,26 @@
         },
         {
             "level": 20,
+            "power": 4000,
             "increased_power": 500,
             "build_time": 83520,
-            "bonuses": {
-                "1": 0.36
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.36
+                }
+            ],
             "required_ops_level": 20,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 20
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 20
                 }
@@ -672,10 +865,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 202300
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 8500
                     }
@@ -687,18 +882,26 @@
         },
         {
             "level": 21,
+            "power": 4700,
             "increased_power": 700,
             "build_time": 76320,
-            "bonuses": {
-                "1": 0.39
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.39
+                }
+            ],
             "required_ops_level": 21,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 21
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 21
                 }
@@ -706,10 +909,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 340578
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 14310
                     }
@@ -721,18 +926,26 @@
         },
         {
             "level": 22,
+            "power": 5250,
             "increased_power": 550,
             "build_time": 118800,
-            "bonuses": {
-                "1": 0.42
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.42
+                }
+            ],
             "required_ops_level": 22,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 22
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 22
                 }
@@ -740,10 +953,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 529788
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 22260
                     }
@@ -755,18 +970,26 @@
         },
         {
             "level": 23,
+            "power": 6250,
             "increased_power": 1000,
             "build_time": 139680,
-            "bonuses": {
-                "1": 0.45
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.45
+                }
+            ],
             "required_ops_level": 23,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 23
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 23
                 }
@@ -774,10 +997,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 871794
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 36630
                     }
@@ -789,18 +1014,26 @@
         },
         {
             "level": 24,
+            "power": 7000,
             "increased_power": 750,
             "build_time": 171360,
-            "bonuses": {
-                "1": 0.48
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.48
+                }
+            ],
             "required_ops_level": 24,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 24
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 24
                 }
@@ -808,16 +1041,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 1373736
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 57720
                     }
                 ],
                 "materials": [
                     {
+                        "id": 67391873,
                         "type": "3\u2605 Common Crystal",
                         "grade": 3,
                         "rarity": 1,
@@ -830,18 +1066,26 @@
         },
         {
             "level": 25,
+            "power": 8000,
             "increased_power": 1000,
             "build_time": 158400,
-            "bonuses": {
-                "1": 0.51
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.51
+                }
+            ],
             "required_ops_level": 25,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 25
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 25
                 }
@@ -849,22 +1093,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 2227680
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 93600
                     }
                 ],
                 "materials": [
                     {
+                        "id": 67391873,
                         "type": "3\u2605 Common Crystal",
                         "grade": 3,
                         "rarity": 1,
                         "value": 190
                     },
                     {
+                        "id": 2367328925,
                         "type": "3\u2605 Uncommon Crystal",
                         "grade": 3,
                         "rarity": 2,
@@ -877,18 +1125,26 @@
         },
         {
             "level": 26,
+            "power": 9000,
             "increased_power": 1000,
             "build_time": 216000,
-            "bonuses": {
-                "1": 0.55
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.55
+                }
+            ],
             "required_ops_level": 26,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 26
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 26
                 }
@@ -896,16 +1152,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 3480750
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 146250
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2367328925,
                         "type": "3\u2605 Uncommon Crystal",
                         "grade": 3,
                         "rarity": 2,
@@ -918,18 +1177,26 @@
         },
         {
             "level": 27,
+            "power": 10250,
             "increased_power": 1250,
             "build_time": 244800,
-            "bonuses": {
-                "1": 0.58
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.58
+                }
+            ],
             "required_ops_level": 27,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 27
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 27
                 }
@@ -937,22 +1204,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 5312160
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 223200
                     }
                 ],
                 "materials": [
                     {
+                        "id": 67391873,
                         "type": "3\u2605 Common Crystal",
                         "grade": 3,
                         "rarity": 1,
                         "value": 290
                     },
                     {
+                        "id": 2367328925,
                         "type": "3\u2605 Uncommon Crystal",
                         "grade": 3,
                         "rarity": 2,
@@ -965,18 +1236,26 @@
         },
         {
             "level": 28,
+            "power": 11500,
             "increased_power": 1250,
             "build_time": 285120,
-            "bonuses": {
-                "1": 0.62
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.62
+                }
+            ],
             "required_ops_level": 28,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 28
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 28
                 }
@@ -984,22 +1263,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 7968240
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 334800
                     }
                 ],
                 "materials": [
                     {
+                        "id": 67391873,
                         "type": "3\u2605 Common Crystal",
                         "grade": 3,
                         "rarity": 1,
                         "value": 360
                     },
                     {
+                        "id": 2367328925,
                         "type": "3\u2605 Uncommon Crystal",
                         "grade": 3,
                         "rarity": 2,
@@ -1012,18 +1295,26 @@
         },
         {
             "level": 29,
+            "power": 12750,
             "increased_power": 1250,
             "build_time": 313920,
-            "bonuses": {
-                "1": 0.65
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.65
+                }
+            ],
             "required_ops_level": 29,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 29
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 29
                 }
@@ -1031,22 +1322,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 12685400
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 533000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 67391873,
                         "type": "3\u2605 Common Crystal",
                         "grade": 3,
                         "rarity": 1,
                         "value": 450
                     },
                     {
+                        "id": 2367328925,
                         "type": "3\u2605 Uncommon Crystal",
                         "grade": 3,
                         "rarity": 2,
@@ -1059,22 +1354,32 @@
         },
         {
             "level": 30,
+            "power": 14250,
             "increased_power": 1500,
             "build_time": 339840,
-            "bonuses": {
-                "1": 0.69
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.69
+                }
+            ],
             "required_ops_level": 30,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 30
                 },
                 {
+                    "id": 14,
+                    "type": "building",
                     "name": "Engine Technology Lab",
                     "value": 28
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 30
                 }
@@ -1082,16 +1387,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 18564000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 780000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2367328925,
                         "type": "3\u2605 Uncommon Crystal",
                         "grade": 3,
                         "rarity": 2,
@@ -1104,18 +1412,26 @@
         },
         {
             "level": 31,
+            "power": 15750,
             "increased_power": 1500,
             "build_time": 446400,
-            "bonuses": {
-                "1": 0.73
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.73
+                }
+            ],
             "required_ops_level": 31,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 31
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 31
                 }
@@ -1123,22 +1439,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 29345400
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 1233000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 67391873,
                         "type": "3\u2605 Common Crystal",
                         "grade": 3,
                         "rarity": 1,
                         "value": 700
                     },
                     {
+                        "id": 2367328925,
                         "type": "3\u2605 Uncommon Crystal",
                         "grade": 3,
                         "rarity": 2,
@@ -1151,22 +1471,32 @@
         },
         {
             "level": 32,
+            "power": 17500,
             "increased_power": 1750,
             "build_time": 436320,
-            "bonuses": {
-                "1": 0.77
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.77
+                }
+            ],
             "required_ops_level": 32,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 32
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 32
                 },
                 {
+                    "id": 43,
+                    "type": "building",
                     "name": "Foundry",
                     "value": 32
                 }
@@ -1174,22 +1504,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 42387800
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 1781000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 67391873,
                         "type": "3\u2605 Common Crystal",
                         "grade": 3,
                         "rarity": 1,
                         "value": 800
                     },
                     {
+                        "id": 2367328925,
                         "type": "3\u2605 Uncommon Crystal",
                         "grade": 3,
                         "rarity": 2,
@@ -1202,18 +1536,26 @@
         },
         {
             "level": 33,
+            "power": 19250,
             "increased_power": 1750,
             "build_time": 633600,
-            "bonuses": {
-                "1": 0.81
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.81
+                }
+            ],
             "required_ops_level": 33,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 33
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 33
                 }
@@ -1221,16 +1563,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 65569000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 2755000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2367328925,
                         "type": "3\u2605 Uncommon Crystal",
                         "grade": 3,
                         "rarity": 2,
@@ -1243,18 +1588,26 @@
         },
         {
             "level": 34,
+            "power": 21500,
             "increased_power": 2250,
             "build_time": 839520,
-            "bonuses": {
-                "1": 0.85
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.85
+                }
+            ],
             "required_ops_level": 34,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 34
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 34
                 }
@@ -1262,22 +1615,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 103530000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 4350000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 67391873,
                         "type": "3\u2605 Common Crystal",
                         "grade": 3,
                         "rarity": 1,
                         "value": 1100
                     },
                     {
+                        "id": 2367328925,
                         "type": "3\u2605 Uncommon Crystal",
                         "grade": 3,
                         "rarity": 2,
@@ -1290,18 +1647,26 @@
         },
         {
             "level": 35,
+            "power": 23500,
             "increased_power": 2000,
             "build_time": 1107360,
-            "bonuses": {
-                "1": 0.89
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.89
+                }
+            ],
             "required_ops_level": 35,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 35
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 35
                 }
@@ -1309,16 +1674,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 160221600
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 6732000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2367328925,
                         "type": "3\u2605 Uncommon Crystal",
                         "grade": 3,
                         "rarity": 2,
@@ -1331,22 +1699,32 @@
         },
         {
             "level": 36,
+            "power": 25500,
             "increased_power": 2000,
             "build_time": 1414080,
-            "bonuses": {
-                "1": 0.93
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.93
+                }
+            ],
             "required_ops_level": 36,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 36
                 },
                 {
+                    "id": 14,
+                    "type": "building",
                     "name": "Engine Technology Lab",
                     "value": 36
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 36
                 }
@@ -1354,16 +1732,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 225766800
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 9486000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2367328925,
                         "type": "3\u2605 Uncommon Crystal",
                         "grade": 3,
                         "rarity": 2,
@@ -1376,18 +1757,26 @@
         },
         {
             "level": 37,
+            "power": 28000,
             "increased_power": 2500,
             "build_time": 1461600,
-            "bonuses": {
-                "1": 0.98
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.98
+                }
+            ],
             "required_ops_level": 37,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 37
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 37
                 }
@@ -1395,22 +1784,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 347004000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 14580000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 67391873,
                         "type": "3\u2605 Common Crystal",
                         "grade": 3,
                         "rarity": 1,
                         "value": 1800
                     },
                     {
+                        "id": 2367328925,
                         "type": "3\u2605 Uncommon Crystal",
                         "grade": 3,
                         "rarity": 2,
@@ -1423,18 +1816,26 @@
         },
         {
             "level": 38,
+            "power": 30500,
             "increased_power": 2500,
             "build_time": 2370240,
-            "bonuses": {
-                "1": 1.02
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 1.02
+                }
+            ],
             "required_ops_level": 38,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 38
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 38
                 }
@@ -1442,22 +1843,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 539784000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 22680000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 67391873,
                         "type": "3\u2605 Common Crystal",
                         "grade": 3,
                         "rarity": 1,
                         "value": 2100
                     },
                     {
+                        "id": 2367328925,
                         "type": "3\u2605 Uncommon Crystal",
                         "grade": 3,
                         "rarity": 2,
@@ -1470,18 +1875,26 @@
         },
         {
             "level": 39,
+            "power": 33000,
             "increased_power": 2500,
             "build_time": 3146400,
-            "bonuses": {
-                "1": 1.07
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 1.07
+                }
+            ],
             "required_ops_level": 39,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 39
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 39
                 }
@@ -1489,22 +1902,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 921060000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 38700000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 67391873,
                         "type": "3\u2605 Common Crystal",
                         "grade": 3,
                         "rarity": 1,
                         "value": 2500
                     },
                     {
+                        "id": 2367328925,
                         "type": "3\u2605 Uncommon Crystal",
                         "grade": 3,
                         "rarity": 2,
@@ -1517,18 +1934,26 @@
         },
         {
             "level": 40,
+            "power": 36000,
             "increased_power": 3000,
             "build_time": 5584320,
-            "bonuses": {
-                "1": 1.11
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 1.11
+                }
+            ],
             "required_ops_level": 40,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 40
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 40
                 }
@@ -1536,22 +1961,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 4011728000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 60200000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3919958966,
                         "type": "4\u2605 Common Crystal",
                         "grade": 4,
                         "rarity": 1,
                         "value": 10000
                     },
                     {
+                        "id": 3909684597,
                         "type": "4\u2605 Uncommon Crystal",
                         "grade": 4,
                         "rarity": 2,
@@ -1564,18 +1993,26 @@
         },
         {
             "level": 41,
+            "power": 39000,
             "increased_power": 3000,
             "build_time": 5234400,
-            "bonuses": {
-                "1": 1.16
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 1.16
+                }
+            ],
             "required_ops_level": 41,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 41
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 41
                 }
@@ -1583,22 +2020,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 4093600000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 86000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3919958966,
                         "type": "4\u2605 Common Crystal",
                         "grade": 4,
                         "rarity": 1,
                         "value": 20000
                     },
                     {
+                        "id": 3909684597,
                         "type": "4\u2605 Uncommon Crystal",
                         "grade": 4,
                         "rarity": 2,
@@ -1611,22 +2052,32 @@
         },
         {
             "level": 42,
+            "power": 42500,
             "increased_power": 3500,
             "build_time": 8045280,
-            "bonuses": {
-                "1": 1.21
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 1.21
+                }
+            ],
             "required_ops_level": 42,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 42
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 42
                 },
                 {
+                    "id": 43,
+                    "type": "building",
                     "name": "Foundry",
                     "value": 42
                 }
@@ -1634,22 +2085,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 6097560000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 128100000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3919958966,
                         "type": "4\u2605 Common Crystal",
                         "grade": 4,
                         "rarity": 1,
                         "value": 30000
                     },
                     {
+                        "id": 3909684597,
                         "type": "4\u2605 Uncommon Crystal",
                         "grade": 4,
                         "rarity": 2,
@@ -1662,18 +2117,26 @@
         },
         {
             "level": 43,
+            "power": 46000,
             "increased_power": 3500,
             "build_time": 10630080,
-            "bonuses": {
-                "1": 1.26
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 1.26
+                }
+            ],
             "required_ops_level": 43,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 43
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 43
                 }
@@ -1681,22 +2144,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 8710800000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 183000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3919958966,
                         "type": "4\u2605 Common Crystal",
                         "grade": 4,
                         "rarity": 1,
                         "value": 40000
                     },
                     {
+                        "id": 3909684597,
                         "type": "4\u2605 Uncommon Crystal",
                         "grade": 4,
                         "rarity": 2,
@@ -1709,18 +2176,26 @@
         },
         {
             "level": 44,
+            "power": 49500,
             "increased_power": 3500,
             "build_time": 13874400,
-            "bonuses": {
-                "1": 1.31
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 1.31
+                }
+            ],
             "required_ops_level": 44,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 44
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 44
                 }
@@ -1728,22 +2203,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 13066200000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 274500000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3919958966,
                         "type": "4\u2605 Common Crystal",
                         "grade": 4,
                         "rarity": 1,
                         "value": 50000
                     },
                     {
+                        "id": 3909684597,
                         "type": "4\u2605 Uncommon Crystal",
                         "grade": 4,
                         "rarity": 2,
@@ -1756,18 +2235,26 @@
         },
         {
             "level": 45,
+            "power": 53000,
             "increased_power": 3500,
             "build_time": 17912160,
-            "bonuses": {
-                "1": 1.37
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 1.37
+                }
+            ],
             "required_ops_level": 45,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 45
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 45
                 }
@@ -1775,16 +2262,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 18564000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 390000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3919958966,
                         "type": "4\u2605 Common Crystal",
                         "grade": 4,
                         "rarity": 1,
@@ -1797,18 +2287,26 @@
         },
         {
             "level": 46,
+            "power": 57000,
             "increased_power": 4000,
             "build_time": 22896000,
-            "bonuses": {
-                "1": 1.43
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 1.43
+                }
+            ],
             "required_ops_level": 46,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 46
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 46
                 }
@@ -1816,16 +2314,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 25525500000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 536250000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3919958966,
                         "type": "4\u2605 Common Crystal",
                         "grade": 4,
                         "rarity": 1,
@@ -1838,22 +2339,32 @@
         },
         {
             "level": 47,
+            "power": 61000,
             "increased_power": 4000,
             "build_time": 29004480,
-            "bonuses": {
-                "1": 1.49
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 1.49
+                }
+            ],
             "required_ops_level": 47,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 47
                 },
                 {
+                    "id": 14,
+                    "type": "building",
                     "name": "Engine Technology Lab",
                     "value": 47
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 47
                 }
@@ -1861,16 +2372,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 37128000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 780000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3919958966,
                         "type": "4\u2605 Common Crystal",
                         "grade": 4,
                         "rarity": 1,
@@ -1883,22 +2397,32 @@
         },
         {
             "level": 48,
+            "power": 66000,
             "increased_power": 5000,
             "build_time": 36440640,
-            "bonuses": {
-                "1": 1.55
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 1.55
+                }
+            ],
             "required_ops_level": 48,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 48
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 48
                 },
                 {
+                    "id": 29,
+                    "type": "building",
                     "name": "Science Lab",
                     "value": 48
                 }
@@ -1906,16 +2430,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 59976000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 1260000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3919958966,
                         "type": "4\u2605 Common Crystal",
                         "grade": 4,
                         "rarity": 1,
@@ -1928,22 +2455,32 @@
         },
         {
             "level": 49,
+            "power": 70000,
             "increased_power": 4000,
             "build_time": 45434880,
-            "bonuses": {
-                "1": 1.61
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 1.61
+                }
+            ],
             "required_ops_level": 49,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 49
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 49
                 },
                 {
+                    "id": 43,
+                    "type": "building",
                     "name": "Foundry",
                     "value": 49
                 }
@@ -1951,16 +2488,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 99960000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 2100000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3919958966,
                         "type": "4\u2605 Common Crystal",
                         "grade": 4,
                         "rarity": 1,
@@ -1973,18 +2513,26 @@
         },
         {
             "level": 50,
+            "power": 75000,
             "increased_power": 5000,
             "build_time": 56250720,
-            "bonuses": {
-                "1": 1.7
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 1.7
+                }
+            ],
             "required_ops_level": 50,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 50
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 50
                 }
@@ -1992,10 +2540,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 174930000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 3675000000
                     }
@@ -2007,18 +2557,26 @@
         },
         {
             "level": 51,
+            "power": 80000,
             "increased_power": 5000,
             "build_time": 59626080,
-            "bonuses": {
-                "1": 1.77
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 1.77
+                }
+            ],
             "required_ops_level": 51,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 51
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 51
                 }
@@ -2026,16 +2584,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 872508000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 7800000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3301222353,
                         "type": "5\u2605 Common Crystal",
                         "grade": 5,
                         "rarity": 1,
@@ -2048,18 +2609,26 @@
         },
         {
             "level": 52,
+            "power": 86000,
             "increased_power": 6000,
             "build_time": 63204480,
-            "bonuses": {
-                "1": 1.84
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 1.84
+                }
+            ],
             "required_ops_level": 52,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 52
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 52
                 }
@@ -2067,16 +2636,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 1577940000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 13260000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3301222353,
                         "type": "5\u2605 Common Crystal",
                         "grade": 5,
                         "rarity": 1,
@@ -2089,22 +2661,32 @@
         },
         {
             "level": 53,
+            "power": 91000,
             "increased_power": 5000,
             "build_time": 66996000,
-            "bonuses": {
-                "1": 1.91
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 1.91
+                }
+            ],
             "required_ops_level": 52,
             "requirements": [
                 {
+                    "id": 14,
+                    "type": "building",
                     "name": "Engine Technology Lab",
                     "value": 52
                 },
                 {
+                    "id": 29,
+                    "type": "building",
                     "name": "Science Lab",
                     "value": 52
                 },
                 {
+                    "id": 43,
+                    "type": "building",
                     "name": "Foundry",
                     "value": 52
                 }
@@ -2112,16 +2694,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 2650368000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 23200000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3301222353,
                         "type": "5\u2605 Common Crystal",
                         "grade": 5,
                         "rarity": 1,
@@ -2134,18 +2719,26 @@
         },
         {
             "level": 54,
+            "power": 97000,
             "increased_power": 6000,
             "build_time": 71016480,
-            "bonuses": {
-                "1": 1.98
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 1.98
+                }
+            ],
             "required_ops_level": 54,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 54
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 54
                 }
@@ -2153,22 +2746,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 3975552000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 34800000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3301222353,
                         "type": "5\u2605 Common Crystal",
                         "grade": 5,
                         "rarity": 1,
                         "value": 48400
                     },
                     {
+                        "id": 3053746170,
                         "type": "5\u2605 Rare Crystal",
                         "grade": 5,
                         "rarity": 3,
@@ -2181,18 +2778,26 @@
         },
         {
             "level": 55,
+            "power": 103000,
             "increased_power": 6000,
             "build_time": 75277440,
-            "bonuses": {
-                "1": 2.05
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 2.05
+                }
+            ],
             "required_ops_level": 55,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 55
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 55
                 }
@@ -2200,22 +2805,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 6757296000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 54600000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 1371250883,
                         "type": "5\u2605 Uncommon Crystal",
                         "grade": 5,
                         "rarity": 2,
                         "value": 40000
                     },
                     {
+                        "id": 3053746170,
                         "type": "5\u2605 Rare Crystal",
                         "grade": 5,
                         "rarity": 3,
@@ -2228,18 +2837,26 @@
         },
         {
             "level": 56,
+            "power": 109000,
             "increased_power": 6000,
             "build_time": 79793280,
-            "bonuses": {
-                "1": 2.13
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 2.13
+                }
+            ],
             "required_ops_level": 56,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 56
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 56
                 }
@@ -2247,22 +2864,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 10618608000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 85800000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 1371250883,
                         "type": "5\u2605 Uncommon Crystal",
                         "grade": 5,
                         "rarity": 2,
                         "value": 44200
                     },
                     {
+                        "id": 3053746170,
                         "type": "5\u2605 Rare Crystal",
                         "grade": 5,
                         "rarity": 3,
@@ -2275,22 +2896,32 @@
         },
         {
             "level": 57,
+            "power": 116000,
             "increased_power": 7000,
             "build_time": 84581280,
-            "bonuses": {
-                "1": 2.21
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 2.21
+                }
+            ],
             "required_ops_level": 57,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 57
                 },
                 {
+                    "id": 14,
+                    "type": "building",
                     "name": "Engine Technology Lab",
                     "value": 57
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 57
                 }
@@ -2298,22 +2929,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 16623443200000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 134320000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 1371250883,
                         "type": "5\u2605 Uncommon Crystal",
                         "grade": 5,
                         "rarity": 2,
                         "value": 55400
                     },
                     {
+                        "id": 3053746170,
                         "type": "5\u2605 Rare Crystal",
                         "grade": 5,
                         "rarity": 3,
@@ -2326,22 +2961,32 @@
         },
         {
             "level": 58,
+            "power": 123000,
             "increased_power": 7000,
             "build_time": 89655840,
-            "bonuses": {
-                "1": 2.29
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 2.29
+                }
+            ],
             "required_ops_level": 58,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 58
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 58
                 },
                 {
+                    "id": 29,
+                    "type": "building",
                     "name": "Science Lab",
                     "value": 58
                 }
@@ -2349,22 +2994,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 24017817600000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 210240000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 1371250883,
                         "type": "5\u2605 Uncommon Crystal",
                         "grade": 5,
                         "rarity": 2,
                         "value": 66100
                     },
                     {
+                        "id": 3053746170,
                         "type": "5\u2605 Rare Crystal",
                         "grade": 5,
                         "rarity": 3,
@@ -2377,22 +3026,32 @@
         },
         {
             "level": 59,
+            "power": 130000,
             "increased_power": 7000,
             "build_time": 95035680,
-            "bonuses": {
-                "1": 2.37
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 2.37
+                }
+            ],
             "required_ops_level": 59,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 59
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 59
                 },
                 {
+                    "id": 43,
+                    "type": "building",
                     "name": "Foundry",
                     "value": 59
                 }
@@ -2400,22 +3059,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 36026726400000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 315360000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3301222353,
                         "type": "5\u2605 Common Crystal",
                         "grade": 5,
                         "rarity": 1,
                         "value": 141900
                     },
                     {
+                        "id": 3053746170,
                         "type": "5\u2605 Rare Crystal",
                         "grade": 5,
                         "rarity": 3,
@@ -2428,18 +3091,26 @@
         },
         {
             "level": 60,
+            "power": 138000,
             "increased_power": 8000,
             "build_time": 100738080,
-            "bonuses": {
-                "1": 2.45
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 2.45
+                }
+            ],
             "required_ops_level": 60,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 60
                 },
                 {
+                    "id": 25,
+                    "type": "building",
                     "name": "R&D Department",
                     "value": 60
                 }
@@ -2447,22 +3118,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 56263200000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 492500000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3301222353,
                         "type": "5\u2605 Common Crystal",
                         "grade": 5,
                         "rarity": 1,
                         "value": 138200
                     },
                     {
+                        "id": 3053746170,
                         "type": "5\u2605 Rare Crystal",
                         "grade": 5,
                         "rarity": 3,

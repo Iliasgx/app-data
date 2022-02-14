@@ -4,24 +4,30 @@
     "description": "Defense Platforms are the last line of Defense for the Station. Behind defending ships they provide additional fire support. Upgrade to increase the Platform's combat performance.",
     "group": 5,
     "start_level": 0,
-    "bonuses": {
-        "1": {
+    "bonuses": [
+        {
+            "id": 1,
             "name": "Power Level",
-            "is_percentage": false,
-            "type": null
+            "is_percentage": false
         }
-    },
+    ],
     "levels": [
         {
             "level": 1,
+            "power": 945,
             "increased_power": 945,
             "build_time": 300,
-            "bonuses": {
-                "1": 1.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 1.0
+                }
+            ],
             "required_ops_level": 12,
             "requirements": [
                 {
+                    "id": 3507544566,
+                    "type": "research",
                     "name": "Defense Platforms",
                     "value": 1
                 }
@@ -29,14 +35,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 136
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 500
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 50
                     }
@@ -48,14 +57,20 @@
         },
         {
             "level": 2,
+            "power": 989,
             "increased_power": 44,
             "build_time": 180,
-            "bonuses": {
-                "1": 2.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 2.0
+                }
+            ],
             "required_ops_level": 12,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 2
                 }
@@ -63,14 +78,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 5500
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 400
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 40
                     }
@@ -82,14 +100,20 @@
         },
         {
             "level": 3,
+            "power": 1168,
             "increased_power": 179,
             "build_time": 390,
-            "bonuses": {
-                "1": 3.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 3.0
+                }
+            ],
             "required_ops_level": 12,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 3
                 }
@@ -97,14 +121,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 6250
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 420
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 42
                     }
@@ -116,14 +143,20 @@
         },
         {
             "level": 4,
+            "power": 1400,
             "increased_power": 232,
             "build_time": 540,
-            "bonuses": {
-                "1": 4.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 4.0
+                }
+            ],
             "required_ops_level": 12,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 4
                 }
@@ -131,14 +164,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 7000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 440
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 44
                     }
@@ -150,14 +186,20 @@
         },
         {
             "level": 5,
+            "power": 1801,
             "increased_power": 401,
             "build_time": 900,
-            "bonuses": {
-                "1": 5.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 5.0
+                }
+            ],
             "required_ops_level": 12,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 5
                 }
@@ -165,14 +207,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 7750
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 460
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 46
                     }
@@ -184,14 +229,20 @@
         },
         {
             "level": 6,
+            "power": 2374,
             "increased_power": 573,
             "build_time": 1560,
-            "bonuses": {
-                "1": 6.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 6.0
+                }
+            ],
             "required_ops_level": 12,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 6
                 }
@@ -199,14 +250,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 8500
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 480
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 48
                     }
@@ -218,14 +272,20 @@
         },
         {
             "level": 7,
+            "power": 3245,
             "increased_power": 871,
             "build_time": 2880,
-            "bonuses": {
-                "1": 7.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 7.0
+                }
+            ],
             "required_ops_level": 12,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 7
                 }
@@ -233,14 +293,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 9250
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 500
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 50
                     }
@@ -252,14 +315,20 @@
         },
         {
             "level": 8,
+            "power": 4767,
             "increased_power": 1522,
             "build_time": 4080,
-            "bonuses": {
-                "1": 8.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 8.0
+                }
+            ],
             "required_ops_level": 12,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 8
                 }
@@ -267,14 +336,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 10000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 520
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 52
                     }
@@ -286,14 +358,20 @@
         },
         {
             "level": 9,
+            "power": 6848,
             "increased_power": 2081,
             "build_time": 6300,
-            "bonuses": {
-                "1": 9.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 9.0
+                }
+            ],
             "required_ops_level": 12,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 9
                 }
@@ -301,14 +379,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 11000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 540
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 54
                     }
@@ -320,14 +401,20 @@
         },
         {
             "level": 10,
+            "power": 9090,
             "increased_power": 2242,
             "build_time": 6900,
-            "bonuses": {
-                "1": 10.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 10.0
+                }
+            ],
             "required_ops_level": 12,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 10
                 }
@@ -335,14 +422,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 12500
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 600
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 60
                     }
@@ -354,14 +444,20 @@
         },
         {
             "level": 11,
+            "power": 10987,
             "increased_power": 1897,
             "build_time": 7200,
-            "bonuses": {
-                "1": 11.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 11.0
+                }
+            ],
             "required_ops_level": 12,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 11
                 }
@@ -369,14 +465,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 13600
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 400
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 8
                     }
@@ -388,18 +487,26 @@
         },
         {
             "level": 12,
+            "power": 12747,
             "increased_power": 1760,
             "build_time": 12900,
-            "bonuses": {
-                "1": 12.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 12.0
+                }
+            ],
             "required_ops_level": 12,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 12
                 },
                 {
+                    "id": 34,
+                    "type": "building",
                     "name": "Defense Platform A",
                     "value": 12
                 }
@@ -407,14 +514,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 18700
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 550
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 22
                     }
@@ -426,14 +536,20 @@
         },
         {
             "level": 13,
+            "power": 15003,
             "increased_power": 2256,
             "build_time": 19200,
-            "bonuses": {
-                "1": 13.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 13.0
+                }
+            ],
             "required_ops_level": 13,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 13
                 }
@@ -441,14 +557,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 27200
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 800
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 48
                     }
@@ -460,14 +579,20 @@
         },
         {
             "level": 14,
+            "power": 16798,
             "increased_power": 1795,
             "build_time": 26640,
-            "bonuses": {
-                "1": 14.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 14.0
+                }
+            ],
             "required_ops_level": 14,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 14
                 }
@@ -475,14 +600,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 37400
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 1100
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 88
                     }
@@ -494,14 +622,20 @@
         },
         {
             "level": 15,
+            "power": 17731,
             "increased_power": 933,
             "build_time": 34560,
-            "bonuses": {
-                "1": 15.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 15.0
+                }
+            ],
             "required_ops_level": 15,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 15
                 }
@@ -509,14 +643,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 51000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 1500
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 150
                     }
@@ -528,14 +665,20 @@
         },
         {
             "level": 16,
+            "power": 21913,
             "increased_power": 4182,
             "build_time": 40320,
-            "bonuses": {
-                "1": 16.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 16.0
+                }
+            ],
             "required_ops_level": 16,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 16
                 }
@@ -543,14 +686,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 68000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 2000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 200
                     }
@@ -562,14 +708,20 @@
         },
         {
             "level": 17,
+            "power": 25344,
             "increased_power": 3431,
             "build_time": 43920,
-            "bonuses": {
-                "1": 17.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 17.0
+                }
+            ],
             "required_ops_level": 17,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 17
                 }
@@ -577,20 +729,24 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 95200
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 2800
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 280
                     }
                 ],
                 "materials": [
                     {
+                        "id": 796037847,
                         "type": "2\u2605 Common Gas",
                         "grade": 2,
                         "rarity": 1,
@@ -603,14 +759,20 @@
         },
         {
             "level": 18,
+            "power": 27809,
             "increased_power": 2465,
             "build_time": 66960,
-            "bonuses": {
-                "1": 18.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 18.0
+                }
+            ],
             "required_ops_level": 18,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 18
                 }
@@ -618,20 +780,24 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 136000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 4000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 400
                     }
                 ],
                 "materials": [
                     {
+                        "id": 796037847,
                         "type": "2\u2605 Common Gas",
                         "grade": 2,
                         "rarity": 1,
@@ -644,14 +810,20 @@
         },
         {
             "level": 19,
+            "power": 36536,
             "increased_power": 8727,
             "build_time": 97200,
-            "bonuses": {
-                "1": 19.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 19.0
+                }
+            ],
             "required_ops_level": 19,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 19
                 }
@@ -659,20 +831,24 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 204000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 6000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 600
                     }
                 ],
                 "materials": [
                     {
+                        "id": 796037847,
                         "type": "2\u2605 Common Gas",
                         "grade": 2,
                         "rarity": 1,
@@ -685,18 +861,26 @@
         },
         {
             "level": 20,
+            "power": 46253,
             "increased_power": 9717,
             "build_time": 146160,
-            "bonuses": {
-                "1": 20.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 20.0
+                }
+            ],
             "required_ops_level": 20,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 20
                 },
                 {
+                    "id": 28,
+                    "type": "building",
                     "name": "Defense Technologies",
                     "value": 20
                 }
@@ -704,14 +888,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 289000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 8500
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 850
                     }
@@ -723,14 +910,20 @@
         },
         {
             "level": 21,
+            "power": 52964,
             "increased_power": 6711,
             "build_time": 133200,
-            "bonuses": {
-                "1": 21.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 21.0
+                }
+            ],
             "required_ops_level": 21,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 21
                 }
@@ -738,14 +931,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 486540
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 14310
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 1431
                     }
@@ -757,14 +953,20 @@
         },
         {
             "level": 22,
+            "power": 269086,
             "increased_power": 216122,
             "build_time": 207360,
-            "bonuses": {
-                "1": 22.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 22.0
+                }
+            ],
             "required_ops_level": 22,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 22
                 }
@@ -772,14 +974,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 756840
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 22260
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 2226
                     }
@@ -791,14 +996,20 @@
         },
         {
             "level": 23,
+            "power": 301149,
             "increased_power": 32063,
             "build_time": 244800,
-            "bonuses": {
-                "1": 23.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 23.0
+                }
+            ],
             "required_ops_level": 23,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 23
                 }
@@ -806,14 +1017,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 1245420
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 36630
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 3663
                     }
@@ -825,14 +1039,20 @@
         },
         {
             "level": 24,
+            "power": 337222,
             "increased_power": 36073,
             "build_time": 299520,
-            "bonuses": {
-                "1": 24.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 24.0
+                }
+            ],
             "required_ops_level": 24,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 24
                 }
@@ -840,20 +1060,24 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 1962480
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 57720
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 5772
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3215442881,
                         "type": "3\u2605 Common Gas",
                         "grade": 3,
                         "rarity": 1,
@@ -866,18 +1090,26 @@
         },
         {
             "level": 25,
+            "power": 366122,
             "increased_power": 28900,
             "build_time": 277920,
-            "bonuses": {
-                "1": 25.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 25.0
+                }
+            ],
             "required_ops_level": 25,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 25
                 },
                 {
+                    "id": 28,
+                    "type": "building",
                     "name": "Defense Technologies",
                     "value": 25
                 }
@@ -885,26 +1117,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 3182400
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 93600
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 9360
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3215442881,
                         "type": "3\u2605 Common Gas",
                         "grade": 3,
                         "rarity": 1,
                         "value": 190
                     },
                     {
+                        "id": 2599869530,
                         "type": "3\u2605 Uncommon Gas",
                         "grade": 3,
                         "rarity": 2,
@@ -917,14 +1154,20 @@
         },
         {
             "level": 26,
+            "power": 399505,
             "increased_power": 33383,
             "build_time": 377280,
-            "bonuses": {
-                "1": 26.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 26.0
+                }
+            ],
             "required_ops_level": 26,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 26
                 }
@@ -932,26 +1175,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 4972500
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 146250
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 14625
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3215442881,
                         "type": "3\u2605 Common Gas",
                         "grade": 3,
                         "rarity": 1,
                         "value": 230
                     },
                     {
+                        "id": 2599869530,
                         "type": "3\u2605 Uncommon Gas",
                         "grade": 3,
                         "rarity": 2,
@@ -964,14 +1212,20 @@
         },
         {
             "level": 27,
+            "power": 470121,
             "increased_power": 70616,
             "build_time": 429120,
-            "bonuses": {
-                "1": 27.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 27.0
+                }
+            ],
             "required_ops_level": 27,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 27
                 }
@@ -979,20 +1233,24 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 7588800
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 223200
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 22320
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2599869530,
                         "type": "3\u2605 Uncommon Gas",
                         "grade": 3,
                         "rarity": 2,
@@ -1005,14 +1263,20 @@
         },
         {
             "level": 28,
+            "power": 573626,
             "increased_power": 103505,
             "build_time": 498240,
-            "bonuses": {
-                "1": 28.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 28.0
+                }
+            ],
             "required_ops_level": 28,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 28
                 }
@@ -1020,20 +1284,24 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 11383200
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 334800
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 33480
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2599869530,
                         "type": "3\u2605 Uncommon Gas",
                         "grade": 3,
                         "rarity": 2,
@@ -1046,14 +1314,20 @@
         },
         {
             "level": 29,
+            "power": 629786,
             "increased_power": 56160,
             "build_time": 550080,
-            "bonuses": {
-                "1": 29.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 29.0
+                }
+            ],
             "required_ops_level": 29,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 29
                 }
@@ -1061,26 +1335,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 18122000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 533000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 53300
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3215442881,
                         "type": "3\u2605 Common Gas",
                         "grade": 3,
                         "rarity": 1,
                         "value": 450
                     },
                     {
+                        "id": 2599869530,
                         "type": "3\u2605 Uncommon Gas",
                         "grade": 3,
                         "rarity": 2,
@@ -1093,18 +1372,26 @@
         },
         {
             "level": 30,
+            "power": 698787,
             "increased_power": 69001,
             "build_time": 596160,
-            "bonuses": {
-                "1": 30.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 30.0
+                }
+            ],
             "required_ops_level": 30,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 30
                 },
                 {
+                    "id": 28,
+                    "type": "building",
                     "name": "Defense Technologies",
                     "value": 30
                 }
@@ -1112,20 +1399,24 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 26520000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 780000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 78000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2599869530,
                         "type": "3\u2605 Uncommon Gas",
                         "grade": 3,
                         "rarity": 2,
@@ -1138,14 +1429,20 @@
         },
         {
             "level": 31,
+            "power": 801587,
             "increased_power": 102800,
             "build_time": 781920,
-            "bonuses": {
-                "1": 31.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 31.0
+                }
+            ],
             "required_ops_level": 31,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 31
                 }
@@ -1153,26 +1450,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 41922000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 1233000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 123300
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3215442881,
                         "type": "3\u2605 Common Gas",
                         "grade": 3,
                         "rarity": 1,
                         "value": 700
                     },
                     {
+                        "id": 2599869530,
                         "type": "3\u2605 Uncommon Gas",
                         "grade": 3,
                         "rarity": 2,
@@ -1185,14 +1487,20 @@
         },
         {
             "level": 32,
+            "power": 972557,
             "increased_power": 170970,
             "build_time": 763200,
-            "bonuses": {
-                "1": 32.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 32.0
+                }
+            ],
             "required_ops_level": 32,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 32
                 }
@@ -1200,20 +1508,24 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 60554000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 1781000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 178100
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2599869530,
                         "type": "3\u2605 Uncommon Gas",
                         "grade": 3,
                         "rarity": 2,
@@ -1226,18 +1538,26 @@
         },
         {
             "level": 33,
+            "power": 1073511,
             "increased_power": 100954,
             "build_time": 1110240,
-            "bonuses": {
-                "1": 33.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 33.0
+                }
+            ],
             "required_ops_level": 33,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 33
                 },
                 {
+                    "id": 34,
+                    "type": "building",
                     "name": "Defense Platform A",
                     "value": 33
                 }
@@ -1245,20 +1565,24 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 93670000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 2755000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 275500
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2599869530,
                         "type": "3\u2605 Uncommon Gas",
                         "grade": 3,
                         "rarity": 2,
@@ -1271,14 +1595,20 @@
         },
         {
             "level": 34,
+            "power": 1182087,
             "increased_power": 108576,
             "build_time": 1470240,
-            "bonuses": {
-                "1": 34.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 34.0
+                }
+            ],
             "required_ops_level": 34,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 34
                 }
@@ -1286,26 +1616,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 147900000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 4350000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 435000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3215442881,
                         "type": "3\u2605 Common Gas",
                         "grade": 3,
                         "rarity": 1,
                         "value": 1100
                     },
                     {
+                        "id": 2599869530,
                         "type": "3\u2605 Uncommon Gas",
                         "grade": 3,
                         "rarity": 2,
@@ -1318,18 +1653,26 @@
         },
         {
             "level": 35,
+            "power": 1387136,
             "increased_power": 205049,
             "build_time": 1936800,
-            "bonuses": {
-                "1": 35.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 35.0
+                }
+            ],
             "required_ops_level": 35,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 35
                 },
                 {
+                    "id": 28,
+                    "type": "building",
                     "name": "Defense Technologies",
                     "value": 35
                 }
@@ -1337,26 +1680,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 228888000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 6732000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 673200
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3215442881,
                         "type": "3\u2605 Common Gas",
                         "grade": 3,
                         "rarity": 1,
                         "value": 1300
                     },
                     {
+                        "id": 2599869530,
                         "type": "3\u2605 Uncommon Gas",
                         "grade": 3,
                         "rarity": 2,
@@ -1369,14 +1717,20 @@
         },
         {
             "level": 36,
+            "power": 1575431,
             "increased_power": 188295,
             "build_time": 2475360,
-            "bonuses": {
-                "1": 36.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 36.0
+                }
+            ],
             "required_ops_level": 36,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 36
                 }
@@ -1384,20 +1738,24 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 322524000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 9486000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 948600
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2599869530,
                         "type": "3\u2605 Uncommon Gas",
                         "grade": 3,
                         "rarity": 2,
@@ -1410,14 +1768,20 @@
         },
         {
             "level": 37,
+            "power": 1711390,
             "increased_power": 135959,
             "build_time": 2558880,
-            "bonuses": {
-                "1": 37.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 37.0
+                }
+            ],
             "required_ops_level": 37,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 37
                 }
@@ -1425,26 +1789,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 495720000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 14580000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 1458000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3215442881,
                         "type": "3\u2605 Common Gas",
                         "grade": 3,
                         "rarity": 1,
                         "value": 1800
                     },
                     {
+                        "id": 2599869530,
                         "type": "3\u2605 Uncommon Gas",
                         "grade": 3,
                         "rarity": 2,
@@ -1457,18 +1826,26 @@
         },
         {
             "level": 38,
+            "power": 1940043,
             "increased_power": 228653,
             "build_time": 4148640,
-            "bonuses": {
-                "1": 38.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 38.0
+                }
+            ],
             "required_ops_level": 38,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 38
                 },
                 {
+                    "id": 34,
+                    "type": "building",
                     "name": "Defense Platform A",
                     "value": 38
                 }
@@ -1476,26 +1853,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 771120000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 22680000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 2268000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3215442881,
                         "type": "3\u2605 Common Gas",
                         "grade": 3,
                         "rarity": 1,
                         "value": 2100
                     },
                     {
+                        "id": 2599869530,
                         "type": "3\u2605 Uncommon Gas",
                         "grade": 3,
                         "rarity": 2,
@@ -1508,18 +1890,26 @@
         },
         {
             "level": 39,
+            "power": 2222894,
             "increased_power": 282851,
             "build_time": 5506560,
-            "bonuses": {
-                "1": 39.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 39.0
+                }
+            ],
             "required_ops_level": 39,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 39
                 },
                 {
+                    "id": 34,
+                    "type": "building",
                     "name": "Defense Platform A",
                     "value": 39
                 }
@@ -1527,14 +1917,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 1315800000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 38700000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 3870000
                     }
@@ -1546,14 +1939,20 @@
         },
         {
             "level": 40,
+            "power": 3368503,
             "increased_power": 1145609,
             "build_time": 9773280,
-            "bonuses": {
-                "1": 40.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 40.0
+                }
+            ],
             "required_ops_level": 40,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 40
                 }
@@ -1561,26 +1960,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 5731040000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 60200000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 6020000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 309421080,
                         "type": "4\u2605 Common Gas",
                         "grade": 4,
                         "rarity": 1,
                         "value": 10000
                     },
                     {
+                        "id": 3628066968,
                         "type": "4\u2605 Uncommon Gas",
                         "grade": 4,
                         "rarity": 2,
@@ -1593,18 +1997,26 @@
         },
         {
             "level": 41,
+            "power": 3656017,
             "increased_power": 287514,
             "build_time": 9159840,
-            "bonuses": {
-                "1": 41.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 41.0
+                }
+            ],
             "required_ops_level": 41,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 41
                 },
                 {
+                    "id": 34,
+                    "type": "building",
                     "name": "Defense Platform A",
                     "value": 41
                 }
@@ -1612,26 +2024,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 5848000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 86000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 8600000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 309421080,
                         "type": "4\u2605 Common Gas",
                         "grade": 4,
                         "rarity": 1,
                         "value": 14000
                     },
                     {
+                        "id": 3628066968,
                         "type": "4\u2605 Uncommon Gas",
                         "grade": 4,
                         "rarity": 2,
@@ -1644,14 +2061,20 @@
         },
         {
             "level": 42,
+            "power": 3968193,
             "increased_power": 312176,
             "build_time": 14080320,
-            "bonuses": {
-                "1": 42.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 42.0
+                }
+            ],
             "required_ops_level": 42,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 42
                 }
@@ -1659,26 +2082,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 8710800000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 128100000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 12810000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 309421080,
                         "type": "4\u2605 Common Gas",
                         "grade": 4,
                         "rarity": 1,
                         "value": 25000
                     },
                     {
+                        "id": 3628066968,
                         "type": "4\u2605 Uncommon Gas",
                         "grade": 4,
                         "rarity": 2,
@@ -1691,14 +2119,20 @@
         },
         {
             "level": 43,
+            "power": 4307137,
             "increased_power": 338944,
             "build_time": 18601920,
-            "bonuses": {
-                "1": 43.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 43.0
+                }
+            ],
             "required_ops_level": 43,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 43
                 }
@@ -1706,26 +2140,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 12444000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 183000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 18300000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3628066968,
                         "type": "4\u2605 Uncommon Gas",
                         "grade": 4,
                         "rarity": 2,
                         "value": 6000
                     },
                     {
+                        "id": 810120542,
                         "type": "4\u2605 Rare Gas",
                         "grade": 4,
                         "rarity": 3,
@@ -1738,18 +2177,26 @@
         },
         {
             "level": 44,
+            "power": 4675185,
             "increased_power": 368048,
             "build_time": 24279840,
-            "bonuses": {
-                "1": 44.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 44.0
+                }
+            ],
             "required_ops_level": 44,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 44
                 },
                 {
+                    "id": 34,
+                    "type": "building",
                     "name": "Defense Platform A",
                     "value": 44
                 }
@@ -1757,20 +2204,24 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 18666000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 274500000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 27450000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 810120542,
                         "type": "4\u2605 Rare Gas",
                         "grade": 4,
                         "rarity": 3,
@@ -1783,18 +2234,26 @@
         },
         {
             "level": 45,
+            "power": 5074843,
             "increased_power": 399658,
             "build_time": 31345920,
-            "bonuses": {
-                "1": 45.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 45.0
+                }
+            ],
             "required_ops_level": 45,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 45
                 },
                 {
+                    "id": 28,
+                    "type": "building",
                     "name": "Defense Technologies",
                     "value": 45
                 }
@@ -1802,26 +2261,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 26520000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 390000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 39000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 309421080,
                         "type": "4\u2605 Common Gas",
                         "grade": 4,
                         "rarity": 1,
                         "value": 15000
                     },
                     {
+                        "id": 810120542,
                         "type": "4\u2605 Rare Gas",
                         "grade": 4,
                         "rarity": 3,
@@ -1834,18 +2298,26 @@
         },
         {
             "level": 46,
+            "power": 5508846,
             "increased_power": 434003,
             "build_time": 40068000,
-            "bonuses": {
-                "1": 46.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 46.0
+                }
+            ],
             "required_ops_level": 46,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 46
                 },
                 {
+                    "id": 34,
+                    "type": "building",
                     "name": "Defense Platform A",
                     "value": 46
                 }
@@ -1853,26 +2325,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 36465000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 536250000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 53625000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 309421080,
                         "type": "4\u2605 Common Gas",
                         "grade": 4,
                         "rarity": 1,
                         "value": 30000
                     },
                     {
+                        "id": 810120542,
                         "type": "4\u2605 Rare Gas",
                         "grade": 4,
                         "rarity": 3,
@@ -1885,14 +2362,20 @@
         },
         {
             "level": 47,
+            "power": 5980155,
             "increased_power": 471309,
             "build_time": 50758560,
-            "bonuses": {
-                "1": 47.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 47.0
+                }
+            ],
             "required_ops_level": 47,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 47
                 }
@@ -1900,26 +2383,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 53040000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 780000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 78000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 309421080,
                         "type": "4\u2605 Common Gas",
                         "grade": 4,
                         "rarity": 1,
                         "value": 45000
                     },
                     {
+                        "id": 3628066968,
                         "type": "4\u2605 Uncommon Gas",
                         "grade": 4,
                         "rarity": 2,
@@ -1932,14 +2420,20 @@
         },
         {
             "level": 48,
+            "power": 6492005,
             "increased_power": 511850,
             "build_time": 63770400,
-            "bonuses": {
-                "1": 48.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 48.0
+                }
+            ],
             "required_ops_level": 48,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 48
                 }
@@ -1947,26 +2441,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 85680000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 1260000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 126000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 309421080,
                         "type": "4\u2605 Common Gas",
                         "grade": 4,
                         "rarity": 1,
                         "value": 75000
                     },
                     {
+                        "id": 3628066968,
                         "type": "4\u2605 Uncommon Gas",
                         "grade": 4,
                         "rarity": 2,
@@ -1979,18 +2478,26 @@
         },
         {
             "level": 49,
+            "power": 7047904,
             "increased_power": 555899,
             "build_time": 79511040,
-            "bonuses": {
-                "1": 49.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 49.0
+                }
+            ],
             "required_ops_level": 49,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 49
                 },
                 {
+                    "id": 34,
+                    "type": "building",
                     "name": "Defense Platform A",
                     "value": 49
                 }
@@ -1998,26 +2505,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 142800000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 2100000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 210000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3628066968,
                         "type": "4\u2605 Uncommon Gas",
                         "grade": 4,
                         "rarity": 2,
                         "value": 14000
                     },
                     {
+                        "id": 810120542,
                         "type": "4\u2605 Rare Gas",
                         "grade": 4,
                         "rarity": 3,
@@ -2030,14 +2542,20 @@
         },
         {
             "level": 50,
+            "power": 7651643,
             "increased_power": 603739,
             "build_time": 98439840,
-            "bonuses": {
-                "1": 50.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 50.0
+                }
+            ],
             "required_ops_level": 50,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 50
                 }
@@ -2045,14 +2563,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 249900000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 3675000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 367500000
                     }
@@ -2064,14 +2585,20 @@
         },
         {
             "level": 51,
+            "power": 8867688,
             "increased_power": 1216045,
             "build_time": 104346720,
-            "bonuses": {
-                "1": 51.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 51.0
+                }
+            ],
             "required_ops_level": 51,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 51
                 }
@@ -2079,26 +2606,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 1246440000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 7800000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 780000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 1499705342,
                         "type": "5\u2605 Common Gas",
                         "grade": 5,
                         "rarity": 1,
                         "value": 21700
                     },
                     {
+                        "id": 3329003172,
                         "type": "5\u2605 Uncommon Gas",
                         "grade": 5,
                         "rarity": 2,
@@ -2111,18 +2643,26 @@
         },
         {
             "level": 52,
+            "power": 11438800,
             "increased_power": 2571112,
             "build_time": 110606400,
-            "bonuses": {
-                "1": 52.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 52.0
+                }
+            ],
             "required_ops_level": 52,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 52
                 },
                 {
+                    "id": 34,
+                    "type": "building",
                     "name": "Defense Platform A",
                     "value": 52
                 }
@@ -2130,26 +2670,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 2254200000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 13260000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 1326000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 1499705342,
                         "type": "5\u2605 Common Gas",
                         "grade": 5,
                         "rarity": 1,
                         "value": 37500
                     },
                     {
+                        "id": 3329003172,
                         "type": "5\u2605 Uncommon Gas",
                         "grade": 5,
                         "rarity": 2,
@@ -2162,18 +2707,26 @@
         },
         {
             "level": 53,
+            "power": 21353292,
             "increased_power": 9914492,
             "build_time": 117243360,
-            "bonuses": {
-                "1": 53.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 53.0
+                }
+            ],
             "required_ops_level": 53,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 53
                 },
                 {
+                    "id": 34,
+                    "type": "building",
                     "name": "Defense Platform A",
                     "value": 53
                 }
@@ -2181,26 +2734,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 3786240000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 23200000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 2320000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 1499705342,
                         "type": "5\u2605 Common Gas",
                         "grade": 5,
                         "rarity": 1,
                         "value": 88900
                     },
                     {
+                        "id": 3329003172,
                         "type": "5\u2605 Uncommon Gas",
                         "grade": 5,
                         "rarity": 2,
@@ -2213,18 +2771,26 @@
         },
         {
             "level": 54,
+            "power": 23802796,
             "increased_power": 2449504,
             "build_time": 124277760,
-            "bonuses": {
-                "1": 54.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 54.0
+                }
+            ],
             "required_ops_level": 54,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 54
                 },
                 {
+                    "id": 34,
+                    "type": "building",
                     "name": "Defense Platform A",
                     "value": 54
                 }
@@ -2232,26 +2798,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 5679360000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 34800000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 3480000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 1499705342,
                         "type": "5\u2605 Common Gas",
                         "grade": 5,
                         "rarity": 1,
                         "value": 76500
                     },
                     {
+                        "id": 768674708,
                         "type": "5\u2605 Rare Gas",
                         "grade": 5,
                         "rarity": 3,
@@ -2264,14 +2835,20 @@
         },
         {
             "level": 55,
+            "power": 28672656,
             "increased_power": 4869860,
             "build_time": 131734080,
-            "bonuses": {
-                "1": 55.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 55.0
+                }
+            ],
             "required_ops_level": 55,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 55
                 }
@@ -2279,26 +2856,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 9653280000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 54600000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 5460000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3329003172,
                         "type": "5\u2605 Uncommon Gas",
                         "grade": 5,
                         "rarity": 2,
                         "value": 22300
                     },
                     {
+                        "id": 768674708,
                         "type": "5\u2605 Rare Gas",
                         "grade": 5,
                         "rarity": 3,
@@ -2311,18 +2893,26 @@
         },
         {
             "level": 56,
+            "power": 30396456,
             "increased_power": 1723800,
             "build_time": 139638240,
-            "bonuses": {
-                "1": 56.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 56.0
+                }
+            ],
             "required_ops_level": 56,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 56
                 },
                 {
+                    "id": 34,
+                    "type": "building",
                     "name": "Defense Platform A",
                     "value": 56
                 }
@@ -2330,26 +2920,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 15169440000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 85800000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 8580000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3329003172,
                         "type": "5\u2605 Uncommon Gas",
                         "grade": 5,
                         "rarity": 2,
                         "value": 27600
                     },
                     {
+                        "id": 768674708,
                         "type": "5\u2605 Rare Gas",
                         "grade": 5,
                         "rarity": 3,
@@ -2362,14 +2957,20 @@
         },
         {
             "level": 57,
+            "power": 36970858,
             "increased_power": 6574402,
             "build_time": 148017600,
-            "bonuses": {
-                "1": 57.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 57.0
+                }
+            ],
             "required_ops_level": 57,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 57
                 }
@@ -2377,26 +2978,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 23747776000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 134320000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 13432000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3329003172,
                         "type": "5\u2605 Uncommon Gas",
                         "grade": 5,
                         "rarity": 2,
                         "value": 32200
                     },
                     {
+                        "id": 768674708,
                         "type": "5\u2605 Rare Gas",
                         "grade": 5,
                         "rarity": 3,
@@ -2409,14 +3015,20 @@
         },
         {
             "level": 58,
+            "power": 42008434,
             "increased_power": 5037576,
             "build_time": 156898080,
-            "bonuses": {
-                "1": 58.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 58.0
+                }
+            ],
             "required_ops_level": 58,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 58
                 }
@@ -2424,26 +3036,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 34311168000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 210240000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 21024000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3329003172,
                         "type": "5\u2605 Uncommon Gas",
                         "grade": 5,
                         "rarity": 2,
                         "value": 27300
                     },
                     {
+                        "id": 768674708,
                         "type": "5\u2605 Rare Gas",
                         "grade": 5,
                         "rarity": 3,
@@ -2456,18 +3073,26 @@
         },
         {
             "level": 59,
+            "power": 48738122,
             "increased_power": 6729688,
             "build_time": 166311360,
-            "bonuses": {
-                "1": 59.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 59.0
+                }
+            ],
             "required_ops_level": 59,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 59
                 },
                 {
+                    "id": 34,
+                    "type": "building",
                     "name": "Defense Platform A",
                     "value": 59
                 }
@@ -2475,26 +3100,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 51466752000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 315360000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 31536000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3329003172,
                         "type": "5\u2605 Uncommon Gas",
                         "grade": 5,
                         "rarity": 2,
                         "value": 46900
                     },
                     {
+                        "id": 768674708,
                         "type": "5\u2605 Rare Gas",
                         "grade": 5,
                         "rarity": 3,
@@ -2507,14 +3137,20 @@
         },
         {
             "level": 60,
+            "power": 57192561,
             "increased_power": 8454439,
             "build_time": 176290560,
-            "bonuses": {
-                "1": 60.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 60.0
+                }
+            ],
             "required_ops_level": 60,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 60
                 }
@@ -2522,26 +3158,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 80376000000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 492500000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 49250000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3329003172,
                         "type": "5\u2605 Uncommon Gas",
                         "grade": 5,
                         "rarity": 2,
                         "value": 39100
                     },
                     {
+                        "id": 768674708,
                         "type": "5\u2605 Rare Gas",
                         "grade": 5,
                         "rarity": 3,

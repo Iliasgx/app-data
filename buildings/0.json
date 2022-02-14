@@ -4,21 +4,25 @@
     "description": "Operations houses the command center and the main computer. Upgrading Operations increases the overall capability of the Station by unlocking more buildings for construction.",
     "group": 0,
     "start_level": 1,
-    "bonuses": {
-        "1": {
+    "bonuses": [
+        {
+            "id": 1,
             "name": "Weapon Damage Bonus",
-            "is_percentage": true,
-            "type": null
+            "is_percentage": true
         }
-    },
+    ],
     "levels": [
         {
             "level": 1,
+            "power": 0,
             "increased_power": 0,
             "build_time": 0,
-            "bonuses": {
-                "1": 0.01
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.01
+                }
+            ],
             "required_ops_level": 0,
             "requirements": [],
             "build_costs": {
@@ -30,14 +34,20 @@
         },
         {
             "level": 2,
+            "power": 120,
             "increased_power": 120,
             "build_time": 300,
-            "bonuses": {
-                "1": 0.02
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.02
+                }
+            ],
             "required_ops_level": 1,
             "requirements": [
                 {
+                    "id": 4,
+                    "type": "building",
                     "name": "Parsteel Warehouse",
                     "value": 1
                 }
@@ -45,6 +55,7 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 50
                     }
@@ -56,14 +67,20 @@
         },
         {
             "level": 3,
+            "power": 190,
             "increased_power": 70,
             "build_time": 360,
-            "bonuses": {
-                "1": 0.03
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.03
+                }
+            ],
             "required_ops_level": 2,
             "requirements": [
                 {
+                    "id": 4,
+                    "type": "building",
                     "name": "Parsteel Warehouse",
                     "value": 2
                 }
@@ -71,6 +88,7 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 75
                     }
@@ -83,10 +101,12 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 5
                     },
                     {
+                        "id": 1219702667,
                         "type": "3 Minute Speed Up",
                         "value": 1
                     }
@@ -95,18 +115,26 @@
         },
         {
             "level": 4,
+            "power": 270,
             "increased_power": 80,
             "build_time": 450,
-            "bonuses": {
-                "1": 0.04
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.04
+                }
+            ],
             "required_ops_level": 3,
             "requirements": [
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 2
                 },
                 {
+                    "id": 4,
+                    "type": "building",
                     "name": "Parsteel Warehouse",
                     "value": 3
                 }
@@ -114,6 +142,7 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 125
                     }
@@ -126,10 +155,12 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 5
                     },
                     {
+                        "id": 1823786753,
                         "type": "5 Minute Speed Up",
                         "value": 5
                     }
@@ -138,14 +169,20 @@
         },
         {
             "level": 5,
+            "power": 370,
             "increased_power": 100,
             "build_time": 900,
-            "bonuses": {
-                "1": 0.05
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.05
+                }
+            ],
             "required_ops_level": 4,
             "requirements": [
                 {
+                    "id": 4,
+                    "type": "building",
                     "name": "Parsteel Warehouse",
                     "value": 4
                 }
@@ -153,6 +190,7 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 400
                     }
@@ -165,14 +203,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 10
                     },
                     {
+                        "id": 2979494228,
                         "type": "10 Minute Speed Up",
                         "value": 3
                     },
                     {
+                        "id": 1445265330,
                         "type": "1 Minute Repair Speed Up",
                         "value": 3
                     }
@@ -181,14 +222,20 @@
         },
         {
             "level": 6,
+            "power": 480,
             "increased_power": 110,
             "build_time": 1800,
-            "bonuses": {
-                "1": 0.06
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.06
+                }
+            ],
             "required_ops_level": 5,
             "requirements": [
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 1
                 }
@@ -196,6 +243,7 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 1000
                     }
@@ -208,14 +256,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 10
                     },
                     {
+                        "id": 1673229764,
                         "type": "15 Minute Speed Up",
                         "value": 5
                     },
                     {
+                        "id": 1445265330,
                         "type": "1 Minute Repair Speed Up",
                         "value": 3
                     }
@@ -224,18 +275,26 @@
         },
         {
             "level": 7,
+            "power": 625,
             "increased_power": 145,
             "build_time": 7200,
-            "bonuses": {
-                "1": 0.07
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.07
+                }
+            ],
             "required_ops_level": 6,
             "requirements": [
                 {
+                    "id": 8,
+                    "type": "building",
                     "name": "Tritanium Warehouse",
                     "value": 3
                 },
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 6
                 }
@@ -243,10 +302,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 2000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 70
                     }
@@ -259,14 +320,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 10
                     },
                     {
+                        "id": 2932133341,
                         "type": "30 Minute Speed Up",
                         "value": 3
                     },
                     {
+                        "id": 1445265330,
                         "type": "1 Minute Repair Speed Up",
                         "value": 3
                     }
@@ -275,22 +339,32 @@
         },
         {
             "level": 8,
+            "power": 800,
             "increased_power": 175,
             "build_time": 21600,
-            "bonuses": {
-                "1": 0.08
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.08
+                }
+            ],
             "required_ops_level": 7,
             "requirements": [
                 {
+                    "id": 6,
+                    "type": "building",
                     "name": "Tritanium Generator B",
                     "value": 4
                 },
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 7
                 },
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 4
                 }
@@ -298,10 +372,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 6000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 100
                     }
@@ -314,14 +390,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 10
                     },
                     {
+                        "id": 24469225,
                         "type": "1 Hour Speed Up",
                         "value": 2
                     },
                     {
+                        "id": 1445265330,
                         "type": "1 Minute Repair Speed Up",
                         "value": 5
                     }
@@ -330,22 +409,32 @@
         },
         {
             "level": 9,
+            "power": 1000,
             "increased_power": 200,
             "build_time": 18000,
-            "bonuses": {
-                "1": 0.09
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.09
+                }
+            ],
             "required_ops_level": 8,
             "requirements": [
                 {
+                    "id": 4,
+                    "type": "building",
                     "name": "Parsteel Warehouse",
                     "value": 8
                 },
                 {
+                    "id": 8,
+                    "type": "building",
                     "name": "Tritanium Warehouse",
                     "value": 8
                 },
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 8
                 }
@@ -353,10 +442,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 10000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 250
                     }
@@ -369,14 +460,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 10
                     },
                     {
+                        "id": 24469225,
                         "type": "1 Hour Speed Up",
                         "value": 3
                     },
                     {
+                        "id": 1445265330,
                         "type": "1 Minute Repair Speed Up",
                         "value": 5
                     }
@@ -385,22 +479,32 @@
         },
         {
             "level": 10,
+            "power": 1275,
             "increased_power": 275,
             "build_time": 28800,
-            "bonuses": {
-                "1": 0.1
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.1
+                }
+            ],
             "required_ops_level": 9,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 9
                 },
                 {
+                    "id": 18,
+                    "type": "building",
                     "name": "Drydock B",
                     "value": 9
                 },
                 {
+                    "id": 26,
+                    "type": "building",
                     "name": "Astronautics Studio",
                     "value": 5
                 }
@@ -408,10 +512,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 15000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 225
                     }
@@ -424,14 +530,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 15
                     },
                     {
+                        "id": 24469225,
                         "type": "1 Hour Speed Up",
                         "value": 4
                     },
                     {
+                        "id": 1445265330,
                         "type": "1 Minute Repair Speed Up",
                         "value": 5
                     }
@@ -440,14 +549,20 @@
         },
         {
             "level": 11,
+            "power": 1600,
             "increased_power": 325,
             "build_time": 25920,
-            "bonuses": {
-                "1": 0.11
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.11
+                }
+            ],
             "required_ops_level": 10,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 10
                 }
@@ -455,14 +570,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 16320
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 300
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 20
                     }
@@ -475,14 +593,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 15
                     },
                     {
+                        "id": 24469225,
                         "type": "1 Hour Speed Up",
                         "value": 5
                     },
                     {
+                        "id": 1445265330,
                         "type": "1 Minute Repair Speed Up",
                         "value": 7
                     }
@@ -491,18 +612,26 @@
         },
         {
             "level": 12,
+            "power": 2000,
             "increased_power": 400,
             "build_time": 46080,
-            "bonuses": {
-                "1": 0.12
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.12
+                }
+            ],
             "required_ops_level": 11,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 11
                 },
                 {
+                    "id": 31,
+                    "type": "building",
                     "name": "Refinery",
                     "value": 3
                 }
@@ -510,14 +639,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 22440
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 413
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 55
                     }
@@ -530,14 +662,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 15
                     },
                     {
+                        "id": 3163488617,
                         "type": "3 Hour Speed Up",
                         "value": 2
                     },
                     {
+                        "id": 1445265330,
                         "type": "1 Minute Repair Speed Up",
                         "value": 9
                     }
@@ -546,18 +681,26 @@
         },
         {
             "level": 13,
+            "power": 2400,
             "increased_power": 400,
             "build_time": 68400,
-            "bonuses": {
-                "1": 0.13
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.13
+                }
+            ],
             "required_ops_level": 12,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 12
                 },
                 {
+                    "id": 31,
+                    "type": "building",
                     "name": "Refinery",
                     "value": 6
                 }
@@ -565,14 +708,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 32640
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 600
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 120
                     }
@@ -585,14 +731,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 15
                     },
                     {
+                        "id": 3163488617,
                         "type": "3 Hour Speed Up",
                         "value": 3
                     },
                     {
+                        "id": 1445265330,
                         "type": "1 Minute Repair Speed Up",
                         "value": 11
                     }
@@ -601,22 +750,32 @@
         },
         {
             "level": 14,
+            "power": 2900,
             "increased_power": 500,
             "build_time": 95760,
-            "bonuses": {
-                "1": 0.14
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.14
+                }
+            ],
             "required_ops_level": 13,
             "requirements": [
                 {
+                    "id": 4,
+                    "type": "building",
                     "name": "Parsteel Warehouse",
                     "value": 12
                 },
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 13
                 },
                 {
+                    "id": 34,
+                    "type": "building",
                     "name": "Defense Platform A",
                     "value": 6
                 }
@@ -624,20 +783,24 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 44880
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 825
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 220
                     }
                 ],
                 "materials": [
                     {
+                        "id": 1478791698,
                         "type": "2\u2605 Common Ore",
                         "grade": 2,
                         "rarity": 1,
@@ -651,14 +814,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 15
                     },
                     {
+                        "id": 3163488617,
                         "type": "3 Hour Speed Up",
                         "value": 3
                     },
                     {
+                        "id": 3019850922,
                         "type": "3 Minute Repair Speed Up",
                         "value": 4
                     }
@@ -667,22 +833,32 @@
         },
         {
             "level": 15,
+            "power": 3500,
             "increased_power": 600,
             "build_time": 123120,
-            "bonuses": {
-                "1": 0.15
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.15
+                }
+            ],
             "required_ops_level": 14,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 14
                 },
                 {
+                    "id": 34,
+                    "type": "building",
                     "name": "Defense Platform A",
                     "value": 10
                 },
                 {
+                    "id": 35,
+                    "type": "building",
                     "name": "Defense Platform B",
                     "value": 10
                 }
@@ -690,20 +866,24 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 61200
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 1125
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 375
                     }
                 ],
                 "materials": [
                     {
+                        "id": 1478791698,
                         "type": "2\u2605 Common Ore",
                         "grade": 2,
                         "rarity": 1,
@@ -717,14 +897,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 25
                     },
                     {
+                        "id": 3019850922,
                         "type": "3 Minute Repair Speed Up",
                         "value": 4
                     },
                     {
+                        "id": 3257212914,
                         "type": "8 Hr Peace Shield",
                         "value": 15
                     }
@@ -733,18 +916,26 @@
         },
         {
             "level": 16,
+            "power": 4200,
             "increased_power": 700,
             "build_time": 144720,
-            "bonuses": {
-                "1": 0.16
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.16
+                }
+            ],
             "required_ops_level": 15,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 15
                 },
                 {
+                    "id": 28,
+                    "type": "building",
                     "name": "Defense Technologies",
                     "value": 5
                 }
@@ -752,26 +943,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 81600
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 1500
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 500
                     }
                 ],
                 "materials": [
                     {
+                        "id": 1478791698,
                         "type": "2\u2605 Common Ore",
                         "grade": 2,
                         "rarity": 1,
                         "value": 100
                     },
                     {
+                        "id": 4164002186,
                         "type": "2\u2605 Uncommon Ore",
                         "grade": 2,
                         "rarity": 2,
@@ -785,14 +981,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 25
                     },
                     {
+                        "id": 4294695258,
                         "type": "5 Hour Speed Up",
                         "value": 2
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 1
                     }
@@ -801,18 +1000,26 @@
         },
         {
             "level": 17,
+            "power": 5000,
             "increased_power": 800,
             "build_time": 156240,
-            "bonuses": {
-                "1": 0.17
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.17
+                }
+            ],
             "required_ops_level": 16,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 16
                 },
                 {
+                    "id": 67,
+                    "type": "building",
                     "name": "Dilithium Vault",
                     "value": 3
                 }
@@ -820,26 +1027,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 114240
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 2100
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 700
                     }
                 ],
                 "materials": [
                     {
+                        "id": 1478791698,
                         "type": "2\u2605 Common Ore",
                         "grade": 2,
                         "rarity": 1,
                         "value": 200
                     },
                     {
+                        "id": 4164002186,
                         "type": "2\u2605 Uncommon Ore",
                         "grade": 2,
                         "rarity": 2,
@@ -853,14 +1065,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 25
                     },
                     {
+                        "id": 4294695258,
                         "type": "5 Hour Speed Up",
                         "value": 3
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 1
                     }
@@ -869,22 +1084,32 @@
         },
         {
             "level": 18,
+            "power": 6000,
             "increased_power": 1000,
             "build_time": 239040,
-            "bonuses": {
-                "1": 0.18
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.18
+                }
+            ],
             "required_ops_level": 17,
             "requirements": [
                 {
+                    "id": 4,
+                    "type": "building",
                     "name": "Parsteel Warehouse",
                     "value": 15
                 },
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 17
                 },
                 {
+                    "id": 31,
+                    "type": "building",
                     "name": "Refinery",
                     "value": 17
                 }
@@ -892,26 +1117,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 163200
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 3000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 1000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 1478791698,
                         "type": "2\u2605 Common Ore",
                         "grade": 2,
                         "rarity": 1,
                         "value": 500
                     },
                     {
+                        "id": 4164002186,
                         "type": "2\u2605 Uncommon Ore",
                         "grade": 2,
                         "rarity": 2,
@@ -925,14 +1155,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 25
                     },
                     {
+                        "id": 4294695258,
                         "type": "5 Hour Speed Up",
                         "value": 4
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 1
                     }
@@ -941,18 +1174,26 @@
         },
         {
             "level": 19,
+            "power": 7000,
             "increased_power": 1000,
             "build_time": 347040,
-            "bonuses": {
-                "1": 0.19
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.19
+                }
+            ],
             "required_ops_level": 18,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 18
                 },
                 {
+                    "id": 16,
+                    "type": "building",
                     "name": "Ship Hangar",
                     "value": 5
                 }
@@ -960,26 +1201,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 244800
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 4500
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 1500
                     }
                 ],
                 "materials": [
                     {
+                        "id": 1478791698,
                         "type": "2\u2605 Common Ore",
                         "grade": 2,
                         "rarity": 1,
                         "value": 1000
                     },
                     {
+                        "id": 4164002186,
                         "type": "2\u2605 Uncommon Ore",
                         "grade": 2,
                         "rarity": 2,
@@ -993,14 +1239,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 25
                     },
                     {
+                        "id": 2751958969,
                         "type": "8 Hour Speed Up",
                         "value": 2
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 1
                     }
@@ -1009,22 +1258,32 @@
         },
         {
             "level": 20,
+            "power": 8000,
             "increased_power": 1000,
             "build_time": 521280,
-            "bonuses": {
-                "1": 0.2
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.2
+                }
+            ],
             "required_ops_level": 19,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 19
                 },
                 {
+                    "id": 28,
+                    "type": "building",
                     "name": "Defense Technologies",
                     "value": 19
                 },
                 {
+                    "id": 31,
+                    "type": "building",
                     "name": "Refinery",
                     "value": 19
                 }
@@ -1032,26 +1291,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 346800
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 6375
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 2125
                     }
                 ],
                 "materials": [
                     {
+                        "id": 1478791698,
                         "type": "2\u2605 Common Ore",
                         "grade": 2,
                         "rarity": 1,
                         "value": 5000
                     },
                     {
+                        "id": 4164002186,
                         "type": "2\u2605 Uncommon Ore",
                         "grade": 2,
                         "rarity": 2,
@@ -1065,14 +1329,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 50
                     },
                     {
+                        "id": 2751958969,
                         "type": "8 Hour Speed Up",
                         "value": 3
                     },
                     {
+                        "id": 1905604904,
                         "type": "3 Day Peace Shield",
                         "value": 1
                     }
@@ -1081,22 +1348,32 @@
         },
         {
             "level": 21,
+            "power": 9250,
             "increased_power": 1250,
             "build_time": 476640,
-            "bonuses": {
-                "1": 0.21
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.21
+                }
+            ],
             "required_ops_level": 20,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 20
                 },
                 {
+                    "id": 17,
+                    "type": "building",
                     "name": "Drydock A",
                     "value": 20
                 },
                 {
+                    "id": 34,
+                    "type": "building",
                     "name": "Defense Platform A",
                     "value": 20
                 }
@@ -1104,14 +1381,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 583848
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 10733
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 3578
                     }
@@ -1124,14 +1404,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 50
                     },
                     {
+                        "id": 2751958969,
                         "type": "8 Hour Speed Up",
                         "value": 4
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 2
                     }
@@ -1140,22 +1423,32 @@
         },
         {
             "level": 22,
+            "power": 10750,
             "increased_power": 1500,
             "build_time": 743040,
-            "bonuses": {
-                "1": 0.22
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.22
+                }
+            ],
             "required_ops_level": 21,
             "requirements": [
                 {
+                    "id": 4,
+                    "type": "building",
                     "name": "Parsteel Warehouse",
                     "value": 21
                 },
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 21
                 },
                 {
+                    "id": 67,
+                    "type": "building",
                     "name": "Dilithium Vault",
                     "value": 18
                 }
@@ -1163,20 +1456,24 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 908208
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 16695
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 5565
                     }
                 ],
                 "materials": [
                     {
+                        "id": 813886518,
                         "type": "3\u2605 Common Ore",
                         "grade": 3,
                         "rarity": 1,
@@ -1190,14 +1487,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 50
                     },
                     {
+                        "id": 2751958969,
                         "type": "8 Hour Speed Up",
                         "value": 5
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 2
                     }
@@ -1206,22 +1506,32 @@
         },
         {
             "level": 23,
+            "power": 12250,
             "increased_power": 1500,
             "build_time": 874080,
-            "bonuses": {
-                "1": 0.23
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.23
+                }
+            ],
             "required_ops_level": 22,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 22
                 },
                 {
+                    "id": 35,
+                    "type": "building",
                     "name": "Defense Platform B",
                     "value": 22
                 },
                 {
+                    "id": 36,
+                    "type": "building",
                     "name": "Defense Platform C",
                     "value": 22
                 }
@@ -1229,20 +1539,24 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 1494504
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 27473
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 9158
                     }
                 ],
                 "materials": [
                     {
+                        "id": 813886518,
                         "type": "3\u2605 Common Ore",
                         "grade": 3,
                         "rarity": 1,
@@ -1256,14 +1570,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 50
                     },
                     {
+                        "id": 2119097482,
                         "type": "12 Hour Speed Up",
                         "value": 2
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 2
                     }
@@ -1272,22 +1589,32 @@
         },
         {
             "level": 24,
+            "power": 14000,
             "increased_power": 1750,
             "build_time": 1071360,
-            "bonuses": {
-                "1": 0.24
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.24
+                }
+            ],
             "required_ops_level": 22,
             "requirements": [
                 {
+                    "id": 14,
+                    "type": "building",
                     "name": "Engine Technology Lab",
                     "value": 5
                 },
                 {
+                    "id": 29,
+                    "type": "building",
                     "name": "Science Lab",
                     "value": 5
                 },
                 {
+                    "id": 43,
+                    "type": "building",
                     "name": "Foundry",
                     "value": 5
                 }
@@ -1295,26 +1622,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 2354976
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 43290
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 14430
                     }
                 ],
                 "materials": [
                     {
+                        "id": 813886518,
                         "type": "3\u2605 Common Ore",
                         "grade": 3,
                         "rarity": 1,
                         "value": 560
                     },
                     {
+                        "id": 2453327618,
                         "type": "3\u2605 Uncommon Ore",
                         "grade": 3,
                         "rarity": 2,
@@ -1328,14 +1660,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 50
                     },
                     {
+                        "id": 2119097482,
                         "type": "12 Hour Speed Up",
                         "value": 3
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 2
                     }
@@ -1344,18 +1679,26 @@
         },
         {
             "level": 25,
+            "power": 16000,
             "increased_power": 2000,
             "build_time": 992160,
-            "bonuses": {
-                "1": 0.25
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.25
+                }
+            ],
             "required_ops_level": 24,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 24
                 },
                 {
+                    "id": 16,
+                    "type": "building",
                     "name": "Ship Hangar",
                     "value": 24
                 }
@@ -1363,26 +1706,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 3818880
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 70200
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 23400
                     }
                 ],
                 "materials": [
                     {
+                        "id": 813886518,
                         "type": "3\u2605 Common Ore",
                         "grade": 3,
                         "rarity": 1,
                         "value": 700
                     },
                     {
+                        "id": 2453327618,
                         "type": "3\u2605 Uncommon Ore",
                         "grade": 3,
                         "rarity": 2,
@@ -1396,14 +1744,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 100
                     },
                     {
+                        "id": 3307144088,
                         "type": "15 Hour Speed Up",
                         "value": 2
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 2
                     }
@@ -1412,18 +1763,26 @@
         },
         {
             "level": 26,
+            "power": 18000,
             "increased_power": 2000,
             "build_time": 1346400,
-            "bonuses": {
-                "1": 0.26
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.26
+                }
+            ],
             "required_ops_level": 25,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 25
                 },
                 {
+                    "id": 36,
+                    "type": "building",
                     "name": "Defense Platform C",
                     "value": 25
                 }
@@ -1431,26 +1790,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 5967000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 109688
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 36563
                     }
                 ],
                 "materials": [
                     {
+                        "id": 813886518,
                         "type": "3\u2605 Common Ore",
                         "grade": 3,
                         "rarity": 1,
                         "value": 860
                     },
                     {
+                        "id": 2453327618,
                         "type": "3\u2605 Uncommon Ore",
                         "grade": 3,
                         "rarity": 2,
@@ -1464,14 +1828,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 100
                     },
                     {
+                        "id": 3307144088,
                         "type": "15 Hour Speed Up",
                         "value": 3
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 2
                     }
@@ -1480,18 +1847,26 @@
         },
         {
             "level": 27,
+            "power": 20500,
             "increased_power": 2500,
             "build_time": 1533600,
-            "bonuses": {
-                "1": 0.27
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.27
+                }
+            ],
             "required_ops_level": 26,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 26
                 },
                 {
+                    "id": 43,
+                    "type": "building",
                     "name": "Foundry",
                     "value": 26
                 }
@@ -1499,26 +1874,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 9106560
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 167400
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 55800
                     }
                 ],
                 "materials": [
                     {
+                        "id": 813886518,
                         "type": "3\u2605 Common Ore",
                         "grade": 3,
                         "rarity": 1,
                         "value": 1030
                     },
                     {
+                        "id": 2453327618,
                         "type": "3\u2605 Uncommon Ore",
                         "grade": 3,
                         "rarity": 2,
@@ -1532,14 +1912,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 100
                     },
                     {
+                        "id": 3307144088,
                         "type": "15 Hour Speed Up",
                         "value": 3
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 2
                     }
@@ -1548,18 +1931,26 @@
         },
         {
             "level": 28,
+            "power": 23000,
             "increased_power": 2500,
             "build_time": 1779840,
-            "bonuses": {
-                "1": 0.28
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.28
+                }
+            ],
             "required_ops_level": 27,
             "requirements": [
                 {
+                    "id": 14,
+                    "type": "building",
                     "name": "Engine Technology Lab",
                     "value": 27
                 },
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 27
                 }
@@ -1567,26 +1958,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 13659840
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 251100
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 83700
                     }
                 ],
                 "materials": [
                     {
+                        "id": 813886518,
                         "type": "3\u2605 Common Ore",
                         "grade": 3,
                         "rarity": 1,
                         "value": 1210
                     },
                     {
+                        "id": 2453327618,
                         "type": "3\u2605 Uncommon Ore",
                         "grade": 3,
                         "rarity": 2,
@@ -1600,14 +1996,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 100
                     },
                     {
+                        "id": 3307144088,
                         "type": "15 Hour Speed Up",
                         "value": 4
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 2
                     }
@@ -1616,22 +2015,32 @@
         },
         {
             "level": 29,
+            "power": 25500,
             "increased_power": 2500,
             "build_time": 1962720,
-            "bonuses": {
-                "1": 0.29
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.29
+                }
+            ],
             "required_ops_level": 28,
             "requirements": [
                 {
+                    "id": 4,
+                    "type": "building",
                     "name": "Parsteel Warehouse",
                     "value": 27
                 },
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 28
                 },
                 {
+                    "id": 29,
+                    "type": "building",
                     "name": "Science Lab",
                     "value": 28
                 }
@@ -1639,26 +2048,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 21746400
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 399750
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 133250
                     }
                 ],
                 "materials": [
                     {
+                        "id": 813886518,
                         "type": "3\u2605 Common Ore",
                         "grade": 3,
                         "rarity": 1,
                         "value": 1410
                     },
                     {
+                        "id": 2453327618,
                         "type": "3\u2605 Uncommon Ore",
                         "grade": 3,
                         "rarity": 2,
@@ -1672,14 +2086,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 100
                     },
                     {
+                        "id": 1849895942,
                         "type": "1 Day Speed Up",
                         "value": 2
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 2
                     }
@@ -1688,22 +2105,32 @@
         },
         {
             "level": 30,
+            "power": 28500,
             "increased_power": 3000,
             "build_time": 2128320,
-            "bonuses": {
-                "1": 0.3
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.3
+                }
+            ],
             "required_ops_level": 29,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 29
                 },
                 {
+                    "id": 16,
+                    "type": "building",
                     "name": "Ship Hangar",
                     "value": 29
                 },
                 {
+                    "id": 37,
+                    "type": "building",
                     "name": "Defense Platform D",
                     "value": 10
                 }
@@ -1711,26 +2138,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 31824000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 585000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 195000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 813886518,
                         "type": "3\u2605 Common Ore",
                         "grade": 3,
                         "rarity": 1,
                         "value": 1640
                     },
                     {
+                        "id": 2453327618,
                         "type": "3\u2605 Uncommon Ore",
                         "grade": 3,
                         "rarity": 2,
@@ -1744,14 +2176,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 150
                     },
                     {
+                        "id": 1849895942,
                         "type": "1 Day Speed Up",
                         "value": 2
                     },
                     {
+                        "id": 1905604904,
                         "type": "3 Day Peace Shield",
                         "value": 1
                     }
@@ -1760,22 +2195,32 @@
         },
         {
             "level": 31,
+            "power": 31500,
             "increased_power": 3000,
             "build_time": 2792160,
-            "bonuses": {
-                "1": 0.31
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.31
+                }
+            ],
             "required_ops_level": 30,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 30
                 },
                 {
+                    "id": 34,
+                    "type": "building",
                     "name": "Defense Platform A",
                     "value": 30
                 },
                 {
+                    "id": 35,
+                    "type": "building",
                     "name": "Defense Platform B",
                     "value": 30
                 }
@@ -1783,26 +2228,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 50306400
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 924750
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 308250
                     }
                 ],
                 "materials": [
                     {
+                        "id": 813886518,
                         "type": "3\u2605 Common Ore",
                         "grade": 3,
                         "rarity": 1,
                         "value": 1900
                     },
                     {
+                        "id": 3337738024,
                         "type": "3\u2605 Rare Ore",
                         "grade": 3,
                         "rarity": 3,
@@ -1816,14 +2266,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 150
                     },
                     {
+                        "id": 1849895942,
                         "type": "1 Day Speed Up",
                         "value": 3
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 3
                     }
@@ -1832,22 +2285,32 @@
         },
         {
             "level": 32,
+            "power": 35000,
             "increased_power": 3500,
             "build_time": 2727360,
-            "bonuses": {
-                "1": 0.32
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.32
+                }
+            ],
             "required_ops_level": 31,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 31
                 },
                 {
+                    "id": 36,
+                    "type": "building",
                     "name": "Defense Platform C",
                     "value": 31
                 },
                 {
+                    "id": 37,
+                    "type": "building",
                     "name": "Defense Platform D",
                     "value": 31
                 }
@@ -1855,26 +2318,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 72664800
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 1335750
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 445250
                     }
                 ],
                 "materials": [
                     {
+                        "id": 813886518,
                         "type": "3\u2605 Common Ore",
                         "grade": 3,
                         "rarity": 1,
                         "value": 2100
                     },
                     {
+                        "id": 2453327618,
                         "type": "3\u2605 Uncommon Ore",
                         "grade": 3,
                         "rarity": 2,
@@ -1888,14 +2356,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 150
                     },
                     {
+                        "id": 1849895942,
                         "type": "1 Day Speed Up",
                         "value": 3
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 3
                     }
@@ -1904,22 +2375,32 @@
         },
         {
             "level": 33,
+            "power": 38500,
             "increased_power": 3500,
             "build_time": 3964320,
-            "bonuses": {
-                "1": 0.33
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.33
+                }
+            ],
             "required_ops_level": 32,
             "requirements": [
                 {
+                    "id": 4,
+                    "type": "building",
                     "name": "Parsteel Warehouse",
                     "value": 32
                 },
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 32
                 },
                 {
+                    "id": 55,
+                    "type": "building",
                     "name": "Parsteel Vault",
                     "value": 32
                 }
@@ -1927,26 +2408,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 112404000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 2066250
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 688750
                     }
                 ],
                 "materials": [
                     {
+                        "id": 813886518,
                         "type": "3\u2605 Common Ore",
                         "grade": 3,
                         "rarity": 1,
                         "value": 2400
                     },
                     {
+                        "id": 2453327618,
                         "type": "3\u2605 Uncommon Ore",
                         "grade": 3,
                         "rarity": 2,
@@ -1960,14 +2446,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 150
                     },
                     {
+                        "id": 1849895942,
                         "type": "1 Day Speed Up",
                         "value": 3
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 3
                     }
@@ -1976,18 +2465,26 @@
         },
         {
             "level": 34,
+            "power": 42500,
             "increased_power": 4000,
             "build_time": 5248800,
-            "bonuses": {
-                "1": 0.34
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.34
+                }
+            ],
             "required_ops_level": 33,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 33
                 },
                 {
+                    "id": 37,
+                    "type": "building",
                     "name": "Defense Platform D",
                     "value": 33
                 }
@@ -1995,26 +2492,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 177480000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 3262500
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 1087500
                     }
                 ],
                 "materials": [
                     {
+                        "id": 813886518,
                         "type": "3\u2605 Common Ore",
                         "grade": 3,
                         "rarity": 1,
                         "value": 2800
                     },
                     {
+                        "id": 2453327618,
                         "type": "3\u2605 Uncommon Ore",
                         "grade": 3,
                         "rarity": 2,
@@ -2028,14 +2530,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 150
                     },
                     {
+                        "id": 276120137,
                         "type": "2 Day Speed Up",
                         "value": 2
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 3
                     }
@@ -2044,22 +2549,32 @@
         },
         {
             "level": 35,
+            "power": 46500,
             "increased_power": 4000,
             "build_time": 6917760,
-            "bonuses": {
-                "1": 0.35
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.35
+                }
+            ],
             "required_ops_level": 34,
             "requirements": [
                 {
+                    "id": 4,
+                    "type": "building",
                     "name": "Parsteel Warehouse",
                     "value": 34
                 },
                 {
+                    "id": 8,
+                    "type": "building",
                     "name": "Tritanium Warehouse",
                     "value": 34
                 },
                 {
+                    "id": 12,
+                    "type": "building",
                     "name": "Dilithium Warehouse",
                     "value": 34
                 }
@@ -2067,26 +2582,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 274665600
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 5049000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 1683000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 813886518,
                         "type": "3\u2605 Common Ore",
                         "grade": 3,
                         "rarity": 1,
                         "value": 3100
                     },
                     {
+                        "id": 3337738024,
                         "type": "3\u2605 Rare Ore",
                         "grade": 3,
                         "rarity": 3,
@@ -2100,14 +2620,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 250
                     },
                     {
+                        "id": 276120137,
                         "type": "2 Day Speed Up",
                         "value": 2
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 3
                     }
@@ -2116,18 +2639,26 @@
         },
         {
             "level": 36,
+            "power": 51000,
             "increased_power": 4500,
             "build_time": 8841600,
-            "bonuses": {
-                "1": 0.36
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.36
+                }
+            ],
             "required_ops_level": 35,
             "requirements": [
                 {
+                    "id": 4,
+                    "type": "building",
                     "name": "Parsteel Warehouse",
                     "value": 31
                 },
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 35
                 }
@@ -2135,26 +2666,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 387028800
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 7114500
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 2371500
                     }
                 ],
                 "materials": [
                     {
+                        "id": 813886518,
                         "type": "3\u2605 Common Ore",
                         "grade": 3,
                         "rarity": 1,
                         "value": 3500
                     },
                     {
+                        "id": 2453327618,
                         "type": "3\u2605 Uncommon Ore",
                         "grade": 3,
                         "rarity": 2,
@@ -2168,14 +2704,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 250
                     },
                     {
+                        "id": 276120137,
                         "type": "2 Day Speed Up",
                         "value": 2
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 3
                     }
@@ -2184,14 +2723,20 @@
         },
         {
             "level": 37,
+            "power": 56000,
             "increased_power": 5000,
             "build_time": 9136800,
-            "bonuses": {
-                "1": 0.37
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.37
+                }
+            ],
             "required_ops_level": 36,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 36
                 }
@@ -2199,26 +2744,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 594864000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 10935000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 3645000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 813886518,
                         "type": "3\u2605 Common Ore",
                         "grade": 3,
                         "rarity": 1,
                         "value": 3900
                     },
                     {
+                        "id": 2453327618,
                         "type": "3\u2605 Uncommon Ore",
                         "grade": 3,
                         "rarity": 2,
@@ -2232,14 +2782,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 250
                     },
                     {
+                        "id": 276120137,
                         "type": "2 Day Speed Up",
                         "value": 2
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 3
                     }
@@ -2248,14 +2801,20 @@
         },
         {
             "level": 38,
+            "power": 61000,
             "increased_power": 5000,
             "build_time": 14817600,
-            "bonuses": {
-                "1": 0.38
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.38
+                }
+            ],
             "required_ops_level": 37,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 37
                 }
@@ -2263,26 +2822,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 925344000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 17010000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 5670000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 813886518,
                         "type": "3\u2605 Common Ore",
                         "grade": 3,
                         "rarity": 1,
                         "value": 4300
                     },
                     {
+                        "id": 2453327618,
                         "type": "3\u2605 Uncommon Ore",
                         "grade": 3,
                         "rarity": 2,
@@ -2296,14 +2860,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 250
                     },
                     {
+                        "id": 276120137,
                         "type": "2 Day Speed Up",
                         "value": 3
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 3
                     }
@@ -2312,18 +2879,26 @@
         },
         {
             "level": 39,
+            "power": 66000,
             "increased_power": 5000,
             "build_time": 19667520,
-            "bonuses": {
-                "1": 0.39
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.39
+                }
+            ],
             "required_ops_level": 38,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 38
                 },
                 {
+                    "id": 16,
+                    "type": "building",
                     "name": "Ship Hangar",
                     "value": 38
                 }
@@ -2331,26 +2906,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 1578960000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 29025000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 9675000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 813886518,
                         "type": "3\u2605 Common Ore",
                         "grade": 3,
                         "rarity": 1,
                         "value": 4800
                     },
                     {
+                        "id": 3337738024,
                         "type": "3\u2605 Rare Ore",
                         "grade": 3,
                         "rarity": 3,
@@ -2364,14 +2944,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 250
                     },
                     {
+                        "id": 276120137,
                         "type": "2 Day Speed Up",
                         "value": 4
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 3
                     }
@@ -2380,18 +2963,26 @@
         },
         {
             "level": 40,
+            "power": 72000,
             "increased_power": 6000,
             "build_time": 34905600,
-            "bonuses": {
-                "1": 0.4
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.4
+                }
+            ],
             "required_ops_level": 39,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 39
                 },
                 {
+                    "id": 26,
+                    "type": "building",
                     "name": "Astronautics Studio",
                     "value": 39
                 }
@@ -2399,14 +2990,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 6877248000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 45150000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 15050000
                     }
@@ -2414,6 +3008,7 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 444634882,
                         "type": "Ascend Key",
                         "value": 400
                     }
@@ -2424,14 +3019,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 2000
                     },
                     {
+                        "id": 276120137,
                         "type": "2 Day Speed Up",
                         "value": 6
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 3
                     }
@@ -2440,18 +3038,26 @@
         },
         {
             "level": 41,
+            "power": 78000,
             "increased_power": 6000,
             "build_time": 32713920,
-            "bonuses": {
-                "1": 0.41
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.41
+                }
+            ],
             "required_ops_level": 40,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 40
                 },
                 {
+                    "id": 55,
+                    "type": "building",
                     "name": "Parsteel Vault",
                     "value": 40
                 }
@@ -2459,20 +3065,24 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 7017600000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 64500000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 21500000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3452257709,
                         "type": "4\u2605 Common Ore",
                         "grade": 4,
                         "rarity": 1,
@@ -2486,14 +3096,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 3000
                     },
                     {
+                        "id": 20530098,
                         "type": "3 Day Speed Up",
                         "value": 4
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 3
                     }
@@ -2502,22 +3115,32 @@
         },
         {
             "level": 42,
+            "power": 85000,
             "increased_power": 7000,
             "build_time": 50284800,
-            "bonuses": {
-                "1": 0.42
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.42
+                }
+            ],
             "required_ops_level": 41,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 41
                 },
                 {
+                    "id": 37,
+                    "type": "building",
                     "name": "Defense Platform D",
                     "value": 41
                 },
                 {
+                    "id": 67,
+                    "type": "building",
                     "name": "Dilithium Vault",
                     "value": 41
                 }
@@ -2525,26 +3148,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 10452960000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 96075000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 32025000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3452257709,
                         "type": "4\u2605 Common Ore",
                         "grade": 4,
                         "rarity": 1,
                         "value": 88000
                     },
                     {
+                        "id": 1904955588,
                         "type": "4\u2605 Uncommon Ore",
                         "grade": 4,
                         "rarity": 2,
@@ -2558,14 +3186,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 4000
                     },
                     {
+                        "id": 20530098,
                         "type": "3 Day Speed Up",
                         "value": 5
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 3
                     }
@@ -2574,22 +3205,32 @@
         },
         {
             "level": 43,
+            "power": 92000,
             "increased_power": 7000,
             "build_time": 66437280,
-            "bonuses": {
-                "1": 0.43
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.43
+                }
+            ],
             "required_ops_level": 42,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 42
                 },
                 {
+                    "id": 16,
+                    "type": "building",
                     "name": "Ship Hangar",
                     "value": 42
                 },
                 {
+                    "id": 38,
+                    "type": "building",
                     "name": "Defense Platform E",
                     "value": 10
                 }
@@ -2597,26 +3238,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 14932800000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 137250000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 45750000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3452257709,
                         "type": "4\u2605 Common Ore",
                         "grade": 4,
                         "rarity": 1,
                         "value": 50000
                     },
                     {
+                        "id": 920308245,
                         "type": "4\u2605 Rare Ore",
                         "grade": 4,
                         "rarity": 3,
@@ -2630,14 +3276,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 6000
                     },
                     {
+                        "id": 20530098,
                         "type": "3 Day Speed Up",
                         "value": 6
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 3
                     }
@@ -2646,22 +3295,32 @@
         },
         {
             "level": 44,
+            "power": 99000,
             "increased_power": 7000,
             "build_time": 86715360,
-            "bonuses": {
-                "1": 0.44
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.44
+                }
+            ],
             "required_ops_level": 43,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 43
                 },
                 {
+                    "id": 20,
+                    "type": "building",
                     "name": "Drydock D",
                     "value": 43
                 },
                 {
+                    "id": 38,
+                    "type": "building",
                     "name": "Defense Platform E",
                     "value": 20
                 }
@@ -2669,26 +3328,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 22399200000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 205875000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 68625000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 1904955588,
                         "type": "4\u2605 Uncommon Ore",
                         "grade": 4,
                         "rarity": 2,
                         "value": 16500
                     },
                     {
+                        "id": 920308245,
                         "type": "4\u2605 Rare Ore",
                         "grade": 4,
                         "rarity": 3,
@@ -2702,14 +3366,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 8000
                     },
                     {
+                        "id": 20530098,
                         "type": "3 Day Speed Up",
                         "value": 7
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 3
                     }
@@ -2718,22 +3385,32 @@
         },
         {
             "level": 45,
+            "power": 106000,
             "increased_power": 7000,
             "build_time": 111949920,
-            "bonuses": {
-                "1": 0.45
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.45
+                }
+            ],
             "required_ops_level": 44,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 44
                 },
                 {
+                    "id": 37,
+                    "type": "building",
                     "name": "Defense Platform D",
                     "value": 44
                 },
                 {
+                    "id": 38,
+                    "type": "building",
                     "name": "Defense Platform E",
                     "value": 30
                 }
@@ -2741,26 +3418,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 31824000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 292500000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 97500000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3452257709,
                         "type": "4\u2605 Common Ore",
                         "grade": 4,
                         "rarity": 1,
                         "value": 150000
                     },
                     {
+                        "id": 920308245,
                         "type": "4\u2605 Rare Ore",
                         "grade": 4,
                         "rarity": 3,
@@ -2774,14 +3456,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 10000
                     },
                     {
+                        "id": 20530098,
                         "type": "3 Day Speed Up",
                         "value": 9
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 3
                     }
@@ -2790,22 +3475,32 @@
         },
         {
             "level": 46,
+            "power": 114000,
             "increased_power": 8000,
             "build_time": 143101440,
-            "bonuses": {
-                "1": 0.46
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.46
+                }
+            ],
             "required_ops_level": 45,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 45
                 },
                 {
+                    "id": 31,
+                    "type": "building",
                     "name": "Refinery",
                     "value": 45
                 },
                 {
+                    "id": 38,
+                    "type": "building",
                     "name": "Defense Platform E",
                     "value": 40
                 }
@@ -2813,26 +3508,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 43758000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 402187500
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 134062500
                     }
                 ],
                 "materials": [
                     {
+                        "id": 1904955588,
                         "type": "4\u2605 Uncommon Ore",
                         "grade": 4,
                         "rarity": 2,
                         "value": 30000
                     },
                     {
+                        "id": 920308245,
                         "type": "4\u2605 Rare Ore",
                         "grade": 4,
                         "rarity": 3,
@@ -2846,14 +3546,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 12000
                     },
                     {
+                        "id": 20530098,
                         "type": "3 Day Speed Up",
                         "value": 11
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 3
                     }
@@ -2862,18 +3565,26 @@
         },
         {
             "level": 47,
+            "power": 123000,
             "increased_power": 9000,
             "build_time": 181280160,
-            "bonuses": {
-                "1": 0.47
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.47
+                }
+            ],
             "required_ops_level": 46,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 46
                 },
                 {
+                    "id": 38,
+                    "type": "building",
                     "name": "Defense Platform E",
                     "value": 46
                 }
@@ -2881,26 +3592,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 63648000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 585000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 195000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 1904955588,
                         "type": "4\u2605 Uncommon Ore",
                         "grade": 4,
                         "rarity": 2,
                         "value": 30000
                     },
                     {
+                        "id": 920308245,
                         "type": "4\u2605 Rare Ore",
                         "grade": 4,
                         "rarity": 3,
@@ -2914,14 +3630,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 14000
                     },
                     {
+                        "id": 20530098,
                         "type": "3 Day Speed Up",
                         "value": 13
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 3
                     }
@@ -2930,22 +3649,32 @@
         },
         {
             "level": 48,
+            "power": 131000,
             "increased_power": 8000,
             "build_time": 227753280,
-            "bonuses": {
-                "1": 0.48
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.48
+                }
+            ],
             "required_ops_level": 47,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 47
                 },
                 {
+                    "id": 16,
+                    "type": "building",
                     "name": "Ship Hangar",
                     "value": 47
                 },
                 {
+                    "id": 67,
+                    "type": "building",
                     "name": "Dilithium Vault",
                     "value": 47
                 }
@@ -2953,26 +3682,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 102816000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 945000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 315000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 1904955588,
                         "type": "4\u2605 Uncommon Ore",
                         "grade": 4,
                         "rarity": 2,
                         "value": 30000
                     },
                     {
+                        "id": 920308245,
                         "type": "4\u2605 Rare Ore",
                         "grade": 4,
                         "rarity": 3,
@@ -2986,14 +3720,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 16000
                     },
                     {
+                        "id": 20530098,
                         "type": "3 Day Speed Up",
                         "value": 16
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 3
                     }
@@ -3002,14 +3739,20 @@
         },
         {
             "level": 49,
+            "power": 141000,
             "increased_power": 10000,
             "build_time": 283966560,
-            "bonuses": {
-                "1": 0.49
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.49
+                }
+            ],
             "required_ops_level": 48,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 48
                 }
@@ -3017,26 +3760,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 171360000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 1575000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 525000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 1904955588,
                         "type": "4\u2605 Uncommon Ore",
                         "grade": 4,
                         "rarity": 2,
                         "value": 12500
                     },
                     {
+                        "id": 920308245,
                         "type": "4\u2605 Rare Ore",
                         "grade": 4,
                         "rarity": 3,
@@ -3050,14 +3798,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 18000
                     },
                     {
+                        "id": 20530098,
                         "type": "3 Day Speed Up",
                         "value": 20
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 3
                     }
@@ -3066,22 +3817,32 @@
         },
         {
             "level": 50,
+            "power": 150000,
             "increased_power": 9000,
             "build_time": 351570240,
-            "bonuses": {
-                "1": 0.5
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.5
+                }
+            ],
             "required_ops_level": 49,
             "requirements": [
                 {
+                    "id": 16,
+                    "type": "building",
                     "name": "Ship Hangar",
                     "value": 49
                 },
                 {
+                    "id": 31,
+                    "type": "building",
                     "name": "Refinery",
                     "value": 49
                 },
                 {
+                    "id": 38,
+                    "type": "building",
                     "name": "Defense Platform E",
                     "value": 49
                 }
@@ -3089,26 +3850,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 299880000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 2756250000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 918750000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 1904955588,
                         "type": "4\u2605 Uncommon Ore",
                         "grade": 4,
                         "rarity": 2,
                         "value": 60000
                     },
                     {
+                        "id": 920308245,
                         "type": "4\u2605 Rare Ore",
                         "grade": 4,
                         "rarity": 3,
@@ -3122,14 +3888,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 20000
                     },
                     {
+                        "id": 20530098,
                         "type": "3 Day Speed Up",
                         "value": 24
                     },
                     {
+                        "id": 178169676,
                         "type": "1 Day Peace Shield",
                         "value": 3
                     }
@@ -3138,22 +3907,32 @@
         },
         {
             "level": 51,
+            "power": 161000,
             "increased_power": 11000,
             "build_time": 372664800,
-            "bonuses": {
-                "1": 0.51
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.51
+                }
+            ],
             "required_ops_level": 50,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 50
                 },
                 {
+                    "id": 23,
+                    "type": "building",
                     "name": "Armada Control Center",
                     "value": 45
                 },
                 {
+                    "id": 33,
+                    "type": "building",
                     "name": "Shuttle Bay",
                     "value": 5
                 }
@@ -3161,14 +3940,17 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 1495728000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 5850000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 1950000000
                     }
@@ -3176,6 +3958,7 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 3690675741,
                         "type": "Ascend Key 2",
                         "value": 400
                     }
@@ -3186,10 +3969,12 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 32000
                     },
                     {
+                        "id": 422541955,
                         "type": "5\u21f4 Alliance Galaxy Consumable - 3 Hours Mining",
                         "value": 2
                     }
@@ -3198,18 +3983,26 @@
         },
         {
             "level": 52,
+            "power": 171000,
             "increased_power": 10000,
             "build_time": 395025120,
-            "bonuses": {
-                "1": 0.52
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.52
+                }
+            ],
             "required_ops_level": 51,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 51
                 },
                 {
+                    "id": 55,
+                    "type": "building",
                     "name": "Parsteel Vault",
                     "value": 51
                 }
@@ -3217,20 +4010,24 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 2705040000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 9945000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 3315000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2893480370,
                         "type": "5\u2605 Common Ore",
                         "grade": 5,
                         "rarity": 1,
@@ -3244,14 +4041,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 36000
                     },
                     {
+                        "id": 3331085267,
                         "type": "10 Day Speed Up",
                         "value": 13
                     },
                     {
+                        "id": 985389969,
                         "type": "7 Day Peace Shield",
                         "value": 1
                     }
@@ -3260,22 +4060,32 @@
         },
         {
             "level": 53,
+            "power": 182000,
             "increased_power": 11000,
             "build_time": 418726080,
-            "bonuses": {
-                "1": 0.53
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.53
+                }
+            ],
             "required_ops_level": 52,
             "requirements": [
                 {
+                    "id": 16,
+                    "type": "building",
                     "name": "Ship Hangar",
                     "value": 52
                 },
                 {
+                    "id": 38,
+                    "type": "building",
                     "name": "Defense Platform E",
                     "value": 52
                 },
                 {
+                    "id": 67,
+                    "type": "building",
                     "name": "Dilithium Vault",
                     "value": 52
                 }
@@ -3283,26 +4093,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 4543488000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 17400000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 5800000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2893480370,
                         "type": "5\u2605 Common Ore",
                         "grade": 5,
                         "rarity": 1,
                         "value": 55900
                     },
                     {
+                        "id": 2258174662,
                         "type": "5\u2605 Uncommon Ore",
                         "grade": 5,
                         "rarity": 2,
@@ -3316,14 +4131,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 40000
                     },
                     {
+                        "id": 3331085267,
                         "type": "10 Day Speed Up",
                         "value": 14
                     },
                     {
+                        "id": 985389969,
                         "type": "7 Day Peace Shield",
                         "value": 1
                     }
@@ -3332,22 +4150,32 @@
         },
         {
             "level": 54,
+            "power": 194000,
             "increased_power": 12000,
             "build_time": 443849760,
-            "bonuses": {
-                "1": 0.54
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.54
+                }
+            ],
             "required_ops_level": 53,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 53
                 },
                 {
+                    "id": 26,
+                    "type": "building",
                     "name": "Astronautics Studio",
                     "value": 53
                 },
                 {
+                    "id": 39,
+                    "type": "building",
                     "name": "Defense Platform F",
                     "value": 10
                 }
@@ -3355,26 +4183,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 6815232000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 26100000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 8700000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2258174662,
                         "type": "5\u2605 Uncommon Ore",
                         "grade": 5,
                         "rarity": 2,
                         "value": 46200
                     },
                     {
+                        "id": 4109746240,
                         "type": "5\u2605 Rare Ore",
                         "grade": 5,
                         "rarity": 3,
@@ -3388,14 +4221,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 45000
                     },
                     {
+                        "id": 3331085267,
                         "type": "10 Day Speed Up",
                         "value": 15
                     },
                     {
+                        "id": 1671926319,
                         "type": "5\u21f4 Alliance Station Consumable - 1 Hour Repair Cost Efficiency",
                         "value": 2
                     }
@@ -3404,22 +4240,32 @@
         },
         {
             "level": 55,
+            "power": 205000,
             "increased_power": 11000,
             "build_time": 470481120,
-            "bonuses": {
-                "1": 0.55
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.55
+                }
+            ],
             "required_ops_level": 54,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 54
                 },
                 {
+                    "id": 28,
+                    "type": "building",
                     "name": "Defense Technologies",
                     "value": 54
                 },
                 {
+                    "id": 39,
+                    "type": "building",
                     "name": "Defense Platform F",
                     "value": 20
                 }
@@ -3427,26 +4273,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 11583936000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 40950000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 13650000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2258174662,
                         "type": "5\u2605 Uncommon Ore",
                         "grade": 5,
                         "rarity": 2,
                         "value": 74000
                     },
                     {
+                        "id": 4109746240,
                         "type": "5\u2605 Rare Ore",
                         "grade": 5,
                         "rarity": 3,
@@ -3460,14 +4311,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 51000
                     },
                     {
+                        "id": 3331085267,
                         "type": "10 Day Speed Up",
                         "value": 16
                     },
                     {
+                        "id": 985389969,
                         "type": "7 Day Peace Shield",
                         "value": 1
                     }
@@ -3476,22 +4330,32 @@
         },
         {
             "level": 56,
+            "power": 220000,
             "increased_power": 15000,
             "build_time": 498709440,
-            "bonuses": {
-                "1": 0.56
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.56
+                }
+            ],
             "required_ops_level": 55,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 55
                 },
                 {
+                    "id": 31,
+                    "type": "building",
                     "name": "Refinery",
                     "value": 55
                 },
                 {
+                    "id": 39,
+                    "type": "building",
                     "name": "Defense Platform F",
                     "value": 30
                 }
@@ -3499,26 +4363,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 18203328000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 64350000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 21450000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2258174662,
                         "type": "5\u2605 Uncommon Ore",
                         "grade": 5,
                         "rarity": 2,
                         "value": 68800
                     },
                     {
+                        "id": 4109746240,
                         "type": "5\u2605 Rare Ore",
                         "grade": 5,
                         "rarity": 3,
@@ -3532,14 +4401,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 58000
                     },
                     {
+                        "id": 3331085267,
                         "type": "10 Day Speed Up",
                         "value": 17
                     },
                     {
+                        "id": 985389969,
                         "type": "7 Day Peace Shield",
                         "value": 1
                     }
@@ -3548,22 +4420,32 @@
         },
         {
             "level": 57,
+            "power": 230000,
             "increased_power": 10000,
             "build_time": 528631200,
-            "bonuses": {
-                "1": 0.57
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.57
+                }
+            ],
             "required_ops_level": 56,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 56
                 },
                 {
+                    "id": 16,
+                    "type": "building",
                     "name": "Ship Hangar",
                     "value": 56
                 },
                 {
+                    "id": 39,
+                    "type": "building",
                     "name": "Defense Platform F",
                     "value": 40
                 }
@@ -3571,26 +4453,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 28497331200000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 100740000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 33580000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2258174662,
                         "type": "5\u2605 Uncommon Ore",
                         "grade": 5,
                         "rarity": 2,
                         "value": 71300
                     },
                     {
+                        "id": 4109746240,
                         "type": "5\u2605 Rare Ore",
                         "grade": 5,
                         "rarity": 3,
@@ -3604,14 +4491,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 66000
                     },
                     {
+                        "id": 3331085267,
                         "type": "10 Day Speed Up",
                         "value": 19
                     },
                     {
+                        "id": 1845183421,
                         "type": "5\u21f4 Alliance Galaxy Consumable - 1 Hour Warp Speed",
                         "value": 2
                     }
@@ -3620,22 +4510,32 @@
         },
         {
             "level": 58,
+            "power": 245000,
             "increased_power": 15000,
             "build_time": 560350080,
-            "bonuses": {
-                "1": 0.58
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.58
+                }
+            ],
             "required_ops_level": 57,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 57
                 },
                 {
+                    "id": 38,
+                    "type": "building",
                     "name": "Defense Platform E",
                     "value": 56
                 },
                 {
+                    "id": 67,
+                    "type": "building",
                     "name": "Dilithium Vault",
                     "value": 57
                 }
@@ -3643,26 +4543,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 41173401600000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 157680000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 52560000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2258174662,
                         "type": "5\u2605 Uncommon Ore",
                         "grade": 5,
                         "rarity": 2,
                         "value": 96100
                     },
                     {
+                        "id": 4109746240,
                         "type": "5\u2605 Rare Ore",
                         "grade": 5,
                         "rarity": 3,
@@ -3676,14 +4581,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 75000
                     },
                     {
+                        "id": 3331085267,
                         "type": "10 Day Speed Up",
                         "value": 21
                     },
                     {
+                        "id": 985389969,
                         "type": "7 Day Peace Shield",
                         "value": 1
                     }
@@ -3692,18 +4600,26 @@
         },
         {
             "level": 59,
+            "power": 260000,
             "increased_power": 15000,
             "build_time": 593971200,
-            "bonuses": {
-                "1": 0.59
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.59
+                }
+            ],
             "required_ops_level": 58,
             "requirements": [
                 {
+                    "id": 15,
+                    "type": "building",
                     "name": "Shipyard",
                     "value": 58
                 },
                 {
+                    "id": 39,
+                    "type": "building",
                     "name": "Defense Platform F",
                     "value": 55
                 }
@@ -3711,26 +4627,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 61760102400000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 236520000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 78840000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2258174662,
                         "type": "5\u2605 Uncommon Ore",
                         "grade": 5,
                         "rarity": 2,
                         "value": 126400
                     },
                     {
+                        "id": 4109746240,
                         "type": "5\u2605 Rare Ore",
                         "grade": 5,
                         "rarity": 3,
@@ -3744,14 +4665,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 85000
                     },
                     {
+                        "id": 3331085267,
                         "type": "10 Day Speed Up",
                         "value": 23
                     },
                     {
+                        "id": 985389969,
                         "type": "7 Day Peace Shield",
                         "value": 1
                     }
@@ -3760,22 +4684,32 @@
         },
         {
             "level": 60,
+            "power": 275000,
             "increased_power": 15000,
             "build_time": 629608320,
-            "bonuses": {
-                "1": 0.6
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.6
+                }
+            ],
             "required_ops_level": 59,
             "requirements": [
                 {
+                    "id": 16,
+                    "type": "building",
                     "name": "Ship Hangar",
                     "value": 59
                 },
                 {
+                    "id": 31,
+                    "type": "building",
                     "name": "Refinery",
                     "value": 59
                 },
                 {
+                    "id": 39,
+                    "type": "building",
                     "name": "Defense Platform F",
                     "value": 59
                 }
@@ -3783,26 +4717,31 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 96451200000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 369375000000
                     },
                     {
+                        "id": 2614028847,
                         "type": "Dilithium",
                         "value": 123125000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2258174662,
                         "type": "5\u2605 Uncommon Ore",
                         "grade": 5,
                         "rarity": 2,
                         "value": 117400
                     },
                     {
+                        "id": 4109746240,
                         "type": "5\u2605 Rare Ore",
                         "grade": 5,
                         "rarity": 3,
@@ -3816,14 +4755,17 @@
                 "materials": [],
                 "others": [
                     {
+                        "id": 4272690020,
                         "type": "Latinum",
                         "value": 100000
                     },
                     {
+                        "id": 3331085267,
                         "type": "10 Day Speed Up",
                         "value": 25
                     },
                     {
+                        "id": 3976270261,
                         "type": "5\u21f4 Alliance Combat Consumable - 1 Hour Damage vs Armadas",
                         "value": 2
                     }

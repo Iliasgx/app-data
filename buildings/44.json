@@ -1,50 +1,44 @@
 {
-    "id": 65,
-    "name": "Dilithium Generator G",
-    "description": "Produces Dilithium, a crystalline mineral required when building buildings and advanced ship components. Upgrading Dilithium Generators increases the amount of Dilithium that is produced.",
-    "group": 8,
+    "id": 44,
+    "name": "Drydock G",
+    "description": "Ship G. Ships can be assigned, managed and upgraded via Ship Management. Every additional Drydock increases the amounts of Ships that can be deployed.",
+    "group": 4,
     "start_level": 0,
     "bonuses": [
         {
             "id": 1,
-            "name": "Dilithium Production",
-            "is_percentage": false
+            "name": "Repair Speed Bonus",
+            "is_percentage": true
         },
         {
             "id": 2,
-            "name": "Dilithium Storage",
-            "is_percentage": false
+            "name": "Repair Cost Efficiency",
+            "is_percentage": true
         }
     ],
     "levels": [
         {
             "level": 1,
-            "power": 10,
-            "increased_power": 10,
-            "build_time": 45,
+            "power": 60,
+            "increased_power": 60,
+            "build_time": 158400,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 2.0
+                    "value": 0.0
                 },
                 {
                     "id": 2,
-                    "value": 1.0
+                    "value": 0.0
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 30,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 50
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
-                    "value": 1
+                    "value": 30
                 }
             ],
             "build_costs": {
@@ -52,7 +46,403 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 400
+                        "value": 600000
+                    }
+                ],
+                "materials": [],
+                "others": [
+                    {
+                        "id": 1492879559,
+                        "type": "Drydock G Key",
+                        "value": 1
+                    }
+                ]
+            },
+            "rewards": null
+        },
+        {
+            "level": 2,
+            "power": 120,
+            "increased_power": 60,
+            "build_time": 180,
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.0
+                },
+                {
+                    "id": 2,
+                    "value": 0.03
+                }
+            ],
+            "required_ops_level": 30,
+            "requirements": [
+                {
+                    "id": 0,
+                    "type": "building",
+                    "name": "Operations",
+                    "value": 2
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "id": 2325683920,
+                        "type": "Parsteel",
+                        "value": 3250
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 3,
+            "power": 190,
+            "increased_power": 70,
+            "build_time": 270,
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.0
+                },
+                {
+                    "id": 2,
+                    "value": 0.05
+                }
+            ],
+            "required_ops_level": 30,
+            "requirements": [
+                {
+                    "id": 0,
+                    "type": "building",
+                    "name": "Operations",
+                    "value": 3
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "id": 2325683920,
+                        "type": "Parsteel",
+                        "value": 3500
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 4,
+            "power": 270,
+            "increased_power": 80,
+            "build_time": 390,
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.0
+                },
+                {
+                    "id": 2,
+                    "value": 0.06
+                }
+            ],
+            "required_ops_level": 30,
+            "requirements": [
+                {
+                    "id": 0,
+                    "type": "building",
+                    "name": "Operations",
+                    "value": 4
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "id": 2325683920,
+                        "type": "Parsteel",
+                        "value": 3750
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 5,
+            "power": 370,
+            "increased_power": 100,
+            "build_time": 660,
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.1
+                },
+                {
+                    "id": 2,
+                    "value": 0.08
+                }
+            ],
+            "required_ops_level": 30,
+            "requirements": [
+                {
+                    "id": 0,
+                    "type": "building",
+                    "name": "Operations",
+                    "value": 5
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "id": 2325683920,
+                        "type": "Parsteel",
+                        "value": 4000
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 6,
+            "power": 480,
+            "increased_power": 110,
+            "build_time": 1080,
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.1
+                },
+                {
+                    "id": 2,
+                    "value": 0.09
+                }
+            ],
+            "required_ops_level": 30,
+            "requirements": [
+                {
+                    "id": 0,
+                    "type": "building",
+                    "name": "Operations",
+                    "value": 6
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "id": 2325683920,
+                        "type": "Parsteel",
+                        "value": 4250
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 7,
+            "power": 625,
+            "increased_power": 145,
+            "build_time": 2040,
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.14
+                },
+                {
+                    "id": 2,
+                    "value": 0.11
+                }
+            ],
+            "required_ops_level": 30,
+            "requirements": [
+                {
+                    "id": 0,
+                    "type": "building",
+                    "name": "Operations",
+                    "value": 7
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "id": 2325683920,
+                        "type": "Parsteel",
+                        "value": 4500
+                    },
+                    {
+                        "id": 743985951,
+                        "type": "Tritanium",
+                        "value": 50
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 8,
+            "power": 800,
+            "increased_power": 175,
+            "build_time": 2880,
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.14
+                },
+                {
+                    "id": 2,
+                    "value": 0.12
+                }
+            ],
+            "required_ops_level": 30,
+            "requirements": [
+                {
+                    "id": 0,
+                    "type": "building",
+                    "name": "Operations",
+                    "value": 8
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "id": 2325683920,
+                        "type": "Parsteel",
+                        "value": 4750
+                    },
+                    {
+                        "id": 743985951,
+                        "type": "Tritanium",
+                        "value": 100
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 9,
+            "power": 1000,
+            "increased_power": 200,
+            "build_time": 4440,
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.14
+                },
+                {
+                    "id": 2,
+                    "value": 0.14
+                }
+            ],
+            "required_ops_level": 30,
+            "requirements": [
+                {
+                    "id": 0,
+                    "type": "building",
+                    "name": "Operations",
+                    "value": 9
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "id": 2325683920,
+                        "type": "Parsteel",
+                        "value": 5000
+                    },
+                    {
+                        "id": 743985951,
+                        "type": "Tritanium",
+                        "value": 200
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 10,
+            "power": 1275,
+            "increased_power": 275,
+            "build_time": 4920,
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.2
+                },
+                {
+                    "id": 2,
+                    "value": 0.15
+                }
+            ],
+            "required_ops_level": 30,
+            "requirements": [
+                {
+                    "id": 0,
+                    "type": "building",
+                    "name": "Operations",
+                    "value": 10
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "id": 2325683920,
+                        "type": "Parsteel",
+                        "value": 7500
+                    },
+                    {
+                        "id": 743985951,
+                        "type": "Tritanium",
+                        "value": 225
+                    }
+                ],
+                "materials": [],
+                "others": []
+            },
+            "rewards": null
+        },
+        {
+            "level": 11,
+            "power": 1600,
+            "increased_power": 325,
+            "build_time": 5100,
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 0.2
+                },
+                {
+                    "id": 2,
+                    "value": 0.17
+                }
+            ],
+            "required_ops_level": 30,
+            "requirements": [
+                {
+                    "id": 0,
+                    "type": "building",
+                    "name": "Operations",
+                    "value": 11
+                }
+            ],
+            "build_costs": {
+                "resources": [
+                    {
+                        "id": 2325683920,
+                        "type": "Parsteel",
+                        "value": 10880
                     },
                     {
                         "id": 743985951,
@@ -66,33 +456,27 @@
             "rewards": null
         },
         {
-            "level": 2,
-            "power": 20,
-            "increased_power": 10,
-            "build_time": 120,
+            "level": 12,
+            "power": 2000,
+            "increased_power": 400,
+            "build_time": 9300,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 4.0
+                    "value": 0.25
                 },
                 {
                     "id": 2,
-                    "value": 2.0
+                    "value": 0.19
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 30,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 2
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
-                    "value": 2
+                    "value": 12
                 }
             ],
             "build_costs": {
@@ -100,12 +484,12 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 500
+                        "value": 14960
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 350
+                        "value": 413
                     }
                 ],
                 "materials": [],
@@ -114,33 +498,27 @@
             "rewards": null
         },
         {
-            "level": 3,
-            "power": 32,
-            "increased_power": 12,
-            "build_time": 210,
+            "level": 13,
+            "power": 2400,
+            "increased_power": 400,
+            "build_time": 13800,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 6.0
+                    "value": 0.25
                 },
                 {
                     "id": 2,
-                    "value": 6.0
+                    "value": 0.21
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 30,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 3
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
-                    "value": 3
+                    "value": 13
                 }
             ],
             "build_costs": {
@@ -148,199 +526,7 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 600
-                    },
-                    {
-                        "id": 743985951,
-                        "type": "Tritanium",
-                        "value": 400
-                    }
-                ],
-                "materials": [],
-                "others": []
-            },
-            "rewards": null
-        },
-        {
-            "level": 4,
-            "power": 45,
-            "increased_power": 13,
-            "build_time": 300,
-            "bonuses": [
-                {
-                    "id": 1,
-                    "value": 8.0
-                },
-                {
-                    "id": 2,
-                    "value": 13.0
-                }
-            ],
-            "required_ops_level": 50,
-            "requirements": [
-                {
-                    "id": 0,
-                    "type": "building",
-                    "name": "Operations",
-                    "value": 4
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
-                    "value": 4
-                }
-            ],
-            "build_costs": {
-                "resources": [
-                    {
-                        "id": 2325683920,
-                        "type": "Parsteel",
-                        "value": 700
-                    },
-                    {
-                        "id": 743985951,
-                        "type": "Tritanium",
-                        "value": 450
-                    }
-                ],
-                "materials": [],
-                "others": []
-            },
-            "rewards": null
-        },
-        {
-            "level": 5,
-            "power": 60,
-            "increased_power": 15,
-            "build_time": 540,
-            "bonuses": [
-                {
-                    "id": 1,
-                    "value": 12.0
-                },
-                {
-                    "id": 2,
-                    "value": 24.0
-                }
-            ],
-            "required_ops_level": 50,
-            "requirements": [
-                {
-                    "id": 0,
-                    "type": "building",
-                    "name": "Operations",
-                    "value": 5
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
-                    "value": 5
-                }
-            ],
-            "build_costs": {
-                "resources": [
-                    {
-                        "id": 2325683920,
-                        "type": "Parsteel",
-                        "value": 800
-                    },
-                    {
-                        "id": 743985951,
-                        "type": "Tritanium",
-                        "value": 500
-                    }
-                ],
-                "materials": [],
-                "others": []
-            },
-            "rewards": null
-        },
-        {
-            "level": 6,
-            "power": 80,
-            "increased_power": 20,
-            "build_time": 900,
-            "bonuses": [
-                {
-                    "id": 1,
-                    "value": 15.0
-                },
-                {
-                    "id": 2,
-                    "value": 36.0
-                }
-            ],
-            "required_ops_level": 50,
-            "requirements": [
-                {
-                    "id": 0,
-                    "type": "building",
-                    "name": "Operations",
-                    "value": 6
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
-                    "value": 6
-                }
-            ],
-            "build_costs": {
-                "resources": [
-                    {
-                        "id": 2325683920,
-                        "type": "Parsteel",
-                        "value": 1000
-                    },
-                    {
-                        "id": 743985951,
-                        "type": "Tritanium",
-                        "value": 550
-                    }
-                ],
-                "materials": [],
-                "others": []
-            },
-            "rewards": null
-        },
-        {
-            "level": 7,
-            "power": 100,
-            "increased_power": 20,
-            "build_time": 1680,
-            "bonuses": [
-                {
-                    "id": 1,
-                    "value": 17.0
-                },
-                {
-                    "id": 2,
-                    "value": 48.0
-                }
-            ],
-            "required_ops_level": 50,
-            "requirements": [
-                {
-                    "id": 0,
-                    "type": "building",
-                    "name": "Operations",
-                    "value": 7
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
-                    "value": 7
-                }
-            ],
-            "build_costs": {
-                "resources": [
-                    {
-                        "id": 2325683920,
-                        "type": "Parsteel",
-                        "value": 1200
+                        "value": 21760
                     },
                     {
                         "id": 743985951,
@@ -354,33 +540,27 @@
             "rewards": null
         },
         {
-            "level": 8,
-            "power": 130,
-            "increased_power": 30,
-            "build_time": 2400,
+            "level": 14,
+            "power": 2900,
+            "increased_power": 500,
+            "build_time": 19200,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 20.0
+                    "value": 0.25
                 },
                 {
                     "id": 2,
-                    "value": 64.0
+                    "value": 0.23
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 30,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 8
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
-                    "value": 8
+                    "value": 14
                 }
             ],
             "build_costs": {
@@ -388,12 +568,12 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 1400
+                        "value": 29920
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 650
+                        "value": 825
                     }
                 ],
                 "materials": [],
@@ -402,33 +582,27 @@
             "rewards": null
         },
         {
-            "level": 9,
-            "power": 170,
-            "increased_power": 40,
-            "build_time": 3600,
+            "level": 15,
+            "power": 3500,
+            "increased_power": 600,
+            "build_time": 24480,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 22.0
+                    "value": 0.35
                 },
                 {
                     "id": 2,
-                    "value": 79.0
+                    "value": 0.25
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 30,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 9
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
-                    "value": 9
+                    "value": 15
                 }
             ],
             "build_costs": {
@@ -436,12 +610,12 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 1600
+                        "value": 40800
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 700
+                        "value": 1125
                     }
                 ],
                 "materials": [],
@@ -450,33 +624,27 @@
             "rewards": null
         },
         {
-            "level": 10,
-            "power": 210,
-            "increased_power": 40,
-            "build_time": 3960,
+            "level": 16,
+            "power": 4200,
+            "increased_power": 700,
+            "build_time": 28800,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 37.0
+                    "value": 0.35
                 },
                 {
                     "id": 2,
-                    "value": 150.0
+                    "value": 0.28
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 30,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 10
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
-                    "value": 10
+                    "value": 16
                 }
             ],
             "build_costs": {
@@ -484,7 +652,7 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 2000
+                        "value": 54400
                     },
                     {
                         "id": 743985951,
@@ -498,320 +666,26 @@
             "rewards": null
         },
         {
-            "level": 11,
-            "power": 260,
-            "increased_power": 50,
-            "build_time": 4080,
-            "bonuses": [
-                {
-                    "id": 1,
-                    "value": 40.0
-                },
-                {
-                    "id": 2,
-                    "value": 170.0
-                }
-            ],
-            "required_ops_level": 50,
-            "requirements": [
-                {
-                    "id": 0,
-                    "type": "building",
-                    "name": "Operations",
-                    "value": 11
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
-                    "value": 11
-                }
-            ],
-            "build_costs": {
-                "resources": [
-                    {
-                        "id": 2325683920,
-                        "type": "Parsteel",
-                        "value": 2720
-                    },
-                    {
-                        "id": 743985951,
-                        "type": "Tritanium",
-                        "value": 2000
-                    }
-                ],
-                "materials": [],
-                "others": []
-            },
-            "rewards": null
-        },
-        {
-            "level": 12,
-            "power": 330,
-            "increased_power": 70,
-            "build_time": 7500,
-            "bonuses": [
-                {
-                    "id": 1,
-                    "value": 44.0
-                },
-                {
-                    "id": 2,
-                    "value": 195.0
-                }
-            ],
-            "required_ops_level": 50,
-            "requirements": [
-                {
-                    "id": 0,
-                    "type": "building",
-                    "name": "Operations",
-                    "value": 12
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
-                    "value": 12
-                }
-            ],
-            "build_costs": {
-                "resources": [
-                    {
-                        "id": 2325683920,
-                        "type": "Parsteel",
-                        "value": 3740
-                    },
-                    {
-                        "id": 743985951,
-                        "type": "Tritanium",
-                        "value": 2750
-                    }
-                ],
-                "materials": [],
-                "others": []
-            },
-            "rewards": null
-        },
-        {
-            "level": 13,
-            "power": 400,
-            "increased_power": 70,
-            "build_time": 11100,
-            "bonuses": [
-                {
-                    "id": 1,
-                    "value": 48.0
-                },
-                {
-                    "id": 2,
-                    "value": 230.0
-                }
-            ],
-            "required_ops_level": 50,
-            "requirements": [
-                {
-                    "id": 0,
-                    "type": "building",
-                    "name": "Operations",
-                    "value": 13
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
-                    "value": 13
-                }
-            ],
-            "build_costs": {
-                "resources": [
-                    {
-                        "id": 2325683920,
-                        "type": "Parsteel",
-                        "value": 5440
-                    },
-                    {
-                        "id": 743985951,
-                        "type": "Tritanium",
-                        "value": 4000
-                    }
-                ],
-                "materials": [],
-                "others": []
-            },
-            "rewards": null
-        },
-        {
-            "level": 14,
-            "power": 490,
-            "increased_power": 90,
-            "build_time": 15300,
-            "bonuses": [
-                {
-                    "id": 1,
-                    "value": 52.0
-                },
-                {
-                    "id": 2,
-                    "value": 280.0
-                }
-            ],
-            "required_ops_level": 50,
-            "requirements": [
-                {
-                    "id": 0,
-                    "type": "building",
-                    "name": "Operations",
-                    "value": 14
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
-                    "value": 14
-                }
-            ],
-            "build_costs": {
-                "resources": [
-                    {
-                        "id": 2325683920,
-                        "type": "Parsteel",
-                        "value": 7480
-                    },
-                    {
-                        "id": 743985951,
-                        "type": "Tritanium",
-                        "value": 5500
-                    }
-                ],
-                "materials": [],
-                "others": []
-            },
-            "rewards": null
-        },
-        {
-            "level": 15,
-            "power": 575,
-            "increased_power": 85,
-            "build_time": 19800,
-            "bonuses": [
-                {
-                    "id": 1,
-                    "value": 61.0
-                },
-                {
-                    "id": 2,
-                    "value": 355.0
-                }
-            ],
-            "required_ops_level": 50,
-            "requirements": [
-                {
-                    "id": 0,
-                    "type": "building",
-                    "name": "Operations",
-                    "value": 15
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
-                    "value": 15
-                }
-            ],
-            "build_costs": {
-                "resources": [
-                    {
-                        "id": 2325683920,
-                        "type": "Parsteel",
-                        "value": 10200
-                    },
-                    {
-                        "id": 743985951,
-                        "type": "Tritanium",
-                        "value": 7500
-                    }
-                ],
-                "materials": [],
-                "others": []
-            },
-            "rewards": null
-        },
-        {
-            "level": 16,
-            "power": 700,
-            "increased_power": 125,
-            "build_time": 23040,
-            "bonuses": [
-                {
-                    "id": 1,
-                    "value": 66.0
-                },
-                {
-                    "id": 2,
-                    "value": 410.0
-                }
-            ],
-            "required_ops_level": 50,
-            "requirements": [
-                {
-                    "id": 0,
-                    "type": "building",
-                    "name": "Operations",
-                    "value": 16
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
-                    "value": 16
-                }
-            ],
-            "build_costs": {
-                "resources": [
-                    {
-                        "id": 2325683920,
-                        "type": "Parsteel",
-                        "value": 13600
-                    },
-                    {
-                        "id": 743985951,
-                        "type": "Tritanium",
-                        "value": 10000
-                    }
-                ],
-                "materials": [],
-                "others": []
-            },
-            "rewards": null
-        },
-        {
             "level": 17,
-            "power": 825,
-            "increased_power": 125,
-            "build_time": 25200,
+            "power": 5000,
+            "increased_power": 800,
+            "build_time": 30960,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 70.0
+                    "value": 0.42
                 },
                 {
                     "id": 2,
-                    "value": 460.0
+                    "value": 0.31
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 30,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 17
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 17
                 }
             ],
@@ -820,12 +694,12 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 19040
+                        "value": 76160
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 14000
+                        "value": 2100
                     }
                 ],
                 "materials": [],
@@ -835,31 +709,25 @@
         },
         {
             "level": 18,
-            "power": 975,
-            "increased_power": 150,
-            "build_time": 38160,
+            "power": 6000,
+            "increased_power": 1000,
+            "build_time": 47520,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 74.0
+                    "value": 0.42
                 },
                 {
                     "id": 2,
-                    "value": 530.0
+                    "value": 0.34
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 30,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 18
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 18
                 }
             ],
@@ -868,12 +736,12 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 27200
+                        "value": 108800
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 20000
+                        "value": 3000
                     }
                 ],
                 "materials": [],
@@ -883,31 +751,25 @@
         },
         {
             "level": 19,
-            "power": 1150,
-            "increased_power": 175,
-            "build_time": 55440,
+            "power": 7000,
+            "increased_power": 1000,
+            "build_time": 69120,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 78.0
+                    "value": 0.42
                 },
                 {
                     "id": 2,
-                    "value": 590.0
+                    "value": 0.37
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 30,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 19
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 19
                 }
             ],
@@ -916,12 +778,12 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 40800
+                        "value": 163200
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 30000
+                        "value": 4500
                     }
                 ],
                 "materials": [],
@@ -931,31 +793,25 @@
         },
         {
             "level": 20,
-            "power": 1350,
-            "increased_power": 200,
-            "build_time": 83520,
+            "power": 8000,
+            "increased_power": 1000,
+            "build_time": 104400,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 98.0
+                    "value": 0.55
                 },
                 {
                     "id": 2,
-                    "value": 780.0
+                    "value": 0.4
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 30,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 20
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 20
                 }
             ],
@@ -964,12 +820,12 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 57800
+                        "value": 231200
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 42500
+                        "value": 6375
                     }
                 ],
                 "materials": [],
@@ -979,31 +835,25 @@
         },
         {
             "level": 21,
-            "power": 1600,
-            "increased_power": 250,
-            "build_time": 76320,
+            "power": 9250,
+            "increased_power": 1250,
+            "build_time": 95040,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 105.0
+                    "value": 0.55
                 },
                 {
                     "id": 2,
-                    "value": 860.0
+                    "value": 0.44
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 30,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 21
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 21
                 }
             ],
@@ -1012,12 +862,12 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 97308
+                        "value": 389232
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 71550
+                        "value": 10733
                     }
                 ],
                 "materials": [],
@@ -1027,31 +877,25 @@
         },
         {
             "level": 22,
-            "power": 1800,
-            "increased_power": 200,
-            "build_time": 118800,
+            "power": 10750,
+            "increased_power": 1500,
+            "build_time": 148320,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 110.0
+                    "value": 0.62
                 },
                 {
                     "id": 2,
-                    "value": 900.0
+                    "value": 0.48
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 30,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 22
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 22
                 }
             ],
@@ -1060,12 +904,12 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 151368
+                        "value": 605472
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 111300
+                        "value": 16695
                     }
                 ],
                 "materials": [],
@@ -1075,31 +919,25 @@
         },
         {
             "level": 23,
-            "power": 2100,
-            "increased_power": 300,
-            "build_time": 139680,
+            "power": 12250,
+            "increased_power": 1500,
+            "build_time": 174960,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 115.0
+                    "value": 0.62
                 },
                 {
                     "id": 2,
-                    "value": 970.0
+                    "value": 0.52
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 30,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 23
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 23
                 }
             ],
@@ -1108,12 +946,12 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 249084
+                        "value": 996336
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 183150
+                        "value": 27473
                     }
                 ],
                 "materials": [],
@@ -1123,31 +961,25 @@
         },
         {
             "level": 24,
-            "power": 2300,
-            "increased_power": 200,
-            "build_time": 171360,
+            "power": 14000,
+            "increased_power": 1750,
+            "build_time": 214560,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 120.0
+                    "value": 0.62
                 },
                 {
                     "id": 2,
-                    "value": 1010.0
+                    "value": 0.56
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 30,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 24
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 24
                 }
             ],
@@ -1156,12 +988,12 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 392496
+                        "value": 1569984
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 288600
+                        "value": 43290
                     }
                 ],
                 "materials": [],
@@ -1171,31 +1003,25 @@
         },
         {
             "level": 25,
-            "power": 2700,
-            "increased_power": 400,
-            "build_time": 158400,
+            "power": 16000,
+            "increased_power": 2000,
+            "build_time": 198720,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 145.0
+                    "value": 0.75
                 },
                 {
                     "id": 2,
-                    "value": 1250.0
+                    "value": 0.6
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 30,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 25
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 25
                 }
             ],
@@ -1204,46 +1030,48 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 636480
+                        "value": 2545920
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 468000
+                        "value": 70200
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 2367328925,
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 1
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 26,
-            "power": 3000,
-            "increased_power": 300,
-            "build_time": 216000,
+            "power": 18000,
+            "increased_power": 2000,
+            "build_time": 269280,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 150.0
+                    "value": 0.75
                 },
                 {
                     "id": 2,
-                    "value": 1290.0
+                    "value": 0.64
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 30,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 26
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 26
                 }
             ],
@@ -1252,46 +1080,48 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 994500
+                        "value": 3978000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 731250
+                        "value": 109688
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 2367328925,
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 4
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 27,
-            "power": 3400,
-            "increased_power": 400,
-            "build_time": 244800,
+            "power": 20500,
+            "increased_power": 2500,
+            "build_time": 306720,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 155.0
+                    "value": 0.85
                 },
                 {
                     "id": 2,
-                    "value": 1360.0
+                    "value": 0.68
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 30,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 27
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 27
                 }
             ],
@@ -1300,46 +1130,48 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 1517760
+                        "value": 6071040
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 1116000
+                        "value": 167400
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 2367328925,
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 10
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 28,
-            "power": 3800,
-            "increased_power": 400,
-            "build_time": 285120,
+            "power": 23000,
+            "increased_power": 2500,
+            "build_time": 355680,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 160.0
+                    "value": 0.85
                 },
                 {
                     "id": 2,
-                    "value": 1400.0
+                    "value": 0.72
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 30,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 28
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 28
                 }
             ],
@@ -1348,46 +1180,48 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 2276640
+                        "value": 9106560
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 1674000
+                        "value": 251100
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 2367328925,
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 18
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 29,
-            "power": 4300,
-            "increased_power": 500,
-            "build_time": 313920,
+            "power": 25500,
+            "increased_power": 2500,
+            "build_time": 393120,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 165.0
+                    "value": 0.85
                 },
                 {
                     "id": 2,
-                    "value": 1475.0
+                    "value": 0.76
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 30,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 29
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 29
                 }
             ],
@@ -1396,46 +1230,55 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 3624400
+                        "value": 14497600
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 2665000
+                        "value": 399750
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 67391873,
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 450
+                    },
+                    {
+                        "id": 2367328925,
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 30
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 30,
-            "power": 4700,
-            "increased_power": 400,
-            "build_time": 339840,
+            "power": 28500,
+            "increased_power": 3000,
+            "build_time": 426240,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 195.0
+                    "value": 1.0
                 },
                 {
                     "id": 2,
-                    "value": 1750.0
+                    "value": 0.8
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 30,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 30
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 30
                 }
             ],
@@ -1444,46 +1287,48 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 5304000
+                        "value": 21216000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 3900000
+                        "value": 585000
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 2367328925,
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 45
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 31,
-            "power": 5250,
-            "increased_power": 550,
-            "build_time": 446400,
+            "power": 31500,
+            "increased_power": 3000,
+            "build_time": 558720,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 205.0
+                    "value": 1.0
                 },
                 {
                     "id": 2,
-                    "value": 1850.0
+                    "value": 0.84
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 31,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 31
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 31
                 }
             ],
@@ -1492,46 +1337,55 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 8384400
+                        "value": 33537600
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 6165000
+                        "value": 924750
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 67391873,
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 700
+                    },
+                    {
+                        "id": 2367328925,
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 65
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 32,
-            "power": 5750,
-            "increased_power": 500,
-            "build_time": 436320,
+            "power": 35000,
+            "increased_power": 3500,
+            "build_time": 545760,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 210.0
+                    "value": 1.1
                 },
                 {
                     "id": 2,
-                    "value": 2052.0
+                    "value": 0.88
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 32,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 32
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 32
                 }
             ],
@@ -1540,46 +1394,55 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 12110800
+                        "value": 48443200
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 8905000
+                        "value": 1335750
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 67391873,
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 800
+                    },
+                    {
+                        "id": 2367328925,
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 87
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 33,
-            "power": 6500,
-            "increased_power": 750,
-            "build_time": 633600,
+            "power": 38500,
+            "increased_power": 3500,
+            "build_time": 793440,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 215.0
+                    "value": 1.1
                 },
                 {
                     "id": 2,
-                    "value": 2233.0
+                    "value": 0.92
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 33,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 33
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 33
                 }
             ],
@@ -1588,46 +1451,55 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 18734000
+                        "value": 74936000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 13775000
+                        "value": 2066250
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 67391873,
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1000
+                    },
+                    {
+                        "id": 2367328925,
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 110
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 34,
-            "power": 7000,
-            "increased_power": 500,
-            "build_time": 839520,
+            "power": 42500,
+            "increased_power": 4000,
+            "build_time": 1049760,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 225.0
+                    "value": 1.1
                 },
                 {
                     "id": 2,
-                    "value": 2349.0
+                    "value": 0.96
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 34,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 34
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 34
                 }
             ],
@@ -1636,46 +1508,48 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 29580000
+                        "value": 118320000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 21750000
+                        "value": 3262500
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 2367328925,
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 140
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 35,
-            "power": 7750,
-            "increased_power": 750,
-            "build_time": 1107360,
+            "power": 46500,
+            "increased_power": 4000,
+            "build_time": 1383840,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 260.0
+                    "value": 1.3
                 },
                 {
                     "id": 2,
-                    "value": 2914.0
+                    "value": 1.0
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 35,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 35
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 35
                 }
             ],
@@ -1684,46 +1558,55 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 45777600
+                        "value": 183110400
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 33660000
+                        "value": 5049000
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 67391873,
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1300
+                    },
+                    {
+                        "id": 2367328925,
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 180
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 36,
-            "power": 8500,
-            "increased_power": 750,
-            "build_time": 1414080,
+            "power": 51000,
+            "increased_power": 4500,
+            "build_time": 1768320,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 265.0
+                    "value": 1.3
                 },
                 {
                     "id": 2,
-                    "value": 3159.0
+                    "value": 1.05
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 36,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 36
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 36
                 }
             ],
@@ -1732,46 +1615,55 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 64504800
+                        "value": 258019200
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 47430000
+                        "value": 7114500
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 67391873,
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 1600
+                    },
+                    {
+                        "id": 2367328925,
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 220
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 37,
-            "power": 9250,
-            "increased_power": 750,
-            "build_time": 1461600,
+            "power": 56000,
+            "increased_power": 5000,
+            "build_time": 1827360,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 275.0
+                    "value": 1.4
                 },
                 {
                     "id": 2,
-                    "value": 3292.0
+                    "value": 1.1
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 37,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 37
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 37
                 }
             ],
@@ -1780,46 +1672,48 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 99144000
+                        "value": 396576000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 72900000
+                        "value": 10935000
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 2367328925,
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 260
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 38,
-            "power": 10250,
-            "increased_power": 1000,
-            "build_time": 2370240,
+            "power": 61000,
+            "increased_power": 5000,
+            "build_time": 2963520,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 280.0
+                    "value": 1.4
                 },
                 {
                     "id": 2,
-                    "value": 3586.0
+                    "value": 1.15
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 38,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 38
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 38
                 }
             ],
@@ -1828,46 +1722,55 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 154224000
+                        "value": 616896000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 113400000
+                        "value": 17010000
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 67391873,
+                        "type": "3\u2605 Common Crystal",
+                        "grade": 3,
+                        "rarity": 1,
+                        "value": 2100
+                    },
+                    {
+                        "id": 2367328925,
+                        "type": "3\u2605 Uncommon Crystal",
+                        "grade": 3,
+                        "rarity": 2,
+                        "value": 310
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 39,
-            "power": 11000,
-            "increased_power": 750,
-            "build_time": 3146400,
+            "power": 66000,
+            "increased_power": 5000,
+            "build_time": 3934080,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 290.0
+                    "value": 1.4
                 },
                 {
                     "id": 2,
-                    "value": 3978.0
+                    "value": 1.2
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 39,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 39
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 39
                 }
             ],
@@ -1876,12 +1779,12 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 263160000
+                        "value": 1052640000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 193500000
+                        "value": 29025000
                     }
                 ],
                 "materials": [],
@@ -1891,31 +1794,25 @@
         },
         {
             "level": 40,
-            "power": 12000,
-            "increased_power": 1000,
-            "build_time": 5584320,
+            "power": 72000,
+            "increased_power": 6000,
+            "build_time": 6981120,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 365.0
+                    "value": 1.6
                 },
                 {
                     "id": 2,
-                    "value": 5011.0
+                    "value": 1.25
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 40,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 40
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 40
                 }
             ],
@@ -1924,46 +1821,55 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 1146208000
+                        "value": 4584832000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 301000000
+                        "value": 45150000
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 3919958966,
+                        "type": "4\u2605 Common Crystal",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 6000
+                    },
+                    {
+                        "id": 3909684597,
+                        "type": "4\u2605 Uncommon Crystal",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 2500
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 41,
-            "power": 13000,
-            "increased_power": 1000,
-            "build_time": 5234400,
+            "power": 78000,
+            "increased_power": 6000,
+            "build_time": 6543360,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 370.0
+                    "value": 1.6
                 },
                 {
                     "id": 2,
-                    "value": 5486.0
+                    "value": 1.3
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 41,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 41
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 41
                 }
             ],
@@ -1972,35 +1878,50 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 1169600000
+                        "value": 4678400000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 430000000
+                        "value": 64500000
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 3919958966,
+                        "type": "4\u2605 Common Crystal",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 10000
+                    },
+                    {
+                        "id": 3909684597,
+                        "type": "4\u2605 Uncommon Crystal",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 3200
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 42,
-            "power": 14000,
-            "increased_power": 1000,
-            "build_time": 8045280,
+            "power": 85000,
+            "increased_power": 7000,
+            "build_time": 10056960,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 380.0
+                    "value": 1.7
                 },
                 {
                     "id": 2,
-                    "value": 6199.0
+                    "value": 1.35
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 42,
             "requirements": [
                 {
                     "id": 0,
@@ -2009,9 +1930,9 @@
                     "value": 42
                 },
                 {
-                    "id": 63,
+                    "id": 20,
                     "type": "building",
-                    "name": "Dilithium Generator E",
+                    "name": "Drydock D",
                     "value": 42
                 }
             ],
@@ -2020,46 +1941,55 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 1742160000
+                        "value": 6968640000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 640500000
+                        "value": 96075000
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 3919958966,
+                        "type": "4\u2605 Common Crystal",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 24000
+                    },
+                    {
+                        "id": 3909684597,
+                        "type": "4\u2605 Uncommon Crystal",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 4000
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 43,
-            "power": 15250,
-            "increased_power": 1250,
-            "build_time": 10630080,
+            "power": 92000,
+            "increased_power": 7000,
+            "build_time": 13286880,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 390.0
+                    "value": 1.7
                 },
                 {
                     "id": 2,
-                    "value": 6335.0
+                    "value": 1.4
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 43,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 43
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 43
                 }
             ],
@@ -2068,46 +1998,48 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 2488800000
+                        "value": 9955200000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 915000000
+                        "value": 137250000
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 3965052272,
+                        "type": "4\u2605 Rare Crystal",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 600
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 44,
-            "power": 16500,
-            "increased_power": 1250,
-            "build_time": 13874400,
+            "power": 99000,
+            "increased_power": 7000,
+            "build_time": 17343360,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 400.0
+                    "value": 1.7
                 },
                 {
                     "id": 2,
-                    "value": 7200.0
+                    "value": 1.45
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 44,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 44
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 44
                 }
             ],
@@ -2116,46 +2048,55 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 3733200000
+                        "value": 14932800000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 1372500000
+                        "value": 205875000
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 3919958966,
+                        "type": "4\u2605 Common Crystal",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 6500
+                    },
+                    {
+                        "id": 3965052272,
+                        "type": "4\u2605 Rare Crystal",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 1000
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 45,
-            "power": 17750,
-            "increased_power": 1250,
-            "build_time": 17912160,
+            "power": 106000,
+            "increased_power": 7000,
+            "build_time": 22390560,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 465.0
+                    "value": 2.0
                 },
                 {
                     "id": 2,
-                    "value": 9394.0
+                    "value": 1.5
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 45,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 45
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 45
                 }
             ],
@@ -2164,35 +2105,50 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 5304000000
+                        "value": 21216000000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 1950000000
+                        "value": 292500000
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 3919958966,
+                        "type": "4\u2605 Common Crystal",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 40000
+                    },
+                    {
+                        "id": 3965052272,
+                        "type": "4\u2605 Rare Crystal",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 5000
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 46,
-            "power": 19000,
-            "increased_power": 1250,
-            "build_time": 22896000,
+            "power": 114000,
+            "increased_power": 8000,
+            "build_time": 28620000,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 475.0
+                    "value": 2.0
                 },
                 {
                     "id": 2,
-                    "value": 9619.0
+                    "value": 1.55
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 46,
             "requirements": [
                 {
                     "id": 0,
@@ -2201,9 +2157,9 @@
                     "value": 46
                 },
                 {
-                    "id": 63,
+                    "id": 20,
                     "type": "building",
-                    "name": "Dilithium Generator E",
+                    "name": "Drydock D",
                     "value": 46
                 }
             ],
@@ -2212,46 +2168,55 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 7293000000
+                        "value": 29172000000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 2681250000
+                        "value": 402187500
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 3919958966,
+                        "type": "4\u2605 Common Crystal",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 50000
+                    },
+                    {
+                        "id": 3909684597,
+                        "type": "4\u2605 Uncommon Crystal",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 6000
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 47,
-            "power": 20500,
-            "increased_power": 1500,
-            "build_time": 29004480,
+            "power": 123000,
+            "increased_power": 9000,
+            "build_time": 36256320,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 485.0
+                    "value": 2.15
                 },
                 {
                     "id": 2,
-                    "value": 9844.0
+                    "value": 1.6
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 47,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 47
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 47
                 }
             ],
@@ -2260,46 +2225,55 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 10608000000
+                        "value": 42432000000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 3900000000
+                        "value": 585000000
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 3919958966,
+                        "type": "4\u2605 Common Crystal",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 35000
+                    },
+                    {
+                        "id": 3909684597,
+                        "type": "4\u2605 Uncommon Crystal",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 6000
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 48,
-            "power": 22000,
-            "increased_power": 1500,
-            "build_time": 36440640,
+            "power": 131000,
+            "increased_power": 8000,
+            "build_time": 45550080,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 495.0
+                    "value": 2.15
                 },
                 {
                     "id": 2,
-                    "value": 10013.0
+                    "value": 1.65
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 48,
             "requirements": [
                 {
                     "id": 0,
                     "type": "building",
                     "name": "Operations",
-                    "value": 48
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
                     "value": 48
                 }
             ],
@@ -2308,35 +2282,50 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 17136000000
+                        "value": 68544000000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 6300000000
+                        "value": 945000000
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 3919958966,
+                        "type": "4\u2605 Common Crystal",
+                        "grade": 4,
+                        "rarity": 1,
+                        "value": 70000
+                    },
+                    {
+                        "id": 3909684597,
+                        "type": "4\u2605 Uncommon Crystal",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 13000
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 49,
-            "power": 23500,
-            "increased_power": 1500,
-            "build_time": 45434880,
+            "power": 141000,
+            "increased_power": 10000,
+            "build_time": 56793600,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 510.0
+                    "value": 2.15
                 },
                 {
                     "id": 2,
-                    "value": 10350.0
+                    "value": 1.7
                 }
             ],
-            "required_ops_level": 50,
+            "required_ops_level": 49,
             "requirements": [
                 {
                     "id": 0,
@@ -2345,9 +2334,9 @@
                     "value": 49
                 },
                 {
-                    "id": 63,
+                    "id": 20,
                     "type": "building",
-                    "name": "Dilithium Generator E",
+                    "name": "Drydock D",
                     "value": 49
                 }
             ],
@@ -2356,32 +2345,47 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 28560000000
+                        "value": 114240000000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 10500000000
+                        "value": 1575000000
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 3909684597,
+                        "type": "4\u2605 Uncommon Crystal",
+                        "grade": 4,
+                        "rarity": 2,
+                        "value": 12000
+                    },
+                    {
+                        "id": 3965052272,
+                        "type": "4\u2605 Rare Crystal",
+                        "grade": 4,
+                        "rarity": 3,
+                        "value": 4500
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 50,
-            "power": 25000,
-            "increased_power": 1500,
-            "build_time": 56250720,
+            "power": 150000,
+            "increased_power": 9000,
+            "build_time": 70313760,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 620.0
+                    "value": 2.5
                 },
                 {
                     "id": 2,
-                    "value": 12600.0
+                    "value": 1.75
                 }
             ],
             "required_ops_level": 50,
@@ -2391,12 +2395,6 @@
                     "type": "building",
                     "name": "Operations",
                     "value": 50
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
-                    "value": 50
                 }
             ],
             "build_costs": {
@@ -2404,12 +2402,12 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 49980000000
+                        "value": 199920000000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 18375000000
+                        "value": 2756250000
                     }
                 ],
                 "materials": [],
@@ -2419,17 +2417,17 @@
         },
         {
             "level": 51,
-            "power": 27000,
-            "increased_power": 2000,
-            "build_time": 59626080,
+            "power": 161000,
+            "increased_power": 11000,
+            "build_time": 74532960,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 635.0
+                    "value": 2.5
                 },
                 {
                     "id": 2,
-                    "value": 12891.0
+                    "value": 1.8
                 }
             ],
             "required_ops_level": 51,
@@ -2439,12 +2437,6 @@
                     "type": "building",
                     "name": "Operations",
                     "value": 51
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
-                    "value": 51
                 }
             ],
             "build_costs": {
@@ -2452,32 +2444,47 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 249288000000
+                        "value": 997152000000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 39000000000
+                        "value": 5850000000
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 3301222353,
+                        "type": "5\u2605 Common Crystal",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 27100
+                    },
+                    {
+                        "id": 1371250883,
+                        "type": "5\u2605 Uncommon Crystal",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 2600
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 52,
-            "power": 28500,
-            "increased_power": 1500,
-            "build_time": 63204480,
+            "power": 171000,
+            "increased_power": 10000,
+            "build_time": 79005600,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 650.0
+                    "value": 2.6
                 },
                 {
                     "id": 2,
-                    "value": 13195.0
+                    "value": 1.85
                 }
             ],
             "required_ops_level": 52,
@@ -2489,9 +2496,9 @@
                     "value": 52
                 },
                 {
-                    "id": 63,
+                    "id": 20,
                     "type": "building",
-                    "name": "Dilithium Generator E",
+                    "name": "Drydock D",
                     "value": 52
                 }
             ],
@@ -2500,32 +2507,47 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 450840000000
+                        "value": 1803360000000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 66300000000
+                        "value": 9945000000
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 3301222353,
+                        "type": "5\u2605 Common Crystal",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 46900
+                    },
+                    {
+                        "id": 1371250883,
+                        "type": "5\u2605 Uncommon Crystal",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 5700
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 53,
-            "power": 30500,
-            "increased_power": 2000,
-            "build_time": 66996000,
+            "power": 182000,
+            "increased_power": 11000,
+            "build_time": 83744640,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 655.0
+                    "value": 2.6
                 },
                 {
                     "id": 2,
-                    "value": 13297.0
+                    "value": 1.9
                 }
             ],
             "required_ops_level": 53,
@@ -2535,12 +2557,6 @@
                     "type": "building",
                     "name": "Operations",
                     "value": 53
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
-                    "value": 53
                 }
             ],
             "build_costs": {
@@ -2548,32 +2564,47 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 757248000000
+                        "value": 3028992000000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 116000000000
+                        "value": 17400000000
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 3301222353,
+                        "type": "5\u2605 Common Crystal",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 61900
+                    },
+                    {
+                        "id": 1371250883,
+                        "type": "5\u2605 Uncommon Crystal",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 20600
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 54,
-            "power": 32500,
-            "increased_power": 2000,
-            "build_time": 71016480,
+            "power": 194000,
+            "increased_power": 12000,
+            "build_time": 88770240,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 670.0
+                    "value": 2.6
                 },
                 {
                     "id": 2,
-                    "value": 13601.0
+                    "value": 1.95
                 }
             ],
             "required_ops_level": 54,
@@ -2583,12 +2614,6 @@
                     "type": "building",
                     "name": "Operations",
                     "value": 54
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
-                    "value": 54
                 }
             ],
             "build_costs": {
@@ -2596,32 +2621,47 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 1135872000000
+                        "value": 4543488000000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 174000000000
+                        "value": 26100000000
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 3301222353,
+                        "type": "5\u2605 Common Crystal",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 98600
+                    },
+                    {
+                        "id": 1371250883,
+                        "type": "5\u2605 Uncommon Crystal",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 27400
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 55,
-            "power": 34500,
-            "increased_power": 2000,
-            "build_time": 75277440,
+            "power": 205000,
+            "increased_power": 11000,
+            "build_time": 94096800,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 800.0
+                    "value": 2.9
                 },
                 {
                     "id": 2,
-                    "value": 16240.0
+                    "value": 2.0
                 }
             ],
             "required_ops_level": 55,
@@ -2631,12 +2671,6 @@
                     "type": "building",
                     "name": "Operations",
                     "value": 55
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
-                    "value": 55
                 }
             ],
             "build_costs": {
@@ -2644,32 +2678,47 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 1930656000000
+                        "value": 7722624000000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 273000000000
+                        "value": 40950000000
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 3301222353,
+                        "type": "5\u2605 Common Crystal",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 127600
+                    },
+                    {
+                        "id": 3053746170,
+                        "type": "5\u2605 Rare Crystal",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 8800
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 56,
-            "power": 36500,
-            "increased_power": 2000,
-            "build_time": 79793280,
+            "power": 220000,
+            "increased_power": 15000,
+            "build_time": 99741600,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 815.0
+                    "value": 2.9
                 },
                 {
                     "id": 2,
-                    "value": 16545.0
+                    "value": 2.05
                 }
             ],
             "required_ops_level": 56,
@@ -2679,12 +2728,6 @@
                     "type": "building",
                     "name": "Operations",
                     "value": 56
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
-                    "value": 56
                 }
             ],
             "build_costs": {
@@ -2692,32 +2735,47 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 3033888000000
+                        "value": 12135552000000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 429000000000
+                        "value": 64350000000
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 1371250883,
+                        "type": "5\u2605 Uncommon Crystal",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 32600
+                    },
+                    {
+                        "id": 3053746170,
+                        "type": "5\u2605 Rare Crystal",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 7800
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 57,
-            "power": 38500,
-            "increased_power": 2000,
-            "build_time": 84581280,
+            "power": 230000,
+            "increased_power": 10000,
+            "build_time": 105726240,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 830.0
+                    "value": 2.9
                 },
                 {
                     "id": 2,
-                    "value": 16849.0
+                    "value": 2.1
                 }
             ],
             "required_ops_level": 57,
@@ -2727,12 +2785,6 @@
                     "type": "building",
                     "name": "Operations",
                     "value": 57
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
-                    "value": 57
                 }
             ],
             "build_costs": {
@@ -2740,32 +2792,47 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 4749555200000
+                        "value": 18998220800000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 671600000000
+                        "value": 100740000000
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 3301222353,
+                        "type": "5\u2605 Common Crystal",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 131200
+                    },
+                    {
+                        "id": 1371250883,
+                        "type": "5\u2605 Uncommon Crystal",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 34400
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 58,
-            "power": 41000,
-            "increased_power": 2500,
-            "build_time": 89655840,
+            "power": 245000,
+            "increased_power": 15000,
+            "build_time": 112069440,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 845.0
+                    "value": 3.1
                 },
                 {
                     "id": 2,
-                    "value": 17154.0
+                    "value": 2.15
                 }
             ],
             "required_ops_level": 58,
@@ -2775,12 +2842,6 @@
                     "type": "building",
                     "name": "Operations",
                     "value": 58
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
-                    "value": 58
                 }
             ],
             "build_costs": {
@@ -2788,32 +2849,47 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 6862233600000
+                        "value": 27448934400000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 1051200000000
+                        "value": 157680000000
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 3301222353,
+                        "type": "5\u2605 Common Crystal",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 152500
+                    },
+                    {
+                        "id": 3053746170,
+                        "type": "5\u2605 Rare Crystal",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 6900
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 59,
-            "power": 43500,
-            "increased_power": 2500,
-            "build_time": 95035680,
+            "power": 260000,
+            "increased_power": 15000,
+            "build_time": 118794240,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 865.0
+                    "value": 3.1
                 },
                 {
                     "id": 2,
-                    "value": 17560.0
+                    "value": 2.2
                 }
             ],
             "required_ops_level": 59,
@@ -2825,9 +2901,9 @@
                     "value": 59
                 },
                 {
-                    "id": 63,
+                    "id": 20,
                     "type": "building",
-                    "name": "Dilithium Generator E",
+                    "name": "Drydock D",
                     "value": 59
                 }
             ],
@@ -2836,32 +2912,47 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 10293350400000
+                        "value": 41173401600000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 1576800000000
+                        "value": 236520000000
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 3301222353,
+                        "type": "5\u2605 Common Crystal",
+                        "grade": 5,
+                        "rarity": 1,
+                        "value": 180500
+                    },
+                    {
+                        "id": 1371250883,
+                        "type": "5\u2605 Uncommon Crystal",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 45200
+                    }
+                ],
                 "others": []
             },
             "rewards": null
         },
         {
             "level": 60,
-            "power": 46000,
-            "increased_power": 2500,
-            "build_time": 100738080,
+            "power": 275000,
+            "increased_power": 15000,
+            "build_time": 125922240,
             "bonuses": [
                 {
                     "id": 1,
-                    "value": 1000.0
+                    "value": 3.5
                 },
                 {
                     "id": 2,
-                    "value": 20300.0
+                    "value": 2.25
                 }
             ],
             "required_ops_level": 60,
@@ -2871,12 +2962,6 @@
                     "type": "building",
                     "name": "Operations",
                     "value": 60
-                },
-                {
-                    "id": 63,
-                    "type": "building",
-                    "name": "Dilithium Generator E",
-                    "value": 60
                 }
             ],
             "build_costs": {
@@ -2884,15 +2969,30 @@
                     {
                         "id": 2325683920,
                         "type": "Parsteel",
-                        "value": 16075200000000
+                        "value": 64300800000000
                     },
                     {
                         "id": 743985951,
                         "type": "Tritanium",
-                        "value": 2462500000000
+                        "value": 369375000000
                     }
                 ],
-                "materials": [],
+                "materials": [
+                    {
+                        "id": 1371250883,
+                        "type": "5\u2605 Uncommon Crystal",
+                        "grade": 5,
+                        "rarity": 2,
+                        "value": 62600
+                    },
+                    {
+                        "id": 3053746170,
+                        "type": "5\u2605 Rare Crystal",
+                        "grade": 5,
+                        "rarity": 3,
+                        "value": 12200
+                    }
+                ],
                 "others": []
             },
             "rewards": null

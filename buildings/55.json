@@ -4,24 +4,30 @@
     "description": "Protects the stored Parsteel from enemy attacks. Upgrade the Vault for additional security.",
     "group": 6,
     "start_level": 0,
-    "bonuses": {
-        "1": {
+    "bonuses": [
+        {
+            "id": 1,
             "name": "Parsteel Vault Protection",
-            "is_percentage": false,
-            "type": null
+            "is_percentage": false
         }
-    },
+    ],
     "levels": [
         {
             "level": 1,
+            "power": 40,
             "increased_power": 40,
             "build_time": 120,
-            "bonuses": {
-                "1": 70000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 70000.0
+                }
+            ],
             "required_ops_level": 14,
             "requirements": [
                 {
+                    "id": 1426757186,
+                    "type": "research",
                     "name": "Unlock Vaults",
                     "value": 1
                 }
@@ -29,10 +35,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 500
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 20
                     }
@@ -44,18 +52,26 @@
         },
         {
             "level": 2,
+            "power": 80,
             "increased_power": 40,
             "build_time": 300,
-            "bonuses": {
-                "1": 72000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 72000.0
+                }
+            ],
             "required_ops_level": 14,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 2
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 2
                 }
@@ -63,10 +79,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 750
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 30
                     }
@@ -78,18 +96,26 @@
         },
         {
             "level": 3,
+            "power": 130,
             "increased_power": 50,
             "build_time": 210,
-            "bonuses": {
-                "1": 74000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 74000.0
+                }
+            ],
             "required_ops_level": 14,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 3
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 3
                 }
@@ -97,10 +123,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 1000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 40
                     }
@@ -112,18 +140,26 @@
         },
         {
             "level": 4,
+            "power": 180,
             "increased_power": 50,
             "build_time": 300,
-            "bonuses": {
-                "1": 77000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 77000.0
+                }
+            ],
             "required_ops_level": 14,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 4
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 4
                 }
@@ -131,10 +167,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 1250
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 50
                     }
@@ -146,18 +184,26 @@
         },
         {
             "level": 5,
+            "power": 240,
             "increased_power": 60,
             "build_time": 540,
-            "bonuses": {
-                "1": 80000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 80000.0
+                }
+            ],
             "required_ops_level": 14,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 5
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 5
                 }
@@ -165,10 +211,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 1600
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 70
                     }
@@ -180,18 +228,26 @@
         },
         {
             "level": 6,
+            "power": 320,
             "increased_power": 80,
             "build_time": 900,
-            "bonuses": {
-                "1": 83000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 83000.0
+                }
+            ],
             "required_ops_level": 14,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 6
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 6
                 }
@@ -199,10 +255,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 2000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 90
                     }
@@ -214,18 +272,26 @@
         },
         {
             "level": 7,
+            "power": 420,
             "increased_power": 100,
             "build_time": 1680,
-            "bonuses": {
-                "1": 86000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 86000.0
+                }
+            ],
             "required_ops_level": 14,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 7
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 7
                 }
@@ -233,10 +299,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 3000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 110
                     }
@@ -248,18 +316,26 @@
         },
         {
             "level": 8,
+            "power": 525,
             "increased_power": 105,
             "build_time": 2400,
-            "bonuses": {
-                "1": 90000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 90000.0
+                }
+            ],
             "required_ops_level": 14,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 8
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 12
                 }
@@ -267,10 +343,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 5000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 150
                     }
@@ -282,18 +360,26 @@
         },
         {
             "level": 9,
+            "power": 675,
             "increased_power": 150,
             "build_time": 3600,
-            "bonuses": {
-                "1": 95000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 95000.0
+                }
+            ],
             "required_ops_level": 14,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 9
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 9
                 }
@@ -301,10 +387,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 7000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 170
                     }
@@ -316,18 +404,26 @@
         },
         {
             "level": 10,
+            "power": 850,
             "increased_power": 175,
             "build_time": 3960,
-            "bonuses": {
-                "1": 100000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 100000.0
+                }
+            ],
             "required_ops_level": 14,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 10
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 10
                 }
@@ -335,10 +431,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 10000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 200
                     }
@@ -350,18 +448,26 @@
         },
         {
             "level": 11,
+            "power": 1050,
             "increased_power": 200,
             "build_time": 4080,
-            "bonuses": {
-                "1": 115000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 115000.0
+                }
+            ],
             "required_ops_level": 14,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 11
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 11
                 }
@@ -369,10 +475,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 20400
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 300
                     }
@@ -384,18 +492,26 @@
         },
         {
             "level": 12,
+            "power": 1300,
             "increased_power": 250,
             "build_time": 7500,
-            "bonuses": {
-                "1": 130000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 130000.0
+                }
+            ],
             "required_ops_level": 14,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 12
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 12
                 }
@@ -403,10 +519,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 28050
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 413
                     }
@@ -418,18 +536,26 @@
         },
         {
             "level": 13,
+            "power": 1600,
             "increased_power": 300,
             "build_time": 11100,
-            "bonuses": {
-                "1": 150000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 150000.0
+                }
+            ],
             "required_ops_level": 14,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 13
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 13
                 }
@@ -437,10 +563,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 40800
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 600
                     }
@@ -452,18 +580,26 @@
         },
         {
             "level": 14,
+            "power": 1900,
             "increased_power": 300,
             "build_time": 15300,
-            "bonuses": {
-                "1": 170000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 170000.0
+                }
+            ],
             "required_ops_level": 14,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 14
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 14
                 }
@@ -471,10 +607,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 56100
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 825
                     }
@@ -486,18 +624,26 @@
         },
         {
             "level": 15,
+            "power": 2300,
             "increased_power": 400,
             "build_time": 19800,
-            "bonuses": {
-                "1": 200000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 200000.0
+                }
+            ],
             "required_ops_level": 15,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 15
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 15
                 }
@@ -505,10 +651,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 76500
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 1125
                     }
@@ -520,18 +668,26 @@
         },
         {
             "level": 16,
+            "power": 2800,
             "increased_power": 500,
             "build_time": 23040,
-            "bonuses": {
-                "1": 230000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 230000.0
+                }
+            ],
             "required_ops_level": 16,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 16
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 16
                 }
@@ -539,10 +695,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 102000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 1500
                     }
@@ -554,18 +712,26 @@
         },
         {
             "level": 17,
+            "power": 3300,
             "increased_power": 500,
             "build_time": 25200,
-            "bonuses": {
-                "1": 260000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 260000.0
+                }
+            ],
             "required_ops_level": 17,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 17
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 17
                 }
@@ -573,10 +739,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 142800
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 2100
                     }
@@ -588,18 +756,26 @@
         },
         {
             "level": 18,
+            "power": 3900,
             "increased_power": 600,
             "build_time": 38160,
-            "bonuses": {
-                "1": 300000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 300000.0
+                }
+            ],
             "required_ops_level": 18,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 18
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 18
                 }
@@ -607,10 +783,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 204000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 3000
                     }
@@ -622,22 +800,32 @@
         },
         {
             "level": 19,
+            "power": 4600,
             "increased_power": 700,
             "build_time": 55440,
-            "bonuses": {
-                "1": 340000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 340000.0
+                }
+            ],
             "required_ops_level": 19,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 19
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 19
                 },
                 {
+                    "id": 4,
+                    "type": "building",
                     "name": "Parsteel Warehouse",
                     "value": 19
                 }
@@ -645,10 +833,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 306000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 4500
                     }
@@ -660,18 +850,26 @@
         },
         {
             "level": 20,
+            "power": 5250,
             "increased_power": 650,
             "build_time": 83520,
-            "bonuses": {
-                "1": 400000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 400000.0
+                }
+            ],
             "required_ops_level": 20,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 20
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 20
                 }
@@ -679,10 +877,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 433500
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 6375
                     }
@@ -694,18 +894,26 @@
         },
         {
             "level": 21,
+            "power": 6250,
             "increased_power": 1000,
             "build_time": 76320,
-            "bonuses": {
-                "1": 470000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 470000.0
+                }
+            ],
             "required_ops_level": 21,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 21
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 21
                 }
@@ -713,10 +921,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 729810
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 10733
                     }
@@ -728,18 +938,26 @@
         },
         {
             "level": 22,
+            "power": 7250,
             "increased_power": 1000,
             "build_time": 118800,
-            "bonuses": {
-                "1": 540000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 540000.0
+                }
+            ],
             "required_ops_level": 22,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 22
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 22
                 }
@@ -747,10 +965,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 1135260
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 16695
                     }
@@ -762,18 +982,26 @@
         },
         {
             "level": 23,
+            "power": 8250,
             "increased_power": 1000,
             "build_time": 139680,
-            "bonuses": {
-                "1": 620000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 620000.0
+                }
+            ],
             "required_ops_level": 23,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 23
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 23
                 }
@@ -781,10 +1009,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 1868130
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 27473
                     }
@@ -796,18 +1026,26 @@
         },
         {
             "level": 24,
+            "power": 9250,
             "increased_power": 1000,
             "build_time": 171360,
-            "bonuses": {
-                "1": 700000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 700000.0
+                }
+            ],
             "required_ops_level": 24,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 24
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 24
                 }
@@ -815,10 +1053,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 2943720
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 43290
                     }
@@ -830,18 +1070,26 @@
         },
         {
             "level": 25,
+            "power": 10750,
             "increased_power": 1500,
             "build_time": 158400,
-            "bonuses": {
-                "1": 800000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 800000.0
+                }
+            ],
             "required_ops_level": 25,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 25
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 25
                 }
@@ -849,22 +1097,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 4773600
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 70200
                     }
                 ],
                 "materials": [
                     {
+                        "id": 813886518,
                         "type": "3\u2605 Common Ore",
                         "grade": 3,
                         "rarity": 1,
                         "value": 190
                     },
                     {
+                        "id": 2453327618,
                         "type": "3\u2605 Uncommon Ore",
                         "grade": 3,
                         "rarity": 2,
@@ -877,18 +1129,26 @@
         },
         {
             "level": 26,
+            "power": 12000,
             "increased_power": 1250,
             "build_time": 216000,
-            "bonuses": {
-                "1": 950000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 950000.0
+                }
+            ],
             "required_ops_level": 26,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 26
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 26
                 }
@@ -896,16 +1156,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 7458750
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 109688
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2453327618,
                         "type": "3\u2605 Uncommon Ore",
                         "grade": 3,
                         "rarity": 2,
@@ -918,18 +1181,26 @@
         },
         {
             "level": 27,
+            "power": 13500,
             "increased_power": 1500,
             "build_time": 244800,
-            "bonuses": {
-                "1": 1100000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 1100000.0
+                }
+            ],
             "required_ops_level": 27,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 27
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 27
                 }
@@ -937,16 +1208,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 11383200
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 167400
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2453327618,
                         "type": "3\u2605 Uncommon Ore",
                         "grade": 3,
                         "rarity": 2,
@@ -959,18 +1233,26 @@
         },
         {
             "level": 28,
+            "power": 15250,
             "increased_power": 1750,
             "build_time": 285120,
-            "bonuses": {
-                "1": 1300000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 1300000.0
+                }
+            ],
             "required_ops_level": 28,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 28
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 28
                 }
@@ -978,22 +1260,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 17074800
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 251100
                     }
                 ],
                 "materials": [
                     {
+                        "id": 813886518,
                         "type": "3\u2605 Common Ore",
                         "grade": 3,
                         "rarity": 1,
                         "value": 360
                     },
                     {
+                        "id": 2453327618,
                         "type": "3\u2605 Uncommon Ore",
                         "grade": 3,
                         "rarity": 2,
@@ -1006,18 +1292,26 @@
         },
         {
             "level": 29,
+            "power": 17000,
             "increased_power": 1750,
             "build_time": 313920,
-            "bonuses": {
-                "1": 1600000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 1600000.0
+                }
+            ],
             "required_ops_level": 29,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 29
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 29
                 }
@@ -1025,22 +1319,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 27183000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 399750
                     }
                 ],
                 "materials": [
                     {
+                        "id": 813886518,
                         "type": "3\u2605 Common Ore",
                         "grade": 3,
                         "rarity": 1,
                         "value": 450
                     },
                     {
+                        "id": 2453327618,
                         "type": "3\u2605 Uncommon Ore",
                         "grade": 3,
                         "rarity": 2,
@@ -1053,18 +1351,26 @@
         },
         {
             "level": 30,
+            "power": 19000,
             "increased_power": 2000,
             "build_time": 339840,
-            "bonuses": {
-                "1": 2000000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 2000000.0
+                }
+            ],
             "required_ops_level": 30,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 30
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 30
                 }
@@ -1072,16 +1378,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 39780000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 585000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2453327618,
                         "type": "3\u2605 Uncommon Ore",
                         "grade": 3,
                         "rarity": 2,
@@ -1094,18 +1403,26 @@
         },
         {
             "level": 31,
+            "power": 21000,
             "increased_power": 2000,
             "build_time": 446400,
-            "bonuses": {
-                "1": 2600000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 2600000.0
+                }
+            ],
             "required_ops_level": 31,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 31
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 31
                 }
@@ -1113,16 +1430,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 62883000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 924750
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2453327618,
                         "type": "3\u2605 Uncommon Ore",
                         "grade": 3,
                         "rarity": 2,
@@ -1135,18 +1455,26 @@
         },
         {
             "level": 32,
+            "power": 23500,
             "increased_power": 2500,
             "build_time": 436320,
-            "bonuses": {
-                "1": 3500000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 3500000.0
+                }
+            ],
             "required_ops_level": 32,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 32
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 32
                 }
@@ -1154,16 +1482,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 90831000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 1335750
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2453327618,
                         "type": "3\u2605 Uncommon Ore",
                         "grade": 3,
                         "rarity": 2,
@@ -1176,18 +1507,26 @@
         },
         {
             "level": 33,
+            "power": 26000,
             "increased_power": 2500,
             "build_time": 633600,
-            "bonuses": {
-                "1": 4800000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 4800000.0
+                }
+            ],
             "required_ops_level": 33,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 33
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 33
                 }
@@ -1195,22 +1534,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 140505000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 2066250
                     }
                 ],
                 "materials": [
                     {
+                        "id": 813886518,
                         "type": "3\u2605 Common Ore",
                         "grade": 3,
                         "rarity": 1,
                         "value": 1000
                     },
                     {
+                        "id": 2453327618,
                         "type": "3\u2605 Uncommon Ore",
                         "grade": 3,
                         "rarity": 2,
@@ -1223,18 +1566,26 @@
         },
         {
             "level": 34,
+            "power": 28500,
             "increased_power": 2500,
             "build_time": 839520,
-            "bonuses": {
-                "1": 6500000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 6500000.0
+                }
+            ],
             "required_ops_level": 34,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 34
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 34
                 }
@@ -1242,16 +1593,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 221850000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 3262500
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2453327618,
                         "type": "3\u2605 Uncommon Ore",
                         "grade": 3,
                         "rarity": 2,
@@ -1264,18 +1618,26 @@
         },
         {
             "level": 35,
+            "power": 31000,
             "increased_power": 2500,
             "build_time": 1107360,
-            "bonuses": {
-                "1": 9000000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 9000000.0
+                }
+            ],
             "required_ops_level": 35,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 35
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 35
                 }
@@ -1283,16 +1645,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 343332000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 5049000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2453327618,
                         "type": "3\u2605 Uncommon Ore",
                         "grade": 3,
                         "rarity": 2,
@@ -1305,18 +1670,26 @@
         },
         {
             "level": 36,
+            "power": 34000,
             "increased_power": 3000,
             "build_time": 1414080,
-            "bonuses": {
-                "1": 11800000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 11800000.0
+                }
+            ],
             "required_ops_level": 36,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 36
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 36
                 }
@@ -1324,22 +1697,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 483786000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 7114500
                     }
                 ],
                 "materials": [
                     {
+                        "id": 813886518,
                         "type": "3\u2605 Common Ore",
                         "grade": 3,
                         "rarity": 1,
                         "value": 1600
                     },
                     {
+                        "id": 2453327618,
                         "type": "3\u2605 Uncommon Ore",
                         "grade": 3,
                         "rarity": 2,
@@ -1352,18 +1729,26 @@
         },
         {
             "level": 37,
+            "power": 37500,
             "increased_power": 3500,
             "build_time": 1461600,
-            "bonuses": {
-                "1": 15900000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 15900000.0
+                }
+            ],
             "required_ops_level": 37,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 37
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 37
                 }
@@ -1371,16 +1756,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 743580000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 10935000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2453327618,
                         "type": "3\u2605 Uncommon Ore",
                         "grade": 3,
                         "rarity": 2,
@@ -1393,22 +1781,32 @@
         },
         {
             "level": 38,
+            "power": 40500,
             "increased_power": 3000,
             "build_time": 2370240,
-            "bonuses": {
-                "1": 22850000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 22850000.0
+                }
+            ],
             "required_ops_level": 38,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 38
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 38
                 },
                 {
+                    "id": 31,
+                    "type": "building",
                     "name": "Refinery",
                     "value": 37
                 }
@@ -1416,22 +1814,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 1156680000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 17010000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 813886518,
                         "type": "3\u2605 Common Ore",
                         "grade": 3,
                         "rarity": 1,
                         "value": 2100
                     },
                     {
+                        "id": 2453327618,
                         "type": "3\u2605 Uncommon Ore",
                         "grade": 3,
                         "rarity": 2,
@@ -1444,22 +1846,32 @@
         },
         {
             "level": 39,
+            "power": 44500,
             "increased_power": 4000,
             "build_time": 3146400,
-            "bonuses": {
-                "1": 33650000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 33650000.0
+                }
+            ],
             "required_ops_level": 39,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 39
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 39
                 },
                 {
+                    "id": 31,
+                    "type": "building",
                     "name": "Refinery",
                     "value": 38
                 }
@@ -1467,10 +1879,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 1973700000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 29025000
                     }
@@ -1482,18 +1896,26 @@
         },
         {
             "level": 40,
+            "power": 48000,
             "increased_power": 3500,
             "build_time": 5584320,
-            "bonuses": {
-                "1": 47600000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 47600000.0
+                }
+            ],
             "required_ops_level": 40,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 40
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 40
                 }
@@ -1501,16 +1923,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 7163800000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 45150000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3452257709,
                         "type": "4\u2605 Common Ore",
                         "grade": 4,
                         "rarity": 1,
@@ -1523,18 +1948,26 @@
         },
         {
             "level": 41,
+            "power": 52000,
             "increased_power": 4000,
             "build_time": 5234400,
-            "bonuses": {
-                "1": 64600000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 64600000.0
+                }
+            ],
             "required_ops_level": 41,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 41
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 41
                 }
@@ -1542,16 +1975,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 7310000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 64500000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3452257709,
                         "type": "4\u2605 Common Ore",
                         "grade": 4,
                         "rarity": 1,
@@ -1564,18 +2000,26 @@
         },
         {
             "level": 42,
+            "power": 56500,
             "increased_power": 4500,
             "build_time": 8045280,
-            "bonuses": {
-                "1": 85700000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 85700000.0
+                }
+            ],
             "required_ops_level": 42,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 42
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 42
                 }
@@ -1583,22 +2027,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 10888500000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 96075000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3452257709,
                         "type": "4\u2605 Common Ore",
                         "grade": 4,
                         "rarity": 1,
                         "value": 7000
                     },
                     {
+                        "id": 920308245,
                         "type": "4\u2605 Rare Ore",
                         "grade": 4,
                         "rarity": 3,
@@ -1611,18 +2059,26 @@
         },
         {
             "level": 43,
+            "power": 61000,
             "increased_power": 4500,
             "build_time": 10630080,
-            "bonuses": {
-                "1": 115600000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 115600000.0
+                }
+            ],
             "required_ops_level": 43,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 43
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 43
                 }
@@ -1630,22 +2086,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 15555000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 137250000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 1904955588,
                         "type": "4\u2605 Uncommon Ore",
                         "grade": 4,
                         "rarity": 2,
                         "value": 1000
                     },
                     {
+                        "id": 920308245,
                         "type": "4\u2605 Rare Ore",
                         "grade": 4,
                         "rarity": 3,
@@ -1658,18 +2118,26 @@
         },
         {
             "level": 44,
+            "power": 66000,
             "increased_power": 5000,
             "build_time": 13874400,
-            "bonuses": {
-                "1": 163200000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 163200000.0
+                }
+            ],
             "required_ops_level": 44,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 44
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 44
                 }
@@ -1677,22 +2145,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 23332500000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 205875000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 1904955588,
                         "type": "4\u2605 Uncommon Ore",
                         "grade": 4,
                         "rarity": 2,
                         "value": 2000
                     },
                     {
+                        "id": 920308245,
                         "type": "4\u2605 Rare Ore",
                         "grade": 4,
                         "rarity": 3,
@@ -1705,22 +2177,32 @@
         },
         {
             "level": 45,
+            "power": 71000,
             "increased_power": 5000,
             "build_time": 17912160,
-            "bonuses": {
-                "1": 204000000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 204000000.0
+                }
+            ],
             "required_ops_level": 45,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 45
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 45
                 },
                 {
+                    "id": 4,
+                    "type": "building",
                     "name": "Parsteel Warehouse",
                     "value": 45
                 }
@@ -1728,16 +2210,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 33150000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 292500000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 1904955588,
                         "type": "4\u2605 Uncommon Ore",
                         "grade": 4,
                         "rarity": 2,
@@ -1750,18 +2235,26 @@
         },
         {
             "level": 46,
+            "power": 76000,
             "increased_power": 5000,
             "build_time": 22896000,
-            "bonuses": {
-                "1": 261800000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 261800000.0
+                }
+            ],
             "required_ops_level": 46,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 46
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 46
                 }
@@ -1769,22 +2262,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 45581250000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 402187500
                     }
                 ],
                 "materials": [
                     {
+                        "id": 1904955588,
                         "type": "4\u2605 Uncommon Ore",
                         "grade": 4,
                         "rarity": 2,
                         "value": 500
                     },
                     {
+                        "id": 920308245,
                         "type": "4\u2605 Rare Ore",
                         "grade": 4,
                         "rarity": 3,
@@ -1797,22 +2294,32 @@
         },
         {
             "level": 47,
+            "power": 82000,
             "increased_power": 6000,
             "build_time": 29004480,
-            "bonuses": {
-                "1": 353600000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 353600000.0
+                }
+            ],
             "required_ops_level": 47,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 47
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 47
                 },
                 {
+                    "id": 4,
+                    "type": "building",
                     "name": "Parsteel Warehouse",
                     "value": 47
                 }
@@ -1820,22 +2327,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 66300000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 585000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 1904955588,
                         "type": "4\u2605 Uncommon Ore",
                         "grade": 4,
                         "rarity": 2,
                         "value": 1500
                     },
                     {
+                        "id": 920308245,
                         "type": "4\u2605 Rare Ore",
                         "grade": 4,
                         "rarity": 3,
@@ -1848,18 +2359,26 @@
         },
         {
             "level": 48,
+            "power": 88000,
             "increased_power": 6000,
             "build_time": 36440640,
-            "bonuses": {
-                "1": 489600000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 489600000.0
+                }
+            ],
             "required_ops_level": 48,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 48
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 48
                 }
@@ -1867,22 +2386,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 107100000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 945000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3452257709,
                         "type": "4\u2605 Common Ore",
                         "grade": 4,
                         "rarity": 1,
                         "value": 30000
                     },
                     {
+                        "id": 920308245,
                         "type": "4\u2605 Rare Ore",
                         "grade": 4,
                         "rarity": 3,
@@ -1895,22 +2418,32 @@
         },
         {
             "level": 49,
+            "power": 94000,
             "increased_power": 6000,
             "build_time": 45434880,
-            "bonuses": {
-                "1": 748000000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 748000000.0
+                }
+            ],
             "required_ops_level": 49,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 49
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 49
                 },
                 {
+                    "id": 4,
+                    "type": "building",
                     "name": "Parsteel Warehouse",
                     "value": 49
                 }
@@ -1918,22 +2451,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 178500000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 1575000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 3452257709,
                         "type": "4\u2605 Common Ore",
                         "grade": 4,
                         "rarity": 1,
                         "value": 45000
                     },
                     {
+                        "id": 920308245,
                         "type": "4\u2605 Rare Ore",
                         "grade": 4,
                         "rarity": 3,
@@ -1946,18 +2483,26 @@
         },
         {
             "level": 50,
+            "power": 100000,
             "increased_power": 6000,
             "build_time": 56250720,
-            "bonuses": {
-                "1": 1190000000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 1190000000.0
+                }
+            ],
             "required_ops_level": 50,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 50
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 50
                 }
@@ -1965,10 +2510,12 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 312375000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 2756250000
                     }
@@ -1980,18 +2527,26 @@
         },
         {
             "level": 51,
+            "power": 107000,
             "increased_power": 7000,
             "build_time": 59626080,
-            "bonuses": {
-                "1": 1768000000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 1768000000.0
+                }
+            ],
             "required_ops_level": 51,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 51
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 51
                 }
@@ -1999,16 +2554,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 1558050000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 5850000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2893480370,
                         "type": "5\u2605 Common Ore",
                         "grade": 5,
                         "rarity": 1,
@@ -2021,18 +2579,26 @@
         },
         {
             "level": 52,
+            "power": 114000,
             "increased_power": 7000,
             "build_time": 63204480,
-            "bonuses": {
-                "1": 2652000000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 2652000000.0
+                }
+            ],
             "required_ops_level": 52,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 52
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 52
                 }
@@ -2040,22 +2606,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 2817750000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 9945000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2893480370,
                         "type": "5\u2605 Common Ore",
                         "grade": 5,
                         "rarity": 1,
                         "value": 19500
                     },
                     {
+                        "id": 2258174662,
                         "type": "5\u2605 Uncommon Ore",
                         "grade": 5,
                         "rarity": 2,
@@ -2068,18 +2638,26 @@
         },
         {
             "level": 53,
+            "power": 122000,
             "increased_power": 8000,
             "build_time": 66996000,
-            "bonuses": {
-                "1": 3944000000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 3944000000.0
+                }
+            ],
             "required_ops_level": 53,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 53
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 53
                 }
@@ -2087,22 +2665,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 4732800000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 17400000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2893480370,
                         "type": "5\u2605 Common Ore",
                         "grade": 5,
                         "rarity": 1,
                         "value": 37500
                     },
                     {
+                        "id": 2258174662,
                         "type": "5\u2605 Uncommon Ore",
                         "grade": 5,
                         "rarity": 2,
@@ -2115,18 +2697,26 @@
         },
         {
             "level": 54,
+            "power": 129000,
             "increased_power": 7000,
             "build_time": 71016480,
-            "bonuses": {
-                "1": 5916000000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 5916000000.0
+                }
+            ],
             "required_ops_level": 54,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 54
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 54
                 }
@@ -2134,22 +2724,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 7099200000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 26100000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2258174662,
                         "type": "5\u2605 Uncommon Ore",
                         "grade": 5,
                         "rarity": 2,
                         "value": 10400
                     },
                     {
+                        "id": 4109746240,
                         "type": "5\u2605 Rare Ore",
                         "grade": 5,
                         "rarity": 3,
@@ -2162,22 +2756,32 @@
         },
         {
             "level": 55,
+            "power": 137000,
             "increased_power": 8000,
             "build_time": 75277440,
-            "bonuses": {
-                "1": 8840000000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 8840000000.0
+                }
+            ],
             "required_ops_level": 55,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 55
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 55
                 },
                 {
+                    "id": 4,
+                    "type": "building",
                     "name": "Parsteel Warehouse",
                     "value": 55
                 }
@@ -2185,16 +2789,19 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 12066600000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 40950000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 4109746240,
                         "type": "5\u2605 Rare Ore",
                         "grade": 5,
                         "rarity": 3,
@@ -2207,18 +2814,26 @@
         },
         {
             "level": 56,
+            "power": 146000,
             "increased_power": 9000,
             "build_time": 79793280,
-            "bonuses": {
-                "1": 13260000000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 13260000000.0
+                }
+            ],
             "required_ops_level": 56,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 56
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 56
                 }
@@ -2226,22 +2841,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 18961800000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 64350000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2893480370,
                         "type": "5\u2605 Common Ore",
                         "grade": 5,
                         "rarity": 1,
                         "value": 56400
                     },
                     {
+                        "id": 4109746240,
                         "type": "5\u2605 Rare Ore",
                         "grade": 5,
                         "rarity": 3,
@@ -2254,22 +2873,32 @@
         },
         {
             "level": 57,
+            "power": 155000,
             "increased_power": 9000,
             "build_time": 84581280,
-            "bonuses": {
-                "1": 19856000000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 19856000000.0
+                }
+            ],
             "required_ops_level": 57,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 57
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 57
                 },
                 {
+                    "id": 4,
+                    "type": "building",
                     "name": "Parsteel Warehouse",
                     "value": 57
                 }
@@ -2277,22 +2906,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 29684720000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 100740000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2893480370,
                         "type": "5\u2605 Common Ore",
                         "grade": 5,
                         "rarity": 1,
                         "value": 60700
                     },
                     {
+                        "id": 4109746240,
                         "type": "5\u2605 Rare Ore",
                         "grade": 5,
                         "rarity": 3,
@@ -2305,18 +2938,26 @@
         },
         {
             "level": 58,
+            "power": 164000,
             "increased_power": 9000,
             "build_time": 89655840,
-            "bonuses": {
-                "1": 29784000000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 29784000000.0
+                }
+            ],
             "required_ops_level": 58,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 58
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 58
                 }
@@ -2324,22 +2965,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 42888960000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 157680000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2893480370,
                         "type": "5\u2605 Common Ore",
                         "grade": 5,
                         "rarity": 1,
                         "value": 70900
                     },
                     {
+                        "id": 4109746240,
                         "type": "5\u2605 Rare Ore",
                         "grade": 5,
                         "rarity": 3,
@@ -2352,22 +2997,32 @@
         },
         {
             "level": 59,
+            "power": 174000,
             "increased_power": 10000,
             "build_time": 95035680,
-            "bonuses": {
-                "1": 44676000000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 44676000000.0
+                }
+            ],
             "required_ops_level": 59,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 59
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 59
                 },
                 {
+                    "id": 4,
+                    "type": "building",
                     "name": "Parsteel Warehouse",
                     "value": 59
                 }
@@ -2375,22 +3030,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 64333440000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 236520000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2893480370,
                         "type": "5\u2605 Common Ore",
                         "grade": 5,
                         "rarity": 1,
                         "value": 129800
                     },
                     {
+                        "id": 4109746240,
                         "type": "5\u2605 Rare Ore",
                         "grade": 5,
                         "rarity": 3,
@@ -2403,18 +3062,26 @@
         },
         {
             "level": 60,
+            "power": 183000,
             "increased_power": 9000,
             "build_time": 100738080,
-            "bonuses": {
-                "1": 66980000000.0
-            },
+            "bonuses": [
+                {
+                    "id": 1,
+                    "value": 66980000000.0
+                }
+            ],
             "required_ops_level": 60,
             "requirements": [
                 {
+                    "id": 0,
+                    "type": "building",
                     "name": "Operations",
                     "value": 60
                 },
                 {
+                    "id": 2,
+                    "type": "building",
                     "name": "Parsteel Generator B",
                     "value": 60
                 }
@@ -2422,22 +3089,26 @@
             "build_costs": {
                 "resources": [
                     {
+                        "id": 2325683920,
                         "type": "Parsteel",
                         "value": 100470000000000
                     },
                     {
+                        "id": 743985951,
                         "type": "Tritanium",
                         "value": 369375000000
                     }
                 ],
                 "materials": [
                     {
+                        "id": 2893480370,
                         "type": "5\u2605 Common Ore",
                         "grade": 5,
                         "rarity": 1,
                         "value": 115100
                     },
                     {
+                        "id": 4109746240,
                         "type": "5\u2605 Rare Ore",
                         "grade": 5,
                         "rarity": 3,
